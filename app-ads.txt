@@ -1,0 +1,3 @@
+# TODO: Replace pub-XXXXXXXXXXXXXXXX with your actual AdMob publisher ID
+# Find it at: https://apps.admob.com > Settings > Account information > Publisher ID
+google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
