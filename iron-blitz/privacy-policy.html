@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy &mdash; Iron Blitz</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #1d1d1f; background: #fff; line-height: 1.7; }
+    .container { max-width: 720px; margin: 0 auto; padding: 48px 24px; }
+    h1 { font-size: 1.75rem; font-weight: 700; margin-bottom: 4px; }
+    .meta { color: #6e6e73; font-size: 0.875rem; margin-bottom: 32px; }
+    .intro { font-size: 1rem; margin-bottom: 32px; }
+    h2 { font-size: 1.25rem; font-weight: 600; margin-top: 40px; margin-bottom: 12px; border-bottom: 1px solid #e5e5e7; padding-bottom: 8px; }
+    h3 { font-size: 1.0625rem; font-weight: 600; margin-top: 24px; margin-bottom: 8px; }
+    p { margin-bottom: 12px; }
+    ul { margin: 8px 0 16px 24px; }
+    li { margin-bottom: 6px; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    strong { font-weight: 600; }
+    code { font-family: "SF Mono", Menlo, monospace; font-size: 0.875em; background: #f5f5f7; padding: 2px 6px; border-radius: 4px; }
+    .back { display: inline-block; margin-bottom: 24px; font-size: 0.875rem; color: #6e6e73; }
+    .back:hover { color: #0066cc; }
+    footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #d2d2d7; color: #6e6e73; font-size: 0.8125rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a class="back" href="/">&larr; WizusLabs</a>
+
+    <h1>Iron Blitz &mdash; Privacy Policy</h1>
+    <p class="meta">Last updated: April 10, 2026 &middot; Effective: April 7, 2026</p>
+
+    <p class="intro">Iron Blitz is a 2D top-down tank arcade game developed by WizusLabs. This Privacy Policy describes how the Iron Blitz application (&ldquo;the App&rdquo;) handles your information. We are committed to transparency about what data exists on your device, what third-party services may collect, and what choices you have.</p>
+
+    <!-- Section 1 -->
+    <h2>1. Data We Collect</h2>
+
+    <h3>1a. Data Stored Locally on Your Device (Never Transmitted)</h3>
+    <p>Iron Blitz is designed with an offline-first architecture. The following data is created and stored entirely on your device. It is never transmitted to our servers or any third party.</p>
+    <ul>
+      <li><strong>High scores</strong> &mdash; your best wave reached and highest score. Stored in SharedPreferences (device-local key-value storage).</li>
+      <li><strong>App preferences</strong> &mdash; sound toggle, music toggle, and other settings. Stored in SharedPreferences.</li>
+      <li><strong>In-app purchase entitlement cache</strong> &mdash; a local record of whether the Full Unlock has been purchased, used to enable offline access to purchased content. Stored in SharedPreferences. The authoritative purchase record is maintained by Apple (App Store) or Google (Play Store), not by us.</li>
+    </ul>
+    <p>We do not operate servers, databases, or cloud services that receive any of this data. Your game data exists only on your device.</p>
+
+    <h3>1b. Data Collected by Third-Party SDKs</h3>
+    <p>The App integrates third-party services that may collect data independently. The App itself does not collect, transmit, or process any personal data. However, the following SDKs operate within the App and are subject to their own data collection practices.</p>
+
+    <h3>AppLovin MAX (advertising, free-tier users only)</h3>
+    <ul>
+      <li>The App displays advertisements via AppLovin MAX, an ad mediation platform. AdMob (Google Mobile Ads) is included as a mediated network adapter within MAX.</li>
+      <li>Ads are served on a <strong>contextual-only basis</strong>. The App does not request the IDFA (iOS) or use the GAID (Android) for behavioral ad targeting. On iOS 14.5 and later, the App does not present an App Tracking Transparency (ATT) prompt, and the IDFA is returned as all-zeros by the operating system.</li>
+      <li>Ads are shown only to users who have not purchased the Iron Blitz Full Unlock. Users who purchase the Full Unlock see no ads.</li>
+      <li>In the course of serving contextual ads, the AppLovin SDK and AdMob adapter may collect limited device and session data for ad delivery, frequency capping, fraud prevention, and billing purposes, including:
+        <ul>
+          <li>IP address</li>
+          <li>Device properties (device model, screen size, OS version, available memory)</li>
+          <li>Device settings (language, timezone)</li>
+          <li>App session information (session duration, app version, SDK version)</li>
+          <li>Ad interaction data (impressions, clicks, video completion events)</li>
+        </ul>
+      </li>
+      <li>AppLovin SDK communicates with AppLovin and Google ad-serving domains.</li>
+      <li>This data collection is performed by the SDKs for ad delivery purposes. It is not used by WizusLabs, and we do not receive personally identifiable information from these services.</li>
+      <li>AppLovin&rsquo;s Privacy Policy: <a href="https://www.applovin.com/privacy/">https://www.applovin.com/privacy/</a></li>
+      <li>Google AdMob Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+    </ul>
+
+    <h3>Ad Consent (GDPR / EEA Users)</h3>
+    <ul>
+      <li>In the European Union and European Economic Area (EU/EEA), a consent form compliant with the IAB Transparency and Consent Framework (TCF v2.2) is presented via AppLovin MAX&rsquo;s built-in Consent Management Platform (CMP) before any ad is served.</li>
+      <li>If you decline personalized advertising, the App will continue to show contextual advertisements that are not based on your interests or activity. Declining does not remove ads; it changes which ads you see.</li>
+      <li>You can change your ad consent preference at any time through the consent form (accessible via the App&rsquo;s Settings screen) or through your device settings.</li>
+      <li>On iOS, the App does not request tracking authorization via ATT. You may manage tracking permissions for all apps in iOS Settings &gt; Privacy &amp; Security &gt; Tracking.</li>
+      <li>On Android, you may manage your Advertising ID in Settings &gt; Privacy &gt; Ads.</li>
+    </ul>
+
+    <h3>Firebase Crashlytics (crash reporting)</h3>
+    <ul>
+      <li>The App uses Firebase Crashlytics to collect crash reports and diagnostic data when the App encounters an unexpected error. This helps us identify and fix stability issues.</li>
+      <li>Firebase Crashlytics may collect:
+        <ul>
+          <li>Crash stack traces and exception information</li>
+          <li>Device model, OS version, and orientation</li>
+          <li>App version and build number</li>
+          <li>A Crashlytics installation UUID (a random identifier, not tied to your personal identity)</li>
+          <li>Amount of free RAM and disk space at the time of the crash</li>
+        </ul>
+      </li>
+      <li>Crash data is sent to Google&rsquo;s Firebase servers. It does not include your high scores, preferences, or any other user-generated content.</li>
+      <li>Firebase Crashlytics&rsquo; Privacy Policy: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></li>
+    </ul>
+
+    <h3>RevenueCat (subscription management)</h3>
+    <ul>
+      <li>The App uses RevenueCat to manage in-app subscription receipt validation and entitlement delivery. RevenueCat acts as a server-side layer that communicates with Apple (App Store) and Google (Play Store) to verify purchase receipts and determine subscription status.</li>
+      <li>RevenueCat assigns an anonymous app user ID to each installation. This ID is not tied to your personal identity and cannot be used to identify you.</li>
+      <li>RevenueCat may collect:
+        <ul>
+          <li>Anonymous app user ID</li>
+          <li>Subscription status and entitlement information</li>
+          <li>Purchase receipts (as provided by Apple or Google)</li>
+          <li>Device platform and OS version</li>
+          <li>App version</li>
+        </ul>
+      </li>
+      <li>No personal information (name, email, payment details) is collected by RevenueCat through the App. Payment processing is handled entirely by Apple or Google &mdash; RevenueCat receives only the purchase receipt for validation purposes.</li>
+      <li>RevenueCat&rsquo;s Privacy Policy: <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a></li>
+    </ul>
+
+    <h3>Platform In-App Purchase Processing</h3>
+    <p>The App offers in-app purchases &mdash; including a one-time purchase (&ldquo;Iron Blitz Full Unlock&rdquo;) and subscriptions (&ldquo;Commander Pro&rdquo; annual and lifetime plans) &mdash; processed by Apple (App Store) or Google (Play Store). The App never sees, stores, or transmits your payment information, credit card details, or billing address. All payment processing is handled by the respective platform. Subscription receipt validation is handled by RevenueCat (see above).</p>
+
+    <!-- Section 2 -->
+    <h2>2. Data We Do NOT Collect</h2>
+    <p>Iron Blitz does not collect, transmit, or process any of the following:</p>
+    <ul>
+      <li>No account creation, email addresses, names, or personal identifiers</li>
+      <li>No analytics or telemetry data (no event tracking, no usage analytics)</li>
+      <li>No location data</li>
+      <li>No contacts, photos, camera, microphone, or other sensitive device permissions</li>
+      <li>No data synced to any cloud service or remote server</li>
+      <li>No browsing history, search history, or usage patterns transmitted off-device</li>
+      <li>No health or fitness data</li>
+      <li>No IDFA or GAID used for ad targeting or cross-app tracking</li>
+    </ul>
+
+    <!-- Section 3 -->
+    <h2>3. Data Sharing</h2>
+    <p>We do not sell, rent, share, or transfer your personal data to any third party.</p>
+    <ul>
+      <li><strong>AppLovin MAX</strong> (and its AdMob mediated adapter), <strong>Firebase Crashlytics</strong>, and <strong>RevenueCat</strong> operate under their own respective privacy policies (linked above) and may collect data as described in Section 1b. We do not receive personally identifiable information from these services.</li>
+      <li><strong>High scores and preferences</strong> are stored only on your device and are never transmitted anywhere.</li>
+      <li><strong>In-app purchase transactions</strong> are processed by Apple or Google. We receive only an entitlement confirmation (purchased or not purchased), not your payment details.</li>
+    </ul>
+
+    <!-- Section 4 -->
+    <h2>4. Data Retention</h2>
+    <ul>
+      <li>All locally stored data (high scores, preferences, purchase entitlement cache) persists on your device until you uninstall the App or manually clear the App&rsquo;s data through your device settings.</li>
+      <li>We do not maintain any server-side data stores. There is no server-side data to retain, expire, or delete.</li>
+      <li>Third-party services (AppLovin MAX, AdMob, Firebase Crashlytics, RevenueCat) retain data according to their own privacy policies.</li>
+    </ul>
+
+    <!-- Section 5 -->
+    <h2>5. Data Security</h2>
+    <ul>
+      <li>All data stored by the App resides in your device&rsquo;s local storage, protected by your device&rsquo;s built-in security features (device encryption, lock screen, biometric authentication).</li>
+      <li>The App does not transmit your game data or preferences over any network.</li>
+      <li>Communications between the App and third-party services (AppLovin MAX for ad delivery, Firebase Crashlytics for crash reporting, RevenueCat for subscription management) use industry-standard encrypted connections (HTTPS/TLS).</li>
+    </ul>
+
+    <!-- Section 6 -->
+    <h2>6. Children&rsquo;s Privacy</h2>
+    <ul>
+      <li>Iron Blitz is a general-audience tank arcade game rated 9+ (Apple) / E10+ (ESRB). It features cartoon tank combat with pixel-art explosions. There is no blood, gore, strong language, or mature content.</li>
+      <li>The App is not specifically directed at children under the age of 13. It does not knowingly collect personal information from children under 13.</li>
+      <li>Ads served in the App are contextual only and are not behaviorally targeted. The App does not use interest-based advertising profiles.</li>
+      <li>If you are a parent or guardian and believe your child has been affected by a third-party SDK&rsquo;s data collection through the App, please contact us at the address below so we can assist.</li>
+    </ul>
+
+    <!-- Section 7 -->
+    <h2>7. Your Rights and Choices</h2>
+
+    <h3>All users:</h3>
+    <ul>
+      <li>You can delete all App data at any time by uninstalling the App or clearing the App&rsquo;s data in your device settings:
+        <ul>
+          <li><strong>iOS:</strong> Settings &gt; General &gt; iPhone Storage &gt; Iron Blitz &gt; Delete App</li>
+          <li><strong>Android:</strong> Settings &gt; Apps &gt; Iron Blitz &gt; Storage &gt; Clear Data</li>
+        </ul>
+      </li>
+      <li>You can purchase the Iron Blitz Full Unlock to remove all advertising from the App.</li>
+      <li>You can manage ad-related settings through your device:
+        <ul>
+          <li><strong>iOS:</strong> Settings &gt; Privacy &amp; Security &gt; Tracking</li>
+          <li><strong>Android:</strong> Settings &gt; Privacy &gt; Ads</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3>Users in the European Union / European Economic Area (GDPR):</h3>
+    <ul>
+      <li>You have rights under the General Data Protection Regulation including the right to access, rectification, erasure, restriction of processing, data portability, and objection.</li>
+      <li>Because Iron Blitz stores all user data locally on your device and we do not maintain any server-side data, these rights are exercised entirely through your device. You have full control over your data at all times.</li>
+      <li>For ad-related data collected by AppLovin MAX and AdMob, you can exercise your GDPR rights by managing your consent through the consent form presented by the App (powered by AppLovin MAX&rsquo;s built-in CMP). You may also withdraw or change your consent at any time in the App&rsquo;s Settings screen.</li>
+      <li>For data collected by Firebase Crashlytics, please refer to their privacy policy (linked in Section 1b) for information on exercising your GDPR rights.</li>
+    </ul>
+
+    <h3>Users in California (CCPA):</h3>
+    <ul>
+      <li>California residents have the right to know what personal information is collected, to request deletion, and to opt out of the sale of personal information.</li>
+      <li>We do not sell personal information that we collect directly. All locally stored data is under your direct control on your device.</li>
+      <li>AppLovin MAX&rsquo;s (and AdMob&rsquo;s) use of device information to serve advertisements may constitute a &ldquo;sale&rdquo; of personal information under the CCPA&rsquo;s broad definition. California residents can opt out of personalized advertising by declining the consent prompt within the App, through their device settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads), or by purchasing the Iron Blitz Full Unlock to remove ads entirely.</li>
+    </ul>
+
+    <!-- Section 8 -->
+    <h2>8. Third-Party Links and Services</h2>
+    <p>The App may contain links to third-party websites or services (such as subscription management pages or ad destinations). These third-party services have their own privacy policies, and we encourage you to review them. We are not responsible for the privacy practices of third-party services.</p>
+
+    <!-- Section 9 -->
+    <h2>9. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect changes in the App, our practices, or applicable law. When we make changes:</p>
+    <ul>
+      <li>The updated policy will be posted at <a href="https://wizuslabs.github.io/iron-blitz/privacy-policy.html">https://wizuslabs.github.io/iron-blitz/privacy-policy.html</a>.</li>
+      <li>The &ldquo;Last updated&rdquo; date at the top of this document will be revised to reflect the date of the most recent changes.</li>
+      <li>For material changes, we will update the App&rsquo;s store listing to note the revision.</li>
+    </ul>
+    <p>We encourage you to review this Privacy Policy periodically.</p>
+
+    <!-- Section 10 -->
+    <h2>10. Contact Us</h2>
+    <p>If you have questions, concerns, or requests regarding this Privacy Policy or the App&rsquo;s data practices, please contact us at:</p>
+    <p><strong>Email:</strong> <a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></p>
+
+    <!-- Section 11 -->
+    <h2>11. App Information</h2>
+    <ul>
+      <li><strong>App Name:</strong> Iron Blitz</li>
+      <li><strong>Developer:</strong> WizusLabs</li>
+      <li><strong>Platforms:</strong> iOS (App Store), Android (Google Play), Web, Windows, macOS, Linux</li>
+      <li><strong>Category:</strong> Games (Action / Arcade)</li>
+      <li><strong>Engine:</strong> Flutter + Flame</li>
+      <li><strong>Ad SDK:</strong> AppLovin MAX with AdMob mediated adapter (contextual ads only)</li>
+      <li><strong>Crash Reporting:</strong> Firebase Crashlytics</li>
+      <li><strong>In-App Purchases:</strong> One non-consumable (&ldquo;Full Unlock&rdquo; &mdash; removes ads, unlocks Mission Mode); subscriptions (&ldquo;Commander Pro&rdquo; &mdash; $9.99/year annual, $24.99 lifetime)</li>
+      <li><strong>Subscription Management:</strong> RevenueCat</li>
+      <li><strong>Data Storage:</strong> Local only (SharedPreferences). No server. No cloud sync.</li>
+    </ul>
+
+    <footer>
+      <p>&copy; 2026 WizusLabs &middot; <a href="/">Home</a></p>
+    </footer>
+  </div>
+</body>
+</html>

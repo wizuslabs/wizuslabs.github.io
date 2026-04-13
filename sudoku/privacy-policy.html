@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Sudoku Game</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #1d1d1f; background: #fff; line-height: 1.7; }
+    .container { max-width: 720px; margin: 0 auto; padding: 48px 24px; }
+    h1 { font-size: 1.75rem; font-weight: 700; margin-bottom: 4px; }
+    .meta { color: #6e6e73; font-size: 0.875rem; margin-bottom: 32px; }
+    .intro { font-size: 1rem; margin-bottom: 32px; }
+    h2 { font-size: 1.25rem; font-weight: 600; margin-top: 40px; margin-bottom: 12px; border-bottom: 1px solid #e5e5e7; padding-bottom: 8px; }
+    h3 { font-size: 1.0625rem; font-weight: 600; margin-top: 24px; margin-bottom: 8px; }
+    p { margin-bottom: 12px; }
+    ul { margin: 8px 0 16px 24px; }
+    li { margin-bottom: 6px; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    strong { font-weight: 600; }
+    code { font-family: "SF Mono", Menlo, monospace; font-size: 0.875em; background: #f5f5f7; padding: 2px 6px; border-radius: 4px; }
+    .back { display: inline-block; margin-bottom: 24px; font-size: 0.875rem; color: #6e6e73; }
+    .back:hover { color: #0066cc; }
+    footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #d2d2d7; color: #6e6e73; font-size: 0.8125rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a class="back" href="/">&larr; WizusLabs</a>
+
+    <h1>Sudoku Game &mdash; Privacy Policy</h1>
+    <p class="meta">Last updated: April 11, 2026 &middot; Effective: April 11, 2026</p>
+
+    <p class="intro">Sudoku Game is a puzzle game app developed by WizusLabs. This Privacy Policy describes how the Sudoku Game application (&ldquo;the App&rdquo;) handles your information. We are committed to transparency about what data exists on your device, what third-party services may collect, and what choices you have.</p>
+
+    <!-- Section 1 -->
+    <h2>1. Data Stored Locally on Your Device (Never Transmitted)</h2>
+    <p>Sudoku Game is designed with an offline-first architecture. The following data is created and stored entirely on your device using SharedPreferences (the platform&rsquo;s built-in key-value storage: <code>NSUserDefaults</code> on iOS, <code>SharedPreferences</code> on Android, browser local storage on Web). This data is never transmitted to our servers or any third party.</p>
+    <ul>
+      <li><strong>Active game state</strong> (<code>sudoku_saved_game</code>) &mdash; save and resume your current puzzle (board, move history, elapsed time, hints used).</li>
+      <li><strong>Game statistics</strong> (<code>sudoku_game_stats</code>) &mdash; per-difficulty stats (games played, best time, total time, hints used).</li>
+      <li><strong>Daily challenge progress</strong> (<code>sudoku_daily_challenge</code>) &mdash; streak tracking (current streak, longest streak, today&rsquo;s completion, grace window).</li>
+      <li><strong>Monthly trophy records</strong> (<code>sudoku_monthly_record</code>) &mdash; calendar of completed puzzles per month (date, difficulty, solve time); rolling 12-month window.</li>
+      <li><strong>Technique trainer progress</strong> (<code>sudoku_trainer_progress</code>) &mdash; which technique exercises you have completed.</li>
+      <li><strong>Colorblind mode preference</strong> (<code>sudoku_colorblind_mode</code>) &mdash; your selected accessibility color mode (none, deuteranopia, tritanopia, monochrome).</li>
+      <li><strong>Font scale preference</strong> (<code>sudoku_font_scale</code>) &mdash; your selected font size multiplier.</li>
+      <li><strong>Pro unlock status</strong> (<code>sudoku_is_pro</code>) &mdash; whether you have unlocked Pro (removes ads).</li>
+      <li><strong>Hint token balance</strong> (<code>sudoku_hint_tokens</code>) &mdash; number of hint tokens available.</li>
+      <li><strong>Ad consent status</strong> (<code>consent_completed</code>) &mdash; whether the ad consent flow has been completed.</li>
+      <li><strong>User geography</strong> (<code>user_geography</code>) &mdash; cached region bucket (GDPR, CCPA, other, unknown) for consent behavior.</li>
+      <li><strong>CCPA opt-out flag</strong> (<code>ccpa_do_not_sell</code>) &mdash; whether you opted out of sale/sharing under CCPA.</li>
+      <li><strong>ATT deferral flag</strong> (<code>att_deferred</code>) &mdash; whether the iOS App Tracking Transparency prompt is pending.</li>
+      <li><strong>Session count</strong> (<code>total_sessions_completed</code>) &mdash; lifetime completed session count (used for new-user ad protection).</li>
+    </ul>
+    <p>We do not operate servers, databases, or cloud services that receive any of this data. Your game data exists only on your device.</p>
+
+    <!-- Section 2 -->
+    <h2>2. Data Collected by Third-Party SDKs</h2>
+    <p>The App integrates one third-party service that may collect data independently:</p>
+
+    <h3>AppLovin MAX (advertising, free-tier users only)</h3>
+    <ul>
+      <li>The App displays advertisements in the following formats: banner ads on selected screens, interstitial ads between puzzle sessions (frequency-capped: 1 per 3 puzzles, max 2 per session, with new-user and streak-milestone protection), and opt-in rewarded video ads to earn hint tokens. All ad formats are shown only to users who have not purchased Sudoku Game Pro.</li>
+      <li>AppLovin MAX is an ad mediation platform that may serve ads from multiple demand sources (including AdMob, Meta Audience Network, Unity Ads, and others). In the course of serving ads, the AppLovin SDK and its mediated networks may collect:
+        <ul>
+          <li>Device identifiers (such as the Advertising ID)</li>
+          <li>IP address</li>
+          <li>Device properties (screen resolution, display properties, battery level, available memory)</li>
+          <li>Device settings (language, timezone, volume)</li>
+          <li>App session information (session duration, app version, SDK version)</li>
+          <li>Country and timezone derived from IP address</li>
+          <li>Ad interaction data (impressions, clicks, video completion events)</li>
+          <li>Ad preferences and interest segments</li>
+        </ul>
+      </li>
+      <li>Rewarded video ads may additionally collect video completion data (e.g., quartile progress and reward grant events).</li>
+      <li>AppLovin SDK communicates with the following domains: <code>d.applovin.com</code>, <code>rt.applovin.com</code>, <code>ms.applovin.com</code>.</li>
+      <li>If you upgrade to Sudoku Game Pro, no ads are displayed and no ad-related data collection occurs.</li>
+      <li>AppLovin&rsquo;s Privacy Policy: <a href="https://www.applovin.com/privacy/">https://www.applovin.com/privacy/</a></li>
+    </ul>
+
+    <h3>Ad Consent</h3>
+    <ul>
+      <li>On first launch, the App will request your consent for personalized advertising.</li>
+      <li>On iOS, the App Tracking Transparency (ATT) prompt is presented after your first puzzle completion, asking whether you allow the App to track your activity across other companies&rsquo; apps and websites for ad personalization.</li>
+      <li>In the European Union and European Economic Area (EU/EEA), a consent form compliant with the IAB Transparency and Consent Framework (TCF v2.2) is presented via AppLovin MAX&rsquo;s built-in Consent Management Platform (CMP).</li>
+      <li>If you decline personalized advertising, the App will continue to show advertisements, but they will be non-personalized (not based on your interests or activity). Declining does not remove ads; it changes which ads you see.</li>
+      <li>You can change your ad personalization preference at any time in the App&rsquo;s Settings screen or through your device settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads).</li>
+    </ul>
+
+    <h3>In-App Purchases (future)</h3>
+    <ul>
+      <li>The App may use a payment processor to manage Sudoku Game Pro purchases and other in-app purchases. If a payment processor is integrated in the future, it may collect transaction identifiers, device identifiers, and purchase history in order to process and verify your purchases. This privacy policy will be updated to name the specific processor and link to its privacy policy before any such integration goes live.</li>
+    </ul>
+
+    <!-- Section 3 -->
+    <h2>3. Data We Do NOT Collect</h2>
+    <p>Sudoku Game does not collect, transmit, or process any of the following:</p>
+    <ul>
+      <li>No account creation, email addresses, names, or personal identifiers</li>
+      <li>No analytics or telemetry data (no Firebase Analytics, no Mixpanel, no Amplitude, or similar services)</li>
+      <li>No crash reporting services (no Firebase Crashlytics, no Sentry, or similar services)</li>
+      <li>No location data</li>
+      <li>No contacts, photos, camera, microphone, or other sensitive device permissions</li>
+      <li>No data synced to any cloud service or remote server</li>
+      <li>No browsing history, search history, or usage patterns transmitted off-device</li>
+      <li>No health data (HealthKit, Health Connect, or similar services)</li>
+    </ul>
+
+    <!-- Section 4 -->
+    <h2>4. Data Sharing</h2>
+    <p>We do not sell, rent, share, or transfer your personal data to any third party.</p>
+    <ul>
+      <li><strong>AppLovin MAX</strong> (and its mediated ad networks) operates under its own privacy policy (linked above) and may collect data as described in Section 2. We do not receive personally identifiable information from this service.</li>
+      <li><strong>Game results and progress data</strong> are stored only on your device and are never transmitted anywhere.</li>
+    </ul>
+
+    <!-- Section 5 -->
+    <h2>5. Data Retention</h2>
+    <ul>
+      <li>All locally stored data (game results, preferences, progress, ad consent state) persists on your device until you uninstall the App or manually clear the App&rsquo;s data through your device settings.</li>
+      <li>We do not maintain any server-side data stores. There is no server-side data to retain, expire, or delete.</li>
+      <li>Third-party services (AppLovin MAX and its mediated ad networks) retain data according to their own privacy policies.</li>
+    </ul>
+
+    <!-- Section 6 -->
+    <h2>6. Data Security</h2>
+    <ul>
+      <li>All data stored by the App resides in your device&rsquo;s local storage, protected by your device&rsquo;s built-in security features (device encryption, lock screen, biometric authentication).</li>
+      <li>The App does not transmit your game data, preferences, or progress over any network.</li>
+      <li>Communications between the App and third-party services (AppLovin MAX for ad delivery) use industry-standard encrypted connections (HTTPS/TLS).</li>
+    </ul>
+
+    <!-- Section 7 -->
+    <h2>7. Children&rsquo;s Privacy</h2>
+    <ul>
+      <li>Sudoku Game is a general-audience puzzle game. It is not directed at children under the age of 13.</li>
+      <li>We do not knowingly collect personal information from children under 13.</li>
+      <li>If we become aware that we have inadvertently collected data from a child under 13, we will take prompt steps to delete such data.</li>
+      <li>If you are a parent or guardian and believe your child has provided information through the App&rsquo;s third-party services, please contact us at the address below so we can assist.</li>
+    </ul>
+
+    <!-- Section 8 -->
+    <h2>8. Your Rights and Choices</h2>
+
+    <h3>All users:</h3>
+    <ul>
+      <li>You can delete all App data at any time by uninstalling the App or clearing the App&rsquo;s data in your device settings (iOS: Settings &gt; General &gt; iPhone Storage &gt; Sudoku Game; Android: Settings &gt; Apps &gt; Sudoku Game &gt; Storage &gt; Clear Data).</li>
+      <li>You can opt out of personalized advertising by adjusting your device&rsquo;s ad settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads).</li>
+      <li>You can upgrade to Sudoku Game Pro to remove all advertising from the App.</li>
+    </ul>
+
+    <h3>Users in the European Union / European Economic Area (GDPR):</h3>
+    <ul>
+      <li>You have rights under the General Data Protection Regulation including the right to access, rectification, erasure, restriction of processing, data portability, and objection.</li>
+      <li>Because Sudoku Game stores all user data locally on your device and we do not maintain any server-side data, these rights are exercised entirely through your device. You have full control over your data at all times.</li>
+      <li>For ad-related data collected by AppLovin MAX and its mediated ad networks, you can exercise your GDPR rights by managing your consent through the consent form presented by the App (powered by AppLovin MAX&rsquo;s built-in CMP). You may also withdraw or change your consent at any time in the App&rsquo;s Settings screen.</li>
+    </ul>
+
+    <h3>Users in California (CCPA):</h3>
+    <ul>
+      <li>California residents have the right to know what personal information is collected, to request deletion, and to opt out of the sale of personal information.</li>
+      <li>We do not sell personal information that we collect directly. All locally stored data is under your direct control on your device.</li>
+      <li>However, AppLovin MAX&rsquo;s (and its mediated ad networks&rsquo;) use of device identifiers and ad interaction data to serve personalized advertisements may constitute a &ldquo;sale&rdquo; of personal information under the CCPA&rsquo;s broad definition. California residents can opt out of personalized advertising by declining the consent prompt within the App, through their device settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads), or by purchasing Sudoku Game Pro to remove ads entirely.</li>
+    </ul>
+
+    <!-- Section 9 -->
+    <h2>9. Third-Party Links and Services</h2>
+    <p>The App may contain links to third-party websites or services. These third-party services have their own privacy policies, and we encourage you to review them. We are not responsible for the privacy practices of third-party services.</p>
+
+    <!-- Section 10 -->
+    <h2>10. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect changes in the App, our practices, or applicable law. When we make changes:</p>
+    <ul>
+      <li>The updated policy will be posted at this URL.</li>
+      <li>The &ldquo;Last updated&rdquo; date at the top of this document will be revised to reflect the date of the most recent changes.</li>
+      <li>For material changes, we will update the App&rsquo;s store listing to note the revision.</li>
+    </ul>
+    <p>We encourage you to review this Privacy Policy periodically.</p>
+
+    <!-- Section 11 -->
+    <h2>11. Contact Us</h2>
+    <p>If you have questions, concerns, or requests regarding this Privacy Policy or the App&rsquo;s data practices, please contact us at:</p>
+    <p><strong>Email:</strong> <a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></p>
+
+    <!-- Section 12 -->
+    <h2>12. App Information</h2>
+    <ul>
+      <li><strong>App Name:</strong> Sudoku Game</li>
+      <li><strong>Developer:</strong> WizusLabs</li>
+      <li><strong>Platforms:</strong> iOS (App Store), Android (Google Play), Web</li>
+      <li><strong>Category:</strong> Games (Puzzle)</li>
+    </ul>
+
+    <footer>
+      <p>&copy; 2026 WizusLabs &middot; <a href="/">Home</a></p>
+    </footer>
+  </div>
+</body>
+</html>

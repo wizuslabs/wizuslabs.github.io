@@ -4,7 +4,7 @@
 
 ## Scope
 
-All work for this project MUST stay inside `wizuslabs-site/`.
+All work for this project MUST stay inside `projects/wizuslabs-site/`.
 
 ---
 
@@ -46,14 +46,14 @@ https://wizuslabs.github.io/app-ads.txt  (shared across all apps)
 | NeuralSpark (brain-training) | `neuralspark` | `neuralspark/privacy-policy.html` | `neuralspark/support.html` | Live |
 | Sudoku Game (sudoku-game) | `sudoku` | `sudoku/privacy-policy.html` | `sudoku/support.html` | Not yet created |
 | Iron Blitz (tank-game) | `iron-blitz` | `iron-blitz/privacy-policy.html` | `iron-blitz/support.html` | Not yet created |
-| Abyssal Dive (abyssal-dive) | `abyssal-dive` | `abyssal-dive/privacy-policy.html` | `abyssal-dive/support.html` | Not yet created |
+| Abyssal Dive (abyssal-dive) | `abyssal-dive` | `projects/abyssal-dive/privacy-policy.html` | `projects/abyssal-dive/support.html` | Not yet created |
 
 ### Workflow
 
 1. **Privacy policy markdown** is authored in each project's `docs/release/`
    directory (source of truth for content)
 2. **Chronicle** or **Prism** converts the markdown to HTML and places it in the
-   corresponding `wizuslabs-site/{app-slug}/` directory
+   corresponding `projects/wizuslabs-site/{app-slug}/` directory
 3. **Vector** verifies the live URLs return HTTP 200 before issuing a Release
    Clearance Report (RCR)
 4. When pushed to `main`, GitHub Pages auto-deploys to
@@ -64,7 +64,7 @@ https://wizuslabs.github.io/app-ads.txt  (shared across all apps)
 ## Directory Structure
 
 ```text
-wizuslabs-site/
+projects/wizuslabs-site/
 ├── CLAUDE.md                          ← project instructions (this file)
 ├── index.html                         ← landing page (links to all app pages)
 ├── app-ads.txt                        ← ad network declarations (shared)
@@ -77,7 +77,7 @@ wizuslabs-site/
 ├── iron-blitz/                        ← (to be created before Iron Blitz submission)
 │   ├── privacy-policy.html
 │   └── support.html
-└── abyssal-dive/                      ← (to be created before Abyssal Dive submission)
+└── projects/abyssal-dive/                      ← (to be created before Abyssal Dive submission)
     ├── privacy-policy.html
     └── support.html
 ```
@@ -125,4 +125,4 @@ Before any change ships:
 
 ## Escalation
 
-If a task falls outside `wizuslabs-site/`, escalate to Nexus.
+If a task falls outside `projects/wizuslabs-site/`, escalate to Nexus.
