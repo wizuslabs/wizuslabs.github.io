@@ -30,7 +30,7 @@
     <a class="back" href="/">&larr; WizusLabs</a>
 
     <h1>Sudoku Game &mdash; Privacy Policy</h1>
-    <p class="meta">Last updated: April 11, 2026 &middot; Effective: April 11, 2026</p>
+    <p class="meta">Last updated: April 19, 2026 &middot; Effective: April 19, 2026</p>
 
     <p class="intro">Sudoku Game is a puzzle game app developed by WizusLabs. This Privacy Policy describes how the Sudoku Game application (&ldquo;the App&rdquo;) handles your information. We are committed to transparency about what data exists on your device, what third-party services may collect, and what choices you have.</p>
 
@@ -89,10 +89,27 @@
       <li>You can change your ad personalization preference at any time in the App&rsquo;s Settings screen or through your device settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads).</li>
     </ul>
 
-    <h3>In-App Purchases (future)</h3>
+    <h3>In-App Purchases (RevenueCat + Apple / Google billing)</h3>
+    <p>Sudoku Game offers two paid unlock tiers for Sudoku Pro. Both are processed by Apple or Google billing and relayed to our entitlement service provider, RevenueCat, Inc.</p>
     <ul>
-      <li>The App may use a payment processor to manage Sudoku Game Pro purchases and other in-app purchases. If a payment processor is integrated in the future, it may collect transaction identifiers, device identifiers, and purchase history in order to process and verify your purchases. This privacy policy will be updated to name the specific processor and link to its privacy policy before any such integration goes live.</li>
+      <li><strong>Sudoku Pro Yearly</strong> &mdash; auto-renewable subscription at $2.99 USD per year.</li>
+      <li><strong>Sudoku Pro Lifetime</strong> &mdash; one-time non-consumable purchase at $9.99 USD. Does not renew, never expires.</li>
     </ul>
+    <p>Both tiers unlock the same <code>WizusLabs Pro</code> entitlement (no ads, unlimited hints, all features).</p>
+    <p><strong>Data handling:</strong></p>
+    <ul>
+      <li><strong>Apple App Store / Google Play</strong> process the transaction and charge your store account. We do not see your payment method, bank details, or full billing address. Transaction records are retained by Apple or Google according to their respective privacy policies.</li>
+      <li><strong>RevenueCat</strong> receives the anonymized store transaction (store receipt, product identifier, purchase date, device identifiers such as the iOS <code>IDFV</code> / Android <code>Advertising ID</code>, and a RevenueCat-assigned anonymous user ID) in order to verify the purchase and provide cross-device entitlement restore. RevenueCat stores the entitlement state (active / lapsed / refunded) so you can restore Pro on another device signed in to the same Apple ID or Google account. RevenueCat&rsquo;s privacy policy: <a href="https://www.revenuecat.com/privacy/">https://www.revenuecat.com/privacy/</a></li>
+      <li>The App itself caches a single boolean flag indicating your current Pro status (<code>sudoku_is_pro</code>, listed in Section 1) so you remain Pro offline. No purchase history, payment details, or transaction identifiers are stored on our servers.</li>
+    </ul>
+    <p><strong>Auto-renewal disclosure (Sudoku Pro Yearly only):</strong></p>
+    <ul>
+      <li>Your subscription will automatically renew at the end of each annual term at the then-current price, unless canceled at least 24 hours before the end of the current period.</li>
+      <li>Your Apple ID or Google account is charged for renewal within 24 hours prior to the end of the current period.</li>
+      <li>You can manage or cancel your subscription at any time in your device&rsquo;s subscription settings (iOS: Settings &gt; [your name] &gt; Subscriptions; Android: Google Play Store &gt; Menu &gt; Payments &amp; subscriptions &gt; Subscriptions). Canceling stops future charges but does not refund the current period.</li>
+      <li>No refunds are issued for partial subscription periods, except where required by applicable law.</li>
+    </ul>
+    <p>Sudoku Pro Lifetime is a one-time purchase and does not auto-renew. You will not be charged again after the initial purchase.</p>
 
     <!-- Section 3 -->
     <h2>3. Data We Do NOT Collect</h2>
@@ -148,7 +165,9 @@
     <ul>
       <li>You can delete all App data at any time by uninstalling the App or clearing the App&rsquo;s data in your device settings (iOS: Settings &gt; General &gt; iPhone Storage &gt; Sudoku Game; Android: Settings &gt; Apps &gt; Sudoku Game &gt; Storage &gt; Clear Data).</li>
       <li>You can opt out of personalized advertising by adjusting your device&rsquo;s ad settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads).</li>
-      <li>You can upgrade to Sudoku Game Pro to remove all advertising from the App.</li>
+      <li>You can upgrade to Sudoku Game Pro (yearly subscription $2.99/year or lifetime $9.99) to remove all advertising from the App.</li>
+      <li>If you purchased Sudoku Pro Yearly, you can cancel the auto-renewal at any time in your device&rsquo;s subscription settings (iOS: Settings &gt; [your name] &gt; Subscriptions; Android: Google Play Store &gt; Menu &gt; Payments &amp; subscriptions &gt; Subscriptions). Canceling stops future charges; Pro access remains active until the end of the current paid period.</li>
+      <li>You can request a refund or manage purchase history through Apple (<a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>) or Google (<a href="https://play.google.com/store/account/orderhistory">play.google.com/store/account/orderhistory</a>) according to their refund policies.</li>
     </ul>
 
     <h3>Users in the European Union / European Economic Area (GDPR):</h3>
