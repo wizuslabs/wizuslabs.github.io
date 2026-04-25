@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apps — WizusLabs</title>
+  <meta name="description" content="NeuralSpark, Sudoku, and Iron Blitz — the WizusLabs apps shelf. We mark what is Live in the stores and what is still In the workshop. No placeholders.">
+  <meta name="color-scheme" content="light dark">
+
+  <link rel="canonical" href="https://wizuslabs.github.io/apps/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Apps — WizusLabs">
+  <meta property="og:description" content="NeuralSpark and Sudoku are Live. Iron Blitz is In the workshop. The shelf grows when something ships.">
+  <meta property="og:url" content="https://wizuslabs.github.io/apps/">
+  <meta property="og:site_name" content="WizusLabs">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Apps — WizusLabs">
+  <meta name="twitter:description" content="NeuralSpark and Sudoku are Live. Iron Blitz is In the workshop. The shelf grows when something ships.">
+
+  <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/js/app.js"></script>
+</head>
+<body>
+<!--
+  nav.html — SOURCE OF TRUTH for the site nav.
+  No build tool. Copy this block inline into each page's <body>.
+  If nav changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.1 + §11 (wordmark) + §7.10 (theme toggle).
+-->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <nav class="nav" aria-label="Primary">
+    <div class="container nav__inner">
+      <a class="wordmark" href="/" aria-label="WizusLabs home">
+        <span class="wordmark__first">Wizus</span><span class="wordmark__second">Labs</span>
+      </a>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a class="nav__link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__link" href="/agents/">Agents</a></li>
+        <li><a class="nav__link" href="/apps/" aria-current="page">Apps</a></li>
+        <li><a class="nav__link" href="/human/">Human</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button
+          type="button"
+          class="nav__hamburger"
+          data-nav-open-btn
+          aria-expanded="false"
+          aria-controls="nav-panel"
+          aria-label="Open navigation">
+          <svg class="nav__hamburger-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M3 7h18M3 12h18M3 17h18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          class="theme-toggle"
+          data-theme-toggle
+          data-state="auto"
+          aria-label="Theme: auto"
+          aria-pressed="false">
+          <svg class="theme-toggle__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/>
+          </svg>
+          <span class="theme-toggle__label">Theme: auto</span>
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="nav-panel"
+      class="nav__panel"
+      data-nav-panel
+      role="dialog"
+      aria-modal="true"
+      aria-label="Primary navigation">
+      <button
+        type="button"
+        class="nav__panel-close"
+        data-nav-close-btn
+        aria-label="Close navigation">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+          <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <ul class="nav__panel-list">
+        <li><a class="nav__panel-link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__panel-link" href="/agents/">Agents</a></li>
+        <li><a class="nav__panel-link" href="/apps/" aria-current="page">Apps</a></li>
+        <li><a class="nav__panel-link" href="/human/">Human</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Screen-reader announcement target for theme toggle -->
+<div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
+
+<main id="main" class="container section">
+  <header class="reading-measure stack">
+    <h1>Apps</h1>
+    <p class="u-muted">Three apps. Two are live. One is in the workshop. We add to the shelf when something is actually ready to stand on it.</p>
+  </header>
+
+  <section class="stack-lg apps-shelf" aria-labelledby="apps-shelf-heading">
+    <h2 id="apps-shelf-heading" class="u-sr-only">The shelf</h2>
+
+    <article class="app-card app-card--full" aria-labelledby="app-neuralspark">
+      <div class="stack">
+        <img
+          class="app-icon app-icon--md"
+          src="/assets/img/apps/neuralspark-256.png"
+          alt="NeuralSpark app icon"
+          width="112"
+          height="112"
+          loading="lazy"
+          decoding="async">
+        <p>
+          <span class="pill pill--accent-cool" aria-label="Status: Live">Live</span>
+        </p>
+        <h2 id="app-neuralspark" class="app-card__name">NeuralSpark</h2>
+        <p class="u-mono app-card__team" aria-label="Version">v1.0 · neuralspark · ios + android</p>
+        <p class="app-card__tagline">A brain-training app with more than seventy small games, arranged by what you want to practice today.</p>
+        <ul class="u-mono get-it-links get-it-links--tight">
+          <li><a class="link link--external" href="https://apps.apple.com/us/app/neuralspark/id6761431895" target="_blank" rel="noopener noreferrer">App Store</a></li>
+          <li><a class="link link--external" href="https://play.google.com/store/apps/details?id=com.wizuslabs.neural_spark" target="_blank" rel="noopener noreferrer">Google Play</a></li>
+        </ul>
+        <p>
+          <a class="link" href="/apps/neuralspark/">Read more about NeuralSpark</a>
+        </p>
+        <p class="u-mono app-card__policies">
+          <a href="/neuralspark/privacy-policy.html">Privacy</a>
+          <span aria-hidden="true"> · </span>
+          <a href="/neuralspark/support.html">Support</a>
+          <span aria-hidden="true"> · </span>
+          <a href="/neuralspark/terms-of-use.html">Terms</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="app-card app-card--full" aria-labelledby="app-sudoku">
+      <div class="stack">
+        <img
+          class="app-icon app-icon--md"
+          src="/assets/img/apps/sudoku-256.png"
+          alt="Sudoku by WizusLabs app icon"
+          width="112"
+          height="112"
+          loading="lazy"
+          decoding="async">
+        <p>
+          <span class="pill pill--accent-cool" aria-label="Status: Live">Live</span>
+        </p>
+        <h2 id="app-sudoku" class="app-card__name">Sudoku by WizusLabs</h2>
+        <p class="u-mono app-card__team" aria-label="Version">v1.0 · sudoku · ios + android</p>
+        <p class="app-card__tagline">Classic and killer sudoku, offline, calm, with a daily challenge and a mistake counter you can turn off.</p>
+        <ul class="u-mono get-it-links get-it-links--tight">
+          <!-- Sudoku App Store link to be added when listing is publicly indexed -->
+          <li><a class="link link--external" href="https://play.google.com/store/apps/details?id=com.wizuslabs.sudoku_game" target="_blank" rel="noopener noreferrer">Google Play</a></li>
+        </ul>
+        <p>
+          <a class="link" href="/apps/sudoku/">Read more about Sudoku</a>
+        </p>
+        <p class="u-mono app-card__policies">
+          <a href="/sudoku/privacy-policy.html">Privacy</a>
+          <span aria-hidden="true"> · </span>
+          <a href="/sudoku/support.html">Support</a>
+          <span aria-hidden="true"> · </span>
+          <a href="/sudoku/terms-of-use.html">Terms</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="app-card app-card--full" aria-labelledby="app-iron-blitz">
+      <div class="stack">
+        <img
+          class="app-icon app-icon--md"
+          src="/assets/img/apps/iron-blitz-256.png"
+          alt="Iron Blitz app icon"
+          width="112"
+          height="112"
+          loading="lazy"
+          decoding="async">
+        <p>
+          <span class="pill pill--warn" aria-label="Status: In the workshop">In the workshop</span>
+        </p>
+        <h2 id="app-iron-blitz" class="app-card__name">Iron Blitz</h2>
+        <p class="u-mono app-card__team" aria-label="Version">tank-game · not yet released</p>
+        <p class="app-card__tagline">A 2D top-down tank combat game. Missions, rounds, and a Commander Pro tier under construction. No store link yet.</p>
+        <p class="u-mono app-card__policies">
+          <a href="/iron-blitz/privacy-policy.html">Privacy</a>
+          <span aria-hidden="true"> · </span>
+          <a href="/iron-blitz/support.html">Support</a>
+          <span aria-hidden="true"> · </span>
+          <a href="/iron-blitz/terms-of-use.html">Terms</a>
+        </p>
+      </div>
+    </article>
+  </section>
+
+  <aside class="reading-measure apps-shelf__note">
+    <p class="u-muted">The shelf grows when something ships. No placeholders, no coming-soon cards, no pre-order pages. If you see a plate here, the code exists.</p>
+  </aside>
+</main>
+
+<!--
+  footer.html — SOURCE OF TRUTH for the site footer.
+  No build tool. Copy this block inline into each page's <body>.
+  If the footer changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.2 + §7.20 (footer mark).
+  Every legacy store-submission URL lives here by design.
+-->
+<footer class="footer">
+  <div class="footer__cols footer__cols--3col">
+    <section aria-labelledby="footer-lab">
+      <h2 id="footer-lab" class="footer__heading">Lab</h2>
+      <ul class="footer__list">
+        <li><a href="/manifesto/">Manifesto</a></li>
+        <li><a href="/agents/">Agents</a></li>
+        <li><a href="/human/">Human</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-apps">
+      <h2 id="footer-apps" class="footer__heading">Apps</h2>
+      <ul class="footer__list">
+        <li><a href="/apps/neuralspark/">NeuralSpark</a></li>
+        <li><a href="/apps/sudoku/">Sudoku</a></li>
+        <li><a href="/apps/">Iron Blitz</a></li>
+        <li><a href="/apps/">All apps</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-contact">
+      <h2 id="footer-contact" class="footer__heading">Contact</h2>
+      <ul class="footer__list">
+        <li><a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; 2026 WizusLabs</p>
+    <p class="footer__mark">Always for Human.</p>
+    <p><a href="/">wizuslabs.github.io</a></p>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeuralSpark — WizusLabs</title>
+  <meta name="description" content="NeuralSpark: short games arranged by what you want to practice today. Attention, memory, math, language, creativity, spatial. Offline-first. No brain-hype.">
+  <meta name="color-scheme" content="light dark">
+
+  <link rel="canonical" href="https://wizuslabs.github.io/apps/neuralspark/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="NeuralSpark — WizusLabs">
+  <meta property="og:description" content="Small games, arranged by what you want to practice today. Offline-first. No brain-hype.">
+  <meta property="og:url" content="https://wizuslabs.github.io/apps/neuralspark/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="WizusLabs">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="NeuralSpark — WizusLabs">
+  <meta name="twitter:description" content="Small games, arranged by what you want to practice today. Offline-first. No brain-hype.">
+
+  <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/js/app.js"></script>
+</head>
+<body>
+<!--
+  nav.html — SOURCE OF TRUTH for the site nav.
+  No build tool. Copy this block inline into each page's <body>.
+  If nav changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.1 + §11 (wordmark) + §7.10 (theme toggle).
+-->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <nav class="nav" aria-label="Primary">
+    <div class="container nav__inner">
+      <a class="wordmark" href="/" aria-label="WizusLabs home">
+        <span class="wordmark__first">Wizus</span><span class="wordmark__second">Labs</span>
+      </a>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a class="nav__link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__link" href="/agents/">Agents</a></li>
+        <li><a class="nav__link" href="/apps/" aria-current="page">Apps</a></li>
+        <li><a class="nav__link" href="/human/">Human</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button
+          type="button"
+          class="nav__hamburger"
+          data-nav-open-btn
+          aria-expanded="false"
+          aria-controls="nav-panel"
+          aria-label="Open navigation">
+          <svg class="nav__hamburger-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M3 7h18M3 12h18M3 17h18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          class="theme-toggle"
+          data-theme-toggle
+          data-state="auto"
+          aria-label="Theme: auto"
+          aria-pressed="false">
+          <svg class="theme-toggle__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/>
+          </svg>
+          <span class="theme-toggle__label">Theme: auto</span>
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="nav-panel"
+      class="nav__panel"
+      data-nav-panel
+      role="dialog"
+      aria-modal="true"
+      aria-label="Primary navigation">
+      <button
+        type="button"
+        class="nav__panel-close"
+        data-nav-close-btn
+        aria-label="Close navigation">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+          <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <ul class="nav__panel-list">
+        <li><a class="nav__panel-link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__panel-link" href="/agents/">Agents</a></li>
+        <li><a class="nav__panel-link" href="/apps/" aria-current="page">Apps</a></li>
+        <li><a class="nav__panel-link" href="/human/">Human</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Screen-reader announcement target for theme toggle -->
+<div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
+
+<main id="main" class="container page-main">
+  <figure class="app-card__figure">
+    <img
+      class="app-icon app-icon--lg"
+      src="/assets/img/apps/neuralspark-256.png"
+      alt="NeuralSpark app icon"
+      width="224"
+      height="224"
+      loading="eager"
+      decoding="async"
+      fetchpriority="high">
+  </figure>
+
+  <header class="reading-measure stack">
+    <p>
+      <span class="pill pill--accent-cool" aria-label="Status: Live">Live</span>
+    </p>
+    <h1>NeuralSpark</h1>
+    <p class="hero-manifesto__lead">Small games, arranged by what you want to practice today.</p>
+    <p class="u-mono app-card__version">v1.0 · ios + android · offline-first</p>
+  </header>
+
+  <section class="reading-measure stack-lg app-detail-section" aria-labelledby="ns-what">
+    <h2 id="ns-what">What it does</h2>
+    <p>NeuralSpark is a collection of short games. Each one runs for a few minutes and lands in one of six practice areas: attention, memory, math, language, creativity, and spatial reasoning. You pick what you want to work on, or you let the daily challenge pick for you.</p>
+    <p>The design is quiet on purpose. No streak guilt, no flashing "brain power" meters, no fake difficulty spikes to sell you hints. The games are short so they fit into a commute, a queue, or a waiting room. They are offline-first, so a weak signal will not interrupt a round.</p>
+    <p>Pro is optional. Free players get every game, every difficulty, and the daily challenge. Pro removes ads, includes unlimited hints on the few games that use them, and applies a warm gold accent to a handful of surfaces. None of the core content is locked behind it.</p>
+    <p>No part of the app claims to improve your brain, raise your IQ, or enhance your memory. It is a game app. The FTC has been clear about overclaiming in this category; so are we.</p>
+  </section>
+
+  <section class="reading-measure app-detail-section" aria-labelledby="ns-shipped-by">
+    <h2 id="ns-shipped-by">Shipped by</h2>
+    <div class="manifesto-signature">
+      <ul class="shipped-by">
+        <li>2026-04-23 · Wizus Bridge · Scout's market brief, Blueprint's Flutter module architecture, Mint's Pro economy.</li>
+        <li>2026-04-23 · Wizus Atelier · Canvas's design system, Ludus's difficulty curves, Muse's calm voice, Echo's quiet feedback sounds.</li>
+        <li>2026-04-23 · Wizus Workshop · Horizon wrote most of the Dart; Vault owns the offline-first Hive schema.</li>
+        <li>2026-04-23 · Wizus Foundry · Babel localized the strings; Atlas keeps the build pipeline honest.</li>
+        <li>2026-04-23 · Wizus Gate · Sentinel runs the accessibility and claims audit every sprint; Vector signs the release clearance.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="reading-measure stack app-detail-section" aria-labelledby="ns-get-it">
+    <h2 id="ns-get-it">Get it</h2>
+    <ul class="u-mono get-it-links">
+      <li><a class="link link--external" href="https://apps.apple.com/us/app/neuralspark/id6761431895" target="_blank" rel="noopener noreferrer">App Store</a></li>
+      <li><a class="link link--external" href="https://play.google.com/store/apps/details?id=com.wizuslabs.neural_spark" target="_blank" rel="noopener noreferrer">Google Play</a></li>
+    </ul>
+  </section>
+
+  <section class="reading-measure stack app-detail-section" aria-labelledby="ns-policies">
+    <h2 id="ns-policies">Policies</h2>
+    <ul>
+      <li><a class="link" href="/neuralspark/privacy-policy.html">Privacy Policy</a></li>
+      <li><a class="link" href="/neuralspark/support.html">Support</a></li>
+      <li><a class="link" href="/neuralspark/terms-of-use.html">Terms of Use</a></li>
+    </ul>
+  </section>
+</main>
+
+<!--
+  footer.html — SOURCE OF TRUTH for the site footer.
+  No build tool. Copy this block inline into each page's <body>.
+  If the footer changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.2 + §7.20 (footer mark).
+  Every legacy store-submission URL lives here by design.
+-->
+<footer class="footer">
+  <div class="footer__cols footer__cols--3col">
+    <section aria-labelledby="footer-lab">
+      <h2 id="footer-lab" class="footer__heading">Lab</h2>
+      <ul class="footer__list">
+        <li><a href="/manifesto/">Manifesto</a></li>
+        <li><a href="/agents/">Agents</a></li>
+        <li><a href="/human/">Human</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-apps">
+      <h2 id="footer-apps" class="footer__heading">Apps</h2>
+      <ul class="footer__list">
+        <li><a href="/apps/neuralspark/">NeuralSpark</a></li>
+        <li><a href="/apps/sudoku/">Sudoku</a></li>
+        <li><a href="/apps/">Iron Blitz</a></li>
+        <li><a href="/apps/">All apps</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-contact">
+      <h2 id="footer-contact" class="footer__heading">Contact</h2>
+      <ul class="footer__list">
+        <li><a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; 2026 WizusLabs</p>
+    <p class="footer__mark">Always for Human.</p>
+    <p><a href="/">wizuslabs.github.io</a></p>
+  </div>
+</footer>
+</body>
+</html>

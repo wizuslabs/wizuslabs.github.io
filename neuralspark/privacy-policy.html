@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy &mdash; NeuralSpark</title>
+  <meta name="description" content="NeuralSpark privacy policy. What stays on your device, what third-party SDKs may collect, and the choices you have.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#FBF9F4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0E1013" media="(prefers-color-scheme: dark)">
+
+  <link rel="canonical" href="https://wizuslabs.github.io/neuralspark/privacy-policy.html">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/js/app.js"></script>
+</head>
+<body>
+<!--
+  nav.html — SOURCE OF TRUTH for the site nav.
+  No build tool. Copy this block inline into each page's <body>.
+  If nav changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.1 + §11 (wordmark) + §7.10 (theme toggle).
+-->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <nav class="nav" aria-label="Primary">
+    <div class="container nav__inner">
+      <a class="wordmark" href="/" aria-label="WizusLabs home">
+        <span class="wordmark__first">Wizus</span><span class="wordmark__second">Labs</span>
+      </a>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a class="nav__link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__link" href="/agents/">Agents</a></li>
+        <li><a class="nav__link" href="/apps/">Apps</a></li>
+        <li><a class="nav__link" href="/human/">Human</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button
+          type="button"
+          class="nav__hamburger"
+          data-nav-open-btn
+          aria-expanded="false"
+          aria-controls="nav-panel"
+          aria-label="Open navigation">
+          <svg class="nav__hamburger-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M3 7h18M3 12h18M3 17h18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          class="theme-toggle"
+          data-theme-toggle
+          data-state="auto"
+          aria-label="Theme: auto"
+          aria-pressed="false">
+          <svg class="theme-toggle__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/>
+          </svg>
+          <span class="theme-toggle__label">Theme: auto</span>
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="nav-panel"
+      class="nav__panel"
+      data-nav-panel
+      role="dialog"
+      aria-modal="true"
+      aria-label="Primary navigation">
+      <button
+        type="button"
+        class="nav__panel-close"
+        data-nav-close-btn
+        aria-label="Close navigation">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+          <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <ul class="nav__panel-list">
+        <li><a class="nav__panel-link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__panel-link" href="/agents/">Agents</a></li>
+        <li><a class="nav__panel-link" href="/apps/">Apps</a></li>
+        <li><a class="nav__panel-link" href="/human/">Human</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Screen-reader announcement target for theme toggle -->
+<div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
+
+<main id="main" class="container section">
+
+  <!-- LegalFrontmatter (§7.21) — editorial header above the unchanged policy body -->
+  <div class="legal-frontmatter reading-measure">
+    <p>
+      <a class="u-mono" href="/apps/neuralspark/" aria-label="Back to NeuralSpark">NeuralSpark</a>
+    </p>
+    <h1 class="legal-frontmatter__title">NeuralSpark &mdash; Privacy Policy</h1>
+    <p class="legal-frontmatter__date">Last updated: April 14, 2026 &middot; Effective: April 14, 2026</p>
+    <a class="link legal-frontmatter__back" href="/apps/neuralspark/">&larr; Back to NeuralSpark</a>
+  </div>
+
+  <article class="policy-page reading-measure">
+
+    <p>NeuralSpark is a brain training game app developed by WizusLabs. This Privacy Policy describes how the NeuralSpark application (&ldquo;the App&rdquo;) handles your information. We are committed to transparency about what data exists on your device, what third-party services may collect, and what choices you have.</p>
+
+    <!-- Section 1 -->
+    <h2>1. Data We Collect</h2>
+
+    <h3>1a. Data Stored Locally on Your Device (Never Transmitted)</h3>
+    <p>NeuralSpark is designed with an offline-first architecture. The following data is created and stored entirely on your device. It is never transmitted to our servers or any third party.</p>
+    <ul>
+      <li><strong>Game results</strong> &mdash; scores, timestamps, difficulty levels, and performance history for each mini-game. Stored in a local Hive database on your device.</li>
+      <li><strong>App preferences</strong> &mdash; language selection, sound toggle, metacognition mode toggle, and other settings. Stored in SharedPreferences (device-local key-value storage).</li>
+      <li><strong>Progress data</strong> &mdash; XP totals, player level, streak count, daily challenge completion status, game level progression, and streak freeze usage. Stored in SharedPreferences.</li>
+      <li><strong>Feature flag states</strong> &mdash; Pro subscription status cached locally for offline access. Stored in SharedPreferences.</li>
+      <li><strong>Metacognition data</strong> &mdash; if you enable Metacognition Mode, your confidence ratings (Sure/Unsure) for each answer are stored locally alongside your game results.</li>
+    </ul>
+    <p>We do not operate servers, databases, or cloud services that receive any of this data. Your game data exists only on your device.</p>
+
+    <h3>1b. Data Collected by Third-Party SDKs</h3>
+    <p>The App integrates the following third-party services that may collect data independently:</p>
+
+    <h3>AppLovin MAX (advertising, free-tier users only)</h3>
+    <ul>
+      <li>The App displays advertisements in the following formats: banner ads on selected screens, interstitial ads between game sessions, opt-in rewarded video ads to unlock game round blocks, and opt-in rewarded video ads to unlock additional theory articles. All ad formats are shown only to users who have not purchased NeuralSpark Pro or NeuralSpark Gate Pass (where applicable).</li>
+      <li>AppLovin MAX is an ad mediation platform that may serve ads from multiple demand sources (including AdMob, Meta Audience Network, Unity Ads, and others). In the course of serving ads, the AppLovin SDK and its mediated networks may collect:
+        <ul>
+          <li>Device identifiers (such as the Advertising ID)</li>
+          <li>IP address</li>
+          <li>Device properties (screen resolution, display properties, battery level, available memory)</li>
+          <li>Device settings (language, timezone, volume)</li>
+          <li>App session information (session duration, app version, SDK version)</li>
+          <li>Country and timezone derived from IP address</li>
+          <li>Ad interaction data (impressions, clicks, video completion events)</li>
+          <li>Ad preferences and interest segments</li>
+        </ul>
+      </li>
+      <li>Rewarded video ads may additionally collect video completion data (e.g., quartile progress and reward grant events).</li>
+      <li>Third-party measurement partners may process ad viewability and verification data in accordance with the Open Measurement Working Group standards.</li>
+      <li>AppLovin SDK communicates with the following domains: <code>d.applovin.com</code>, <code>rt.applovin.com</code>, <code>ms.applovin.com</code>.</li>
+      <li>If you upgrade to NeuralSpark Pro or purchase NeuralSpark Gate Pass, no ads are displayed and no ad-related data collection occurs.</li>
+      <li>AppLovin&rsquo;s Privacy Policy: <a href="https://www.legal.applovin.com/privacy/">https://www.legal.applovin.com/privacy/</a></li>
+    </ul>
+
+    <h3>Ad Consent</h3>
+    <ul>
+      <li>On first launch, the App will request your consent for personalized advertising.</li>
+      <li>On iOS, the App Tracking Transparency (ATT) prompt is presented as part of AppLovin MAX SDK initialization, asking whether you allow the App to track your activity across other companies&rsquo; apps and websites for ad personalization.</li>
+      <li>In the European Union and European Economic Area (EU/EEA), a consent form compliant with the IAB Transparency and Consent Framework (TCF v2.2) is presented via AppLovin MAX&rsquo;s built-in Consent Management Platform (CMP).</li>
+      <li>If you decline personalized advertising, the App will continue to show advertisements, but they will be non-personalized (not based on your interests or activity). Declining does not remove ads; it changes which ads you see.</li>
+      <li>You can change your ad personalization preference at any time in the App&rsquo;s Settings screen or through your device settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads).</li>
+    </ul>
+
+    <h3>RevenueCat (in-app purchase processing)</h3>
+    <ul>
+      <li>The App uses RevenueCat to manage NeuralSpark Pro subscriptions, NeuralSpark Gate Pass subscriptions, and other in-app purchases.</li>
+      <li>RevenueCat may collect transaction identifiers, device identifiers, and purchase history in order to process and verify your purchases.</li>
+      <li>RevenueCat&rsquo;s Privacy Policy: <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a></li>
+    </ul>
+
+    <h3>Firebase Crashlytics (crash reporting)</h3>
+    <ul>
+      <li>The App uses Firebase Crashlytics to collect crash reports and diagnostic data when the App encounters an unexpected error. This helps us identify and fix stability issues.</li>
+      <li>Firebase Crashlytics may collect:
+        <ul>
+          <li>Crash stack traces and exception information</li>
+          <li>Device model, OS version, and orientation</li>
+          <li>App version and build number</li>
+          <li>A Crashlytics installation UUID (a random identifier, not tied to your personal identity)</li>
+          <li>Amount of free RAM and disk space at the time of the crash</li>
+        </ul>
+      </li>
+      <li>Crash data is sent to Google&rsquo;s Firebase servers. It does not include your game results, preferences, progress, or any other user-generated content.</li>
+      <li>Firebase Crashlytics&rsquo; Privacy Policy: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></li>
+    </ul>
+
+    <!-- Section 2 -->
+    <h2>2. Data We Do NOT Collect</h2>
+    <p>NeuralSpark does not collect, transmit, or process any of the following:</p>
+    <ul>
+      <li>No account creation, email addresses, names, or personal identifiers</li>
+      <li>No analytics or telemetry data (no Firebase Analytics, no Mixpanel, no Amplitude, or similar services)</li>
+      <li>No location data</li>
+      <li>No contacts, photos, camera, microphone, or other sensitive device permissions</li>
+      <li>No data synced to any cloud service or remote server</li>
+      <li>No browsing history, search history, or usage patterns transmitted off-device</li>
+    </ul>
+
+    <!-- Section 3 -->
+    <h2>3. Data Sharing</h2>
+    <p>We do not sell, rent, share, or transfer your personal data to any third party.</p>
+    <ul>
+      <li><strong>AppLovin MAX</strong> (and its mediated ad networks), <strong>RevenueCat</strong>, and <strong>Firebase Crashlytics</strong> operate under their own respective privacy policies (linked above) and may collect data as described in Section 1b. We do not receive personally identifiable information from these services.</li>
+      <li><strong>Game results and progress data</strong> are stored only on your device and are never transmitted anywhere.</li>
+    </ul>
+
+    <!-- Section 4 -->
+    <h2>4. Data Retention</h2>
+    <ul>
+      <li>All locally stored data (game results, preferences, progress) persists on your device until you uninstall the App or manually clear the App&rsquo;s data through your device settings.</li>
+      <li>We do not maintain any server-side data stores. There is no server-side data to retain, expire, or delete.</li>
+      <li>Third-party services (AppLovin MAX and its mediated ad networks, RevenueCat, Firebase Crashlytics) retain data according to their own privacy policies.</li>
+    </ul>
+
+    <!-- Section 5 -->
+    <h2>5. Data Security</h2>
+    <ul>
+      <li>All data stored by the App resides in your device&rsquo;s local storage, protected by your device&rsquo;s built-in security features (device encryption, lock screen, biometric authentication).</li>
+      <li>The App does not transmit your game data or preferences over any network.</li>
+      <li>Communications between the App and third-party services (AppLovin MAX for ad delivery, RevenueCat for purchase processing, Firebase Crashlytics for crash reporting) use industry-standard encrypted connections (HTTPS/TLS).</li>
+    </ul>
+
+    <!-- Section 6 -->
+    <h2>6. Children&rsquo;s Privacy</h2>
+    <ul>
+      <li>NeuralSpark is a general-audience brain training game. It is not directed at children under the age of 13.</li>
+      <li>We do not knowingly collect personal information from children under 13.</li>
+      <li>If we become aware that we have inadvertently collected data from a child under 13, we will take prompt steps to delete such data.</li>
+      <li>If you are a parent or guardian and believe your child has provided information through the App&rsquo;s third-party services, please contact us at the address below so we can assist.</li>
+    </ul>
+
+    <!-- Section 7 -->
+    <h2>7. Your Rights and Choices</h2>
+
+    <h3>All users:</h3>
+    <ul>
+      <li>You can delete all App data at any time by uninstalling the App or clearing the App&rsquo;s data in your device settings (iOS: Settings &gt; General &gt; iPhone Storage &gt; NeuralSpark; Android: Settings &gt; Apps &gt; NeuralSpark &gt; Storage &gt; Clear Data).</li>
+      <li>You can opt out of personalized advertising by adjusting your device&rsquo;s ad settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads).</li>
+      <li>You can upgrade to NeuralSpark Pro or purchase NeuralSpark Gate Pass to remove all advertising from the App.</li>
+    </ul>
+
+    <h3>Users in the European Union / European Economic Area (GDPR):</h3>
+    <ul>
+      <li>You have rights under the General Data Protection Regulation including the right to access, rectification, erasure, restriction of processing, data portability, and objection.</li>
+      <li>Because NeuralSpark stores all user data locally on your device and we do not maintain any server-side data, these rights are exercised entirely through your device. You have full control over your data at all times.</li>
+      <li>For ad-related data collected by AppLovin MAX and its mediated ad networks, you can exercise your GDPR rights by managing your consent through the consent form presented by the App (powered by AppLovin MAX&rsquo;s built-in CMP). You may also withdraw or change your consent at any time in the App&rsquo;s Settings screen.</li>
+      <li>For data collected by RevenueCat, please refer to their privacy policy (linked in Section 1b) for information on exercising your GDPR rights.</li>
+    </ul>
+
+    <h3>Users in California (CCPA):</h3>
+    <ul>
+      <li>California residents have the right to know what personal information is collected, to request deletion, and to opt out of the sale of personal information.</li>
+      <li>We do not sell personal information that we collect directly. All locally stored data is under your direct control on your device.</li>
+      <li>However, AppLovin MAX&rsquo;s (and its mediated ad networks&rsquo;) use of device identifiers and ad interaction data to serve personalized advertisements may constitute a &ldquo;sale&rdquo; of personal information under the CCPA&rsquo;s broad definition. California residents can opt out of personalized advertising by declining the consent prompt within the App, through their device settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads), or by purchasing NeuralSpark Pro or NeuralSpark Gate Pass to remove ads entirely.</li>
+    </ul>
+
+    <!-- Section 8 -->
+    <h2>8. Third-Party Links and Services</h2>
+    <p>The App may contain links to third-party websites or services (such as subscription management pages). These third-party services have their own privacy policies, and we encourage you to review them. We are not responsible for the privacy practices of third-party services.</p>
+
+    <!-- Section 9 -->
+    <h2>9. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect changes in the App, our practices, or applicable law. When we make changes:</p>
+    <ul>
+      <li>The updated policy will be posted at this URL.</li>
+      <li>The &ldquo;Last updated&rdquo; date at the top of this document will be revised to reflect the date of the most recent changes.</li>
+      <li>For material changes, we will update the App&rsquo;s store listing to note the revision.</li>
+    </ul>
+    <p>We encourage you to review this Privacy Policy periodically.</p>
+
+    <!-- Section 10 -->
+    <h2>10. Contact Us</h2>
+    <p>If you have questions, concerns, or requests regarding this Privacy Policy or the App&rsquo;s data practices, please contact us at:</p>
+    <p><strong>Email:</strong> <a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></p>
+
+    <!-- Section 11 -->
+    <h2>11. App Information</h2>
+    <ul>
+      <li><strong>App Name:</strong> NeuralSpark</li>
+      <li><strong>Developer:</strong> WizusLabs</li>
+      <li><strong>Platforms:</strong> iOS (App Store), Android (Google Play)</li>
+      <li><strong>Category:</strong> Games (Puzzle) on iOS; Brain Games on Android</li>
+    </ul>
+
+  </article>
+</main>
+
+<!--
+  footer.html — SOURCE OF TRUTH for the site footer.
+  No build tool. Copy this block inline into each page's <body>.
+  If the footer changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.2 + §7.20 (footer mark).
+  Every legacy store-submission URL lives here by design.
+-->
+<footer class="footer">
+  <div class="footer__cols footer__cols--3col">
+    <section aria-labelledby="footer-lab">
+      <h2 id="footer-lab" class="footer__heading">Lab</h2>
+      <ul class="footer__list">
+        <li><a href="/manifesto/">Manifesto</a></li>
+        <li><a href="/agents/">Agents</a></li>
+        <li><a href="/human/">Human</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-apps">
+      <h2 id="footer-apps" class="footer__heading">Apps</h2>
+      <ul class="footer__list">
+        <li><a href="/apps/neuralspark/">NeuralSpark</a></li>
+        <li><a href="/apps/sudoku/">Sudoku</a></li>
+        <li><a href="/apps/">Iron Blitz</a></li>
+        <li><a href="/apps/">All apps</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-contact">
+      <h2 id="footer-contact" class="footer__heading">Contact</h2>
+      <ul class="footer__list">
+        <li><a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; 2026 WizusLabs</p>
+    <p class="footer__mark">Always for Human.</p>
+    <p><a href="/">wizuslabs.github.io</a></p>
+  </div>
+</footer>
+</body>
+</html>

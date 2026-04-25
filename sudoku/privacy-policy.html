@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy &mdash; Sudoku Game</title>
+  <meta name="description" content="Sudoku Game privacy policy. What stays on your device, what third-party SDKs may collect, and the choices you have.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#FBF9F4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0E1013" media="(prefers-color-scheme: dark)">
+
+  <link rel="canonical" href="https://wizuslabs.github.io/sudoku/privacy-policy.html">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/js/app.js"></script>
+</head>
+<body>
+<!--
+  nav.html — SOURCE OF TRUTH for the site nav.
+  No build tool. Copy this block inline into each page's <body>.
+  If nav changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.1 + §11 (wordmark) + §7.10 (theme toggle).
+-->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <nav class="nav" aria-label="Primary">
+    <div class="container nav__inner">
+      <a class="wordmark" href="/" aria-label="WizusLabs home">
+        <span class="wordmark__first">Wizus</span><span class="wordmark__second">Labs</span>
+      </a>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a class="nav__link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__link" href="/agents/">Agents</a></li>
+        <li><a class="nav__link" href="/apps/">Apps</a></li>
+        <li><a class="nav__link" href="/human/">Human</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button
+          type="button"
+          class="nav__hamburger"
+          data-nav-open-btn
+          aria-expanded="false"
+          aria-controls="nav-panel"
+          aria-label="Open navigation">
+          <svg class="nav__hamburger-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M3 7h18M3 12h18M3 17h18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          class="theme-toggle"
+          data-theme-toggle
+          data-state="auto"
+          aria-label="Theme: auto"
+          aria-pressed="false">
+          <svg class="theme-toggle__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/>
+          </svg>
+          <span class="theme-toggle__label">Theme: auto</span>
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="nav-panel"
+      class="nav__panel"
+      data-nav-panel
+      role="dialog"
+      aria-modal="true"
+      aria-label="Primary navigation">
+      <button
+        type="button"
+        class="nav__panel-close"
+        data-nav-close-btn
+        aria-label="Close navigation">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+          <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <ul class="nav__panel-list">
+        <li><a class="nav__panel-link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__panel-link" href="/agents/">Agents</a></li>
+        <li><a class="nav__panel-link" href="/apps/">Apps</a></li>
+        <li><a class="nav__panel-link" href="/human/">Human</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Screen-reader announcement target for theme toggle -->
+<div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
+
+<main id="main" class="container section">
+
+  <!-- LegalFrontmatter (§7.21) — editorial header above the unchanged policy body -->
+  <div class="legal-frontmatter reading-measure">
+    <p>
+      <a class="u-mono" href="/apps/sudoku/" aria-label="Back to Sudoku">Sudoku by WizusLabs</a>
+    </p>
+    <h1 class="legal-frontmatter__title">Sudoku Game &mdash; Privacy Policy</h1>
+    <p class="legal-frontmatter__date">Last updated: April 20, 2026 &middot; Effective: April 19, 2026</p>
+    <a class="link legal-frontmatter__back" href="/apps/sudoku/">&larr; Back to Sudoku</a>
+  </div>
+
+  <article class="policy-page reading-measure">
+
+    <p>Sudoku Game is a puzzle game app developed by WizusLabs. This Privacy Policy describes how the Sudoku Game application (&ldquo;the App&rdquo;) handles your information. We are committed to transparency about what data exists on your device, what third-party services may collect, and what choices you have.</p>
+
+    <!-- Section 1 -->
+    <h2>1. Data Stored Locally on Your Device (Never Transmitted)</h2>
+    <p>Sudoku Game is designed with an offline-first architecture. The following data is created and stored entirely on your device using SharedPreferences (the platform&rsquo;s built-in key-value storage: <code>NSUserDefaults</code> on iOS, <code>SharedPreferences</code> on Android, browser local storage on Web). This data is never transmitted to our servers or any third party.</p>
+    <ul>
+      <li><strong>Active game state</strong> (<code>sudoku_saved_game</code>) &mdash; save and resume your current puzzle (board, move history, elapsed time, hints used).</li>
+      <li><strong>Game statistics</strong> (<code>sudoku_game_stats</code>) &mdash; per-difficulty stats (games played, best time, total time, hints used).</li>
+      <li><strong>Daily challenge progress</strong> (<code>sudoku_daily_challenge</code>) &mdash; streak tracking (current streak, longest streak, today&rsquo;s completion, grace window).</li>
+      <li><strong>Monthly trophy records</strong> (<code>sudoku_monthly_record</code>) &mdash; calendar of completed puzzles per month (date, difficulty, solve time); rolling 12-month window.</li>
+      <li><strong>Technique trainer progress</strong> (<code>sudoku_trainer_progress</code>) &mdash; which technique exercises you have completed.</li>
+      <li><strong>Colorblind mode preference</strong> (<code>sudoku_colorblind_mode</code>) &mdash; your selected accessibility color mode (none, deuteranopia, tritanopia, monochrome).</li>
+      <li><strong>Font scale preference</strong> (<code>sudoku_font_scale</code>) &mdash; your selected font size multiplier.</li>
+      <li><strong>Pro unlock status</strong> (<code>sudoku_is_pro</code>) &mdash; whether you have unlocked Pro (removes ads).</li>
+      <li><strong>Hint token balance</strong> (<code>sudoku_hint_tokens</code>) &mdash; number of hint tokens available.</li>
+      <li><strong>Ad consent status</strong> (<code>consent_completed</code>) &mdash; whether the ad consent flow has been completed.</li>
+      <li><strong>User geography</strong> (<code>user_geography</code>) &mdash; cached region bucket (GDPR, CCPA, other, unknown) for consent behavior.</li>
+      <li><strong>CCPA opt-out flag</strong> (<code>ccpa_do_not_sell</code>) &mdash; whether you opted out of sale/sharing under CCPA.</li>
+      <li><strong>ATT deferral flag</strong> (<code>att_deferred</code>) &mdash; whether the iOS App Tracking Transparency prompt is pending.</li>
+      <li><strong>Session count</strong> (<code>total_sessions_completed</code>) &mdash; lifetime completed session count (used for new-user ad protection).</li>
+    </ul>
+    <p>We do not operate servers, databases, or cloud services that receive any of this data. Your game data exists only on your device.</p>
+
+    <!-- Section 2 -->
+    <h2>2. Data Collected by Third-Party SDKs</h2>
+    <p>The App integrates the following third-party services that may collect data independently:</p>
+
+    <h3>AppLovin MAX (advertising, free-tier users only)</h3>
+    <ul>
+      <li>The App displays advertisements in the following formats: banner ads on selected screens, interstitial ads between puzzle sessions (frequency-capped: 1 per 3 puzzles, max 2 per session, with new-user and streak-milestone protection), and opt-in rewarded video ads to earn hint tokens. All ad formats are shown only to users who have not purchased Sudoku Game Pro.</li>
+      <li>AppLovin MAX is an ad mediation platform that may serve ads from multiple demand sources (including AdMob, Meta Audience Network, Unity Ads, and others). In the course of serving ads, the AppLovin SDK and its mediated networks may collect:
+        <ul>
+          <li>Device identifiers (such as the Advertising ID)</li>
+          <li>IP address</li>
+          <li>Device properties (screen resolution, display properties, battery level, available memory)</li>
+          <li>Device settings (language, timezone, volume)</li>
+          <li>App session information (session duration, app version, SDK version)</li>
+          <li>Country and timezone derived from IP address</li>
+          <li>Ad interaction data (impressions, clicks, video completion events)</li>
+          <li>Ad preferences and interest segments</li>
+        </ul>
+      </li>
+      <li>Rewarded video ads may additionally collect video completion data (e.g., quartile progress and reward grant events).</li>
+      <li>AppLovin SDK communicates with the following domains: <code>d.applovin.com</code>, <code>rt.applovin.com</code>, <code>ms.applovin.com</code>.</li>
+      <li>If you upgrade to Sudoku Game Pro, no ads are displayed and no ad-related data collection occurs.</li>
+      <li>AppLovin&rsquo;s Privacy Policy: <a href="https://www.applovin.com/privacy/">https://www.applovin.com/privacy/</a></li>
+    </ul>
+
+    <h3>Ad Consent</h3>
+    <ul>
+      <li>On first launch, the App will request your consent for personalized advertising.</li>
+      <li>On iOS, the App Tracking Transparency (ATT) prompt is presented after your first puzzle completion, asking whether you allow the App to track your activity across other companies&rsquo; apps and websites for ad personalization.</li>
+      <li>In the European Union and European Economic Area (EU/EEA), a consent form compliant with the IAB Transparency and Consent Framework (TCF v2.2) is presented via AppLovin MAX&rsquo;s built-in Consent Management Platform (CMP).</li>
+      <li>If you decline personalized advertising, the App will continue to show advertisements, but they will be non-personalized (not based on your interests or activity). Declining does not remove ads; it changes which ads you see.</li>
+      <li>You can change your ad personalization preference at any time in the App&rsquo;s Settings screen or through your device settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads).</li>
+    </ul>
+
+    <h3>In-App Purchases (RevenueCat + Apple / Google billing)</h3>
+    <p>Sudoku Game offers two paid unlock tiers for Sudoku Pro. Both are processed by Apple or Google billing and relayed to our entitlement service provider, RevenueCat, Inc.</p>
+    <ul>
+      <li><strong>Sudoku Pro Yearly</strong> &mdash; auto-renewable subscription at $2.99 USD per year.</li>
+      <li><strong>Sudoku Pro Lifetime</strong> &mdash; one-time non-consumable purchase at $9.99 USD. Does not renew, never expires.</li>
+    </ul>
+    <p>Both tiers unlock the same <code>WizusLabs Pro</code> entitlement (no ads, unlimited hints, all features).</p>
+    <p><strong>Data handling:</strong></p>
+    <ul>
+      <li><strong>Apple App Store / Google Play</strong> process the transaction and charge your store account. We do not see your payment method, bank details, or full billing address. Transaction records are retained by Apple or Google according to their respective privacy policies.</li>
+      <li><strong>RevenueCat</strong> receives the anonymized store transaction (store receipt, product identifier, purchase date, device identifiers such as the iOS <code>IDFV</code> / Android <code>Advertising ID</code>, and a RevenueCat-assigned anonymous user ID) in order to verify the purchase and provide cross-device entitlement restore. RevenueCat stores the entitlement state (active / lapsed / refunded) so you can restore Pro on another device signed in to the same Apple ID or Google account. RevenueCat&rsquo;s privacy policy: <a href="https://www.revenuecat.com/privacy/">https://www.revenuecat.com/privacy/</a></li>
+      <li>The App itself caches a single boolean flag indicating your current Pro status (<code>sudoku_is_pro</code>, listed in Section 1) so you remain Pro offline. No purchase history, payment details, or transaction identifiers are stored on our servers.</li>
+    </ul>
+    <p><strong>Auto-renewal disclosure (Sudoku Pro Yearly only):</strong></p>
+    <ul>
+      <li>Your subscription will automatically renew at the end of each annual term at the then-current price, unless canceled at least 24 hours before the end of the current period.</li>
+      <li>Your Apple ID or Google account is charged for renewal within 24 hours prior to the end of the current period.</li>
+      <li>You can manage or cancel your subscription at any time in your device&rsquo;s subscription settings (iOS: Settings &gt; [your name] &gt; Subscriptions; Android: Google Play Store &gt; Menu &gt; Payments &amp; subscriptions &gt; Subscriptions). Canceling stops future charges but does not refund the current period.</li>
+      <li>No refunds are issued for partial subscription periods, except where required by applicable law.</li>
+    </ul>
+    <p>Sudoku Pro Lifetime is a one-time purchase and does not auto-renew. You will not be charged again after the initial purchase.</p>
+
+    <h3>Firebase Crashlytics (automated crash and stability diagnostics)</h3>
+    <ul>
+      <li>The App uses Firebase Crashlytics, a crash-reporting service provided by Google LLC (the data processor), to automatically collect diagnostic information when the App crashes or encounters an unhandled error. This helps us find and fix bugs that would otherwise go unreported.</li>
+      <li>Data collected by Firebase Crashlytics is limited to automated crash diagnostics. It is <strong>not</strong> used to identify individual users, is not linked to your Apple ID, Google account, or any in-app identity, and is not shared with advertising networks.</li>
+      <li>When a crash or unhandled error occurs, the Firebase Crashlytics SDK may transmit:
+        <ul>
+          <li>The stack trace, thread state, and register state captured at the moment of the crash</li>
+          <li>Device model (e.g. &ldquo;iPhone 15 Pro&rdquo;, &ldquo;Pixel 7&rdquo;)</li>
+          <li>Operating system name and version (e.g. &ldquo;iOS 17.4&rdquo;, &ldquo;Android 14&rdquo;)</li>
+          <li>App version and build number (e.g. &ldquo;1.0.0+11&rdquo;)</li>
+          <li>Firebase Installation ID &mdash; a per-install, Firebase-generated identifier that is <strong>not</strong> the device advertising identifier and cannot be used to track you across other apps or websites</li>
+          <li>IP address at the time of the crash, which Google truncates before storage (used only to derive an approximate country/region for aggregation)</li>
+        </ul>
+      </li>
+      <li>The App does <strong>not</strong> attach custom keys, custom logs, user identifiers, email addresses, purchase history, puzzle progress, move history, or any gameplay data to crash reports. We do not call <code>Crashlytics.log()</code> and we do not set <code>Crashlytics.setUserIdentifier()</code>. Only the automated diagnostic data listed above is transmitted.</li>
+      <li>Crash data collection is <strong>disabled entirely in debug builds</strong>. In release (App Store / Google Play) builds, collection is enabled so that stability regressions reaching users can be diagnosed.</li>
+      <li>Firebase Crashlytics retains crash data for <strong>90 days</strong> per Firebase&rsquo;s default retention policy, after which the data is deleted automatically.</li>
+      <li>The Firebase Installation ID is reset when the App is uninstalled, when app data is cleared, or when you reinstall the App.</li>
+      <li>Google acts as a data processor on our behalf for crash diagnostics under Google&rsquo;s Data Processing and Security Terms. Crashlytics data is not shared with third parties for advertising, marketing, or profiling purposes.</li>
+      <li>Google&rsquo;s privacy policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+      <li>Firebase data-handling documentation: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></li>
+    </ul>
+
+    <!-- Section 3 -->
+    <h2>3. Data We Do NOT Collect</h2>
+    <p>Sudoku Game does not collect, transmit, or process any of the following:</p>
+    <ul>
+      <li>No account creation, email addresses, names, or personal identifiers</li>
+      <li>No analytics or telemetry data (no Firebase Analytics, no Mixpanel, no Amplitude, or similar behavioural-analytics services)</li>
+      <li>No user-entered game data: no puzzle boards, move history, solve times, hint usage patterns, or trophy records are transmitted off-device</li>
+      <li>No location data (we do not request location permission; the approximate region derived from the truncated IP address attached to a crash report is the only coarse-geography signal, and only in the event of a crash)</li>
+      <li>No contacts, photos, camera, microphone, or other sensitive device permissions</li>
+      <li>No data synced to any cloud service or remote server for gameplay, preferences, or progress</li>
+      <li>No browsing history, search history, or usage patterns transmitted off-device</li>
+      <li>No health data (HealthKit, Health Connect, or similar services)</li>
+    </ul>
+
+    <h3>Diagnostic Data (what we <em>do</em> collect, automatically)</h3>
+    <p>The only data the App transmits off-device that is not ad- or purchase-related is automated crash diagnostics delivered by Firebase Crashlytics, as described in Section 2. This is limited to stack traces, device model, OS version, app version/build, Firebase Installation ID, and a truncated IP address, and is used exclusively to detect and fix bugs. It is never linked to a user identity and is never used for advertising.</p>
+
+    <!-- Section 4 -->
+    <h2>4. Data Sharing</h2>
+    <p>We do not sell, rent, share, or transfer your personal data to any third party.</p>
+    <ul>
+      <li><strong>AppLovin MAX</strong> (and its mediated ad networks) operates under its own privacy policy (linked above) and may collect data as described in Section 2. We do not receive personally identifiable information from this service.</li>
+      <li><strong>Firebase Crashlytics (Google LLC)</strong> acts as a data processor on our behalf for crash diagnostics, under Google&rsquo;s Data Processing and Security Terms. Crash data is not shared with third parties for advertising, marketing, or profiling purposes.</li>
+      <li><strong>RevenueCat, Inc.</strong> acts as a data processor on our behalf for purchase verification and cross-device entitlement restore, as described in Section 2.</li>
+      <li><strong>Game results and progress data</strong> are stored only on your device and are never transmitted anywhere.</li>
+    </ul>
+
+    <!-- Section 5 -->
+    <h2>5. Data Retention</h2>
+    <ul>
+      <li>All locally stored data (game results, preferences, progress, ad consent state) persists on your device until you uninstall the App or manually clear the App&rsquo;s data through your device settings.</li>
+      <li>We do not maintain any server-side data stores. There is no server-side data to retain, expire, or delete.</li>
+      <li>Firebase Crashlytics retains crash reports for 90 days (Firebase default) before automatic deletion. The Firebase Installation ID attached to a crash report is reset on uninstall, on app-data clear, and on reinstall.</li>
+      <li>Third-party services (AppLovin MAX and its mediated ad networks, RevenueCat, Firebase Crashlytics) retain data according to their own privacy policies.</li>
+    </ul>
+
+    <!-- Section 6 -->
+    <h2>6. Data Security</h2>
+    <ul>
+      <li>All data stored by the App resides in your device&rsquo;s local storage, protected by your device&rsquo;s built-in security features (device encryption, lock screen, biometric authentication).</li>
+      <li>The App does not transmit your game data, preferences, or progress over any network.</li>
+      <li>Communications between the App and third-party services (AppLovin MAX for ad delivery) use industry-standard encrypted connections (HTTPS/TLS).</li>
+    </ul>
+
+    <!-- Section 7 -->
+    <h2>7. Children&rsquo;s Privacy</h2>
+    <ul>
+      <li>Sudoku Game is a general-audience puzzle game. It is not directed at children under the age of 13.</li>
+      <li>We do not knowingly collect personal information from children under 13.</li>
+      <li>If we become aware that we have inadvertently collected data from a child under 13, we will take prompt steps to delete such data.</li>
+      <li>If you are a parent or guardian and believe your child has provided information through the App&rsquo;s third-party services, please contact us at the address below so we can assist.</li>
+    </ul>
+
+    <!-- Section 8 -->
+    <h2>8. Your Rights and Choices</h2>
+
+    <h3>All users:</h3>
+    <ul>
+      <li>You can delete all App data at any time by uninstalling the App or clearing the App&rsquo;s data in your device settings (iOS: Settings &gt; General &gt; iPhone Storage &gt; Sudoku Game; Android: Settings &gt; Apps &gt; Sudoku Game &gt; Storage &gt; Clear Data).</li>
+      <li>You can opt out of personalized advertising by adjusting your device&rsquo;s ad settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads).</li>
+      <li>You can upgrade to Sudoku Game Pro (yearly subscription $2.99/year or lifetime $9.99) to remove all advertising from the App.</li>
+      <li>If you purchased Sudoku Pro Yearly, you can cancel the auto-renewal at any time in your device&rsquo;s subscription settings (iOS: Settings &gt; [your name] &gt; Subscriptions; Android: Google Play Store &gt; Menu &gt; Payments &amp; subscriptions &gt; Subscriptions). Canceling stops future charges; Pro access remains active until the end of the current paid period.</li>
+      <li>You can request a refund or manage purchase history through Apple (<a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>) or Google (<a href="https://play.google.com/store/account/orderhistory">play.google.com/store/account/orderhistory</a>) according to their refund policies.</li>
+    </ul>
+
+    <h3>Users in the European Union / European Economic Area (GDPR):</h3>
+    <ul>
+      <li>You have rights under the General Data Protection Regulation including the right to access, rectification, erasure, restriction of processing, data portability, and objection.</li>
+      <li>Because Sudoku Game stores all user data locally on your device and we do not maintain any server-side data, these rights are exercised entirely through your device. You have full control over your data at all times.</li>
+      <li>For ad-related data collected by AppLovin MAX and its mediated ad networks, you can exercise your GDPR rights by managing your consent through the consent form presented by the App (powered by AppLovin MAX&rsquo;s built-in CMP). You may also withdraw or change your consent at any time in the App&rsquo;s Settings screen.</li>
+    </ul>
+
+    <h3>Users in California (CCPA):</h3>
+    <ul>
+      <li>California residents have the right to know what personal information is collected, to request deletion, and to opt out of the sale of personal information.</li>
+      <li>We do not sell personal information that we collect directly. All locally stored data is under your direct control on your device.</li>
+      <li>However, AppLovin MAX&rsquo;s (and its mediated ad networks&rsquo;) use of device identifiers and ad interaction data to serve personalized advertisements may constitute a &ldquo;sale&rdquo; of personal information under the CCPA&rsquo;s broad definition. California residents can opt out of personalized advertising by declining the consent prompt within the App, through their device settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads), or by purchasing Sudoku Game Pro to remove ads entirely.</li>
+    </ul>
+
+    <!-- Section 9 -->
+    <h2>9. Third-Party Links and Services</h2>
+    <p>The App may contain links to third-party websites or services. These third-party services have their own privacy policies, and we encourage you to review them. We are not responsible for the privacy practices of third-party services.</p>
+
+    <!-- Section 10 -->
+    <h2>10. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect changes in the App, our practices, or applicable law. When we make changes:</p>
+    <ul>
+      <li>The updated policy will be posted at this URL.</li>
+      <li>The &ldquo;Last updated&rdquo; date at the top of this document will be revised to reflect the date of the most recent changes.</li>
+      <li>For material changes, we will update the App&rsquo;s store listing to note the revision.</li>
+    </ul>
+    <p>We encourage you to review this Privacy Policy periodically.</p>
+
+    <!-- Section 11 -->
+    <h2>11. Contact Us</h2>
+    <p>If you have questions, concerns, or requests regarding this Privacy Policy or the App&rsquo;s data practices, please contact us at:</p>
+    <p><strong>Email:</strong> <a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></p>
+
+    <!-- Section 12 -->
+    <h2>12. App Information</h2>
+    <ul>
+      <li><strong>App Name:</strong> Sudoku Game</li>
+      <li><strong>Developer:</strong> WizusLabs</li>
+      <li><strong>Platforms:</strong> iOS (App Store), Android (Google Play), Web</li>
+      <li><strong>Category:</strong> Games (Puzzle)</li>
+    </ul>
+
+  </article>
+</main>
+
+<!--
+  footer.html — SOURCE OF TRUTH for the site footer.
+  No build tool. Copy this block inline into each page's <body>.
+  If the footer changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.2 + §7.20 (footer mark).
+  Every legacy store-submission URL lives here by design.
+-->
+<footer class="footer">
+  <div class="footer__cols footer__cols--3col">
+    <section aria-labelledby="footer-lab">
+      <h2 id="footer-lab" class="footer__heading">Lab</h2>
+      <ul class="footer__list">
+        <li><a href="/manifesto/">Manifesto</a></li>
+        <li><a href="/agents/">Agents</a></li>
+        <li><a href="/human/">Human</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-apps">
+      <h2 id="footer-apps" class="footer__heading">Apps</h2>
+      <ul class="footer__list">
+        <li><a href="/apps/neuralspark/">NeuralSpark</a></li>
+        <li><a href="/apps/sudoku/">Sudoku</a></li>
+        <li><a href="/apps/">Iron Blitz</a></li>
+        <li><a href="/apps/">All apps</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-contact">
+      <h2 id="footer-contact" class="footer__heading">Contact</h2>
+      <ul class="footer__list">
+        <li><a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; 2026 WizusLabs</p>
+    <p class="footer__mark">Always for Human.</p>
+    <p><a href="/">wizuslabs.github.io</a></p>
+  </div>
+</footer>
+</body>
+</html>

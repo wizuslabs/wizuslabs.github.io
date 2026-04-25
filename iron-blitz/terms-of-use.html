@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terms of Use &mdash; Iron Blitz</title>
+  <meta name="description" content="Iron Blitz terms of use. License, acceptable use, in-app purchases, intellectual property, disclaimers, and governing law.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#FBF9F4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0E1013" media="(prefers-color-scheme: dark)">
+
+  <link rel="canonical" href="https://wizuslabs.github.io/iron-blitz/terms-of-use.html">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/js/app.js"></script>
+</head>
+<body>
+<!--
+  nav.html — SOURCE OF TRUTH for the site nav.
+  No build tool. Copy this block inline into each page's <body>.
+  If nav changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.1 + §11 (wordmark) + §7.10 (theme toggle).
+-->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <nav class="nav" aria-label="Primary">
+    <div class="container nav__inner">
+      <a class="wordmark" href="/" aria-label="WizusLabs home">
+        <span class="wordmark__first">Wizus</span><span class="wordmark__second">Labs</span>
+      </a>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a class="nav__link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__link" href="/agents/">Agents</a></li>
+        <li><a class="nav__link" href="/apps/">Apps</a></li>
+        <li><a class="nav__link" href="/human/">Human</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button
+          type="button"
+          class="nav__hamburger"
+          data-nav-open-btn
+          aria-expanded="false"
+          aria-controls="nav-panel"
+          aria-label="Open navigation">
+          <svg class="nav__hamburger-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M3 7h18M3 12h18M3 17h18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          class="theme-toggle"
+          data-theme-toggle
+          data-state="auto"
+          aria-label="Theme: auto"
+          aria-pressed="false">
+          <svg class="theme-toggle__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/>
+          </svg>
+          <span class="theme-toggle__label">Theme: auto</span>
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="nav-panel"
+      class="nav__panel"
+      data-nav-panel
+      role="dialog"
+      aria-modal="true"
+      aria-label="Primary navigation">
+      <button
+        type="button"
+        class="nav__panel-close"
+        data-nav-close-btn
+        aria-label="Close navigation">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+          <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <ul class="nav__panel-list">
+        <li><a class="nav__panel-link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__panel-link" href="/agents/">Agents</a></li>
+        <li><a class="nav__panel-link" href="/apps/">Apps</a></li>
+        <li><a class="nav__panel-link" href="/human/">Human</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Screen-reader announcement target for theme toggle -->
+<div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
+
+<main id="main" class="container section">
+
+  <!-- LegalFrontmatter (§7.21) — editorial header above the unchanged terms body.
+       Note: /apps/iron-blitz/ detail page does not exist in v1 (Iron Blitz is
+       "In the workshop"). Breadcrumb + back-link resolve to /apps/ so the
+       portfolio index is the landing point. -->
+  <div class="legal-frontmatter reading-measure">
+    <p>
+      <a class="u-mono" href="/apps/" aria-label="Back to Apps">Iron Blitz by WizusLabs</a>
+    </p>
+    <h1 class="legal-frontmatter__title">Iron Blitz &mdash; Terms of Use</h1>
+    <p class="legal-frontmatter__date">Effective: April 10, 2026</p>
+    <a class="link legal-frontmatter__back" href="/apps/">&larr; Back to Apps</a>
+  </div>
+
+  <article class="terms-page reading-measure">
+
+    <p>These Terms of Use (&ldquo;Terms&rdquo;) govern your use of the Iron Blitz application (&ldquo;the App&rdquo;) developed by WizusLabs (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;). By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree, please do not use the App.</p>
+
+    <!-- Section 1 -->
+    <h2>1. License Grant</h2>
+    <p>We grant you a limited, non-exclusive, non-transferable, revocable license to use the App on any compatible device that you own or control, solely for your personal, non-commercial purposes, subject to these Terms and the usage rules established by the Apple App Store and Google Play Store.</p>
+    <p>This license does not grant you any right to use our trademarks, service marks, trade names, or any other intellectual property except as necessary to use the App under these Terms.</p>
+
+    <!-- Section 2 -->
+    <h2>2. Acceptable Use</h2>
+    <p>You agree not to:</p>
+    <ul>
+      <li>Reverse-engineer, decompile, disassemble, or otherwise attempt to derive the source code of the App, except to the extent expressly permitted by applicable law.</li>
+      <li>Copy, modify, distribute, sell, lease, sublicense, or create derivative works based on the App or any part of it.</li>
+      <li>Redistribute the App or any portion of it through any channel not authorized by WizusLabs.</li>
+      <li>Use cheats, exploits, automation software, bots, hacks, mods, or any unauthorized third-party software designed to modify or interfere with the App.</li>
+      <li>Exploit bugs, glitches, or design errors in the App to gain an unfair advantage or disrupt the experience of other users.</li>
+      <li>Use the App for any unlawful purpose or in violation of any applicable law or regulation.</li>
+      <li>Attempt to gain unauthorized access to the App, its servers, or any related systems or networks.</li>
+      <li>Interfere with or disrupt the operation of the App or any networks connected to it.</li>
+    </ul>
+
+    <!-- Section 3 -->
+    <h2>3. In-App Purchases and Subscriptions</h2>
+    <p>The App offers the following in-app purchase options:</p>
+    <ul>
+      <li><strong>Commander Pro (Annual)</strong> &mdash; an auto-renewable annual subscription at $9.99/year. The subscription renews automatically unless cancelled at least 24 hours before the end of the current billing period. Payment is charged to your store account upon confirmation of purchase and at the start of each renewal period.</li>
+      <li><strong>Commander Pro (Lifetime)</strong> &mdash; a one-time purchase at $24.99 that grants permanent access to all Commander Pro features with no recurring charges.</li>
+      <li><strong>Full Unlock (Legacy)</strong> &mdash; a one-time, non-consumable purchase at $4.99. This is a legacy offering and may not be available to all users.</li>
+    </ul>
+    <p>All purchases and subscriptions are processed and managed through the Apple App Store or Google Play Store. You can manage or cancel your subscription at any time through your device&rsquo;s subscription settings.</p>
+    <p>We do not process payments directly. Refund requests must be directed to Apple or Google, as applicable, through their standard refund procedures.</p>
+
+    <!-- Section 4 -->
+    <h2>4. Intellectual Property</h2>
+    <p>All content in the App, including but not limited to text, graphics, images, icons, audio, sound effects, music, game mechanics, level designs, user interface design, and underlying source code, is the property of WizusLabs or its licensors and is protected by applicable intellectual property laws.</p>
+    <p>You do not acquire any ownership rights by using the App. All rights not expressly granted in these Terms are reserved by WizusLabs.</p>
+
+    <!-- Section 5 -->
+    <h2>5. Privacy</h2>
+    <p>Your privacy is important to us. Our collection, use, and handling of your personal information is governed by our Privacy Policy, available at:</p>
+    <p><a href="https://wizuslabs.github.io/iron-blitz/privacy-policy.html">https://wizuslabs.github.io/iron-blitz/privacy-policy.html</a></p>
+    <p>The Privacy Policy describes what data we collect (including analytics and advertising data), how we use it, and your rights regarding that data. By using the App, you consent to the collection and use of information as described in the Privacy Policy.</p>
+    <p>We encourage you to review the Privacy Policy before using the App.</p>
+
+    <!-- Section 6 -->
+    <h2>6. Limitation of Liability</h2>
+    <p>The App is provided on an &ldquo;as is&rdquo; and &ldquo;as available&rdquo; basis without warranties of any kind, either express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement.</p>
+    <p>We do not warrant that the App will be uninterrupted, error-free, or free of harmful components. Your use of the App is at your sole risk.</p>
+    <p>To the maximum extent permitted by applicable law, WizusLabs shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits, data, or goodwill, arising out of or related to your use of or inability to use the App, regardless of the cause of action or the theory of liability.</p>
+    <p>In no event shall our total liability exceed the amount you have paid to us (if any) for the App in the twelve (12) months preceding the claim.</p>
+
+    <!-- Section 7 -->
+    <h2>7. Termination</h2>
+    <p>We reserve the right to terminate or suspend your access to the App at any time, without prior notice, for conduct that we believe violates these Terms or is harmful to other users, us, or third parties.</p>
+    <p>You may stop using the App at any time. If you have an active subscription, cancellation of the subscription is managed through your device&rsquo;s subscription settings; simply deleting the App does not cancel a subscription.</p>
+    <p>Upon termination, your license to use the App is immediately revoked. Sections that by their nature should survive termination (including Intellectual Property, Limitation of Liability, and Governing Law) shall continue in effect.</p>
+
+    <!-- Section 8 -->
+    <h2>8. Governing Law</h2>
+    <p>These Terms shall be governed by and construed in accordance with the laws of the Socialist Republic of Vietnam, without regard to conflict of law principles. Any disputes arising under these Terms shall be subject to the exclusive jurisdiction of the competent courts in Ho Chi Minh City, Vietnam.</p>
+
+    <!-- Section 9 -->
+    <h2>9. Apple End User License Agreement</h2>
+    <p>If you downloaded the App from the Apple App Store, these Terms are supplemented by Apple&rsquo;s standard Licensed Application End User License Agreement (EULA), available at: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a>. In the event of a conflict between these Terms and Apple&rsquo;s EULA, Apple&rsquo;s EULA shall take precedence to the extent required by Apple&rsquo;s policies.</p>
+
+    <!-- Section 10 -->
+    <h2>10. Changes to These Terms</h2>
+    <p>We may update these Terms from time to time. When we make changes:</p>
+    <ul>
+      <li>The updated Terms will be posted at this URL.</li>
+      <li>The &ldquo;Effective Date&rdquo; at the top of this document will be revised.</li>
+      <li>For material changes, we will update the App&rsquo;s store listing to note the revision.</li>
+    </ul>
+    <p>Your continued use of the App after changes are posted constitutes acceptance of the revised Terms. We encourage you to review these Terms periodically.</p>
+
+    <!-- Section 11 -->
+    <h2>11. Contact Us</h2>
+    <p>If you have questions or concerns about these Terms, please contact us at:</p>
+    <p><strong>Email:</strong> <a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></p>
+
+    <!-- Section 12 -->
+    <h2>12. App Information</h2>
+    <ul>
+      <li><strong>App Name:</strong> Iron Blitz</li>
+      <li><strong>Developer:</strong> WizusLabs</li>
+      <li><strong>Platforms:</strong> iOS (App Store), Android (Google Play)</li>
+    </ul>
+
+  </article>
+</main>
+
+<!--
+  footer.html — SOURCE OF TRUTH for the site footer.
+  No build tool. Copy this block inline into each page's <body>.
+  If the footer changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.2 + §7.20 (footer mark).
+  Every legacy store-submission URL lives here by design.
+-->
+<footer class="footer">
+  <div class="footer__cols footer__cols--3col">
+    <section aria-labelledby="footer-lab">
+      <h2 id="footer-lab" class="footer__heading">Lab</h2>
+      <ul class="footer__list">
+        <li><a href="/manifesto/">Manifesto</a></li>
+        <li><a href="/agents/">Agents</a></li>
+        <li><a href="/human/">Human</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-apps">
+      <h2 id="footer-apps" class="footer__heading">Apps</h2>
+      <ul class="footer__list">
+        <li><a href="/apps/neuralspark/">NeuralSpark</a></li>
+        <li><a href="/apps/sudoku/">Sudoku</a></li>
+        <li><a href="/apps/">Iron Blitz</a></li>
+        <li><a href="/apps/">All apps</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-contact">
+      <h2 id="footer-contact" class="footer__heading">Contact</h2>
+      <ul class="footer__list">
+        <li><a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; 2026 WizusLabs</p>
+    <p class="footer__mark">Always for Human.</p>
+    <p><a href="/">wizuslabs.github.io</a></p>
+  </div>
+</footer>
+</body>
+</html>

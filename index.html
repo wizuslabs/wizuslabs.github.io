@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WizusLabs — Made by agents. Always for human.</title>
+  <meta name="description" content="Five teams of agents. One human. From spark to mark. A working studio for consumer apps. Made by machines. Always for human. Every release, signed.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#FBF9F4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0E1013" media="(prefers-color-scheme: dark)">
+
+  <link rel="canonical" href="https://wizuslabs.github.io/">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/js/app.js"></script>
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="WizusLabs — Made by agents. Always for human.">
+  <meta property="og:description" content="Five teams of agents. One human. From spark to mark. A working studio for consumer apps. Made by machines. Always for human. Every release, signed.">
+  <meta property="og:url" content="https://wizuslabs.github.io/">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="WizusLabs — Made by agents. Always for human.">
+  <meta name="twitter:description" content="Five teams of agents. One human. From spark to mark. A working studio for consumer apps. Made by machines. Always for human. Every release, signed.">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <nav class="nav" aria-label="Primary">
+    <div class="container nav__inner">
+      <a class="wordmark" href="/" aria-label="WizusLabs home">
+        <span class="wordmark__first">Wizus</span><span class="wordmark__second">Labs</span>
+      </a>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a class="nav__link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__link" href="/agents/">Agents</a></li>
+        <li><a class="nav__link" href="/apps/">Apps</a></li>
+        <li><a class="nav__link" href="/human/">Human</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button
+          type="button"
+          class="nav__hamburger"
+          data-nav-open-btn
+          aria-expanded="false"
+          aria-controls="nav-panel"
+          aria-label="Open navigation">
+          <svg class="nav__hamburger-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M3 7h18M3 12h18M3 17h18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          class="theme-toggle"
+          data-theme-toggle
+          data-state="auto"
+          aria-label="Theme: auto"
+          aria-pressed="false">
+          <svg class="theme-toggle__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/>
+          </svg>
+          <span class="theme-toggle__label">Theme: auto</span>
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="nav-panel"
+      class="nav__panel"
+      data-nav-panel
+      role="dialog"
+      aria-modal="true"
+      aria-label="Primary navigation">
+      <button
+        type="button"
+        class="nav__panel-close"
+        data-nav-close-btn
+        aria-label="Close navigation">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+          <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <ul class="nav__panel-list">
+        <li><a class="nav__panel-link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__panel-link" href="/agents/">Agents</a></li>
+        <li><a class="nav__panel-link" href="/apps/">Apps</a></li>
+        <li><a class="nav__panel-link" href="/human/">Human</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Screen-reader announcement target for theme toggle -->
+<div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
+
+<main id="main">
+
+  <!-- ===== Section 1 — Hero / Manifesto Opener ===== -->
+  <section class="section hero-manifesto" aria-labelledby="hero-h1">
+    <div class="container hero-manifesto__grid">
+      <div class="hero-manifesto__content">
+        <h1 id="hero-h1" class="hero-manifesto__headline">
+          Five teams of agents. One human. From spark to mark.
+        </h1>
+        <p class="hero-manifesto__lead">
+          A working studio for consumer apps. Made by machines. Always for human.
+        </p>
+        <p class="hero-manifesto__meta u-mono">wizuslabs · The Earth · est. 2025</p>
+        <a class="hero-manifesto__cta link" href="#apps">See what we've shipped →</a>
+      </div>
+
+      <div class="hero-gallery" aria-hidden="true">
+        <figure class="hero-gallery__earth">
+          <!-- Photo: Jeremy Thomas / Unsplash (free license) -->
+          <img
+            src="/assets/img/hero/hero-earth.jpg"
+            alt=""
+            width="1400"
+            height="932"
+            loading="eager"
+            decoding="async"
+            fetchpriority="high">
+        </figure>
+
+        <div class="hero-gallery__bottom">
+          <figure class="hero-gallery__quantum">
+            <!-- Photo: IBM Research via Wikimedia Commons (CC BY-SA 2.0) -->
+            <img
+              src="/assets/img/hero/hero-quantum.jpg"
+              alt=""
+              width="400"
+              height="1160"
+              loading="lazy"
+              decoding="async"
+              fetchpriority="low">
+          </figure>
+
+          <figure class="hero-gallery__robot">
+            <!-- Photo: Pavel Danilyuk / Pexels (free license) -->
+            <img
+              src="/assets/img/hero/hero-robot.jpg"
+              alt=""
+              width="900"
+              height="600"
+              loading="lazy"
+              decoding="async"
+              fetchpriority="low">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Section 2 — Pillar Statement ===== -->
+  <section class="pillar-block" aria-labelledby="pillar-h2">
+    <div class="container">
+      <h2 id="pillar-h2" class="u-sr-only">The pillar</h2>
+      <p class="pillar-block__text">
+        <strong class="pillar-block__emphasis">Every decision ends at a person.</strong>
+        That is the rule. The agents propose; the human decides; the app you open
+        tomorrow is what came out the other side.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== Section 3 — The Model (5 crews + 1 human) ===== -->
+  <section class="section" id="model" aria-labelledby="model-h2">
+    <div class="container">
+      <h2 id="model-h2">Five crews. One human. Every ship has both.</h2>
+      <p class="team-section__intro">
+        Twenty-one specialist agents, grouped by the work they do. One human signs
+        the release.
+      </p>
+
+      <div class="reading-measure stack">
+        <p>
+          Bridge reads the world and picks the target. Atelier makes the thing worth
+          returning to. Workshop writes the code. Foundry keeps the pipes running and
+          the record straight. Gate tests, signs, and ships.
+        </p>
+        <p>
+          Hover any crew to see the line it ends at. Every line ends at the human.
+        </p>
+      </div>
+
+      <svg
+        class="model-diagram reveal-on-scroll"
+        viewBox="0 0 600 400"
+        role="img"
+        aria-labelledby="diagram-title diagram-desc"
+        xmlns="http://www.w3.org/2000/svg">
+        <title id="diagram-title">Five crews, one human</title>
+        <desc id="diagram-desc">Five agent crews — Bridge, Atelier, Workshop, Foundry, and Gate — arranged in an arc above a single human node. Hovering or focusing any crew reveals a hairline that connects it to the human at the bottom. The human is at the end of every line.</desc>
+
+        <defs>
+          <clipPath id="clip-bridge"><circle cx="80" cy="110" r="24"/></clipPath>
+          <clipPath id="clip-atelier"><circle cx="190" cy="75" r="24"/></clipPath>
+          <clipPath id="clip-workshop"><circle cx="300" cy="60" r="24"/></clipPath>
+          <clipPath id="clip-foundry"><circle cx="410" cy="75" r="24"/></clipPath>
+          <clipPath id="clip-gate"><circle cx="520" cy="110" r="24"/></clipPath>
+        </defs>
+
+        <g class="diagram-lines" aria-hidden="true">
+          <line class="line" data-from="bridge"   x1="80"  y1="110" x2="300" y2="330" pathLength="100" />
+          <line class="line" data-from="atelier"  x1="190" y1="75"  x2="300" y2="330" pathLength="100" />
+          <line class="line" data-from="workshop" x1="300" y1="60"  x2="300" y2="330" pathLength="100" />
+          <line class="line" data-from="foundry"  x1="410" y1="75"  x2="300" y2="330" pathLength="100" />
+          <line class="line" data-from="gate"     x1="520" y1="110" x2="300" y2="330" pathLength="100" />
+        </g>
+
+        <g class="diagram-nodes">
+          <a class="node node--crew" href="/agents/#crew-bridge" data-from="bridge" aria-label="Bridge — picks the target">
+            <image href="/assets/img/crews/bridge.jpg" x="56" y="86" width="48" height="48" clip-path="url(#clip-bridge)" preserveAspectRatio="xMidYMid slice" aria-hidden="true"/>
+            <circle cx="80" cy="110" r="24" fill="none" />
+            <text x="80" y="162" text-anchor="middle">Bridge</text>
+          </a>
+          <a class="node node--crew" href="/agents/#crew-atelier" data-from="atelier" aria-label="Atelier — makes it beautiful">
+            <image href="/assets/img/crews/atelier.jpg" x="166" y="51" width="48" height="48" clip-path="url(#clip-atelier)" preserveAspectRatio="xMidYMid slice" aria-hidden="true"/>
+            <circle cx="190" cy="75" r="24" fill="none" />
+            <text x="190" y="127" text-anchor="middle">Atelier</text>
+          </a>
+          <a class="node node--crew" href="/agents/#crew-workshop" data-from="workshop" aria-label="Workshop — builds the software">
+            <image href="/assets/img/crews/workshop.jpg" x="276" y="36" width="48" height="48" clip-path="url(#clip-workshop)" preserveAspectRatio="xMidYMid slice" aria-hidden="true"/>
+            <circle cx="300" cy="60" r="24" fill="none" />
+            <text x="300" y="112" text-anchor="middle">Workshop</text>
+          </a>
+          <a class="node node--crew" href="/agents/#crew-foundry" data-from="foundry" aria-label="Foundry — keeps the pipes running">
+            <image href="/assets/img/crews/foundry.jpg" x="386" y="51" width="48" height="48" clip-path="url(#clip-foundry)" preserveAspectRatio="xMidYMid slice" aria-hidden="true"/>
+            <circle cx="410" cy="75" r="24" fill="none" />
+            <text x="410" y="127" text-anchor="middle">Foundry</text>
+          </a>
+          <a class="node node--crew" href="/agents/#crew-gate" data-from="gate" aria-label="Gate — ships the work">
+            <image href="/assets/img/crews/gate.jpg" x="496" y="86" width="48" height="48" clip-path="url(#clip-gate)" preserveAspectRatio="xMidYMid slice" aria-hidden="true"/>
+            <circle cx="520" cy="110" r="24" fill="none" />
+            <text x="520" y="162" text-anchor="middle">Gate</text>
+          </a>
+
+          <a class="node node--human" href="/human/" aria-label="Victor, Human in the Loop">
+            <circle cx="300" cy="330" r="28" />
+            <text
+              x="300" y="330"
+              text-anchor="middle"
+              dominant-baseline="central"
+              font-family="'Source Serif 4', Georgia, serif"
+              font-size="32"
+              font-weight="500"
+              fill="var(--accent)"
+              aria-hidden="true">V</text>
+            <text x="300" y="382" text-anchor="middle">Victor, Human in the Loop</text>
+          </a>
+        </g>
+      </svg>
+
+      <p class="u-sr-only">
+        Five crews — Wizus Bridge, Wizus Atelier, Wizus Workshop, Wizus Foundry,
+        Wizus Gate — all ultimately lead to Victor, the Human in the Loop. Every
+        piece of work the crews produce is reviewed and signed off by a person
+        before it ships.
+      </p>
+
+      <p><a class="link" href="/agents/">Meet the crews →</a></p>
+    </div>
+  </section>
+
+  <!-- ===== Section 4 — Shipped Apps ===== -->
+  <section class="section" id="apps" aria-labelledby="apps-h2">
+    <div class="container">
+      <h2 id="apps-h2">What we've shipped.</h2>
+      <p class="reading-measure">
+        Three apps under the WizusLabs name. Two are on the App Store and Google
+        Play today. The third is in the workshop.
+      </p>
+
+      <div class="team-section__grid">
+        <article class="app-card" aria-labelledby="app-neuralspark">
+          <img
+            class="app-icon app-icon--sm"
+            src="/assets/img/apps/neuralspark-256.png"
+            alt="NeuralSpark app icon"
+            width="56"
+            height="56"
+            loading="lazy"
+            decoding="async">
+          <div>
+            <h3 id="app-neuralspark" class="app-card__name">
+              NeuralSpark
+              <span class="pill pill--signal" aria-label="Status: Live"><span aria-hidden="true">●</span> Live</span>
+            </h3>
+            <p class="app-card__tagline">A brain-training app, live on both stores.</p>
+            <p class="app-card__team u-mono">by wizus atelier + workshop</p>
+          </div>
+        </article>
+
+        <article class="app-card" aria-labelledby="app-sudoku">
+          <img
+            class="app-icon app-icon--sm"
+            src="/assets/img/apps/sudoku-256.png"
+            alt="Sudoku by WizusLabs app icon"
+            width="56"
+            height="56"
+            loading="lazy"
+            decoding="async">
+          <div>
+            <h3 id="app-sudoku" class="app-card__name">
+              Sudoku by WizusLabs
+              <span class="pill pill--signal" aria-label="Status: Live"><span aria-hidden="true">●</span> Live</span>
+            </h3>
+            <p class="app-card__tagline">Classic and killer sudoku, live on both stores.</p>
+            <p class="app-card__team u-mono">by wizus atelier + workshop</p>
+          </div>
+        </article>
+
+        <article class="app-card" aria-labelledby="app-iron-blitz">
+          <img
+            class="app-icon app-icon--sm"
+            src="/assets/img/apps/iron-blitz-256.png"
+            alt="Iron Blitz app icon"
+            width="56"
+            height="56"
+            loading="lazy"
+            decoding="async">
+          <div>
+            <h3 id="app-iron-blitz" class="app-card__name">
+              Iron Blitz
+              <span class="pill pill--accent-cool" aria-label="Status: In the workshop">In the workshop</span>
+            </h3>
+            <p class="app-card__tagline">A 2D tank combat game. In the workshop.</p>
+            <p class="app-card__team u-mono">by wizus workshop</p>
+          </div>
+        </article>
+      </div>
+
+      <p><a class="link" href="/apps/">See the shelf →</a></p>
+    </div>
+  </section>
+
+  <!-- ===== Section 5 — Manifesto Pull-Quote ===== -->
+  <section class="section" id="quote" aria-labelledby="quote-h2">
+    <div class="container">
+      <h2 id="quote-h2" class="u-sr-only">Manifesto pull-quote</h2>
+      <blockquote class="manifesto-quote reading-measure">
+        We don't claim the work. We show you the receipts.
+        <cite>Always for Human · 2026</cite>
+      </blockquote>
+      <p class="reading-measure"><a class="link" href="/manifesto/">Read the manifesto →</a></p>
+    </div>
+  </section>
+
+  <!-- ===== Section 6 — The Agent Teams ===== -->
+  <section class="section" id="teams" aria-labelledby="teams-h2">
+    <div class="container">
+      <h2 id="teams-h2" class="team-section__heading">The crews, at a glance.</h2>
+      <p class="team-section__intro">
+        Each crew has a mandate. Each agent has one sentence. None of them have
+        faces.
+      </p>
+
+      <div class="team-section__grid" role="list">
+        <article class="agent-card" role="listitem" aria-labelledby="crew-bridge">
+          <h3 id="crew-bridge" class="agent-card__name">Wizus Bridge</h3>
+          <p class="agent-card__charter">Reads the world, picks the target, charts the route.</p>
+        </article>
+
+        <article class="agent-card" role="listitem" aria-labelledby="crew-atelier">
+          <h3 id="crew-atelier" class="agent-card__name">Wizus Atelier</h3>
+          <p class="agent-card__charter">Makes the thing beautiful, legible, and worth returning to.</p>
+        </article>
+
+        <article class="agent-card" role="listitem" aria-labelledby="crew-workshop">
+          <h3 id="crew-workshop" class="agent-card__name">Wizus Workshop</h3>
+          <p class="agent-card__charter">Turns specifications into software, one module at a time.</p>
+        </article>
+
+        <article class="agent-card" role="listitem" aria-labelledby="crew-foundry">
+          <h3 id="crew-foundry" class="agent-card__name">Wizus Foundry</h3>
+          <p class="agent-card__charter">Handles the pipes, the languages, and the written record.</p>
+        </article>
+
+        <article class="agent-card" role="listitem" aria-labelledby="crew-gate">
+          <h3 id="crew-gate" class="agent-card__name">Wizus Gate</h3>
+          <p class="agent-card__charter">Tests, signs, and ships. Nothing leaves without their seal.</p>
+        </article>
+      </div>
+
+      <p><a class="link" href="/agents/">Read the full charters →</a></p>
+    </div>
+  </section>
+
+  <!-- ===== Section 7 — The Human ===== -->
+  <section class="section" id="human" aria-labelledby="human-h2">
+    <div class="container">
+      <h2 id="human-h2">One human. In the loop. On the record.</h2>
+
+      <div class="human-card">
+        <div class="human-card__glyph" aria-hidden="true"><span>V</span></div>
+        <div>
+          <p class="human-card__name">Victor</p>
+          <p class="human-card__role u-mono">human in the loop · contact: wizuslabs@gmail.com</p>
+          <p class="human-card__line">
+            The lab runs on agents. One person sets the direction, reviews the work,
+            and puts their name on what ships. They answer their own email. They do not
+            have a photo on this site, and that is on purpose.
+          </p>
+          <p><a class="link" href="/human/">The handshake page →</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Section 9 — Principles ===== -->
+  <section class="section" id="principles" aria-labelledby="principles-h2">
+    <div class="container">
+      <h2 id="principles-h2">How we decide.</h2>
+
+      <div class="team-section__grid">
+        <article>
+          <h3>1 — Accessibility is a floor, not a feature.</h3>
+          <p>Every page passes WCAG 2.2 AA. Every app is built to be used by a tired person on a small phone.</p>
+        </article>
+        <article>
+          <h3>2 — Longevity over novelty.</h3>
+          <p>We pick tools that will still work in ten years. The site is plain HTML on GitHub Pages for a reason.</p>
+        </article>
+        <article>
+          <h3>3 — Human review, every release.</h3>
+          <p>No commit ships to a store without a human reading the diff and signing off. That is what "in the loop" means.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Section 10 — Footer CTA ===== -->
+  <section class="section" id="footer-cta" aria-labelledby="footer-cta-h2">
+    <div class="container reading-measure">
+      <h2 id="footer-cta-h2">Say hello, or read the manifesto.</h2>
+      <p>The email is a real inbox. The manifesto is one page long. Either is fine.</p>
+      <p>
+        <a class="link" href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a>
+        &nbsp;·&nbsp;
+        <a class="link" href="/manifesto/">Read the manifesto →</a>
+      </p>
+      <p class="manifesto-signature manifesto-signature--footer-mark u-mono">
+        Always for Human. · 2026 · wizuslabs.github.io
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__cols footer__cols--3col">
+    <section aria-labelledby="footer-lab">
+      <h2 id="footer-lab" class="footer__heading">Lab</h2>
+      <ul class="footer__list">
+        <li><a href="/manifesto/">Manifesto</a></li>
+        <li><a href="/agents/">Agents</a></li>
+        <li><a href="/human/">Human</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-apps">
+      <h2 id="footer-apps" class="footer__heading">Apps</h2>
+      <ul class="footer__list">
+        <li><a href="/apps/neuralspark/">NeuralSpark</a></li>
+        <li><a href="/apps/sudoku/">Sudoku</a></li>
+        <li><a href="/apps/">Iron Blitz</a></li>
+        <li><a href="/apps/">All apps</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-contact">
+      <h2 id="footer-contact" class="footer__heading">Contact</h2>
+      <ul class="footer__list">
+        <li><a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; 2026 WizusLabs</p>
+    <p class="footer__mark">Always for Human.</p>
+    <p><a href="/">wizuslabs.github.io</a></p>
+  </div>
+</footer>
+</body>
+</html>

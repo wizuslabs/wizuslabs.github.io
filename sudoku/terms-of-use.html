@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terms of Use &mdash; Sudoku Game</title>
+  <meta name="description" content="Sudoku Game terms of use. License, in-app purchases, intellectual property, disclaimers, and governing law.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#FBF9F4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0E1013" media="(prefers-color-scheme: dark)">
+
+  <link rel="canonical" href="https://wizuslabs.github.io/sudoku/terms-of-use.html">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/js/app.js"></script>
+</head>
+<body>
+<!--
+  nav.html — SOURCE OF TRUTH for the site nav.
+  No build tool. Copy this block inline into each page's <body>.
+  If nav changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.1 + §11 (wordmark) + §7.10 (theme toggle).
+-->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <nav class="nav" aria-label="Primary">
+    <div class="container nav__inner">
+      <a class="wordmark" href="/" aria-label="WizusLabs home">
+        <span class="wordmark__first">Wizus</span><span class="wordmark__second">Labs</span>
+      </a>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a class="nav__link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__link" href="/agents/">Agents</a></li>
+        <li><a class="nav__link" href="/apps/">Apps</a></li>
+        <li><a class="nav__link" href="/human/">Human</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button
+          type="button"
+          class="nav__hamburger"
+          data-nav-open-btn
+          aria-expanded="false"
+          aria-controls="nav-panel"
+          aria-label="Open navigation">
+          <svg class="nav__hamburger-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M3 7h18M3 12h18M3 17h18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          class="theme-toggle"
+          data-theme-toggle
+          data-state="auto"
+          aria-label="Theme: auto"
+          aria-pressed="false">
+          <svg class="theme-toggle__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/>
+          </svg>
+          <span class="theme-toggle__label">Theme: auto</span>
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="nav-panel"
+      class="nav__panel"
+      data-nav-panel
+      role="dialog"
+      aria-modal="true"
+      aria-label="Primary navigation">
+      <button
+        type="button"
+        class="nav__panel-close"
+        data-nav-close-btn
+        aria-label="Close navigation">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+          <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <ul class="nav__panel-list">
+        <li><a class="nav__panel-link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__panel-link" href="/agents/">Agents</a></li>
+        <li><a class="nav__panel-link" href="/apps/">Apps</a></li>
+        <li><a class="nav__panel-link" href="/human/">Human</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Screen-reader announcement target for theme toggle -->
+<div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
+
+<main id="main" class="container section">
+
+  <!-- LegalFrontmatter (§7.21) — editorial header above the unchanged terms body -->
+  <div class="legal-frontmatter reading-measure">
+    <p>
+      <a class="u-mono" href="/apps/sudoku/" aria-label="Back to Sudoku">Sudoku by WizusLabs</a>
+    </p>
+    <h1 class="legal-frontmatter__title">Sudoku Game &mdash; Terms of Use</h1>
+    <p class="legal-frontmatter__date">Effective: April 19, 2026 &middot; Last updated: April 19, 2026</p>
+    <a class="link legal-frontmatter__back" href="/apps/sudoku/">&larr; Back to Sudoku</a>
+  </div>
+
+  <article class="terms-page reading-measure">
+
+    <p>These Terms of Use (&ldquo;Terms&rdquo;) govern your use of the Sudoku Game application (&ldquo;the App&rdquo;) developed by WizusLabs (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;). By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree, please do not use the App.</p>
+
+    <!-- Section 1 -->
+    <h2>1. License</h2>
+    <p>We grant you a limited, non-exclusive, non-transferable, revocable license to use the App on any compatible device that you own or control, solely for your personal, non-commercial purposes, subject to these Terms and the usage rules established by the Apple App Store and Google Play Store.</p>
+    <p>You may not copy, modify, distribute, sell, lease, sublicense, reverse-engineer, or create derivative works based on the App or any part of it, except to the extent permitted by applicable law.</p>
+
+    <!-- Section 2 -->
+    <h2>2. In-App Purchases</h2>
+    <p>The App offers two paid unlock tiers under the name <strong>Sudoku Pro</strong>. Both tiers grant the same in-app benefits (no advertising, unlimited hints, all features unlocked). You may choose either.</p>
+    <ul>
+      <li><strong>Sudoku Pro Yearly</strong> &mdash; an auto-renewable subscription at $2.99 (USD) per year. Product identifier: <code>sudoku_pro_yearly</code>.</li>
+      <li><strong>Sudoku Pro Lifetime</strong> &mdash; a one-time non-consumable purchase at $9.99 (USD). Does not renew. Never expires. Product identifier: <code>sudoku_pro_lifetime</code>.</li>
+    </ul>
+    <p>All purchases are processed and managed through the Apple App Store or Google Play Store. Payment is charged to your Apple ID or Google account at confirmation of purchase. We do not process payments directly.</p>
+
+    <h3>Auto-renewal disclosure (Sudoku Pro Yearly only)</h3>
+    <ul>
+      <li>Payment is charged to your Apple ID or Google account at confirmation of purchase. Your subscription automatically renews at the end of each annual term at the then-current price, unless canceled at least 24 hours before the end of the current period.</li>
+      <li>Renewal is charged within 24 hours before the end of the current period.</li>
+      <li>You can manage or cancel your subscription at any time in your device&rsquo;s subscription settings (iOS: Settings &gt; [your name] &gt; Subscriptions; Android: Google Play Store &gt; Menu &gt; Payments &amp; subscriptions &gt; Subscriptions). Canceling stops future charges but does not refund the current period.</li>
+      <li>The price may change; you will be notified and asked to consent in advance of any price increase in accordance with Apple or Google&rsquo;s policies.</li>
+    </ul>
+
+    <h3>Refunds</h3>
+    <p>We do not process refunds directly. Refund requests must be directed to Apple (<a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>) or Google (<a href="https://play.google.com/store/account/orderhistory">play.google.com/store/account/orderhistory</a>), in accordance with their refund policies. For EU/EEA users, statutory withdrawal rights under the Consumer Rights Directive apply where required by law.</p>
+
+    <h3>Restore purchases</h3>
+    <p>You can restore a previous purchase on a new device by signing in with the same Apple ID or Google account used for the original purchase and tapping <strong>Restore Purchases</strong> in the App&rsquo;s Settings screen.</p>
+
+    <!-- Section 3 -->
+    <h2>3. Free Tier and Advertising</h2>
+    <p>The App is free to download and use. All puzzles at every difficulty level are accessible to free-tier users without restriction.</p>
+    <p>Free-tier users will see advertisements, including banner ads on non-game screens, interstitial ads between puzzles, and opt-in rewarded video ads. Rewarded video ads are entirely voluntary; watching a rewarded video grants hint tokens that can be used during gameplay.</p>
+    <p>Free-tier users receive a limited number of free hints per puzzle. Additional hint tokens may be earned through rewarded video ads, daily challenge completions, and technique trainer exercises.</p>
+    <p>Upgrading to Sudoku Pro removes all advertising from the App and provides unlimited hints.</p>
+
+    <!-- Section 4 -->
+    <h2>4. Intellectual Property</h2>
+    <p>All content in the App, including but not limited to text, graphics, images, icons, audio, game mechanics, user interface design, and underlying source code, is the property of WizusLabs or its licensors and is protected by applicable intellectual property laws.</p>
+    <p>You do not acquire any ownership rights by using the App. All rights not expressly granted in these Terms are reserved by WizusLabs.</p>
+
+    <!-- Section 5 -->
+    <h2>5. User Conduct</h2>
+    <p>You agree not to:</p>
+    <ul>
+      <li>Use the App for any unlawful purpose or in violation of any applicable law or regulation.</li>
+      <li>Attempt to gain unauthorized access to the App, its servers, or any related systems.</li>
+      <li>Interfere with or disrupt the App&rsquo;s operation or any networks connected to it.</li>
+      <li>Reverse-engineer, decompile, or disassemble any part of the App, except to the extent permitted by applicable law.</li>
+      <li>Exploit any bug, glitch, or unintended behavior in the App for commercial advantage or to circumvent in-app purchase mechanisms.</li>
+    </ul>
+
+    <!-- Section 6 -->
+    <h2>6. Disclaimer of Warranties</h2>
+    <p>The App is provided on an &ldquo;as is&rdquo; and &ldquo;as available&rdquo; basis without warranties of any kind, either express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement.</p>
+    <p>We do not warrant that the App will be uninterrupted, error-free, or free of harmful components. Your use of the App is at your sole risk.</p>
+
+    <!-- Section 7 -->
+    <h2>7. Limitation of Liability</h2>
+    <p>To the maximum extent permitted by applicable law, WizusLabs shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits, data, or goodwill, arising out of or related to your use of or inability to use the App, regardless of the cause of action or the theory of liability.</p>
+    <p>In no event shall our total liability exceed the amount you have paid to us (if any) for the App in the twelve (12) months preceding the claim.</p>
+
+    <!-- Section 8 -->
+    <h2>8. Termination</h2>
+    <p>We reserve the right to terminate or suspend your access to the App at any time, without prior notice, for conduct that we believe violates these Terms or is harmful to other users, us, or third parties.</p>
+    <p>Upon termination, your license to use the App is immediately revoked. Sections that by their nature should survive termination (including Intellectual Property, Disclaimer of Warranties, Limitation of Liability, and Governing Law) shall continue in effect.</p>
+
+    <!-- Section 9 -->
+    <h2>9. Apple End User License Agreement</h2>
+    <p>If you downloaded the App from the Apple App Store, these Terms are supplemented by Apple&rsquo;s standard Licensed Application End User License Agreement (EULA), available at: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a>. In the event of a conflict between these Terms and Apple&rsquo;s EULA, Apple&rsquo;s EULA shall take precedence to the extent required by Apple&rsquo;s policies.</p>
+
+    <!-- Section 10 -->
+    <h2>10. Governing Law</h2>
+    <p>These Terms shall be governed by and construed in accordance with the laws of the Socialist Republic of Vietnam, without regard to conflict of law principles. Any disputes arising under these Terms shall be subject to the exclusive jurisdiction of the competent courts in Ho Chi Minh City, Vietnam.</p>
+
+    <!-- Section 11 -->
+    <h2>11. Changes to These Terms</h2>
+    <p>We may update these Terms from time to time. When we make changes:</p>
+    <ul>
+      <li>The updated Terms will be posted at this URL.</li>
+      <li>The &ldquo;Effective&rdquo; date at the top of this document will be revised.</li>
+      <li>For material changes, we will update the App&rsquo;s store listing to note the revision.</li>
+    </ul>
+    <p>Your continued use of the App after changes are posted constitutes acceptance of the revised Terms. We encourage you to review these Terms periodically.</p>
+
+    <!-- Section 12 -->
+    <h2>12. Contact Us</h2>
+    <p>If you have questions or concerns about these Terms, please contact us at:</p>
+    <p><strong>Email:</strong> <a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></p>
+
+    <!-- Section 13 -->
+    <h2>13. App Information</h2>
+    <ul>
+      <li><strong>App Name:</strong> Sudoku Game</li>
+      <li><strong>Developer:</strong> WizusLabs</li>
+      <li><strong>Platforms:</strong> iOS (App Store), Android (Google Play)</li>
+    </ul>
+
+  </article>
+</main>
+
+<!--
+  footer.html — SOURCE OF TRUTH for the site footer.
+  No build tool. Copy this block inline into each page's <body>.
+  If the footer changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.2 + §7.20 (footer mark).
+  Every legacy store-submission URL lives here by design.
+-->
+<footer class="footer">
+  <div class="footer__cols footer__cols--3col">
+    <section aria-labelledby="footer-lab">
+      <h2 id="footer-lab" class="footer__heading">Lab</h2>
+      <ul class="footer__list">
+        <li><a href="/manifesto/">Manifesto</a></li>
+        <li><a href="/agents/">Agents</a></li>
+        <li><a href="/human/">Human</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-apps">
+      <h2 id="footer-apps" class="footer__heading">Apps</h2>
+      <ul class="footer__list">
+        <li><a href="/apps/neuralspark/">NeuralSpark</a></li>
+        <li><a href="/apps/sudoku/">Sudoku</a></li>
+        <li><a href="/apps/">Iron Blitz</a></li>
+        <li><a href="/apps/">All apps</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-contact">
+      <h2 id="footer-contact" class="footer__heading">Contact</h2>
+      <ul class="footer__list">
+        <li><a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; 2026 WizusLabs</p>
+    <p class="footer__mark">Always for Human.</p>
+    <p><a href="/">wizuslabs.github.io</a></p>
+  </div>
+</footer>
+</body>
+</html>

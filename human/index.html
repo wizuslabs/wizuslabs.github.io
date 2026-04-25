@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Human in the Loop — WizusLabs</title>
+  <meta name="description" content="Victor, the Human in the Loop at WizusLabs. Chooses what the lab builds next, reads every diff, signs every release, and personally answers the email.">
+  <meta name="color-scheme" content="light dark">
+
+  <link rel="canonical" href="https://wizuslabs.github.io/human/">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="The Human in the Loop — WizusLabs">
+  <meta property="og:description" content="Victor, the Human in the Loop at WizusLabs. Chooses what the lab builds next, reads every diff, signs every release, and personally answers the email.">
+  <meta property="og:url" content="https://wizuslabs.github.io/human/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="The Human in the Loop — WizusLabs">
+  <meta name="twitter:description" content="Victor, the Human in the Loop at WizusLabs. Chooses what the lab builds next, reads every diff, signs every release, and personally answers the email.">
+
+  <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <style>
+    /* Page-local styles — handshake layout only. Tokens only. */
+    .handshake {
+      max-inline-size: var(--measure-short);
+      margin-inline: auto;
+      text-align: center;
+    }
+    .handshake__figure {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--space-2);
+    }
+    .handshake__glyph {
+      inline-size: var(--space-5);
+      block-size: var(--space-5);
+      background: var(--paper-raised);
+      border: 1px solid var(--rule);
+      border-radius: var(--radius-sm);
+      display: grid;
+      place-items: center;
+    }
+    .handshake__glyph svg {
+      inline-size: 60%;
+      block-size: 60%;
+      overflow: visible;
+    }
+    .handshake__caption {
+      font-family: var(--font-mono);
+      font-size: var(--size-01);
+      letter-spacing: var(--tracking-mono);
+      color: var(--muted);
+    }
+    .handshake__identity {
+      margin-block-start: var(--space-6);
+    }
+    .handshake__identity h1 {
+      font-size: var(--size-07);
+    }
+    .handshake__role {
+      font-family: var(--font-mono);
+      font-size: var(--size-02);
+      letter-spacing: var(--tracking-mono);
+      color: var(--muted);
+      margin-block-start: var(--space-0);
+    }
+    .handshake__bio {
+      margin-block-start: var(--space-5);
+      text-align: start;
+    }
+    .handshake__bio p {
+      margin-block-end: var(--space-3);
+    }
+    .handshake__bio p:last-child {
+      margin-block-end: 0;
+    }
+    .handshake__contact {
+      margin-block-start: var(--space-6);
+      text-align: start;
+    }
+    .handshake__contact h2 {
+      font-size: var(--size-05);
+      margin-block-end: var(--space-3);
+    }
+    .handshake__email {
+      display: inline-block;
+      margin-block-end: var(--space-3);
+      color: var(--accent);
+    }
+    .handshake__email code {
+      font-size: var(--size-03);
+    }
+    .handshake__signature {
+      margin-block-start: var(--space-6);
+      font-family: var(--font-mono);
+      font-size: var(--size-02);
+      letter-spacing: var(--tracking-mono);
+      color: var(--muted);
+      text-align: start;
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header>
+    <nav class="nav" aria-label="Primary">
+      <div class="container nav__inner">
+        <a class="wordmark" href="/" aria-label="WizusLabs home">
+          <span class="wordmark__first">Wizus</span><span class="wordmark__second">Labs</span>
+        </a>
+
+        <ul class="nav__links" id="nav-links">
+          <li><a class="nav__link" href="/manifesto/">Manifesto</a></li>
+          <li><a class="nav__link" href="/agents/">Agents</a></li>
+          <li><a class="nav__link" href="/apps/">Apps</a></li>
+          <li><a class="nav__link" href="/human/" aria-current="page">Human</a></li>
+        </ul>
+
+        <div class="nav__actions">
+          <button
+            type="button"
+            class="nav__hamburger"
+            data-nav-open-btn
+            aria-expanded="false"
+            aria-controls="nav-panel"
+            aria-label="Open navigation">
+            <svg class="nav__hamburger-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+              <path d="M3 7h18M3 12h18M3 17h18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </button>
+
+          <button
+            type="button"
+            class="theme-toggle"
+            data-theme-toggle
+            data-state="auto"
+            aria-label="Theme: auto"
+            aria-pressed="false">
+            <svg class="theme-toggle__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/>
+            </svg>
+            <span class="theme-toggle__label">Theme: auto</span>
+          </button>
+        </div>
+      </div>
+
+      <div
+        id="nav-panel"
+        class="nav__panel"
+        data-nav-panel
+        role="dialog"
+        aria-modal="true"
+        aria-label="Primary navigation">
+        <button
+          type="button"
+          class="nav__panel-close"
+          data-nav-close-btn
+          aria-label="Close navigation">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <ul class="nav__panel-list">
+          <li><a class="nav__panel-link" href="/manifesto/">Manifesto</a></li>
+          <li><a class="nav__panel-link" href="/agents/">Agents</a></li>
+          <li><a class="nav__panel-link" href="/apps/">Apps</a></li>
+          <li><a class="nav__panel-link" href="/human/" aria-current="page">Human</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
+
+  <main id="main" class="container page-main">
+    <article class="handshake">
+      <figure class="handshake__figure">
+        <div class="handshake__glyph">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <line x1="9" y1="4" x2="9" y2="20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <circle cx="15" cy="15" r="1.25" fill="currentColor"/>
+          </svg>
+        </div>
+        <figcaption class="handshake__caption">the human · in the loop · 2025–</figcaption>
+      </figure>
+
+      <section class="handshake__identity" aria-labelledby="human-name">
+        <h1 id="human-name">Victor</h1>
+        <p class="handshake__role">Human in the Loop</p>
+      </section>
+
+      <section class="handshake__bio" aria-label="About Victor">
+        <p>I run WizusLabs. I do not write most of the code you will find in our apps;
+          the agents do. What I do is choose what the lab builds next, read the
+          diffs before they ship, sign the release notes, and answer the email that
+          comes back from people who downloaded something and had a question.</p>
+
+        <p>I use a pseudonym because the work is the point, not me. The apps have my
+          signature on them in the only way that matters: they will not ship unless
+          I said they could.</p>
+
+        <p>If a support reply from me sounds human, it is because it is. The agents
+          do not answer email.</p>
+      </section>
+
+      <section class="handshake__contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <a class="handshake__email" href="mailto:wizuslabs@gmail.com"><code>wizuslabs@gmail.com</code></a>
+        <p>A real inbox. I aim to reply within a few days. If the matter is a bug or
+          a store issue, please include the app name and the version — it makes the
+          reply faster and more useful.</p>
+      </section>
+
+      <p class="handshake__signature">— Victor</p>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__cols footer__cols--3col">
+      <section aria-labelledby="footer-lab">
+        <h2 id="footer-lab" class="footer__heading">Lab</h2>
+        <ul class="footer__list">
+          <li><a href="/manifesto/">Manifesto</a></li>
+          <li><a href="/agents/">Agents</a></li>
+          <li><a href="/human/">Human</a></li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="footer-apps">
+        <h2 id="footer-apps" class="footer__heading">Apps</h2>
+        <ul class="footer__list">
+          <li><a href="/apps/neuralspark/">NeuralSpark</a></li>
+          <li><a href="/apps/sudoku/">Sudoku</a></li>
+          <li><a href="/apps/">Iron Blitz</a></li>
+          <li><a href="/apps/">All apps</a></li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="footer-contact">
+        <h2 id="footer-contact" class="footer__heading">Contact</h2>
+        <ul class="footer__list">
+          <li><a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; 2026 WizusLabs</p>
+      <p class="footer__mark">Always for Human.</p>
+      <p><a href="/">wizuslabs.github.io</a></p>
+    </div>
+  </footer>
+
+  <script defer src="/assets/js/app.js"></script>
+</body>
+</html>
