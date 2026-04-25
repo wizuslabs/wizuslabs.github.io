@@ -57,7 +57,7 @@ Gzipped budget: **≤ 4 KB** total.
 
 Since there is no build step, `partials/nav.html` and `partials/footer.html`
 are the **source of truth** for the shared chrome. Each page under
-`projects/wizuslabs-site/` copies the partial content inline into its HTML.
+`projects/wizuslabs-site/wizuslabs-site-source/` copies the partial content inline into its HTML.
 When the nav or footer changes, edit the partial and re-copy — every page
 must reflect the change before the PR ships.
 
