@@ -108,15 +108,18 @@
 
 <main id="main" class="container page-main">
   <figure class="app-card__figure">
-    <img
-      class="app-icon app-icon--lg"
-      src="/assets/img/apps/neuralspark-256.png"
-      alt="NeuralSpark app icon"
-      width="224"
-      height="224"
-      loading="eager"
-      decoding="async"
-      fetchpriority="high">
+    <picture>
+      <source type="image/webp" srcset="/assets/img/apps/neuralspark-256.webp">
+      <img
+        class="app-icon app-icon--lg"
+        src="/assets/img/apps/neuralspark-256.png"
+        alt="NeuralSpark app icon"
+        width="224"
+        height="224"
+        loading="eager"
+        decoding="async"
+        fetchpriority="high">
+    </picture>
   </figure>
 
   <header class="reading-measure stack">
