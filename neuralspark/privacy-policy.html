@@ -107,7 +107,7 @@
       <a class="u-mono" href="/apps/neuralspark/" aria-label="Back to NeuralSpark">NeuralSpark</a>
     </p>
     <h1 class="legal-frontmatter__title">NeuralSpark &mdash; Privacy Policy</h1>
-    <p class="legal-frontmatter__date">Last updated: April 26, 2026 &middot; Effective: April 26, 2026</p>
+    <p class="legal-frontmatter__date">Last updated: May 6, 2026 &middot; Effective: May 6, 2026</p>
     <a class="link legal-frontmatter__back" href="/apps/neuralspark/">&larr; Back to NeuralSpark</a>
   </div>
 
@@ -126,6 +126,8 @@
       <li><strong>Progress data</strong> &mdash; XP totals, player level, streak count, daily challenge completion status, game level progression, and streak freeze usage. Stored in SharedPreferences.</li>
       <li><strong>Feature flag states</strong> &mdash; Pro subscription status cached locally for offline access. Stored in SharedPreferences.</li>
       <li><strong>Metacognition data</strong> &mdash; if you enable Metacognition Mode, your confidence ratings (Sure/Unsure) for each answer are stored locally alongside your game results.</li>
+      <li><strong>Optional placement-improvement data (from version 1.9.2):</strong> if and only if you explicitly enable the &ldquo;Help improve placement (anonymized)&rdquo; toggle in Settings &rarr; Privacy, the App stores anonymized aggregate data from each placement test you complete. The stored payload contains: the placement-test version, the overall aggregate score (rounded to 2 decimals, range 0.0&ndash;1.0), four per-category correctness fractions, the speed-bonus value, the recommended starting tier name, and the calendar date (YYYY-MM-DD with no time-of-day). It does NOT contain any personal identifier, IP address, device information, raw question answers, response times, or any user-generated text. The toggle is OFF by default; you may turn it on or off at any time. As of this release, this data is stored only on your device and is never transmitted anywhere. A future release may add an opt-in transmission path; if it does, this Privacy Policy will be updated with effective-date notice before any transmission occurs.</li>
+      <li><strong>Optional endless-practice data (from version 1.9.2):</strong> the same opt-in toggle covers Endless Practice session events. When enabled, the App stores per-session anonymized data (per-game skill rating before/after, aggregate accuracy, episode index, calendar date) on your device. Same privacy guarantees as placement-improvement data: no PII, no IP address, no transmission, OFF by default.</li>
     </ul>
     <p>We do not operate servers, databases, or cloud services that receive any of this data. Your game data exists only on your device.</p>
 
