@@ -110,7 +110,7 @@
       <a class="u-mono" href="/apps/" aria-label="Back to Apps">Iron Blitz by WizusLabs</a>
     </p>
     <h1 class="legal-frontmatter__title">Iron Blitz &mdash; Privacy Policy</h1>
-    <p class="legal-frontmatter__date">Last updated: April 10, 2026 &middot; Effective: April 7, 2026</p>
+    <p class="legal-frontmatter__date">Last updated: May 9, 2026 &middot; Effective: April 7, 2026</p>
     <a class="link legal-frontmatter__back" href="/apps/">&larr; Back to Apps</a>
   </div>
 
@@ -197,6 +197,20 @@
 
     <h3>Platform In-App Purchase Processing</h3>
     <p>The App offers in-app purchases &mdash; including a one-time purchase (&ldquo;Iron Blitz Full Unlock&rdquo;) and subscriptions (&ldquo;Commander Pro&rdquo; annual and lifetime plans) &mdash; processed by Apple (App Store) or Google (Play Store). The App never sees, stores, or transmits your payment information, credit card details, or billing address. All payment processing is handled by the respective platform. Subscription receipt validation is handled by RevenueCat (see above).</p>
+
+    <h3>Local Notifications (flutter_local_notifications)</h3>
+    <ul>
+      <li>The App schedules a single daily local notification to remind you when a new Daily Challenge is ready (the default reminder time is 18:00 device-local time). This notification is scheduled and delivered entirely on your device by your operating system. There is no Apple Push Notification service (APNs), no Firebase Cloud Messaging (FCM), no remote push channel, and no server contact involved. We do not operate a push-notification backend.</li>
+      <li>The notification is <strong>local-only</strong>: no notification content, schedule, or delivery information is transmitted to our servers or any third party. No personal data is collected or shared as part of scheduling or delivering the notification.</li>
+      <li><strong>Permission timing.</strong> The App does not ask for notification permission on first launch. The OS notification permission prompt is shown only <strong>after you complete your first chapter</strong>, at a moment where the daily-reminder feature is contextually relevant. If you decline, the App continues to function normally and will not ask again.</li>
+      <li><strong>You can disable notifications at any time.</strong> Use the in-app Settings screen (&ldquo;Daily challenge reminder&rdquo; toggle) to cancel the scheduled reminder, or disable notifications for Iron Blitz in your device&rsquo;s OS Settings:
+        <ul>
+          <li><strong>iOS:</strong> Settings &gt; Notifications &gt; Iron Blitz</li>
+          <li><strong>Android:</strong> Settings &gt; Apps &gt; Iron Blitz &gt; Notifications</li>
+        </ul>
+      </li>
+      <li>Local notifications are classified by Apple and Google as user-functionality reminders, not marketing communications. The App does not use notifications for promotional or marketing purposes.</li>
+    </ul>
 
     <!-- Section 2 -->
     <h2>2. Data We Do NOT Collect</h2>
