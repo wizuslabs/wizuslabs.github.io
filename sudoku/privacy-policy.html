@@ -107,7 +107,7 @@
       <a class="u-mono" href="/apps/sudoku/" aria-label="Back to Sudoku">Sudoku by WizusLabs</a>
     </p>
     <h1 class="legal-frontmatter__title">Sudoku Game &mdash; Privacy Policy</h1>
-    <p class="legal-frontmatter__date">Last updated: April 20, 2026 &middot; Effective: April 19, 2026</p>
+    <p class="legal-frontmatter__date">Last updated: May 19, 2026 &middot; Effective: May 19, 2026 &middot; Previous version: April 28, 2026</p>
     <a class="link legal-frontmatter__back" href="/apps/sudoku/">&larr; Back to Sudoku</a>
   </div>
 
@@ -128,10 +128,10 @@
       <li><strong>Font scale preference</strong> (<code>sudoku_font_scale</code>) &mdash; your selected font size multiplier.</li>
       <li><strong>Pro unlock status</strong> (<code>sudoku_is_pro</code>) &mdash; whether you have unlocked Pro (removes ads).</li>
       <li><strong>Hint token balance</strong> (<code>sudoku_hint_tokens</code>) &mdash; number of hint tokens available.</li>
-      <li><strong>Ad consent status</strong> (<code>consent_completed</code>) &mdash; whether the ad consent flow has been completed.</li>
+      <li><strong>Personalized-ads preference</strong> (<code>personalized_ads_enabled</code>) &mdash; whether you opted into personalized advertising (off by default).</li>
       <li><strong>User geography</strong> (<code>user_geography</code>) &mdash; cached region bucket (GDPR, CCPA, other, unknown) for consent behavior.</li>
-      <li><strong>CCPA opt-out flag</strong> (<code>ccpa_do_not_sell</code>) &mdash; whether you opted out of sale/sharing under CCPA.</li>
-      <li><strong>ATT deferral flag</strong> (<code>att_deferred</code>) &mdash; whether the iOS App Tracking Transparency prompt is pending.</li>
+      <li><strong>CCPA &ldquo;Do Not Sell&rdquo; flag</strong> (<code>ccpa_do_not_sell</code>) &mdash; whether you opted out of sale/sharing under CCPA.</li>
+      <li><strong>ATT status flag</strong> (<code>att_status</code>) &mdash; cached iOS App Tracking Transparency authorization status.</li>
       <li><strong>Session count</strong> (<code>total_sessions_completed</code>) &mdash; lifetime completed session count (used for new-user ad protection).</li>
     </ul>
     <p>We do not operate servers, databases, or cloud services that receive any of this data. Your game data exists only on your device.</p>
@@ -140,34 +140,52 @@
     <h2>2. Data Collected by Third-Party SDKs</h2>
     <p>The App integrates the following third-party services that may collect data independently:</p>
 
-    <h3>AppLovin MAX (advertising, free-tier users only)</h3>
+    <h3>LevelPlay by Unity (formerly IronSource Sonic) &mdash; advertising mediation, free-tier users only</h3>
+    <p>LevelPlay is an advertising mediation platform owned by Unity Technologies (operated by IronSource, a Unity company). The App uses LevelPlay to serve advertisements only to users who have not purchased Sudoku Game Pro.</p>
+    <p><strong>Ad formats served:</strong></p>
     <ul>
-      <li>The App displays advertisements in the following formats: banner ads on selected screens, interstitial ads between puzzle sessions (frequency-capped: 1 per 3 puzzles, max 2 per session, with new-user and streak-milestone protection), and opt-in rewarded video ads to earn hint tokens. All ad formats are shown only to users who have not purchased Sudoku Game Pro.</li>
-      <li>AppLovin MAX is an ad mediation platform that may serve ads from multiple demand sources (including AdMob, Meta Audience Network, Unity Ads, and others). In the course of serving ads, the AppLovin SDK and its mediated networks may collect:
-        <ul>
-          <li>Device identifiers (such as the Advertising ID)</li>
-          <li>IP address</li>
-          <li>Device properties (screen resolution, display properties, battery level, available memory)</li>
-          <li>Device settings (language, timezone, volume)</li>
-          <li>App session information (session duration, app version, SDK version)</li>
-          <li>Country and timezone derived from IP address</li>
-          <li>Ad interaction data (impressions, clicks, video completion events)</li>
-          <li>Ad preferences and interest segments</li>
-        </ul>
-      </li>
-      <li>Rewarded video ads may additionally collect video completion data (e.g., quartile progress and reward grant events).</li>
-      <li>AppLovin SDK communicates with the following domains: <code>d.applovin.com</code>, <code>rt.applovin.com</code>, <code>ms.applovin.com</code>.</li>
-      <li>If you upgrade to Sudoku Game Pro, no ads are displayed and no ad-related data collection occurs.</li>
-      <li>AppLovin&rsquo;s Privacy Policy: <a href="https://www.applovin.com/privacy/">https://www.applovin.com/privacy/</a></li>
+      <li><strong>Interstitial ads</strong> between puzzle sessions &mdash; frequency-capped (1 per 3 puzzle completions, max 2 per session, with new-user and streak-milestone protection).</li>
+      <li><strong>Opt-in rewarded video ads</strong> &mdash; users may voluntarily watch a rewarded video to earn hint tokens. Rewarded ads are never auto-played.</li>
     </ul>
-
-    <h3>Ad Consent</h3>
+    <p>The App does <strong>not</strong> display banner ads. Banner ads were removed entirely from the product on 2026-05-18. No persistent ad surfaces are present anywhere in the App.</p>
+    <p>In the course of serving ads, the LevelPlay SDK and its mediated demand partners may collect:</p>
     <ul>
-      <li>On first launch, the App will request your consent for personalized advertising.</li>
-      <li>On iOS, the App Tracking Transparency (ATT) prompt is presented after your first puzzle completion, asking whether you allow the App to track your activity across other companies&rsquo; apps and websites for ad personalization.</li>
-      <li>In the European Union and European Economic Area (EU/EEA), a consent form compliant with the IAB Transparency and Consent Framework (TCF v2.2) is presented via AppLovin MAX&rsquo;s built-in Consent Management Platform (CMP).</li>
-      <li>If you decline personalized advertising, the App will continue to show advertisements, but they will be non-personalized (not based on your interests or activity). Declining does not remove ads; it changes which ads you see.</li>
-      <li>You can change your ad personalization preference at any time in the App&rsquo;s Settings screen or through your device settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads).</li>
+      <li>Device identifiers (Advertising ID &mdash; IDFA on iOS, GAID on Android)</li>
+      <li>IP address (used for geo-targeting and frequency capping)</li>
+      <li>Device model and manufacturer</li>
+      <li>Operating system name and version</li>
+      <li>App session events (session duration, app version, SDK version)</li>
+      <li>Ad interaction events (impressions, clicks, video completion / quartile progress, reward grant events)</li>
+      <li>Country and timezone derived from IP address</li>
+    </ul>
+    <p><strong>Mediated demand partners.</strong> LevelPlay routes ad requests through a waterfall of demand partners. The partners that may participate in serving a given impression include, at minimum:</p>
+    <ul>
+      <li>Unity Ads (Unity Technologies)</li>
+      <li>AdMob (Google)</li>
+      <li>AppLovin</li>
+      <li>Meta Audience Network</li>
+      <li>Pangle (ByteDance)</li>
+      <li>Mintegral</li>
+      <li>Vungle</li>
+      <li>IronSource Exchange</li>
+      <li>Other LevelPlay waterfall partners as the demand network evolves</li>
+    </ul>
+    <p>Each partner operates under its own privacy policy. The current authoritative list and per-partner privacy disclosures are maintained by Unity at LevelPlay&rsquo;s privacy documentation.</p>
+    <p><strong>Reference links:</strong></p>
+    <ul>
+      <li>LevelPlay / IronSource privacy policy: <a href="https://www.ironsrc.com/privacy-policy/">https://www.ironsrc.com/privacy-policy/</a></li>
+      <li>Unity privacy policy: <a href="https://unity.com/legal/privacy-policy">https://unity.com/legal/privacy-policy</a></li>
+    </ul>
+    <p>If you upgrade to Sudoku Pro, no ads are displayed and no ad-related data collection by LevelPlay or its mediated partners occurs.</p>
+
+    <h3>Ad Consent &mdash; just-in-time, non-personalized by default</h3>
+    <p>Sudoku Game uses a just-in-time (JIT) consent model. There is no upfront consent dialog on first launch.</p>
+    <ul>
+      <li><strong>Default behaviour.</strong> Ads serve as <strong>non-personalized</strong> by default everywhere, including the European Economic Area. In the EEA, the legal basis for non-personalized ad serving is legitimate interest under GDPR Article 6(1)(f) (the legitimate interest of operating an ad-supported free product). Non-personalized ads use only contextual signals (app category, coarse country, language) and do not rely on cross-app tracking or interest profiles.</li>
+      <li><strong>Opt-in to personalized ads.</strong> Users may opt into personalized advertising by enabling the toggle at <strong>Profile &rarr; Privacy &amp; ads &rarr; Personalized ads</strong>. Toggling this on switches the LevelPlay consent signal to &ldquo;consent granted&rdquo; for personalized advertising. Toggling it off returns to non-personalized serving.</li>
+      <li><strong>iOS App Tracking Transparency.</strong> On iOS, the first time a user enables the Personalized ads toggle, Apple&rsquo;s App Tracking Transparency (ATT) prompt is shown via the <code>app_tracking_transparency</code> package. If the user denies tracking at the ATT prompt, the App respects that denial and serves only non-personalized ads regardless of the in-app toggle position. The user can change the ATT setting later in iOS Settings &gt; Privacy &amp; Security &gt; Tracking.</li>
+      <li><strong>CCPA &ldquo;Do Not Sell My Personal Information.&rdquo;</strong> California residents see a &ldquo;Do not sell my personal information&rdquo; toggle at <strong>Profile &rarr; Privacy &amp; ads</strong>. When enabled, the App signals the CCPA opt-out to LevelPlay; LevelPlay propagates the signal to mediated demand partners that honor the CCPA framework.</li>
+      <li><strong>Withdrawing or changing preferences.</strong> All consent / opt-out controls can be toggled at any time from Profile &rarr; Privacy &amp; ads. Changes take effect immediately on the next ad request.</li>
     </ul>
 
     <h3>In-App Purchases (RevenueCat + Apple / Google billing)</h3>
@@ -201,7 +219,7 @@
           <li>The stack trace, thread state, and register state captured at the moment of the crash</li>
           <li>Device model (e.g. &ldquo;iPhone 15 Pro&rdquo;, &ldquo;Pixel 7&rdquo;)</li>
           <li>Operating system name and version (e.g. &ldquo;iOS 17.4&rdquo;, &ldquo;Android 14&rdquo;)</li>
-          <li>App version and build number (e.g. &ldquo;1.0.0+11&rdquo;)</li>
+          <li>App version and build number (e.g. &ldquo;1.0.0+32&rdquo;)</li>
           <li>Firebase Installation ID &mdash; a per-install, Firebase-generated identifier that is <strong>not</strong> the device advertising identifier and cannot be used to track you across other apps or websites</li>
           <li>IP address at the time of the crash, which Google truncates before storage (used only to derive an approximate country/region for aggregation)</li>
         </ul>
@@ -236,7 +254,7 @@
     <h2>4. Data Sharing</h2>
     <p>We do not sell, rent, share, or transfer your personal data to any third party.</p>
     <ul>
-      <li><strong>AppLovin MAX</strong> (and its mediated ad networks) operates under its own privacy policy (linked above) and may collect data as described in Section 2. We do not receive personally identifiable information from this service.</li>
+      <li><strong>LevelPlay (Unity Technologies / IronSource)</strong> and its mediated demand partners (listed in Section 2) operate under their own privacy policies. They may collect ad-related data as described in Section 2. We do not receive personally identifiable information from LevelPlay or its partners.</li>
       <li><strong>Firebase Crashlytics (Google LLC)</strong> acts as a data processor on our behalf for crash diagnostics, under Google&rsquo;s Data Processing and Security Terms. Crash data is not shared with third parties for advertising, marketing, or profiling purposes.</li>
       <li><strong>RevenueCat, Inc.</strong> acts as a data processor on our behalf for purchase verification and cross-device entitlement restore, as described in Section 2.</li>
       <li><strong>Game results and progress data</strong> are stored only on your device and are never transmitted anywhere.</li>
@@ -245,10 +263,10 @@
     <!-- Section 5 -->
     <h2>5. Data Retention</h2>
     <ul>
-      <li>All locally stored data (game results, preferences, progress, ad consent state) persists on your device until you uninstall the App or manually clear the App&rsquo;s data through your device settings.</li>
+      <li>All locally stored data (game results, preferences, progress, ad-consent state) persists on your device until you uninstall the App or manually clear the App&rsquo;s data through your device settings.</li>
       <li>We do not maintain any server-side data stores. There is no server-side data to retain, expire, or delete.</li>
       <li>Firebase Crashlytics retains crash reports for 90 days (Firebase default) before automatic deletion. The Firebase Installation ID attached to a crash report is reset on uninstall, on app-data clear, and on reinstall.</li>
-      <li>Third-party services (AppLovin MAX and its mediated ad networks, RevenueCat, Firebase Crashlytics) retain data according to their own privacy policies.</li>
+      <li>Third-party services (LevelPlay and its mediated demand partners, RevenueCat, Firebase Crashlytics) retain data according to their own privacy policies.</li>
     </ul>
 
     <!-- Section 6 -->
@@ -256,7 +274,7 @@
     <ul>
       <li>All data stored by the App resides in your device&rsquo;s local storage, protected by your device&rsquo;s built-in security features (device encryption, lock screen, biometric authentication).</li>
       <li>The App does not transmit your game data, preferences, or progress over any network.</li>
-      <li>Communications between the App and third-party services (AppLovin MAX for ad delivery) use industry-standard encrypted connections (HTTPS/TLS).</li>
+      <li>Communications between the App and third-party services (LevelPlay for ad delivery, Firebase Crashlytics for crash diagnostics, RevenueCat for purchase verification) use industry-standard encrypted connections (HTTPS/TLS).</li>
     </ul>
 
     <!-- Section 7 -->
@@ -274,8 +292,8 @@
     <h3>All users:</h3>
     <ul>
       <li>You can delete all App data at any time by uninstalling the App or clearing the App&rsquo;s data in your device settings (iOS: Settings &gt; General &gt; iPhone Storage &gt; Sudoku Game; Android: Settings &gt; Apps &gt; Sudoku Game &gt; Storage &gt; Clear Data).</li>
-      <li>You can opt out of personalized advertising by adjusting your device&rsquo;s ad settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads).</li>
-      <li>You can upgrade to Sudoku Game Pro (yearly subscription $2.99/year or lifetime $9.99) to remove all advertising from the App.</li>
+      <li>You can opt out of personalized advertising by leaving the &ldquo;Personalized ads&rdquo; toggle off at <strong>Profile &rarr; Privacy &amp; ads</strong> (it is off by default). You may additionally adjust your device&rsquo;s ad settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads).</li>
+      <li>You can upgrade to Sudoku Pro (yearly subscription $2.99/year or lifetime $9.99) to remove all advertising from the App.</li>
       <li>If you purchased Sudoku Pro Yearly, you can cancel the auto-renewal at any time in your device&rsquo;s subscription settings (iOS: Settings &gt; [your name] &gt; Subscriptions; Android: Google Play Store &gt; Menu &gt; Payments &amp; subscriptions &gt; Subscriptions). Canceling stops future charges; Pro access remains active until the end of the current paid period.</li>
       <li>You can request a refund or manage purchase history through Apple (<a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>) or Google (<a href="https://play.google.com/store/account/orderhistory">play.google.com/store/account/orderhistory</a>) according to their refund policies.</li>
     </ul>
@@ -284,14 +302,14 @@
     <ul>
       <li>You have rights under the General Data Protection Regulation including the right to access, rectification, erasure, restriction of processing, data portability, and objection.</li>
       <li>Because Sudoku Game stores all user data locally on your device and we do not maintain any server-side data, these rights are exercised entirely through your device. You have full control over your data at all times.</li>
-      <li>For ad-related data collected by AppLovin MAX and its mediated ad networks, you can exercise your GDPR rights by managing your consent through the consent form presented by the App (powered by AppLovin MAX&rsquo;s built-in CMP). You may also withdraw or change your consent at any time in the App&rsquo;s Settings screen.</li>
+      <li>Ads served in the EEA are non-personalized by default under the legitimate-interest legal basis of GDPR Article 6(1)(f). For personalized ads served by LevelPlay and its mediated demand partners (only if you have opted in at Profile &rarr; Privacy &amp; ads), the legal basis is your consent under GDPR Article 6(1)(a). You may withdraw consent at any time by toggling Personalized ads off; withdrawal takes effect immediately on the next ad request.</li>
     </ul>
 
     <h3>Users in California (CCPA):</h3>
     <ul>
       <li>California residents have the right to know what personal information is collected, to request deletion, and to opt out of the sale of personal information.</li>
       <li>We do not sell personal information that we collect directly. All locally stored data is under your direct control on your device.</li>
-      <li>However, AppLovin MAX&rsquo;s (and its mediated ad networks&rsquo;) use of device identifiers and ad interaction data to serve personalized advertisements may constitute a &ldquo;sale&rdquo; of personal information under the CCPA&rsquo;s broad definition. California residents can opt out of personalized advertising by declining the consent prompt within the App, through their device settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads), or by purchasing Sudoku Game Pro to remove ads entirely.</li>
+      <li>However, LevelPlay&rsquo;s (and its mediated demand partners&rsquo;) use of device identifiers and ad interaction data to serve personalized advertisements may constitute a &ldquo;sale&rdquo; of personal information under the CCPA&rsquo;s broad definition. California residents can opt out by toggling <strong>&ldquo;Do not sell my personal information&rdquo;</strong> at Profile &rarr; Privacy &amp; ads, by leaving the Personalized ads toggle off, by adjusting their device settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads), or by purchasing Sudoku Pro to remove ads entirely.</li>
     </ul>
 
     <!-- Section 9 -->
@@ -318,7 +336,7 @@
     <ul>
       <li><strong>App Name:</strong> Sudoku Game</li>
       <li><strong>Developer:</strong> WizusLabs</li>
-      <li><strong>Platforms:</strong> iOS (App Store), Android (Google Play), Web</li>
+      <li><strong>Platforms:</strong> iOS (App Store), Android (Google Play)</li>
       <li><strong>Category:</strong> Games (Puzzle)</li>
     </ul>
 
