@@ -126,18 +126,18 @@
     <ul>
       <li><strong>High scores</strong> &mdash; your best wave reached and highest score. Stored in SharedPreferences (device-local key-value storage).</li>
       <li><strong>App preferences</strong> &mdash; sound toggle, music toggle, and other settings. Stored in SharedPreferences.</li>
-      <li><strong>In-app purchase entitlement cache</strong> &mdash; a local record of whether the Full Unlock has been purchased, used to enable offline access to purchased content. Stored in SharedPreferences. The authoritative purchase record is maintained by Apple (App Store) or Google (Play Store), not by us.</li>
+      <li><strong>In-app purchase entitlement cache</strong> &mdash; a local record of whether an ad-removing entitlement (Commander Pro, or the legacy Full Unlock for prior owners) is active, used to enable offline access to purchased content. Stored in SharedPreferences. The authoritative purchase record is maintained by Apple (App Store) or Google (Play Store), not by us.</li>
     </ul>
     <p>We do not operate servers, databases, or cloud services that receive any of this data. Your game data exists only on your device.</p>
 
     <h3>1b. Data Collected by Third-Party SDKs</h3>
     <p>The App integrates third-party services that may collect data independently. The App itself does not collect, transmit, or process any personal data. However, the following SDKs operate within the App and are subject to their own data collection practices.</p>
 
-    <h3>Appodeal Stack (advertising, free-tier users only)</h3>
+    <h3>Unity LevelPlay (ironSource) advertising, free-tier users only</h3>
     <ul>
-      <li>The App displays advertisements (banner, interstitial between rounds, and opt-in rewarded video) via Appodeal Stack, an ad mediation platform operated by Appodeal Inc. that serves ads from multiple integrated demand sources. Ads are shown only to users who have not purchased the Iron Swarm Full Unlock. Users who purchase the Full Unlock see no ads.</li>
-      <li>In this build, the App ships with adapters for the following mediated networks: Google AdMob, Meta Audience Network, AppLovin, AppLovin MAX, Unity Ads, ironSource (LevelPlay), Mintegral, Vungle, Bigo Ads, InMobi, Yandex, MyTarget, DT Exchange, BidMachine, and Amazon Publisher Services. The specific networks that serve a given impression are determined at request time by Appodeal&rsquo;s mediation waterfall.</li>
-      <li>In the course of serving ads, the Appodeal SDK and its mediated networks may collect:
+      <li>The App displays advertisements (banner, interstitial between rounds, and opt-in rewarded video) via Unity LevelPlay (ironSource), an ad mediation platform operated by Unity Technologies. LevelPlay mediates ad demand from integrated sources, including Google AdMob served as a mediated adapter. Ads are shown only to users who have not removed advertising through a qualifying in-app purchase (see &ldquo;Commander Pro&rdquo; below). Users with an active ad-removing entitlement see no ads.</li>
+      <li>The specific demand source that serves a given impression is determined at request time by LevelPlay&rsquo;s mediation logic. Google AdMob may serve impressions as one mediated source within LevelPlay.</li>
+      <li>In the course of serving ads, the LevelPlay SDK and its mediated sources may collect:
         <ul>
           <li>Device identifiers (such as the Advertising ID &mdash; IDFA on iOS after ATT consent, GAID on Android)</li>
           <li>IP address</li>
@@ -147,23 +147,22 @@
           <li>Country and timezone derived from IP address</li>
           <li>Ad interaction data (impressions, clicks, video completion events)</li>
           <li>Ad preferences and interest segments</li>
-          <li>IAB Transparency and Consent Framework (TCFv2) consent string</li>
+          <li>Consent signals (such as the consent string collected through the in-app consent flow)</li>
           <li>SKAdNetwork postbacks (iOS) for measurement and conversion attribution</li>
         </ul>
       </li>
-      <li>Third-party measurement partners may process ad viewability and verification data in accordance with the Open Measurement Working Group standards.</li>
       <li>Rewarded video ads may additionally collect video completion data (e.g., quartile progress and reward grant events).</li>
-      <li>On iOS, the App declares the SKAdNetwork identifiers required by Appodeal&rsquo;s mediated networks in <code>Info.plist</code> so Apple-attested ad attribution can occur without cross-app tracking.</li>
-      <li>This data collection is performed by Appodeal and the mediated networks for ad delivery purposes. It is not used by WizusLabs, and we do not receive personally identifiable information from these services.</li>
-      <li>Appodeal&rsquo;s Privacy Policy: <a href="https://appodeal.com/privacy-policy">https://appodeal.com/privacy-policy</a>. Privacy policies for the major mediated networks are available on each provider&rsquo;s site (for example: AdMob/Google, Meta Audience Network, AppLovin, Unity Ads, ironSource, Mintegral, Vungle, Bigo Ads, InMobi, Yandex, MyTarget, DT Exchange, BidMachine, Amazon).</li>
+      <li>On iOS, the App declares the SKAdNetwork identifiers required by LevelPlay&rsquo;s mediated sources in <code>Info.plist</code> so Apple-attested ad attribution can occur without cross-app tracking.</li>
+      <li>This data collection is performed by Unity LevelPlay (ironSource) and its mediated sources for ad delivery purposes. It is not used by WizusLabs, and we do not receive personally identifiable information from these services.</li>
+      <li>Unity (ironSource / LevelPlay) Privacy Policy: <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">https://unity.com/legal/game-player-and-app-user-privacy-policy</a></li>
       <li>Google AdMob Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
     </ul>
 
     <h3>Ad Consent</h3>
     <ul>
-      <li>On first launch, the App will request your consent for personalized advertising.</li>
-      <li>On iOS, the App Tracking Transparency (ATT) prompt is presented as part of Appodeal SDK initialization, asking whether you allow the App to track your activity across other companies&rsquo; apps and websites for ad personalization. If you decline ATT, the IDFA is not made available to the SDK and ad personalization is restricted accordingly.</li>
-      <li>In the European Union and European Economic Area (EU/EEA), a consent form compliant with the IAB Transparency and Consent Framework (TCF v2.2) is presented via Appodeal&rsquo;s built-in Consent Management Platform (CMP), which propagates your consent signals to all mediated networks.</li>
+      <li>On first launch, the App will request your consent for personalized advertising through Unity LevelPlay&rsquo;s consent flow.</li>
+      <li>On iOS, the App Tracking Transparency (ATT) prompt is presented as part of LevelPlay SDK initialization, asking whether you allow the App to track your activity across other companies&rsquo; apps and websites for ad personalization. If you decline ATT, the IDFA is not made available to the SDK and ad personalization is restricted accordingly.</li>
+      <li>In the European Union and European Economic Area (EU/EEA), a consent form is presented via Unity LevelPlay&rsquo;s consent flow, which propagates your consent signals to the mediated demand sources.</li>
       <li>If you decline personalized advertising, the App will continue to show advertisements, but they will be non-personalized (not based on your interests or activity). Declining does not remove ads; it changes which ads you see.</li>
       <li>You can change your ad consent preference at any time through the consent form (accessible via the App&rsquo;s Settings screen) or through your device settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads).</li>
     </ul>
@@ -202,7 +201,7 @@
     </ul>
 
     <h3>Platform In-App Purchase Processing</h3>
-    <p>The App offers in-app purchases &mdash; including a one-time purchase (&ldquo;Iron Swarm Full Unlock&rdquo;) and subscriptions (&ldquo;Commander Pro&rdquo; annual and lifetime plans) &mdash; processed by Apple (App Store) or Google (Play Store). The App never sees, stores, or transmits your payment information, credit card details, or billing address. All payment processing is handled by the respective platform. Subscription receipt validation is handled by RevenueCat (see above).</p>
+    <p>The App offers in-app purchases &mdash; Commander Pro, available as an auto-renewable annual subscription ($9.99/year) or a one-time lifetime purchase ($24.99) &mdash; processed by Apple (App Store) or Google (Play Store). A legacy one-time &ldquo;Full Unlock&rdquo; purchase is honored for prior owners but is not offered in version 1.0. The App never sees, stores, or transmits your payment information, credit card details, or billing address. All payment processing is handled by the respective platform. Receipt validation is handled by RevenueCat (see above).</p>
 
     <h3>Google Fonts (typography)</h3>
     <ul>
@@ -264,7 +263,7 @@
     <h2>3. Data Sharing</h2>
     <p>We do not sell, rent, share, or transfer your personal data to any third party.</p>
     <ul>
-      <li><strong>Appodeal Stack</strong> (and its mediated ad networks listed in Section 1b), <strong>Firebase Crashlytics</strong>, <strong>RevenueCat</strong>, and the <strong>Google Fonts CDN</strong> (only when a non-bundled font weight is requested) operate under their own respective privacy policies (linked above) and may collect data as described in Section 1b. We do not receive personally identifiable information from these services.</li>
+      <li><strong>Unity LevelPlay (ironSource)</strong> (and the ad demand sources it mediates, including Google AdMob), <strong>Firebase Crashlytics</strong>, <strong>RevenueCat</strong>, and the <strong>Google Fonts CDN</strong> (only when a non-bundled font weight is requested) operate under their own respective privacy policies (linked above) and may collect data as described in Section 1b. We do not receive personally identifiable information from these services.</li>
       <li>The <strong>In-App Review Prompt</strong> and the <strong>System Share Sheet</strong> are platform-provided services (Apple StoreKit / Google Play In-App Review and the iOS / Android share sheet, respectively). When you choose to invoke them, the platform &mdash; and any destination application you select &mdash; operates under its own privacy policy. The App does not transmit any data to those services on your behalf.</li>
       <li><strong>High scores and preferences</strong> are stored only on your device and are never transmitted anywhere.</li>
       <li><strong>In-app purchase transactions</strong> are processed by Apple or Google. We receive only an entitlement confirmation (purchased or not purchased), not your payment details.</li>
@@ -275,7 +274,7 @@
     <ul>
       <li>All locally stored data (high scores, preferences, purchase entitlement cache) persists on your device until you uninstall the App or manually clear the App&rsquo;s data through your device settings.</li>
       <li>We do not maintain any server-side data stores. There is no server-side data to retain, expire, or delete.</li>
-      <li>Third-party services (Appodeal Stack and its mediated ad networks, Firebase Crashlytics, RevenueCat) retain data according to their own privacy policies.</li>
+      <li>Third-party services (Unity LevelPlay (ironSource) and the demand sources it mediates, Firebase Crashlytics, RevenueCat) retain data according to their own privacy policies.</li>
     </ul>
 
     <!-- Section 5 -->
@@ -283,7 +282,7 @@
     <ul>
       <li>All data stored by the App resides in your device&rsquo;s local storage, protected by your device&rsquo;s built-in security features (device encryption, lock screen, biometric authentication).</li>
       <li>The App does not transmit your game data or preferences over any network.</li>
-      <li>Communications between the App and third-party services (Appodeal Stack for ad delivery, Firebase Crashlytics for crash reporting, RevenueCat for subscription management) use industry-standard encrypted connections (HTTPS/TLS).</li>
+      <li>Communications between the App and third-party services (Unity LevelPlay (ironSource) for ad delivery, Firebase Crashlytics for crash reporting, RevenueCat for subscription management) use industry-standard encrypted connections (HTTPS/TLS).</li>
     </ul>
 
     <!-- Section 6 -->
@@ -306,7 +305,7 @@
           <li><strong>Android:</strong> Settings &gt; Apps &gt; Iron Swarm &gt; Storage &gt; Clear Data</li>
         </ul>
       </li>
-      <li>You can purchase the Iron Swarm Full Unlock to remove all advertising from the App.</li>
+      <li>You can purchase Commander Pro (annual subscription or one-time lifetime) to remove all advertising from the App. Prior owners of the legacy Full Unlock retain their ad-free entitlement.</li>
       <li>You can manage ad-related settings through your device:
         <ul>
           <li><strong>iOS:</strong> Settings &gt; Privacy &amp; Security &gt; Tracking</li>
@@ -319,7 +318,7 @@
     <ul>
       <li>You have rights under the General Data Protection Regulation including the right to access, rectification, erasure, restriction of processing, data portability, and objection.</li>
       <li>Because Iron Swarm stores all user data locally on your device and we do not maintain any server-side data, these rights are exercised entirely through your device. You have full control over your data at all times.</li>
-      <li>For ad-related data collected by Appodeal Stack and its mediated ad networks, you can exercise your GDPR rights by managing your consent through the consent form presented by the App (powered by Appodeal&rsquo;s built-in CMP). You may also withdraw or change your consent at any time in the App&rsquo;s Settings screen.</li>
+      <li>For ad-related data collected by Unity LevelPlay (ironSource) and the demand sources it mediates, you can exercise your GDPR rights by managing your consent through the consent form presented by the App (powered by LevelPlay&rsquo;s consent flow). You may also withdraw or change your consent at any time in the App&rsquo;s Settings screen.</li>
       <li>For data collected by Firebase Crashlytics, please refer to their privacy policy (linked in Section 1b) for information on exercising your GDPR rights.</li>
     </ul>
 
@@ -327,7 +326,7 @@
     <ul>
       <li>California residents have the right to know what personal information is collected, to request deletion, and to opt out of the sale of personal information.</li>
       <li>We do not sell personal information that we collect directly. All locally stored data is under your direct control on your device.</li>
-      <li>Appodeal Stack&rsquo;s (and its mediated ad networks&rsquo;) use of device identifiers and ad interaction data to serve personalized advertisements may constitute a &ldquo;sale&rdquo; of personal information under the CCPA&rsquo;s broad definition. California residents can opt out of personalized advertising by declining the consent prompt within the App, through their device settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads), or by purchasing the Iron Swarm Full Unlock to remove ads entirely.</li>
+      <li>Unity LevelPlay (ironSource) and the demand sources it mediates use device identifiers and ad interaction data to serve personalized advertisements, which may constitute a &ldquo;sale&rdquo; of personal information under the CCPA&rsquo;s broad definition. California residents can opt out of personalized advertising by declining the consent prompt within the App, through their device settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads), or by purchasing Commander Pro (annual or lifetime) to remove ads entirely. Prior owners of the legacy Full Unlock remain ad-free.</li>
     </ul>
 
     <!-- Section 8 -->
@@ -357,9 +356,9 @@
       <li><strong>Platforms:</strong> iOS (App Store), Android (Google Play), Web, Windows, macOS, Linux</li>
       <li><strong>Category:</strong> Games (Action / Arcade)</li>
       <li><strong>Engine:</strong> Flutter + Flame</li>
-      <li><strong>Ad SDK:</strong> Appodeal Stack (mediation across AdMob, Meta Audience Network, AppLovin, Unity Ads, ironSource, and others &mdash; see &sect;1b)</li>
+      <li><strong>Ad SDK:</strong> Unity LevelPlay (ironSource) mediation, with Google AdMob served as a mediated source &mdash; see &sect;1b</li>
       <li><strong>Crash Reporting:</strong> Firebase Crashlytics</li>
-      <li><strong>In-App Purchases:</strong> One non-consumable (&ldquo;Full Unlock&rdquo; &mdash; removes ads, unlocks Mission Mode); subscriptions (&ldquo;Commander Pro&rdquo; &mdash; $9.99/year annual, $24.99 lifetime)</li>
+      <li><strong>In-App Purchases:</strong> Commander Pro (annual subscription $9.99/year, or one-time lifetime $24.99 &mdash; removes ads, removes wave cap, unlocks Mission Mode); legacy &ldquo;Full Unlock&rdquo; honored for prior owners, not offered in v1.0</li>
       <li><strong>Subscription Management:</strong> RevenueCat</li>
       <li><strong>Data Storage:</strong> Local only (SharedPreferences). No server. No cloud sync.</li>
     </ul>

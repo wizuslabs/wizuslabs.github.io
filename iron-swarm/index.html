@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iron Swarm — WizusLabs</title>
+  <meta name="description" content="Iron Swarm: a top-down tank arcade. Six historical missions, a daily challenge, and an endless campaign with multi-phase boss fights and boss-chest field modules.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#FBF9F4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0E1013" media="(prefers-color-scheme: dark)">
+
+  <link rel="canonical" href="https://wizuslabs.github.io/iron-swarm/">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Iron Swarm — WizusLabs">
+  <meta property="og:description" content="Top-down tank arcade combat. Six historical missions, a daily challenge, and an endless campaign with multi-phase boss fights.">
+  <meta property="og:url" content="https://wizuslabs.github.io/iron-swarm/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="WizusLabs">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Iron Swarm — WizusLabs">
+  <meta name="twitter:description" content="Top-down tank arcade combat. Six historical missions, a daily challenge, and an endless campaign with multi-phase boss fights.">
+
+  <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/js/app.js"></script>
+</head>
+<body>
+<!--
+  nav.html — SOURCE OF TRUTH for the site nav.
+  No build tool. Copy this block inline into each page's <body>.
+  If nav changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.1 + §11 (wordmark) + §7.10 (theme toggle).
+-->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <nav class="nav" aria-label="Primary">
+    <div class="container nav__inner">
+      <a class="wordmark" href="/" aria-label="WizusLabs home">
+        <span class="wordmark__first">Wizus</span><span class="wordmark__second">Labs</span>
+      </a>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a class="nav__link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__link" href="/agents/">Agents</a></li>
+        <li><a class="nav__link" href="/apps/" aria-current="page">Apps</a></li>
+        <li><a class="nav__link" href="/human/">Human</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button
+          type="button"
+          class="nav__hamburger"
+          data-nav-open-btn
+          aria-expanded="false"
+          aria-controls="nav-panel"
+          aria-label="Open navigation">
+          <svg class="nav__hamburger-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M3 7h18M3 12h18M3 17h18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          class="theme-toggle"
+          data-theme-toggle
+          data-state="auto"
+          aria-label="Theme: auto"
+          aria-pressed="false">
+          <svg class="theme-toggle__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/>
+          </svg>
+          <span class="theme-toggle__label">Theme: auto</span>
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="nav-panel"
+      class="nav__panel"
+      data-nav-panel
+      role="dialog"
+      aria-modal="true"
+      aria-label="Primary navigation">
+      <button
+        type="button"
+        class="nav__panel-close"
+        data-nav-close-btn
+        aria-label="Close navigation">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+          <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <ul class="nav__panel-list">
+        <li><a class="nav__panel-link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__panel-link" href="/agents/">Agents</a></li>
+        <li><a class="nav__panel-link" href="/apps/" aria-current="page">Apps</a></li>
+        <li><a class="nav__panel-link" href="/human/">Human</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Screen-reader announcement target for theme toggle -->
+<div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
+
+<main id="main" class="container page-main">
+  <figure class="app-card__figure">
+    <img
+      class="app-icon app-icon--lg"
+      src="/assets/img/apps/iron-swarm-256.png"
+      alt="Iron Swarm app icon"
+      width="224"
+      height="224"
+      loading="eager"
+      decoding="async"
+      fetchpriority="high">
+  </figure>
+
+  <header class="reading-measure stack">
+    <h1>Iron Swarm</h1>
+    <p class="hero-manifesto__lead">Top-down tank arcade combat.</p>
+    <p class="u-mono app-card__version">ios + android · arcade</p>
+  </header>
+
+  <section class="reading-measure stack-lg app-detail-section" aria-labelledby="is-what">
+    <h2 id="is-what">What it does</h2>
+    <p>Iron Swarm is a top-down 2D tank arcade game. Drive your tank through tight, readable battlefields, manage your line of fire, and push through waves of enemy armor.</p>
+    <p>There are six historical missions, a daily challenge, and an endless campaign with multi-phase boss fights. Boss encounters drop boss-chest field modules — pick-ups that change how your tank handles for the run.</p>
+    <p>Commander Pro is an optional upgrade for players who want it. It is offered as a subscription or a one-time lifetime unlock. The core game stands on its own without it.</p>
+  </section>
+
+  <section class="reading-measure stack-lg app-detail-section" aria-labelledby="is-features">
+    <h2 id="is-features">In the box</h2>
+    <ul>
+      <li>Six historical missions.</li>
+      <li>A daily challenge.</li>
+      <li>An endless campaign with multi-phase boss fights.</li>
+      <li>Boss-chest field modules that reshape a run.</li>
+    </ul>
+  </section>
+
+  <section class="reading-measure stack app-detail-section" aria-labelledby="is-get-it">
+    <h2 id="is-get-it">Get it</h2>
+    <ul class="u-mono get-it-links">
+      <!-- TODO: replace placeholders with the final store URLs once the listings are publicly indexed. -->
+      <li><a class="link link--external" href="https://apps.apple.com/app/iron-swarm" target="_blank" rel="noopener noreferrer">App Store</a> <span class="u-mono">(TODO: final URL)</span></li>
+      <li><a class="link link--external" href="https://play.google.com/store/apps/details?id=com.wizuslabs.iron_swarm" target="_blank" rel="noopener noreferrer">Google Play</a> <span class="u-mono">(TODO: final URL)</span></li>
+    </ul>
+  </section>
+
+  <section class="reading-measure stack app-detail-section" aria-labelledby="is-privacy">
+    <h2 id="is-privacy">Privacy</h2>
+    <p>Iron Swarm is supported by ads and uses analytics and crash reporting. Third-party SDKs may collect limited device data per their own privacy policies. Full details are in the Privacy Policy below.</p>
+  </section>
+
+  <section class="reading-measure stack app-detail-section" aria-labelledby="is-policies">
+    <h2 id="is-policies">Policies</h2>
+    <ul>
+      <li><a class="link" href="/iron-swarm/privacy-policy.html">Privacy Policy</a></li>
+      <li><a class="link" href="/iron-swarm/support.html">Support</a></li>
+      <li><a class="link" href="/iron-swarm/terms-of-use.html">Terms of Use</a></li>
+    </ul>
+  </section>
+</main>
+
+<!--
+  footer.html — SOURCE OF TRUTH for the site footer.
+  No build tool. Copy this block inline into each page's <body>.
+  If the footer changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.2 + §7.20 (footer mark).
+  Every legacy store-submission URL lives here by design.
+-->
+<footer class="footer">
+  <div class="footer__cols footer__cols--3col">
+    <section aria-labelledby="footer-lab">
+      <h2 id="footer-lab" class="footer__heading">Lab</h2>
+      <ul class="footer__list">
+        <li><a href="/manifesto/">Manifesto</a></li>
+        <li><a href="/agents/">Agents</a></li>
+        <li><a href="/human/">Human</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-apps">
+      <h2 id="footer-apps" class="footer__heading">Apps</h2>
+      <ul class="footer__list">
+        <li><a href="/apps/neuralspark/">NeuralSpark</a></li>
+        <li><a href="/apps/sudoku/">Sudoku</a></li>
+        <li><a href="/apps/">Iron Swarm</a></li>
+        <li><a href="/apps/">All apps</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-contact">
+      <h2 id="footer-contact" class="footer__heading">Contact</h2>
+      <ul class="footer__list">
+        <li><a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; 2026 WizusLabs</p>
+    <p class="footer__mark">Always for Human.</p>
+    <p><a href="/">wizuslabs.github.io</a></p>
+  </div>
+</footer>
+</body>
+</html>
