@@ -2,7 +2,7 @@
 # Updated 2026-05-25
 #
 # Mediator: Unity LevelPlay (sole). All three live apps — NeuralSpark
-# (brain-training), Sudoku by WizusLabs, Iron Blitz (tank-game) — ship
+# (brain-training), Sudoku by WizusLabs, Iron Swarm (tank-game) — ship
 # `unity_levelplay_mediation: ^9.0.0` as the only mediation SDK.
 # Appodeal was retired on this date and the legacy ~2,500-line chain
 # removed; restoring the previous file is a one-line git revert if
