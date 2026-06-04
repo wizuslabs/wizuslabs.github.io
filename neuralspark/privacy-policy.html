@@ -107,7 +107,7 @@
       <a class="u-mono" href="/apps/neuralspark/" aria-label="Back to NeuralSpark">NeuralSpark</a>
     </p>
     <h1 class="legal-frontmatter__title">NeuralSpark &mdash; Privacy Policy</h1>
-    <p class="legal-frontmatter__date">Last updated: May 19, 2026 &middot; Effective: May 19, 2026</p>
+    <p class="legal-frontmatter__date">Last updated: June 4, 2026 &middot; Effective: June 4, 2026</p>
     <a class="link legal-frontmatter__back" href="/apps/neuralspark/">&larr; Back to NeuralSpark</a>
   </div>
 
@@ -159,19 +159,28 @@
       <li>Unity LevelPlay&rsquo;s Privacy Policy: <a href="https://www.is.com/legal/privacy-policy/">https://www.is.com/legal/privacy-policy/</a>. Privacy policies for the major mediated networks are available on each provider&rsquo;s site (for example: AdMob/Google, Unity Ads, ironSource, AppLovin, Meta Audience Network, Mintegral, Vungle/Liftoff, Bigo Ads, InMobi, Yandex, MyTarget, DT Exchange, BidMachine, Pangle, Chartboost).</li>
     </ul>
 
-    <h3>Ad Consent (Just-In-Time model)</h3>
+    <h3>Ad Consent</h3>
+    <p>How the App asks for advertising consent depends on where you are. There are two paths.</p>
+
+    <p><em>For users in the European Economic Area (EEA), the United Kingdom, and Switzerland (and any user whose region cannot be determined, who are treated as if they were in this group):</em></p>
     <ul>
-      <li><strong>No upfront consent dialog on first launch.</strong> Starting with version 1.9.4, NeuralSpark uses a just-in-time consent model. The App goes directly to gameplay on first launch. No interstitial dialog blocks your first session.</li>
-      <li><strong>Non-personalized ads serve by default.</strong> Until you affirmatively opt in to personalized advertising, the App requests <em>non-personalized ads only</em> from Unity LevelPlay and its mediated networks. Non-personalized ads do not use your interests or activity to select which ad to show. The legal basis for serving non-personalized ads to free-tier users is <strong>legitimate interest</strong> under GDPR Article 6(1)(f) &mdash; funding the App&rsquo;s continued availability &mdash; balanced against your reasonable expectations as a free-tier user of an ad-supported game. You have the right to object to this processing at any time (see &ldquo;Right to Object&rdquo; below); doing so disables ads entirely for the session and may degrade or remove free-tier functionality.</li>
-      <li><strong>Personalized ads opt-in.</strong> You can choose to receive personalized advertising &mdash; ads selected based on your interests and activity &mdash; by opening <strong>Settings &rarr; Privacy &amp; ads</strong> inside the App and turning ON the &ldquo;Personalized ads&rdquo; toggle. When you turn the toggle ON:
-        <ul>
-          <li>On iOS, the App Tracking Transparency (ATT) system prompt is presented at that moment (not at first launch), asking whether you allow the App to track your activity across other companies&rsquo; apps and websites for ad personalization. The App passes your ATT decision to Unity LevelPlay, which in turn applies the appropriate signal to all mediated networks.</li>
-          <li>In the European Union and European Economic Area (EU/EEA), a consent form compliant with the IAB Transparency and Consent Framework (TCF v2.2) is presented at that moment. Your consent signals are passed to Unity LevelPlay (via its regulation-parameters API) and propagated to all mediated networks.</li>
-        </ul>
-      </li>
-      <li><strong>Withdraw consent at any time.</strong> You may turn the &ldquo;Personalized ads&rdquo; toggle OFF in <strong>Settings &rarr; Privacy &amp; ads</strong> at any time. When you do, the App immediately switches back to non-personalized ads and propagates the withdrawn-consent signal to Unity LevelPlay and its mediated networks. Withdrawal is effective for future ad requests; ads served before withdrawal cannot be retroactively un-personalized.</li>
+      <li><strong>A consent form is shown up front, at first launch, before any personalized ads are served.</strong> The App presents a consent form provided by <strong>Google&rsquo;s User Messaging Platform (UMP)</strong> &mdash; a Google-certified Consent Management Platform that implements the IAB Transparency and Consent Framework (TCF v2.2). You make your advertising-consent choices on this form before personalized advertising can be requested. If your region is undetermined, the App takes this same path by default; Google&rsquo;s UMP then determines whether a form is actually required and, if you are not in fact in a covered region, proceeds without showing one.</li>
+      <li><strong>Legal basis is consent.</strong> For these users, the legal basis for personalized advertising is your <strong>consent</strong> under GDPR Article 6(1)(a) (and the equivalent UK GDPR and Swiss FADP provisions), captured through the Google-certified TCF v2.2 form. It is <strong>not</strong> legitimate interest plus a later in-app opt-in. Your choices are recorded on your device as a standard IAB TCF consent string (see &ldquo;Data Stored Locally&rdquo; above), which the advertising SDK and Google read to decide whether personalized ads may be requested.</li>
+      <li><strong>Withdraw or change your consent at any time.</strong> You can re-open the consent form at any time from <strong>Settings &rarr; Privacy &amp; ads</strong> inside the App. Re-opening the form re-presents the same Google-certified TCF v2.2 choices, so you can change or withdraw any of your advertising-consent selections (GDPR Article 7(3)). Your updated choices take effect for future ad requests; ads served before you change your choices cannot be retroactively un-personalized.</li>
+      <li><strong>On iOS, the App Tracking Transparency (ATT) prompt is presented after the consent form is resolved</strong> &mdash; never before it. ATT asks separately whether you allow the App to track your activity across other companies&rsquo; apps and websites; the App passes your ATT decision to Unity LevelPlay, which applies the appropriate signal to all mediated networks.</li>
+    </ul>
+
+    <p><em>For users in all other regions (including the United States / California and Vietnam):</em></p>
+    <ul>
+      <li><strong>No upfront consent dialog blocks your first session.</strong> NeuralSpark uses a just-in-time model for these regions. The App goes directly to gameplay on first launch; a short branded privacy screen is shown as part of onboarding, but it does not require a consent decision before you can play.</li>
+      <li><strong>Non-personalized vs. personalized ads.</strong> By default these users may receive personalized advertising, and can switch to <strong>non-personalized ads only</strong> at any time by opening <strong>Settings &rarr; Privacy &amp; ads</strong> inside the App and turning OFF the &ldquo;Personalized ads&rdquo; toggle. Non-personalized ads do not use your interests or activity to select which ad to show. Where local law treats this as a legitimate-interest processing of an ad-supported free-tier game (rather than a consent question), that remains the basis for serving ads to free-tier users; you may object at any time as described under &ldquo;Your Rights and Choices&rdquo; below.</li>
+      <li><strong>The &ldquo;Personalized ads&rdquo; toggle is the control.</strong> Turning the toggle OFF immediately switches the App to non-personalized ads and propagates the signal to Unity LevelPlay and its mediated networks. Turning it ON requests personalized ads; on iOS the ATT prompt is presented at that moment (not at first launch).</li>
+    </ul>
+
+    <p><em>For all users:</em></p>
+    <ul>
       <li><strong>Removing ads entirely.</strong> Declining or withdrawing personalized-ads consent does NOT remove ads &mdash; it changes which ads you see. To remove all advertising from the App, upgrade to NeuralSpark Pro or purchase NeuralSpark Gate Pass.</li>
-      <li><strong>Device-level controls remain available.</strong> Independent of the in-App toggle, you can adjust your device&rsquo;s ad settings at any time (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads).</li>
+      <li><strong>Device-level controls remain available.</strong> Independent of the in-App controls, you can adjust your device&rsquo;s ad settings at any time (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads).</li>
     </ul>
 
     <h3>RevenueCat (in-app purchase processing)</h3>
@@ -258,8 +267,9 @@
       <li>Because NeuralSpark stores all user data locally on your device and we do not maintain any server-side data, these rights are exercised entirely through your device. You have full control over your data at all times.</li>
       <li>For ad-related data collected by Unity LevelPlay and its mediated ad networks:
         <ul>
-          <li><strong>Right to object (Article 21).</strong> Non-personalized ads served under legitimate-interest (Article 6(1)(f)) may be objected to at any time. To exercise this right, upgrade to NeuralSpark Pro or NeuralSpark Gate Pass, which removes ads entirely and ends all related processing by Unity LevelPlay and its mediated networks for your device.</li>
-          <li><strong>Right to withdraw consent (Article 7(3)).</strong> If you opted in to personalized ads, you may withdraw that consent at any time by opening <strong>Settings &rarr; Privacy &amp; ads</strong> and turning the &ldquo;Personalized ads&rdquo; toggle OFF. The App immediately propagates the withdrawn-consent signal to Unity LevelPlay and the mediated networks via the regulation-parameters API. Withdrawal is effective for future ad requests.</li>
+          <li><strong>Consent for personalized advertising (Article 6(1)(a)).</strong> For users in the EEA, the UK, and Switzerland, personalized advertising is served on the basis of the <strong>consent</strong> you give through the Google-certified IAB TCF v2.2 consent form (Google&rsquo;s User Messaging Platform) shown at first launch. This is the lawful basis for that processing.</li>
+          <li><strong>Right to withdraw consent (Article 7(3)).</strong> You may withdraw or change your advertising consent at any time by opening <strong>Settings &rarr; Privacy &amp; ads</strong> and re-opening the consent form. Re-opening the form re-presents the certified TCF v2.2 choices, so you can withdraw any consent you previously gave; your updated choice is written as a new TCF consent string and propagated to Unity LevelPlay and the mediated networks. Withdrawal is effective for future ad requests. (Users outside the EEA/UK/CH use the &ldquo;Personalized ads&rdquo; toggle in the same screen instead &mdash; see &ldquo;Ad Consent&rdquo; in Section 1b.)</li>
+          <li><strong>Right to object (Article 21).</strong> You may also object to ad-related processing at any time by upgrading to NeuralSpark Pro or NeuralSpark Gate Pass, which removes ads entirely and ends all related processing by Unity LevelPlay and its mediated networks for your device.</li>
           <li><strong>Right to access / rectification / erasure (Articles 15&ndash;17).</strong> Because ad-related data is processed by Unity LevelPlay and the mediated networks rather than by us, exercise these rights through Unity LevelPlay&rsquo;s privacy contact (see the LevelPlay Privacy Policy linked in Section 1b) or through each mediated network&rsquo;s own controls.</li>
         </ul>
       </li>
@@ -269,7 +279,7 @@
     <h3>Users in Vietnam (Personal Data Protection Law &mdash; Decree 13/2023/ND-CP):</h3>
     <ul>
       <li>You have rights under Vietnam&rsquo;s Personal Data Protection Law (PDPL) including the right to be informed, to consent or withdraw consent, to access, to delete, and to object to processing.</li>
-      <li>Withdrawal of consent for personalized advertising is exercised through <strong>Settings &rarr; Privacy &amp; ads</strong> in the App, the same toggle described in the GDPR section above. The mechanism is equivalent.</li>
+      <li>Withdrawal of consent for personalized advertising is exercised through <strong>Settings &rarr; Privacy &amp; ads</strong> in the App, using the &ldquo;Personalized ads&rdquo; toggle described for non-EEA regions in Section 1b. Turning the toggle OFF switches the App to non-personalized ads. The mechanism is equivalent in effect to withdrawing consent.</li>
       <li>Because NeuralSpark does not transmit your locally-stored game data, preferences, or progress to any server, server-side access / deletion requests do not apply to that data &mdash; it lives entirely on your device and is under your direct control.</li>
     </ul>
 
