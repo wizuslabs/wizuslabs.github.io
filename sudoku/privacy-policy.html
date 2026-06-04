@@ -107,7 +107,7 @@
       <a class="u-mono" href="/apps/sudoku/" aria-label="Back to Sudoku">Sudoku by WizusLabs</a>
     </p>
     <h1 class="legal-frontmatter__title">Sudoku Game &mdash; Privacy Policy</h1>
-    <p class="legal-frontmatter__date">Last updated: May 19, 2026 &middot; Effective: May 19, 2026 &middot; Previous version: April 28, 2026</p>
+    <p class="legal-frontmatter__date">Last updated: June 3, 2026 &middot; Effective: June 3, 2026 &middot; Previous version: May 19, 2026</p>
     <a class="link legal-frontmatter__back" href="/apps/sudoku/">&larr; Back to Sudoku</a>
   </div>
 
@@ -133,8 +133,9 @@
       <li><strong>CCPA &ldquo;Do Not Sell&rdquo; flag</strong> (<code>ccpa_do_not_sell</code>) &mdash; whether you opted out of sale/sharing under CCPA.</li>
       <li><strong>ATT status flag</strong> (<code>att_status</code>) &mdash; cached iOS App Tracking Transparency authorization status.</li>
       <li><strong>Session count</strong> (<code>total_sessions_completed</code>) &mdash; lifetime completed session count (used for new-user ad protection).</li>
+      <li><strong>IAB TCF consent string (EEA/UK/CH)</strong> (<code>IABTCF_*</code>) &mdash; standard IAB Transparency &amp; Consent Framework v2.2 values written <strong>by Google&rsquo;s User Messaging Platform (UMP)</strong> to your device&rsquo;s local storage when you respond to the consent form (see Section 2). These record your advertising-consent choices so advertising partners can read and honor them. They are written and managed by the UMP component, not by the App&rsquo;s own code, and are stored locally on your device &mdash; they are not transmitted to our servers.</li>
     </ul>
-    <p>We do not operate servers, databases, or cloud services that receive any of this data. Your game data exists only on your device.</p>
+    <p>We do not operate servers, databases, or cloud services that receive any of this data. Your game data exists only on your device. The <code>IABTCF_*</code> consent-string values are written locally by Google&rsquo;s User Messaging Platform component for the advertising partners&rsquo; use and likewise stay on your device.</p>
 
     <!-- Section 2 -->
     <h2>2. Data Collected by Third-Party SDKs</h2>
@@ -178,14 +179,27 @@
     </ul>
     <p>If you upgrade to Sudoku Pro, no ads are displayed and no ad-related data collection by LevelPlay or its mediated partners occurs.</p>
 
-    <h3>Ad Consent &mdash; just-in-time, non-personalized by default</h3>
-    <p>Sudoku Game uses a just-in-time (JIT) consent model. There is no upfront consent dialog on first launch.</p>
+    <h3>Ad Consent &mdash; region-aware controls (EEA/UK/Switzerland consent form, all-regions personalization choice)</h3>
+    <p>How the App asks for and records your advertising choices depends on your region. The App detects your region and presents the appropriate control. In all cases, the underlying advertising data flow is the one described above; what changes by region is the consent mechanism and the default.</p>
     <ul>
-      <li><strong>Default behaviour.</strong> Ads serve as <strong>non-personalized</strong> by default everywhere, including the European Economic Area. In the EEA, the legal basis for non-personalized ad serving is legitimate interest under GDPR Article 6(1)(f) (the legitimate interest of operating an ad-supported free product). Non-personalized ads use only contextual signals (app category, coarse country, language) and do not rely on cross-app tracking or interest profiles.</li>
-      <li><strong>Opt-in to personalized ads.</strong> Users may opt into personalized advertising by enabling the toggle at <strong>Profile &rarr; Privacy &amp; ads &rarr; Personalized ads</strong>. Toggling this on switches the LevelPlay consent signal to &ldquo;consent granted&rdquo; for personalized advertising. Toggling it off returns to non-personalized serving.</li>
-      <li><strong>iOS App Tracking Transparency.</strong> On iOS, the first time a user enables the Personalized ads toggle, Apple&rsquo;s App Tracking Transparency (ATT) prompt is shown via the <code>app_tracking_transparency</code> package. If the user denies tracking at the ATT prompt, the App respects that denial and serves only non-personalized ads regardless of the in-app toggle position. The user can change the ATT setting later in iOS Settings &gt; Privacy &amp; Security &gt; Tracking.</li>
-      <li><strong>CCPA &ldquo;Do Not Sell My Personal Information.&rdquo;</strong> California residents see a &ldquo;Do not sell my personal information&rdquo; toggle at <strong>Profile &rarr; Privacy &amp; ads</strong>. When enabled, the App signals the CCPA opt-out to LevelPlay; LevelPlay propagates the signal to mediated demand partners that honor the CCPA framework.</li>
-      <li><strong>Withdrawing or changing preferences.</strong> All consent / opt-out controls can be toggled at any time from Profile &rarr; Privacy &amp; ads. Changes take effect immediately on the next ad request.</li>
+      <li><strong>European Economic Area, United Kingdom, and Switzerland &mdash; Google-certified consent form (IAB TCF v2.2).</strong> If you are located in the EEA, UK, or Switzerland, the App shows a <strong>Google-certified consent management form</strong> at first launch, before any personalized advertising is served. This form is provided by <strong>Google&rsquo;s User Messaging Platform (UMP)</strong>, which is integrated with the <strong>IAB Transparency &amp; Consent Framework (TCF) version 2.2</strong>. The form lets you <strong>Consent</strong>, <strong>Do not consent</strong>, or <strong>Manage options</strong> (choose per-purpose and per-vendor preferences). Your choice is recorded as a standard IAB TCF v2.2 consent string (stored on your device as <code>IABTCF_*</code> values) that all advertising partners in the request path read and honor. Until you respond, no personalized advertising is served. This consent form appears <strong>only</strong> for EEA/UK/Switzerland users; users in other regions are not shown it.
+        <ul>
+          <li>The list of advertising partners / IAB TCF vendors covered by the consent form is presented inside the form&rsquo;s <strong>Manage options</strong> screen and is maintained by Google. The IAB Global Vendor List (the registry of TCF vendors) is published at <a href="https://iabeurope.eu/vendor-list-tcf/">https://iabeurope.eu/vendor-list-tcf/</a>, and Google&rsquo;s list of advertising technology providers is published at <a href="https://support.google.com/admob/answer/9012903">https://support.google.com/admob/answer/9012903</a>.</li>
+        </ul>
+      </li>
+      <li><strong>Default behaviour for non-personalized serving.</strong> Where you have not consented to personalized ads (including before you respond to the EEA/UK/Switzerland consent form, or if you decline), ads serve as <strong>non-personalized</strong>. In the EEA, the legal basis for non-personalized ad serving is legitimate interest under GDPR Article 6(1)(f) (the legitimate interest of operating an ad-supported free product). Non-personalized ads use only contextual signals (app category, coarse country, language) and do not rely on cross-app tracking or interest profiles.</li>
+      <li><strong>All other regions &mdash; Personalized ads control.</strong> If you are outside the EEA/UK/Switzerland and outside California, the App provides a <strong>&ldquo;Personalized ads&rdquo; toggle</strong> at <strong>Profile &rarr; Privacy &amp; ads</strong>. Personalized advertising is enabled by default in these regions; you may turn it off at any time, which switches the advertising consent signal to &ldquo;not granted&rdquo; and returns serving to non-personalized.</li>
+      <li><strong>iOS App Tracking Transparency.</strong> On iOS, Apple&rsquo;s <strong>App Tracking Transparency (ATT)</strong> prompt is shown <strong>at launch</strong> (after the EEA/UK/Switzerland consent form, where that form applies) via the <code>app_tracking_transparency</code> framework. ATT governs use of the iOS advertising identifier (IDFA) for cross-app tracking and is <strong>separate from, and in addition to</strong>, the GDPR/TCF consent form. If you deny tracking at the ATT prompt, the App respects that denial and serves only non-personalized ads regardless of any other setting. Because iOS does not allow an app to re-show the ATT prompt once you have answered it, you can change your tracking choice later in <strong>iOS Settings &rarr; Privacy &amp; Security &rarr; Tracking</strong>; the App&rsquo;s Privacy &amp; ads screen links you directly to its iOS Settings page for this purpose.</li>
+      <li><strong>CCPA &ldquo;Do Not Sell My Personal Information.&rdquo;</strong> California residents see a &ldquo;Do not sell my personal information&rdquo; toggle at <strong>Profile &rarr; Privacy &amp; ads</strong>. When enabled, the App signals the CCPA opt-out to the advertising mediation layer; that signal is propagated to mediated demand partners that honor the CCPA framework.</li>
+      <li><strong>Withdrawing or changing your consent.</strong> You can change your choice at any time from <strong>Profile &rarr; Privacy &amp; ads</strong>:
+        <ul>
+          <li>In the <strong>EEA/UK/Switzerland</strong>, the &ldquo;Privacy &amp; ad consent&rdquo; control re-opens the Google-certified consent form so you can change your TCF consent (including withdrawing previously granted consent).</li>
+          <li>In <strong>other regions</strong>, toggle &ldquo;Personalized ads&rdquo; off (or on).</li>
+          <li>California residents toggle &ldquo;Do not sell my personal information.&rdquo;</li>
+          <li>On <strong>iOS</strong>, change tracking permission in iOS Settings &rarr; Privacy &amp; Security &rarr; Tracking (the App deep-links you there).</li>
+          <li>Any change takes effect immediately on the next ad request. You can also remove all advertising entirely by upgrading to Sudoku Pro.</li>
+        </ul>
+      </li>
     </ul>
 
     <h3>In-App Purchases (RevenueCat + Apple / Google billing)</h3>
@@ -292,7 +306,7 @@
     <h3>All users:</h3>
     <ul>
       <li>You can delete all App data at any time by uninstalling the App or clearing the App&rsquo;s data in your device settings (iOS: Settings &gt; General &gt; iPhone Storage &gt; Sudoku Game; Android: Settings &gt; Apps &gt; Sudoku Game &gt; Storage &gt; Clear Data).</li>
-      <li>You can opt out of personalized advertising by leaving the &ldquo;Personalized ads&rdquo; toggle off at <strong>Profile &rarr; Privacy &amp; ads</strong> (it is off by default). You may additionally adjust your device&rsquo;s ad settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads).</li>
+      <li>You can control personalized advertising at <strong>Profile &rarr; Privacy &amp; ads</strong>. In the EEA/UK/Switzerland this control re-opens the Google-certified consent form (IAB TCF v2.2); in other regions it is a &ldquo;Personalized ads&rdquo; toggle. You may additionally adjust your device&rsquo;s ad settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads).</li>
       <li>You can upgrade to Sudoku Pro (yearly subscription $2.99/year or lifetime $9.99) to remove all advertising from the App.</li>
       <li>If you purchased Sudoku Pro Yearly, you can cancel the auto-renewal at any time in your device&rsquo;s subscription settings (iOS: Settings &gt; [your name] &gt; Subscriptions; Android: Google Play Store &gt; Menu &gt; Payments &amp; subscriptions &gt; Subscriptions). Canceling stops future charges; Pro access remains active until the end of the current paid period.</li>
       <li>You can request a refund or manage purchase history through Apple (<a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>) or Google (<a href="https://play.google.com/store/account/orderhistory">play.google.com/store/account/orderhistory</a>) according to their refund policies.</li>
@@ -302,14 +316,16 @@
     <ul>
       <li>You have rights under the General Data Protection Regulation including the right to access, rectification, erasure, restriction of processing, data portability, and objection.</li>
       <li>Because Sudoku Game stores all user data locally on your device and we do not maintain any server-side data, these rights are exercised entirely through your device. You have full control over your data at all times.</li>
-      <li>Ads served in the EEA are non-personalized by default under the legitimate-interest legal basis of GDPR Article 6(1)(f). For personalized ads served by LevelPlay and its mediated demand partners (only if you have opted in at Profile &rarr; Privacy &amp; ads), the legal basis is your consent under GDPR Article 6(1)(a). You may withdraw consent at any time by toggling Personalized ads off; withdrawal takes effect immediately on the next ad request.</li>
+      <li>When you first launch the App in the EEA, UK, or Switzerland, you are shown a <strong>Google-certified consent form</strong> integrated with the <strong>IAB Transparency &amp; Consent Framework (TCF) v2.2</strong>, provided by Google&rsquo;s User Messaging Platform (UMP). You may <strong>Consent</strong>, <strong>Do not consent</strong>, or <strong>Manage options</strong> for individual purposes and advertising vendors. Your choice is recorded as a standard IAB TCF consent string that all advertising partners read and honor.</li>
+      <li>Where you have not granted consent (including before you respond to the form, or if you decline), ads served in the EEA are non-personalized under the legitimate-interest legal basis of GDPR Article 6(1)(f). For personalized ads served by the advertising partners (only where you have consented through the form), the legal basis is your consent under GDPR Article 6(1)(a).</li>
+      <li>You may <strong>withdraw consent at any time</strong> by re-opening the consent form from <strong>Profile &rarr; Privacy &amp; ads</strong> and changing your choice. Withdrawal takes effect immediately on the next ad request. The advertising partners / IAB TCF vendors covered are listed inside the consent form&rsquo;s &ldquo;Manage options&rdquo; screen; the IAB Global Vendor List is at <a href="https://iabeurope.eu/vendor-list-tcf/">https://iabeurope.eu/vendor-list-tcf/</a> and Google&rsquo;s advertising-technology-providers list is at <a href="https://support.google.com/admob/answer/9012903">https://support.google.com/admob/answer/9012903</a>.</li>
     </ul>
 
     <h3>Users in California (CCPA):</h3>
     <ul>
       <li>California residents have the right to know what personal information is collected, to request deletion, and to opt out of the sale of personal information.</li>
       <li>We do not sell personal information that we collect directly. All locally stored data is under your direct control on your device.</li>
-      <li>However, LevelPlay&rsquo;s (and its mediated demand partners&rsquo;) use of device identifiers and ad interaction data to serve personalized advertisements may constitute a &ldquo;sale&rdquo; of personal information under the CCPA&rsquo;s broad definition. California residents can opt out by toggling <strong>&ldquo;Do not sell my personal information&rdquo;</strong> at Profile &rarr; Privacy &amp; ads, by leaving the Personalized ads toggle off, by adjusting their device settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads), or by purchasing Sudoku Pro to remove ads entirely.</li>
+      <li>However, LevelPlay&rsquo;s (and its mediated demand partners&rsquo;) use of device identifiers and ad interaction data to serve personalized advertisements may constitute a &ldquo;sale&rdquo; of personal information under the CCPA&rsquo;s broad definition. California residents can opt out by toggling <strong>&ldquo;Do not sell my personal information&rdquo;</strong> at Profile &rarr; Privacy &amp; ads, by adjusting their device settings (iOS: Settings &gt; Privacy &amp; Security &gt; Tracking; Android: Settings &gt; Privacy &gt; Ads), or by purchasing Sudoku Pro to remove ads entirely.</li>
     </ul>
 
     <!-- Section 9 -->
