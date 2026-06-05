@@ -4,19 +4,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Apps — WizusLabs</title>
-  <meta name="description" content="NeuralSpark, Sudoku, and Iron Swarm — the WizusLabs apps shelf. We mark what is Live in the stores and what is still In the workshop. No placeholders.">
+  <meta name="description" content="NeuralSpark, Sudoku, and Iron Swarm — the WizusLabs apps shelf. Store links, support pages, privacy policies, and useful app-category guides.">
   <meta name="color-scheme" content="light dark">
 
   <link rel="canonical" href="https://wizuslabs.github.io/apps/">
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="Apps — WizusLabs">
-  <meta property="og:description" content="NeuralSpark and Sudoku are Live. Iron Swarm is In the workshop. The shelf grows when something ships.">
+  <meta property="og:description" content="NeuralSpark, Sudoku, and Iron Swarm: app pages, store links, support, privacy, and useful app-category guides.">
   <meta property="og:url" content="https://wizuslabs.github.io/apps/">
   <meta property="og:site_name" content="WizusLabs">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://wizuslabs.github.io/assets/img/social/wizuslabs-og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Apps — WizusLabs">
-  <meta name="twitter:description" content="NeuralSpark and Sudoku are Live. Iron Swarm is In the workshop. The shelf grows when something ships.">
+  <meta name="twitter:description" content="NeuralSpark, Sudoku, and Iron Swarm: app pages, store links, support, privacy, and useful app-category guides.">
+  <meta name="twitter:image" content="https://wizuslabs.github.io/assets/img/social/wizuslabs-og.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "@id": "https://wizuslabs.github.io/apps/#apps",
+    "name": "WizusLabs apps",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "url": "https://wizuslabs.github.io/apps/neuralspark/",
+        "name": "NeuralSpark"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "url": "https://wizuslabs.github.io/apps/sudoku/",
+        "name": "Sudoku by WizusLabs"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "url": "https://wizuslabs.github.io/iron-swarm/",
+        "name": "Iron Swarm"
+      }
+    ]
+  }
+  </script>
 
   <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
@@ -108,7 +141,7 @@
 <main id="main" class="container section">
   <header class="reading-measure stack">
     <h1>Apps</h1>
-    <p class="u-muted">Three apps. Two are live. One is in the workshop. We add to the shelf when something is actually ready to stand on it.</p>
+    <p class="u-muted">Three apps from the WizusLabs AI Software Studio. Each page links to the stores, support, privacy, and the release story behind the app.</p>
   </header>
 
   <section class="stack-lg apps-shelf" aria-labelledby="apps-shelf-heading">
@@ -191,11 +224,18 @@
           loading="lazy"
           decoding="async">
         <p>
-          <span class="pill pill--warn" aria-label="Status: In the workshop">In the workshop</span>
+          <span class="pill pill--accent-cool" aria-label="Status: Live">Live</span>
         </p>
         <h2 id="app-iron-swarm" class="app-card__name">Iron Swarm</h2>
-        <p class="u-mono app-card__team" aria-label="Version">tank-game · not yet released</p>
-        <p class="app-card__tagline">A 2D top-down tank combat game. Missions, rounds, and a Commander Pro tier under construction. No store link yet.</p>
+        <p class="u-mono app-card__team" aria-label="Version">ios + android · arcade</p>
+        <p class="app-card__tagline">A top-down tank arcade game with missions, daily challenge runs, an endless campaign, and Commander Pro.</p>
+        <ul class="u-mono get-it-links get-it-links--tight">
+          <li><a class="link link--external" href="https://apps.apple.com/app/id6764359993" target="_blank" rel="noopener noreferrer">App Store</a></li>
+          <li><a class="link link--external" href="https://play.google.com/store/apps/details?id=com.wizuslabs.iron_swarm" target="_blank" rel="noopener noreferrer">Google Play</a></li>
+        </ul>
+        <p>
+          <a class="link" href="/iron-swarm/">Read more about Iron Swarm</a>
+        </p>
         <p class="u-mono app-card__policies">
           <a href="/iron-swarm/privacy-policy.html">Privacy</a>
           <span aria-hidden="true"> · </span>
@@ -207,8 +247,18 @@
     </article>
   </section>
 
+  <section class="reading-measure stack-lg app-detail-section" aria-labelledby="apps-guides">
+    <h2 id="apps-guides">Useful guides</h2>
+    <p class="u-muted">Short, plain-English pages for people searching by app category, not by brand name.</p>
+    <ul>
+      <li><a class="link" href="/apps/neuralspark/brain-training-games/">Brain-training games without brain-hype</a></li>
+      <li><a class="link" href="/apps/sudoku/offline-sudoku/">Offline sudoku with classic and killer puzzles</a></li>
+      <li><a class="link" href="/iron-swarm/top-down-tank-game/">Top-down tank arcade combat</a></li>
+    </ul>
+  </section>
+
   <aside class="reading-measure apps-shelf__note">
-    <p class="u-muted">The shelf grows when something ships. No placeholders, no coming-soon cards, no pre-order pages. If you see a plate here, the code exists.</p>
+    <p class="u-muted">The shelf grows when something ships. No placeholders, no pre-order pages. If you see a plate here, the code exists.</p>
   </aside>
 </main>
 
@@ -235,7 +285,7 @@
       <ul class="footer__list">
         <li><a href="/apps/neuralspark/">NeuralSpark</a></li>
         <li><a href="/apps/sudoku/">Sudoku</a></li>
-        <li><a href="/apps/">Iron Swarm</a></li>
+        <li><a href="/iron-swarm/">Iron Swarm</a></li>
         <li><a href="/apps/">All apps</a></li>
       </ul>
     </section>
