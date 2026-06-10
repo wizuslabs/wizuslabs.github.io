@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wizuslabs.github.io/sitemap.xml
+Sitemap: https://wizuslabs.com/sitemap.xml
