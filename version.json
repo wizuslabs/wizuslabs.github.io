@@ -1,6 +1,6 @@
 {
   "manifestVersion": 2,
-  "publishedAt": "2026-06-04T00:00:00Z",
+  "publishedAt": "2026-06-16T00:00:00Z",
   "apps": {
     "neuralspark": {
       "latestVersion": "1.9.3",
@@ -12,13 +12,13 @@
       "publishedAt": "2026-05-12T00:00:00Z"
     },
     "sudoku": {
-      "latestVersion": "1.0.0",
-      "latestBuild": 57,
+      "latestVersion": "1.0.1",
+      "latestBuild": 74,
       "minimumSupportedVersion": "1.0.0",
       "minimumSupportedBuild": 41,
       "iosStoreUrl": "https://apps.apple.com/app/id6762293437",
       "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.wizuslabs.sudoku_game",
-      "publishedAt": "2026-06-04T00:00:00Z"
+      "publishedAt": "2026-06-16T00:00:00Z"
     },
     "iron-blitz": {
       "latestVersion": null,
