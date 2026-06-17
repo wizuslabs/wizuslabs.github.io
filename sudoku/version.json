@@ -1,10 +1,10 @@
 {
   "manifestVersion": 1,
-  "latestVersion": "1.0.1",
-  "latestBuild": 74,
+  "latestVersion": "1.0.2",
+  "latestBuild": 79,
   "minimumSupportedVersion": "1.0.0",
   "minimumSupportedBuild": 41,
   "iosStoreUrl": "https://apps.apple.com/app/id6762293437",
   "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.wizuslabs.sudoku_game",
-  "publishedAt": "2026-06-16T00:00:00Z"
+  "publishedAt": "2026-06-17T00:00:00Z"
 }
