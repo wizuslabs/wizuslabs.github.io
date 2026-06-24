@@ -1,15 +1,15 @@
 {
   "manifestVersion": 2,
-  "publishedAt": "2026-06-18T00:00:00Z",
+  "publishedAt": "2026-06-24T00:00:00Z",
   "apps": {
     "neuralspark": {
-      "latestVersion": "1.9.3",
-      "latestBuild": 108,
+      "latestVersion": "1.9.6",
+      "latestBuild": 201,
       "minimumSupportedVersion": "1.9.0",
       "minimumSupportedBuild": 72,
       "iosStoreUrl": "https://apps.apple.com/app/id6761431895",
       "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.wizuslabs.neural_spark",
-      "publishedAt": "2026-05-12T00:00:00Z"
+      "publishedAt": "2026-06-24T00:00:00Z"
     },
     "sudoku": {
       "latestVersion": "1.0.2",
