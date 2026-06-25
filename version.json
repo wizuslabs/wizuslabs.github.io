@@ -28,6 +28,24 @@
       "iosStoreUrl": null,
       "androidStoreUrl": null,
       "publishedAt": null
+    },
+    "shatterstone": {
+      "latestVersion": null,
+      "latestBuild": null,
+      "minimumSupportedVersion": null,
+      "minimumSupportedBuild": null,
+      "iosStoreUrl": null,
+      "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.wizuslabs.shatterstone",
+      "publishedAt": null
+    },
+    "embergrid": {
+      "latestVersion": "1.0.0",
+      "latestBuild": 51,
+      "minimumSupportedVersion": "1.0.0",
+      "minimumSupportedBuild": 1,
+      "iosStoreUrl": "https://apps.apple.com/app/embergrid/idPLACEHOLDER",
+      "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.wizuslabs.bomb_game",
+      "publishedAt": "2026-06-24T00:00:00Z"
     }
   }
 }
