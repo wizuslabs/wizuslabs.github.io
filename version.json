@@ -1,24 +1,24 @@
 {
   "manifestVersion": 2,
-  "publishedAt": "2026-06-24T00:00:00Z",
+  "publishedAt": "2026-06-26T00:00:00Z",
   "apps": {
     "neuralspark": {
-      "latestVersion": "1.9.6",
-      "latestBuild": 201,
+      "latestVersion": "1.9.7",
+      "latestBuild": 204,
       "minimumSupportedVersion": "1.9.0",
       "minimumSupportedBuild": 72,
       "iosStoreUrl": "https://apps.apple.com/app/id6761431895",
       "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.wizuslabs.neural_spark",
-      "publishedAt": "2026-06-24T00:00:00Z"
+      "publishedAt": "2026-06-26T00:00:00Z"
     },
     "sudoku": {
-      "latestVersion": "1.0.2",
-      "latestBuild": 84,
+      "latestVersion": "1.0.4",
+      "latestBuild": 99,
       "minimumSupportedVersion": "1.0.0",
       "minimumSupportedBuild": 41,
       "iosStoreUrl": "https://apps.apple.com/app/id6762293437",
       "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.wizuslabs.sudoku_game",
-      "publishedAt": "2026-06-18T00:00:00Z"
+      "publishedAt": "2026-06-26T00:00:00Z"
     },
     "iron-blitz": {
       "latestVersion": null,
@@ -30,22 +30,22 @@
       "publishedAt": null
     },
     "shatterstone": {
-      "latestVersion": null,
-      "latestBuild": null,
+      "latestVersion": "0.1.0",
+      "latestBuild": 31,
       "minimumSupportedVersion": null,
       "minimumSupportedBuild": null,
-      "iosStoreUrl": null,
+      "iosStoreUrl": "https://apps.apple.com/app/id6777321753",
       "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.wizuslabs.shatterstone",
-      "publishedAt": null
+      "publishedAt": "2026-06-26T00:00:00Z"
     },
     "embergrid": {
       "latestVersion": "1.0.0",
-      "latestBuild": 51,
+      "latestBuild": 53,
       "minimumSupportedVersion": "1.0.0",
       "minimumSupportedBuild": 1,
       "iosStoreUrl": "https://apps.apple.com/app/embergrid/idPLACEHOLDER",
       "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.wizuslabs.bomb_game",
-      "publishedAt": "2026-06-24T00:00:00Z"
+      "publishedAt": "2026-06-26T00:00:00Z"
     }
   }
 }
