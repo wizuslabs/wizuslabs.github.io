@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy &mdash; Embergrid</title>
+  <meta name="description" content="Embergrid privacy policy. An offline-first arcade game: no account, no analytics, no ads, no data collected by WizusLabs.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#FBF9F4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0E1013" media="(prefers-color-scheme: dark)">
+
+  <link rel="canonical" href="https://wizuslabs.com/embergrid/privacy-policy">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/js/app.js"></script>
+</head>
+<body>
+<!--
+  nav.html — SOURCE OF TRUTH for the site nav.
+  No build tool. Copy this block inline into each page's <body>.
+  If nav changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.1 + §11 (wordmark) + §7.10 (theme toggle).
+-->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <nav class="nav" aria-label="Primary">
+    <div class="container nav__inner">
+      <a class="wordmark" href="/" aria-label="WizusLabs home">
+        <span class="wordmark__first">Wizus</span><span class="wordmark__second">Labs</span>
+      </a>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a class="nav__link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__link" href="/agents/">Agents</a></li>
+        <li><a class="nav__link" href="/apps/">Apps</a></li>
+        <li><a class="nav__link" href="/human/">Human</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button
+          type="button"
+          class="nav__hamburger"
+          data-nav-open-btn
+          aria-expanded="false"
+          aria-controls="nav-panel"
+          aria-label="Open navigation">
+          <svg class="nav__hamburger-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M3 7h18M3 12h18M3 17h18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          class="theme-toggle"
+          data-theme-toggle
+          data-state="auto"
+          aria-label="Theme: auto"
+          aria-pressed="false">
+          <svg class="theme-toggle__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/>
+          </svg>
+          <span class="theme-toggle__label">Theme: auto</span>
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="nav-panel"
+      class="nav__panel"
+      data-nav-panel
+      role="dialog"
+      aria-modal="true"
+      aria-label="Primary navigation">
+      <button
+        type="button"
+        class="nav__panel-close"
+        data-nav-close-btn
+        aria-label="Close navigation">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+          <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <ul class="nav__panel-list">
+        <li><a class="nav__panel-link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__panel-link" href="/agents/">Agents</a></li>
+        <li><a class="nav__panel-link" href="/apps/">Apps</a></li>
+        <li><a class="nav__panel-link" href="/human/">Human</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Screen-reader announcement target for theme toggle -->
+<div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
+
+<main id="main" class="container section">
+
+  <!-- LegalFrontmatter (§7.21) — editorial header above the policy body.
+       Note: /apps/embergrid/ detail page does not exist yet (Embergrid is
+       pre-listing). Breadcrumb + back-link resolve to /apps/ so the
+       portfolio index is the landing point. -->
+  <div class="legal-frontmatter reading-measure">
+    <p>
+      <a class="u-mono" href="/apps/" aria-label="Back to Apps">Embergrid by WizusLabs</a>
+    </p>
+    <h1 class="legal-frontmatter__title">Embergrid &mdash; Privacy Policy</h1>
+    <p class="legal-frontmatter__date">Last updated: June 28, 2026</p>
+    <a class="link legal-frontmatter__back" href="/apps/">&larr; Back to Apps</a>
+  </div>
+
+  <article class="policy-page reading-measure">
+
+    <p>Embergrid is an offline-first, original-IP grid-bomb arcade game developed by WizusLabs. This Privacy Policy describes how the Embergrid application (&ldquo;the App&rdquo;) handles your information. We are committed to transparency about what data exists on your device, what third-party services may collect when you use Embergrid, and what choices you have.</p>
+
+    <p>Embergrid is engineered for the strongest possible privacy posture in the mobile arcade category: <strong>no account, no login, no analytics, no telemetry, no cloud sync, no third-party advertising SDKs, and no personal data collected by WizusLabs from your use of the App</strong>. The single third-party service that the App integrates (in-app purchase receipt validation) operates under its own privacy policy and is described in detail below.</p>
+
+    <!-- Section 1 -->
+    <h2>1. Data We Collect</h2>
+
+    <h3>1a. Data Stored Locally on Your Device (Never Transmitted)</h3>
+    <p>Embergrid is designed with an offline-first architecture. The following data is created and stored entirely on your device. <strong>It is never transmitted to our servers or any third party.</strong></p>
+    <ul>
+      <li><strong>Campaign progress</strong> &mdash; completed levels, star ratings, unlocked apprentices. Stored in Hive (device-local).</li>
+      <li><strong>Battle history (local)</strong> &mdash; most recent battle outcome for the Results screen state. Stored in Hive.</li>
+      <li><strong>Festival Coins balance</strong> &mdash; soft currency earned from round completion; spendable only on cosmetic in-app flair. Stored in Hive.</li>
+      <li><strong>App preferences</strong> &mdash; sound and music volume, control mode (tap vs. button), selected locale (en or vi), accessibility flags (reduced motion, high-contrast HUD). Stored in the platform&rsquo;s built-in key-value storage.</li>
+      <li><strong>In-app purchase entitlement cache</strong> &mdash; a local record of which cosmetic skin packs you own, used to render owned skins immediately offline. The authoritative purchase record is maintained by your app store, not by us.</li>
+      <li><strong>Tutorial / first-launch flags</strong> &mdash; single Boolean flags indicating whether you have completed the tutorial and whether the in-app review prompt has been shown.</li>
+    </ul>
+    <p>We do not operate servers, databases, or cloud services that receive any of this data. Your game data exists only on your device.</p>
+
+    <h3>1b. Data Collected by Third-Party SDKs</h3>
+    <p>Embergrid integrates a small number of third-party services that may collect data independently. <strong>The App itself does not collect, transmit, or process any personal data.</strong> However, the following services operate within the App and are subject to their own data collection practices.</p>
+
+    <h3>RevenueCat (in-app purchase receipt validation)</h3>
+    <ul>
+      <li>The App uses RevenueCat to manage in-app purchase receipt validation and entitlement delivery for the cosmetic IAP catalog. RevenueCat acts as a server-side layer that communicates with your app store to verify purchase receipts and determine entitlement status.</li>
+      <li>RevenueCat assigns an anonymous app user ID to each installation. This ID is not tied to your personal identity and cannot be used to identify you. The App does not pass your name, email, or any other personal identifier to RevenueCat.</li>
+      <li>RevenueCat may collect: an anonymous app user ID; entitlement and purchase status (which skin packs are owned); purchase receipts (as provided by your app store); device platform and OS version; and the App version.</li>
+      <li><strong>No personal information</strong> (name, email, payment details) is collected by RevenueCat through the App. Payment processing is handled entirely by your app store; RevenueCat receives only the purchase receipt for validation.</li>
+      <li>RevenueCat&rsquo;s privacy policy: <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a></li>
+    </ul>
+
+    <h3>Advertising</h3>
+    <p>Embergrid does <strong>not</strong> integrate any third-party advertising SDK in this version. No ads are served. No advertising identifier is read or transmitted by the App.</p>
+
+    <h3>Platform In-App Purchase Processing</h3>
+    <ul>
+      <li>The App offers cosmetic in-app purchases &mdash; four single-school skin packs at $4.99 each (Anu Marrow, Doro Kindle, Iyo Drift, Bex Hollowmoon) and one complete Festival Cosmetic Pack at $14.99 &mdash; processed by your app store&rsquo;s standard in-app purchase system.</li>
+      <li><strong>The App never sees, stores, or transmits your payment information, credit card details, or billing address.</strong> All payment processing is handled by the platform. Receipt validation is handled by RevenueCat (see above).</li>
+    </ul>
+
+    <h3>External Links</h3>
+    <ul>
+      <li>The App opens external URLs in your default browser when you tap Privacy / Terms / Support in the Settings screen. These open the WizusLabs developer site.</li>
+      <li>The App passes the destination URL to your operating system&rsquo;s standard URL-handling APIs. The App does not transmit any data about you to any third party as part of the URL launch.</li>
+      <li>Once you leave the App for an external destination, the destination service operates under its own privacy policy.</li>
+    </ul>
+
+    <h3>1c. What We Do Not Use</h3>
+    <p>Embergrid does <strong>not</strong> integrate or transmit data to any of the following:</p>
+    <ul>
+      <li>No analytics SDK (no Firebase Analytics, no AppsFlyer, no Adjust, no Branch, no Singular, no Mixpanel, no Amplitude, no Segment, no Kochava)</li>
+      <li>No crash-reporting SDK (no Firebase Crashlytics, no Sentry, no Bugsnag)</li>
+      <li>No remote push notification service &mdash; Embergrid does not send push notifications</li>
+      <li>No social or authentication SDK &mdash; the App has no account system</li>
+      <li>No location services</li>
+      <li>No camera, microphone, contacts, photos, calendar, health, or sensor access</li>
+    </ul>
+
+    <!-- Section 2 -->
+    <h2>2. Data We Do NOT Collect</h2>
+    <p>Embergrid does not collect, transmit, or process any of the following:</p>
+    <ul>
+      <li>No account creation, email addresses, names, or personal identifiers</li>
+      <li>No analytics or telemetry data (no event tracking, no usage analytics, no funnel metrics, no retention cohort data)</li>
+      <li>No location data of any kind</li>
+      <li>No contacts, photos, camera, microphone, or other sensitive device permissions</li>
+      <li>No data synced to any cloud service or remote server</li>
+      <li>No browsing history, search history, or usage patterns transmitted off-device</li>
+      <li>No health or fitness data</li>
+      <li>No advertising identifier is read or collected &mdash; the App does not integrate any advertising SDK</li>
+    </ul>
+
+    <!-- Section 3 -->
+    <h2>3. Data Sharing</h2>
+    <p>We do not sell, rent, share, or transfer your personal data to any third party.</p>
+    <ul>
+      <li><strong>RevenueCat</strong> operates under its own privacy policy (linked in Section 1b) and may collect data as described therein. We do not receive personally identifiable information from RevenueCat.</li>
+      <li><strong>Festival Coins, campaign progress, and preferences</strong> are stored only on your device and are never transmitted anywhere.</li>
+      <li><strong>In-app purchase transactions</strong> are processed by your app store. We receive only an anonymous entitlement confirmation (which skin packs are owned), not your payment details.</li>
+    </ul>
+
+    <!-- Section 4 -->
+    <h2>4. Data Retention</h2>
+    <ul>
+      <li>All locally stored data (campaign progress, Festival Coins, preferences, purchase entitlement cache) persists on your device until you uninstall the App or manually clear the App&rsquo;s data through your device settings.</li>
+      <li>We do not maintain any server-side data stores. There is no server-side data to retain, expire, or delete.</li>
+      <li>Third-party services (RevenueCat) retain data according to their own privacy policies.</li>
+    </ul>
+
+    <!-- Section 5 -->
+    <h2>5. Data Security</h2>
+    <ul>
+      <li>All data stored by the App resides in your device&rsquo;s local storage, protected by your device&rsquo;s built-in security features (device encryption, lock screen, biometric authentication).</li>
+      <li>The App does not transmit your game data or preferences over any network.</li>
+      <li>Communications between the App and third-party services (RevenueCat for receipt validation) use industry-standard encrypted connections (HTTPS / TLS).</li>
+    </ul>
+
+    <!-- Section 6 -->
+    <h2>6. Children&rsquo;s Privacy</h2>
+    <ul>
+      <li>Embergrid is a general-audience grid-bomb arcade game targeting <strong>Everyone</strong> (US), <strong>PEGI 7</strong> (Europe), and a <strong>4+</strong> age rating. It features cartoon-style ember-craft festival explosions presented as celebratory fireworks. There is <strong>no blood, no gore, no realistic violence, no sexual content, no profanity, no drugs or alcohol, no gambling mechanics, no in-app communication, and no user-generated content.</strong></li>
+      <li>The App is not specifically directed at children under the age of 13 and is not enrolled in any kids/families program. However, because Embergrid&rsquo;s content is age-appropriate for children and the App collects zero personal information directly, the App is compliant with:
+        <ul>
+          <li><strong>COPPA</strong> (US Children&rsquo;s Online Privacy Protection Act) &mdash; no PII collection from any user including children</li>
+          <li><strong>GDPR-K</strong> (EU GDPR child-protection provisions) &mdash; no PII collection; Embergrid serves no advertising, integrates no advertising SDK, and uses no consent-management SDK. The only third-party data processor is RevenueCat (anonymous IAP receipt validation; no PII)</li>
+          <li><strong>Vietnam PDPL</strong> (Personal Data Protection Law) &mdash; no personal data collection subject to PDPL notification or consent</li>
+        </ul>
+      </li>
+      <li>If you are a parent or guardian and have questions about Embergrid&rsquo;s data practices, please contact us at the email address in Section 10.</li>
+    </ul>
+
+    <!-- Section 7 -->
+    <h2>7. Your Rights and Choices</h2>
+
+    <h3>All users:</h3>
+    <ul>
+      <li>You can delete all App data at any time by uninstalling the App or clearing the App&rsquo;s data in your device settings. (On most devices this is found under your device&rsquo;s Storage or App settings for Embergrid.)</li>
+      <li>Embergrid serves no advertising and reads no advertising identifier, so there is nothing to opt out of with respect to personalized ads.</li>
+    </ul>
+
+    <h3>Users in the European Union / European Economic Area (GDPR):</h3>
+    <ul>
+      <li>You have rights under the General Data Protection Regulation including the right to access, rectification, erasure, restriction of processing, data portability, and objection.</li>
+      <li>Because Embergrid stores all user data locally on your device and we do not maintain any server-side data, these rights are exercised entirely through your device &mdash; uninstalling the App or clearing its data deletes everything we hold about your usage.</li>
+      <li>For data collected by RevenueCat under your IAP transactions, please refer to RevenueCat&rsquo;s privacy policy and use their data-subject-rights portal.</li>
+    </ul>
+
+    <h3>Users in California (CCPA / CPRA):</h3>
+    <ul>
+      <li>California residents have the right to know what personal information is collected, to request deletion, and to opt out of the sale or sharing of personal information.</li>
+      <li>We do not sell personal information that we collect directly. All locally stored data is under your direct control on your device.</li>
+      <li>Embergrid serves no advertising and reads no advertising identifier, so there is no &ldquo;sharing&rdquo; of personal information for advertising purposes under CCPA&rsquo;s definition.</li>
+    </ul>
+
+    <h3>Users in Vietnam (PDPL):</h3>
+    <ul>
+      <li>Vietnam&rsquo;s Personal Data Protection Law grants data subjects rights of access, correction, deletion, restriction, and objection.</li>
+      <li>Embergrid collects no personal data subject to PDPL notification or consent obligations from its own code path. For data potentially collected by RevenueCat under its own contract, please refer to its privacy policy and contact RevenueCat directly to exercise PDPL rights.</li>
+      <li>Vietnamese users may contact us at the email address in Section 10 with any PDPL-related questions.</li>
+    </ul>
+
+    <!-- Section 8 -->
+    <h2>8. International Data Transfers</h2>
+    <p>Embergrid itself does not transfer your personal data internationally because Embergrid does not collect personal data from your use of the App. Third-party services (RevenueCat) may transfer data internationally per their own privacy policies; please refer to their documentation for the legal bases and safeguards they apply.</p>
+
+    <!-- Section 9 -->
+    <h2>9. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect changes in the App, our practices, or applicable law. When we make changes:</p>
+    <ul>
+      <li>The updated policy will be posted at this URL.</li>
+      <li>The &ldquo;Last updated&rdquo; date at the top of this document will be revised to reflect the date of the most recent changes.</li>
+      <li>For material changes (such as adding a new SDK that collects data), we will update the App&rsquo;s store listing to note the revision.</li>
+    </ul>
+    <p>We encourage you to review this Privacy Policy periodically.</p>
+
+    <!-- Section 10 -->
+    <h2>10. Contact Us</h2>
+    <p>If you have questions, concerns, or requests regarding this Privacy Policy or the App&rsquo;s data practices, please contact us at:</p>
+    <p><strong>Email:</strong> <a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></p>
+    <p>We aim to respond within 5 business days.</p>
+
+    <!-- Section 11 -->
+    <h2>11. App Information</h2>
+    <ul>
+      <li><strong>App Name:</strong> Embergrid</li>
+      <li><strong>Developer:</strong> WizusLabs</li>
+      <li><strong>Category:</strong> Games &mdash; Arcade</li>
+      <li><strong>Age Rating:</strong> 4+ / Everyone / PEGI 7</li>
+      <li><strong>IAP SDK:</strong> RevenueCat (receipt validation; cosmetic-only SKUs)</li>
+      <li><strong>Ad SDK:</strong> None</li>
+      <li><strong>Analytics:</strong> None</li>
+      <li><strong>Crash Reporting:</strong> None</li>
+      <li><strong>Data Storage:</strong> Local only. No server. No cloud sync.</li>
+      <li><strong>Login Required:</strong> No. No account. No registration.</li>
+    </ul>
+
+    <!-- Section 12 -->
+    <h2>12. Related Documents</h2>
+    <ul>
+      <li><strong>Terms of Use:</strong> <a href="/embergrid/terms-of-use">/embergrid/terms-of-use</a></li>
+      <li><strong>Support:</strong> <a href="/embergrid/support">/embergrid/support</a></li>
+    </ul>
+
+  </article>
+</main>
+
+<!--
+  footer.html — SOURCE OF TRUTH for the site footer.
+  No build tool. Copy this block inline into each page's <body>.
+  If the footer changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.2 + §7.20 (footer mark).
+  Every legacy store-submission URL lives here by design.
+-->
+<footer class="footer">
+  <div class="footer__cols footer__cols--3col">
+    <section aria-labelledby="footer-lab">
+      <h2 id="footer-lab" class="footer__heading">Lab</h2>
+      <ul class="footer__list">
+        <li><a href="/manifesto/">Manifesto</a></li>
+        <li><a href="/agents/">Agents</a></li>
+        <li><a href="/human/">Human</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-apps">
+      <h2 id="footer-apps" class="footer__heading">Apps</h2>
+      <ul class="footer__list">
+        <li><a href="/apps/neuralspark/">NeuralSpark</a></li>
+        <li><a href="/apps/sudoku/">Sudoku</a></li>
+        <li><a href="/iron-swarm/">Iron Swarm</a></li>
+        <li><a href="/apps/">All apps</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-contact">
+      <h2 id="footer-contact" class="footer__heading">Contact</h2>
+      <ul class="footer__list">
+        <li><a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; 2026 WizusLabs</p>
+    <p class="footer__mark">Always for Human.</p>
+    <p><a href="/">wizuslabs.com</a></p>
+  </div>
+</footer>
+</body>
+</html>

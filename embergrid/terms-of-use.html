@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terms of Use &mdash; Embergrid</title>
+  <meta name="description" content="Embergrid terms of use. License, acceptable use, in-app purchases, intellectual property, disclaimers, and governing law.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#FBF9F4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0E1013" media="(prefers-color-scheme: dark)">
+
+  <link rel="canonical" href="https://wizuslabs.com/embergrid/terms-of-use">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/js/app.js"></script>
+</head>
+<body>
+<!--
+  nav.html — SOURCE OF TRUTH for the site nav.
+  No build tool. Copy this block inline into each page's <body>.
+  If nav changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.1 + §11 (wordmark) + §7.10 (theme toggle).
+-->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <nav class="nav" aria-label="Primary">
+    <div class="container nav__inner">
+      <a class="wordmark" href="/" aria-label="WizusLabs home">
+        <span class="wordmark__first">Wizus</span><span class="wordmark__second">Labs</span>
+      </a>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a class="nav__link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__link" href="/agents/">Agents</a></li>
+        <li><a class="nav__link" href="/apps/">Apps</a></li>
+        <li><a class="nav__link" href="/human/">Human</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button
+          type="button"
+          class="nav__hamburger"
+          data-nav-open-btn
+          aria-expanded="false"
+          aria-controls="nav-panel"
+          aria-label="Open navigation">
+          <svg class="nav__hamburger-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M3 7h18M3 12h18M3 17h18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          class="theme-toggle"
+          data-theme-toggle
+          data-state="auto"
+          aria-label="Theme: auto"
+          aria-pressed="false">
+          <svg class="theme-toggle__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/>
+          </svg>
+          <span class="theme-toggle__label">Theme: auto</span>
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="nav-panel"
+      class="nav__panel"
+      data-nav-panel
+      role="dialog"
+      aria-modal="true"
+      aria-label="Primary navigation">
+      <button
+        type="button"
+        class="nav__panel-close"
+        data-nav-close-btn
+        aria-label="Close navigation">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+          <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <ul class="nav__panel-list">
+        <li><a class="nav__panel-link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__panel-link" href="/agents/">Agents</a></li>
+        <li><a class="nav__panel-link" href="/apps/">Apps</a></li>
+        <li><a class="nav__panel-link" href="/human/">Human</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Screen-reader announcement target for theme toggle -->
+<div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
+
+<main id="main" class="container section">
+
+  <!-- LegalFrontmatter (§7.21) — editorial header above the terms body.
+       Note: /apps/embergrid/ detail page does not exist yet (Embergrid is
+       pre-listing). Breadcrumb + back-link resolve to /apps/ so the
+       portfolio index is the landing point. -->
+  <div class="legal-frontmatter reading-measure">
+    <p>
+      <a class="u-mono" href="/apps/" aria-label="Back to Apps">Embergrid by WizusLabs</a>
+    </p>
+    <h1 class="legal-frontmatter__title">Embergrid &mdash; Terms of Use</h1>
+    <p class="legal-frontmatter__date">Last updated: June 28, 2026</p>
+    <a class="link legal-frontmatter__back" href="/apps/">&larr; Back to Apps</a>
+  </div>
+
+  <article class="terms-page reading-measure">
+
+    <p>These Terms of Use (&ldquo;Terms&rdquo;) govern your use of the Embergrid application (&ldquo;the App&rdquo; or &ldquo;Embergrid&rdquo;) developed by WizusLabs (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;). By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree, please do not use the App.</p>
+
+    <!-- Section 1 -->
+    <h2>1. Acceptance of Terms</h2>
+    <p>By installing, accessing, or using Embergrid, you confirm that you have read, understood, and agreed to be bound by these Terms and our <a href="/embergrid/privacy-policy">Privacy Policy</a>. If you are using Embergrid on behalf of a minor (such as a parent providing the App for a child), you accept these Terms on the minor&rsquo;s behalf and are responsible for the minor&rsquo;s compliance with them.</p>
+    <p>These Terms apply to all users of the App.</p>
+
+    <!-- Section 2 -->
+    <h2>2. License Grant</h2>
+    <p>Subject to your compliance with these Terms, we grant you a <strong>limited, non-exclusive, non-transferable, revocable, personal license</strong> to download, install, and use the App on any device that you own or control, solely for your personal, non-commercial purposes. This license is also subject to the usage rules established by the store from which you downloaded the App.</p>
+    <p>This license does not grant you any right to use our trademarks, service marks, trade names, character names, or any other intellectual property except as necessary to use the App under these Terms.</p>
+
+    <!-- Section 3 -->
+    <h2>3. User Obligations and Acceptable Use</h2>
+    <p>You agree NOT to:</p>
+    <ul>
+      <li><strong>Reverse-engineer</strong>, decompile, disassemble, or otherwise attempt to derive the source code, simulation engine, or save format of the App, except to the extent expressly permitted by applicable law (e.g. interoperability rights under EU Directive 2009/24/EC, where granted by national law).</li>
+      <li><strong>Copy, modify, distribute, sell, lease, sublicense</strong>, or create derivative works based on the App or any portion of it.</li>
+      <li><strong>Redistribute</strong> the App or any portion of it through any channel not authorized by WizusLabs (including pirated app repositories or third-party app stores not authorized by us).</li>
+      <li>Use <strong>cheats, exploits, automation software, bots, hacks, mods</strong>, or any unauthorized third-party software designed to modify, fork, or interfere with the App, its simulation engine, or its save data.</li>
+      <li><strong>Exploit bugs, glitches, or design errors</strong> in the App to gain an unfair advantage or disrupt the experience of other users (note: Embergrid is an offline single-player and local-multiplayer game; this primarily addresses save-state manipulation and IAP entitlement tampering).</li>
+      <li><strong>Tamper with or redistribute IAP entitlements</strong>, including but not limited to circumventing receipt validation, transferring purchased cosmetic skin packs to other users without our authorization, or sharing modified save files that grant unearned entitlements.</li>
+      <li>Use the App for any <strong>unlawful purpose</strong> or in violation of any applicable law or regulation.</li>
+      <li>Attempt to gain <strong>unauthorized access</strong> to the App, its servers (we do not operate any, but this prohibition stands in principle), or any related systems or networks.</li>
+    </ul>
+
+    <!-- Section 4 -->
+    <h2>4. In-App Purchases</h2>
+    <p>Embergrid offers the following in-app purchases (&ldquo;IAPs&rdquo;), all of which are <strong>non-consumable cosmetic items</strong>:</p>
+    <ul>
+      <li><strong>Anu Marrow &mdash; Seasons Pack</strong> &mdash; $4.99 &mdash; non-consumable &mdash; 4 cosmetic skin variants for Anu Marrow.</li>
+      <li><strong>Doro Kindle &mdash; Forge Pack</strong> &mdash; $4.99 &mdash; non-consumable &mdash; 4 skin variants for Doro Kindle.</li>
+      <li><strong>Iyo Drift &mdash; Lantern Pack</strong> &mdash; $4.99 &mdash; non-consumable &mdash; 4 skin variants for Iyo Drift.</li>
+      <li><strong>Bex Hollowmoon &mdash; Bell Pack</strong> &mdash; $4.99 &mdash; non-consumable &mdash; 4 skin variants for Bex Hollowmoon.</li>
+      <li><strong>Festival Cosmetic Pack</strong> &mdash; $14.99 &mdash; non-consumable &mdash; all 16 skin variants across all 4 apprentices.</li>
+    </ul>
+    <p>All IAPs are <strong>cosmetic only</strong>. They do not provide any gameplay advantage, do not unlock additional levels, do not affect score, and do not grant any in-game currency. The 4 apprentices share identical gameplay stats &mdash; IAP differentiation is purely visual.</p>
+    <p><strong>No randomized purchases.</strong> Embergrid does not offer loot boxes, gacha mechanics, randomized cosmetic drops, or any other randomized purchase type. Every purchase is deterministic &mdash; you see exactly what you are buying, and you receive exactly what you saw.</p>
+    <p><strong>Local regional pricing.</strong> Prices in your local currency are determined by your app store&rsquo;s auto-conversion from the USD anchor. Local prices may differ from the USD anchor due to regional tax and tier-conversion rules.</p>
+    <p><strong>Refunds.</strong> All purchases are processed and managed through your app store. Refund requests must be directed to your app store through its standard refund procedure. We do not process payments directly and do not issue refunds independently of the platform refund channel.</p>
+    <p><strong>Restore Purchases.</strong> If you reinstall Embergrid or install it on a new device, your previously-purchased cosmetic skin packs can be restored at no additional cost via <strong>Settings &rarr; Restore Purchases</strong> (or the Shop screen&rsquo;s &ldquo;Restore&rdquo; affordance). Restoration requires you to be signed in to the same store account used for the original purchase.</p>
+    <p><strong>No subscriptions.</strong> Embergrid does not offer subscriptions in the current version. If we ever introduce a subscription tier, these Terms will be updated with the relevant terms (including auto-renewal disclosure and cancellation instructions) and you will be notified before the subscription becomes available.</p>
+
+    <!-- Section 5 -->
+    <h2>5. Advertising</h2>
+    <p>Embergrid does <strong>not</strong> show advertising of any kind in this version. The App integrates no third-party advertising SDK, does not read any advertising identifier, and serves no banners, interstitials, or rewarded videos.</p>
+
+    <!-- Section 6 -->
+    <h2>6. Intellectual Property</h2>
+    <p>All content in the App, including but not limited to <strong>text, graphics, sprite art, character designs, world lore, festival vocabulary, soundtrack, sound effects, simulation engine source code, save format, level designs, user interface design, and the Embergrid wordmark</strong>, is the property of WizusLabs or its licensors and is protected by applicable copyright, trademark, and other intellectual property laws.</p>
+    <p>The Embergrid characters &mdash; <strong>Anu Marrow, Doro Kindle, Iyo Drift, Bex Hollowmoon</strong> &mdash; and the four schools &mdash; <strong>Marrow Hollow, Kindle Forge, Drift River, Hollowmoon Ridge</strong> &mdash; are original creations of WizusLabs.</p>
+    <p>You do not acquire any ownership rights by using the App. All rights not expressly granted in these Terms are reserved by WizusLabs.</p>
+    <p><strong>Reporting infringement.</strong> If you believe any content within the App infringes your intellectual property rights, please contact us at the email address in Section 14 with the details of your claim (the work you allege is infringed, where it appears in the App, and your contact information). We respond to good-faith infringement notices.</p>
+
+    <!-- Section 7 -->
+    <h2>7. Privacy</h2>
+    <p>Your privacy is important to us. Our collection, use, and handling of data is governed by our Privacy Policy, available at: <a href="/embergrid/privacy-policy">/embergrid/privacy-policy</a>.</p>
+    <p>The Privacy Policy describes what data exists on your device, what third-party SDKs (RevenueCat for IAP) may collect, and what data WizusLabs does NOT collect (which is nearly everything you might expect a mobile app to collect &mdash; Embergrid operates with one of the strictest privacy postures in the mobile arcade category), and your rights regarding that data.</p>
+    <p>By using the App, you confirm that you have read and understood the Privacy Policy. We encourage you to review the Privacy Policy before using the App.</p>
+
+    <!-- Section 8 -->
+    <h2>8. Disclaimers</h2>
+    <p>THE APP IS PROVIDED ON AN &ldquo;AS IS&rdquo; AND &ldquo;AS AVAILABLE&rdquo; BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.</p>
+    <p>We do not warrant that the App will be uninterrupted, error-free, or free of harmful components. Your use of the App is at your sole risk.</p>
+    <p><strong>Gameplay decisions are your responsibility.</strong> Embergrid is a casual arcade game; we do not make any claims that playing it improves any specific outcome. If the App is not enjoyable, you may stop using it at any time.</p>
+    <p><strong>Third-party services.</strong> The App integrates third-party services (platform in-app purchase processing, RevenueCat). We are not responsible for the operation, availability, or privacy practices of those services. They operate under their own terms and privacy policies.</p>
+
+    <!-- Section 9 -->
+    <h2>9. Limitation of Liability</h2>
+    <p>To the maximum extent permitted by applicable law, <strong>WizusLabs shall not be liable for any indirect, incidental, special, consequential, or punitive damages</strong>, or any loss of profits, data, or goodwill, arising out of or related to your use of or inability to use the App, regardless of the cause of action or the theory of liability.</p>
+    <p>In no event shall our total liability to you exceed the <strong>amount you have paid to us (if any) for in-app purchases in Embergrid in the twelve (12) months preceding the claim</strong>, or <strong>USD $50.00</strong>, whichever is greater (local currency equivalent applies in your jurisdiction).</p>
+    <p>Some jurisdictions do not allow the exclusion or limitation of incidental or consequential damages, so the above limitation may not apply to you in full. In such jurisdictions, our liability is limited to the maximum extent permitted by applicable law.</p>
+
+    <!-- Section 10 -->
+    <h2>10. Termination</h2>
+    <p>We reserve the right to terminate or suspend your access to the App at any time, without prior notice, for conduct that we believe violates these Terms or is harmful to other users, us, or third parties (including abuse of IAP entitlements, distribution of pirated copies, or attempts to interfere with the App).</p>
+    <p>You may stop using the App at any time by uninstalling it. Uninstalling removes all local data Embergrid has about your usage. Your in-app purchases are preserved by your store account and can be restored on any device.</p>
+    <p>Upon termination, your license to use the App is immediately revoked. Sections that by their nature should survive termination (including Intellectual Property, Limitation of Liability, Disclaimers, and Governing Law) shall continue in effect.</p>
+
+    <!-- Section 11 -->
+    <h2>11. Governing Law and Jurisdiction</h2>
+    <p>These Terms shall be governed by and construed in accordance with the laws of the <strong>Socialist Republic of Vietnam</strong>, without regard to its conflict-of-laws principles. Any disputes arising under or in connection with these Terms shall be subject to the exclusive jurisdiction of the competent courts in <strong>Ho Chi Minh City, Vietnam</strong>.</p>
+    <p>Notwithstanding the foregoing:</p>
+    <ul>
+      <li>If you are a consumer resident in the European Union or European Economic Area, you may also benefit from the mandatory consumer protection provisions of the laws of your country of residence, and may bring claims in the courts of that country if your local law so permits.</li>
+      <li>If you are a consumer resident in California, you retain the rights granted to you under California&rsquo;s consumer protection laws (including the CCPA / CPRA), and may bring claims as permitted by those laws.</li>
+    </ul>
+
+    <!-- Section 12 -->
+    <h2>12. Apple End User License Agreement</h2>
+    <p>If you downloaded the App from the Apple App Store, these Terms are supplemented by Apple&rsquo;s standard Licensed Application End User License Agreement (EULA), available at: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a>. In the event of a conflict between these Terms and Apple&rsquo;s EULA, Apple&rsquo;s EULA shall take precedence to the extent required by Apple&rsquo;s policies.</p>
+    <p>You acknowledge that:</p>
+    <ul>
+      <li>These Terms are concluded between you and WizusLabs only, and not with Apple. Apple is not a party to these Terms.</li>
+      <li>WizusLabs is solely responsible for the App and the content thereof.</li>
+      <li>Apple has no obligation to provide maintenance or support for the App, except as required by applicable law.</li>
+      <li>In the event of any failure of the App to conform to any applicable warranty, you may notify Apple, and Apple may refund the purchase price (if any) to you. To the maximum extent permitted by applicable law, Apple has no other warranty obligation with respect to the App.</li>
+      <li>Apple and Apple&rsquo;s subsidiaries are third-party beneficiaries of these Terms and, upon your acceptance of these Terms, will have the right to enforce these Terms against you as a third-party beneficiary thereof.</li>
+    </ul>
+
+    <!-- Section 13 -->
+    <h2>13. Changes to These Terms</h2>
+    <p>We may update these Terms from time to time. When we make changes:</p>
+    <ul>
+      <li>The updated Terms will be posted at this URL.</li>
+      <li>The &ldquo;Last updated&rdquo; date at the top of this document will be revised.</li>
+      <li>For material changes, we will update the App&rsquo;s store listing to note the revision.</li>
+    </ul>
+    <p>Your continued use of the App after changes are posted constitutes acceptance of the revised Terms. If you do not agree with the revised Terms, your remedy is to stop using the App. We encourage you to review these Terms periodically.</p>
+
+    <!-- Section 14 -->
+    <h2>14. Contact Us</h2>
+    <p>If you have questions or concerns about these Terms, please contact us at:</p>
+    <p><strong>Email:</strong> <a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></p>
+    <p>We aim to respond within 5 business days.</p>
+
+    <!-- Section 15 -->
+    <h2>15. App Information</h2>
+    <ul>
+      <li><strong>App Name:</strong> Embergrid</li>
+      <li><strong>Developer:</strong> WizusLabs</li>
+      <li><strong>Category:</strong> Games &mdash; Arcade</li>
+      <li><strong>Age Rating:</strong> 4+ / Everyone / PEGI 7</li>
+    </ul>
+
+    <!-- Section 16 -->
+    <h2>16. Related Documents</h2>
+    <ul>
+      <li><strong>Privacy Policy:</strong> <a href="/embergrid/privacy-policy">/embergrid/privacy-policy</a></li>
+      <li><strong>Support:</strong> <a href="/embergrid/support">/embergrid/support</a></li>
+    </ul>
+
+  </article>
+</main>
+
+<!--
+  footer.html — SOURCE OF TRUTH for the site footer.
+  No build tool. Copy this block inline into each page's <body>.
+  If the footer changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.2 + §7.20 (footer mark).
+  Every legacy store-submission URL lives here by design.
+-->
+<footer class="footer">
+  <div class="footer__cols footer__cols--3col">
+    <section aria-labelledby="footer-lab">
+      <h2 id="footer-lab" class="footer__heading">Lab</h2>
+      <ul class="footer__list">
+        <li><a href="/manifesto/">Manifesto</a></li>
+        <li><a href="/agents/">Agents</a></li>
+        <li><a href="/human/">Human</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-apps">
+      <h2 id="footer-apps" class="footer__heading">Apps</h2>
+      <ul class="footer__list">
+        <li><a href="/apps/neuralspark/">NeuralSpark</a></li>
+        <li><a href="/apps/sudoku/">Sudoku</a></li>
+        <li><a href="/iron-swarm/">Iron Swarm</a></li>
+        <li><a href="/apps/">All apps</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-contact">
+      <h2 id="footer-contact" class="footer__heading">Contact</h2>
+      <ul class="footer__list">
+        <li><a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; 2026 WizusLabs</p>
+    <p class="footer__mark">Always for Human.</p>
+    <p><a href="/">wizuslabs.com</a></p>
+  </div>
+</footer>
+</body>
+</html>
