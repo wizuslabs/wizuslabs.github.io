@@ -6,6 +6,19 @@
    - mobile nav focus trap + open/close
    - nav condense on scroll (rAF-debounced)
 */
+/* github.io sunset (2026-07-05): the legacy GitHub Pages origin is retained only as a
+   redirect to the canonical Cloudflare origin (wizuslabs.com). Every HTML page that loads
+   this script and is served from wizuslabs.github.io bounces to the same path on
+   wizuslabs.com. version.json is unaffected (it does not load this script), so in-app
+   update checks on already-shipped binaries keep resolving. No-op on wizuslabs.com and
+   localhost. */
+(function () {
+  "use strict";
+  if (location.hostname === "wizuslabs.github.io") {
+    var path = location.pathname.replace(/index\.html$/, "").replace(/\.html$/, "");
+    location.replace("https://wizuslabs.com" + path + location.search + location.hash);
+  }
+})();
 (function () {
   "use strict";
 
