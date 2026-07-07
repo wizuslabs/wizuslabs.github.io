@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How to Play Sudoku — Rules &amp; Game Modes | WizusLabs</title>
+  <meta name="description" content="Sudoku rules in plain language, plus a clear guide to eight game modes: Classic 9×9, Mini 6×6, Killer, Irregular, X-Sudoku, Windoku, Even-Odd, and Large 12×12.">
+  <link rel="canonical" href="https://sudoku.wizuslabs.com/how-to-play/">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #EEF1F8;
+      color: #1F2A44;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      font-size: 17px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 20px 20px 0;
+    }
+    .brand {
+      color: #2A3B6B;
+      font-weight: 700;
+      font-size: 18px;
+      text-decoration: none;
+      letter-spacing: 0.3px;
+    }
+    .play-cta {
+      display: inline-block;
+      background: #4A6CF7;
+      color: #FFFFFF;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 10px 22px;
+      border-radius: 10px;
+      white-space: nowrap;
+    }
+    .play-cta:hover { background: #3A57D6; }
+    main {
+      max-width: 760px;
+      margin: 24px auto 0;
+      padding: 0 20px;
+    }
+    article {
+      background: #FFFFFF;
+      border-radius: 16px;
+      padding: 32px 28px;
+      box-shadow: 0 2px 12px rgba(42, 59, 107, 0.06);
+    }
+    h1 { color: #2A3B6B; font-size: 30px; line-height: 1.25; margin: 0 0 16px; }
+    h2 { color: #2A3B6B; font-size: 22px; margin: 32px 0 10px; }
+    h3 { color: #2A3B6B; font-size: 18px; margin: 24px 0 6px; }
+    p { margin: 0 0 14px; }
+    ul { margin: 0 0 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    a { color: #4A6CF7; }
+    .play-back { text-align: center; margin: 28px 0 0; }
+    footer {
+      max-width: 760px;
+      margin: 32px auto 0;
+      padding: 0 20px 40px;
+      text-align: center;
+      font-size: 15px;
+      color: #5A678C;
+    }
+    footer nav a { color: #4A6CF7; text-decoration: none; }
+    footer nav a:hover { text-decoration: underline; }
+    footer p { margin: 10px 0 0; }
+    footer a { color: #4A6CF7; }
+    @media (max-width: 480px) {
+      article { padding: 24px 18px; }
+      h1 { font-size: 25px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="brand" href="/">Sudoku · WizusLabs</a>
+    <a class="play-cta" href="/">Play Sudoku</a>
+  </header>
+  <main>
+    <article>
+      <h1>How to Play Sudoku</h1>
+      <p>Sudoku looks like a number game, but no arithmetic is involved. It is a placement puzzle: a grid divided into rows, columns, and boxes, where every digit may appear only once in each. The numbers could just as well be letters or symbols — what matters is that they don't repeat.</p>
+
+      <h2>The rules of classic sudoku</h2>
+      <p>A classic board is a 9×9 grid split into nine 3×3 boxes. Some cells already contain digits; these are called <em>givens</em>. Your job is to fill every empty cell so that:</p>
+      <ul>
+        <li>each <strong>row</strong> contains the digits 1 through 9 exactly once,</li>
+        <li>each <strong>column</strong> contains 1 through 9 exactly once, and</li>
+        <li>each <strong>3×3 box</strong> contains 1 through 9 exactly once.</li>
+      </ul>
+      <p>That is the entire ruleset. The depth comes from how those three constraints interact. A well-made puzzle has exactly one solution, and every puzzle on this site is checked for that before you ever see it — so if you find yourself wanting to guess, there is always a logical step you haven't spotted yet.</p>
+
+      <h2>A sensible way to start</h2>
+      <p>Scan for nearly full rows, columns, and boxes first. A unit with eight digits placed tells you the ninth for free. From there, pick a digit that appears often on the board and trace where it can still legally go in each box. When progress slows, switch to notes: write the remaining candidates in the corner of each empty cell, and watch for cells that hold a single candidate. Our <a href="/techniques/">Techniques</a> guide takes this much further, from those first scans up to advanced eliminations like the X-Wing.</p>
+      <p>A few habits help at every level. Work in pencil-mark logic rather than intuition — if you cannot say <em>why</em> a digit belongs in a cell, it does not belong there yet. And take breaks; a fresh look often finds in seconds what a tired one missed for minutes.</p>
+
+      <h2>The eight game modes</h2>
+      <h3>Classic</h3>
+      <p>The original 9×9 grid described above. Everything else on this page is a variation on it, so if you are new, start here.</p>
+      <h3>Mini</h3>
+      <p>A 6×6 grid using digits 1–6, with 2×3 boxes instead of 3×3. The same logic in a smaller space: most Mini puzzles resolve in around five minutes, which makes them ideal for a short break or for practicing a new technique without committing to a full board.</p>
+      <h3>Killer</h3>
+      <p>The grid is overlaid with dashed <em>cages</em>, each showing a target sum. The digits inside a cage must add up to that sum, and no digit may repeat within a cage. Killer puzzles give you few or no starting digits — the cage sums themselves are your clues, so light mental addition joins the usual placement logic.</p>
+      <h3>Irregular</h3>
+      <p>The familiar 3×3 boxes are replaced by nine free-form regions of nine cells each. Rows and columns work as usual, but the jagged region shapes break the visual habits you've built on classic boards, forcing you to actually trace each region's boundary.</p>
+      <h3>X-Sudoku</h3>
+      <p>Classic rules plus one addition: both main diagonals must also contain 1 through 9 exactly once. Two extra constraints sound small, but cells on the diagonals become much more informative — and the center cell, which sits on both, is often the key to the whole board.</p>
+      <h3>Windoku</h3>
+      <p>Four additional 3×3 "window" boxes, shown shaded, sit inside the grid offset from the regular boxes. Each window must also contain 1 through 9. The overlapping constraints create elimination chains that classic boards can't produce.</p>
+      <h3>Even-Odd</h3>
+      <p>Some cells are shaded to indicate parity: a shaded cell must hold an even digit (or an odd one, as marked). Parity information halves the candidates in those cells from the start, which changes how you open the puzzle.</p>
+      <h3>Large 12×12</h3>
+      <p>A 12×12 grid using digits 1–12, divided into twelve 3×4 boxes. The rules are pure classic; there is simply more room to reason. Larger units mean longer scans and more patient bookkeeping — bring your notes.</p>
+
+      <h2>Where to go next</h2>
+      <p>If the modes are clear but the solving still feels like trial and error, the <a href="/techniques/">Techniques</a> guide teaches the named moves — Naked Singles through XY-Wings — in the order most players learn them. And if you are unsure which level to pick, <a href="/difficulty/">Difficulty Levels</a> explains exactly how our puzzles are graded.</p>
+    </article>
+    <p class="play-back"><a class="play-cta" href="/">Play Sudoku</a></p>
+  </main>
+  <footer>
+    <nav aria-label="Site">
+      <a href="/how-to-play/">How to Play</a> ·
+      <a href="/techniques/">Techniques</a> ·
+      <a href="/difficulty/">Difficulty</a> ·
+      <a href="https://wizuslabs.com/sudoku/privacy-policy">Privacy Policy</a> ·
+      <a href="https://wizuslabs.com/sudoku/terms-of-use">Terms</a>
+    </nav>
+    <p>Contact: <a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a> · © WizusLabs</p>
+  </footer>
+</body>
+</html>
