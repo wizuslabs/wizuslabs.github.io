@@ -1,0 +1,37 @@
+{
+  "easy": [
+    "ANH", "BAO", "BAN", "BAT", "BAY", "BEN", "BON", "BUT", "CAM", "CAN",
+    "CAO", "CAT", "CAU", "CHA", "CHO", "CON", "CUA", "CUC", "DAI", "DAM",
+    "DAU", "DAY", "DEN", "DEP", "DIM", "DOC", "DOI", "DUA", "DUN", "GAO",
+    "GHE", "GIO", "GOI", "HAI", "HAT", "HEN", "HOA", "HOI", "HOP", "HUE",
+    "KEM", "KHO", "KIM", "LAM", "LAN", "LAU", "LON", "LUA", "LUC", "MAI",
+    "MAT", "MAU", "MAY", "MEN", "MUA", "MUI", "MUP", "NAM", "NAU", "NAY",
+    "NEM", "NEN", "NGA", "NOI", "NUI", "ONG", "PHO", "QUA", "RAU", "RAN",
+    "SAO", "SAU", "SOI", "TAM", "TAN", "TAO", "TAT", "TAU", "TAY", "TEN",
+    "THO", "TIA", "TIM", "TOC", "TOI", "TRA", "TRE", "TUA", "TUI", "UON",
+    "VAI", "VAN", "VAO", "VOI", "VUA", "VUI", "XAO", "XIN", "YEN", "YEU"
+  ],
+  "medium": [
+    "AMEN", "BANH", "BANG", "BIET", "BINH", "BUOI", "BUON", "CANH", "CACH",
+    "CHAI", "CHAN", "CHAY", "CHEN", "CHIN", "CHON", "CHUA", "CHUC", "CHUM",
+    "CONG", "CUOC", "CUOI", "DANH", "DANG", "DIEM", "DIEN", "DINH", "DONG",
+    "DUOC", "GACH", "GIAM", "GIAN", "GIAO", "GIAY", "GIOI", "GIUP", "GION",
+    "HANG", "HANH", "HINH", "HOAI", "HONG", "HUON", "KHAC", "KHAN", "KHOE",
+    "KINH", "LACH", "LANG", "LANH", "LIEU", "LINH", "LONG", "LUAT", "LUOI",
+    "LUON", "MANH", "MINH", "MONG", "MUOI", "MUON", "NANG", "NGAY", "NGHE",
+    "NGON", "NHAN", "NHAT", "NHIN", "NHOM", "PHIM", "PHAT", "PHEN", "PHUC",
+    "QUAN", "QUAY", "RANG", "RINH", "RONG", "RUOI", "SANG", "SINH", "SOAN",
+    "SONG", "SUON", "TACH", "THAN", "THAY", "THEM", "THOI", "THON", "THUC",
+    "TIEN", "TINH", "TOAN", "TREN", "TRON", "TRUC", "TUOI", "VANG", "VIEN",
+    "VINH"
+  ],
+  "hard": [
+    "BACHA", "BANGC", "BENHV", "BIETA", "BINHM", "BUOIC", "CABAL", "CANHO",
+    "CHANH", "CHINH", "CHUOI", "CHUNG", "CHUOT", "CHUYN", "DOANH", "DUONG",
+    "GIONG", "GUONG", "HAING", "HANOI", "HUONG", "KHANH", "KHONG", "KHUNG",
+    "LUONG", "MANGO", "MUONG", "NGACH", "NGANG", "NGHEM", "NGHIN", "NGOAI",
+    "NGUOI", "NHANH", "NHIEU", "NHUOM", "PHONG", "QUANG", "THANH", "THANG",
+    "THICH", "THOAI", "THONG", "THUOC", "TRANG", "TRINH", "TRONG", "TRUOC",
+    "TUONG", "VUONG"
+  ]
+}

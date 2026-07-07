@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "faces": [
+    {
+      "id": "face_001",
+      "demographic": "adult_neutral_palette",
+      "names": {
+        "en": "Alex",
+        "vi": "An",
+        "es_LATAM": "Alejandro",
+        "fr": "Alex"
+      }
+    },
+    {
+      "id": "face_002",
+      "demographic": "young_adult_warm_palette",
+      "names": {
+        "en": "Sam",
+        "vi": "Sang",
+        "es_LATAM": "Samuel",
+        "fr": "Samuel"
+      }
+    },
+    {
+      "id": "face_003",
+      "demographic": "older_adult_cool_palette",
+      "names": {
+        "en": "Jordan",
+        "vi": "Giang",
+        "es_LATAM": "Jordán",
+        "fr": "Jordan"
+      }
+    },
+    {
+      "id": "face_004",
+      "demographic": "adult_warm_palette",
+      "names": {
+        "en": "Riley",
+        "vi": "Linh",
+        "es_LATAM": "Renata",
+        "fr": "Rémi"
+      }
+    },
+    {
+      "id": "face_005",
+      "demographic": "young_adult_cool_palette",
+      "names": {
+        "en": "Casey",
+        "vi": "Khanh",
+        "es_LATAM": "Camila",
+        "fr": "Camille"
+      }
+    }
+  ]
+}

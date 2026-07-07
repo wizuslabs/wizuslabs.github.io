@@ -1,0 +1,37 @@
+{
+  "easy": [
+    "AJO", "ALA", "AMO", "ARC", "AVE", "BAR", "BOL", "BUS", "CAL", "CAN",
+    "CAR", "COL", "COR", "DAR", "DIA", "DOS", "ECO", "ERA", "FIN", "GAS",
+    "GEL", "GOL", "GRU", "HAZ", "HOY", "HUZ", "IRA", "ISA", "JAR", "JEF",
+    "LEY", "LID", "LUZ", "MAL", "MAN", "MAR", "MAS", "MES", "MIL", "MOL",
+    "MUR", "NIT", "NOS", "OCA", "OJO", "OLA", "ORO", "OSO", "OVA", "PAL",
+    "PAN", "PAR", "PAZ", "PEZ", "PIE", "PIN", "POR", "PUZ", "RAD", "RAP",
+    "RAY", "RED", "REY", "RIO", "ROB", "ROL", "RON", "RUM", "SAL", "SER",
+    "SIN", "SOL", "SUR", "TAL", "TAN", "TAR", "TEN", "TIN", "TIO", "TON",
+    "TOS", "TUB", "UNO", "UVA", "VAL", "VAN", "VAS", "VER", "VEZ", "VIA",
+    "VID", "VIL", "VOZ", "YEN", "ZAR", "ZEN", "ZON", "ZUM", "OCA", "MIS"
+  ],
+  "medium": [
+    "ABRE", "ACTO", "AGUA", "AIRE", "ALGO", "ALMA", "ALTO", "AMOR", "ARCO",
+    "ARMA", "AUTO", "BALA", "BASE", "BESO", "BIEN", "BOCA", "BOLA", "BOTE",
+    "CABO", "CAJA", "CAMA", "CANA", "CAPA", "CARA", "CASO", "CENA", "CERO",
+    "CIMA", "CINE", "CITA", "CLUB", "COCA", "COLA", "COMO", "COPA", "CORO",
+    "COSA", "CUBO", "DADO", "DAMA", "DANO", "DATO", "DEDO", "DIOS", "DIVA",
+    "DONA", "DUDA", "DURO", "EDAD", "FAMA", "FASE", "FILA", "FINO", "FLOR",
+    "FOCO", "FORO", "GAMA", "GATO", "GIRO", "GOTA", "GRAN", "GRIS", "GUIA",
+    "HILO", "HOJA", "HORA", "IDEA", "ISLA", "JEFE", "JUGO", "KILO", "LACA",
+    "LADO", "LAGO", "LANA", "LAZO", "LEMA", "LEON", "LIMA", "LISO", "LOCO",
+    "LOGO", "LOMA", "LOTE", "LUNA", "MANO", "MAPA", "MASA", "META", "MINA",
+    "MODA", "MONO", "MORA", "MURO", "NADA", "NAVE", "NIDO", "NINO", "NOTA",
+    "NUBE"
+  ],
+  "hard": [
+    "ABRIR", "AGUDO", "ALDEA", "ALTAR", "AMIGO", "ANGEL", "ANIMO", "ARBOL",
+    "ARENA", "ATAJO", "AVION", "BANCO", "BARCO", "BELLO", "BRISA", "BURRO",
+    "CAMPO", "CANAL", "CARGO", "CARNE", "CARTA", "CAUSA", "CERCO", "CHICA",
+    "CIELO", "CINCO", "CLARO", "CLAVE", "COBRA", "COLMO", "COLOR", "CORTE",
+    "CREMA", "CRUEL", "CRUDO", "CUERO", "CURSO", "DANZA", "DICHO", "DIGNO",
+    "DULCE", "ELITE", "FALSO", "FERIA", "FINCA", "FIRMA", "GESTO", "GLOBO",
+    "GOLPE", "GRANO"
+  ]
+}

@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "貓",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "狗",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "馬",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "牛",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "豬",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "羊",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "雞",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "鴨",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "鷹",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "獅子",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "老虎",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "熊",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "狼",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "鹿",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "兔子",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "狐狸",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "海豚",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "鯨魚",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "企鵝",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "鸚鵡",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "鯊魚",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "烏龜",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "青蛙",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "蛇",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "鷹",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "水獺",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "壁虎",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "椅子",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "桌子",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "燈",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "鐘",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "鏡子",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "枕頭",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "書",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "杯子",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "盤子",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "瓶子",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "鑰匙",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "電話",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "筆",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "包",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "盒子",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "錢包",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "雨傘",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "蠟燭",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "相框",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "花瓶",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "掃帚",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "籃子",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "梯子",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "繩子",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "刷子",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "海綿",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "衣架",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "蘋果",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "麵包",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "起司",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "米飯",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "雞蛋",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "牛奶",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "香蕉",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "雞",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "披薩",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "義大利麵",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "湯",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "蛋糕",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "餅乾",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "橘子",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "葡萄",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "番茄",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "馬鈴薯",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "胡蘿蔔",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "洋蔥",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "奶油",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "蜂蜜",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "甜瓜",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "檸檬",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "芒果",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "墨西哥捲餅",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "壽司",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "鬆餅",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "錘子",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "鋸",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "鑽頭",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "扳手",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "鉗子",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "螺絲起子",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "釘子",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "螺栓",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "膠帶",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "水平儀",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "夾鉗",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "鑿子",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "銼刀",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "斧頭",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "鏟子",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "尺",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "剪刀",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "泥鏝",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "扳手",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "木槌",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "車床",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "鐵砧",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "台鉗",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "卡尺",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "刨子",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "錐子",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "粗銼",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "樹",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "河",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "山",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "海洋",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "森林",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "湖",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "雲",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "雨",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "太陽",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "月亮",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "星星",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "花",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "岩石",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "沙",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "雪",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "火山",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "峽谷",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "冰川",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "珊瑚",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "苔蘚",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "鵝卵石",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "沙丘",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "潮汐",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "霧",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "微風",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "間歇泉",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "峽灣",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "汽車",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "公車",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "火車",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "飛機",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "船",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "卡車",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "自行車",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "輪船",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "計程車",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "廂型車",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "地鐵",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "渡輪",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "噴射機",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "獨木舟",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "木筏",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "有軌電車",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "遊艇",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "機車",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "獨木舟",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "滑翔機",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "雪橇",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "駁船",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "機踏車",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "貢多拉",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "油輪",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "護衛艦",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "齊柏林飛艇",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "襯衫",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "褲子",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "鞋子",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "帽子",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "夾克",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "襪子",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "洋裝",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "大衣",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "手套",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "圍巾",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "皮帶",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "靴子",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "裙子",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "領帶",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "背心",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "毛衣",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "女衫",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "涼鞋",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "帽T",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "牛仔褲",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "短褲",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "運動鞋",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "斗篷",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "圍裙",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "束腰衣",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "雨披",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "貝雷帽",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "吉他",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "鋼琴",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "鼓",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "小提琴",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "長笛",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "小號",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "豎琴",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "鈴",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "號角",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "管風琴",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "貝斯",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "大提琴",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "班卓琴",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "大號",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "雙簧管",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "單簧管",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "薩克斯風",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "鈴鼓",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "烏克麗麗",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "手風琴",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "曼陀林",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "木琴",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "沙鈴",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "口琴",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "西塔琴",
+    "category": "instruments",
+    "difficulty": "hard"
+  },
+  {
+    "word": "琉特琴",
+    "category": "instruments",
+    "difficulty": "hard"
+  },
+  {
+    "word": "揚琴",
+    "category": "instruments",
+    "difficulty": "hard"
+  }
+]

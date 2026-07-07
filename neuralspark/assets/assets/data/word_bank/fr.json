@@ -1,0 +1,37 @@
+{
+  "easy": [
+    "AIR", "AME", "AMI", "ANE", "ARC", "ART", "BAL", "BAN", "BAR", "BAS",
+    "BEC", "BIS", "BLE", "BOL", "BON", "BOU", "BRU", "BUS", "CAP", "CAS",
+    "CLE", "COL", "COQ", "COR", "COU", "CRI", "CRU", "CUR", "DIS", "DOS",
+    "DUC", "DUR", "EAU", "ECU", "ETE", "FEU", "FIL", "FIN", "FOI", "FOU",
+    "GAI", "GEL", "GRE", "GUE", "ILE", "JEU", "JOB", "LAC", "LAI", "LIN",
+    "LIT", "LOI", "LUC", "MAI", "MAL", "MER", "MIL", "MOI", "MOT", "MUR",
+    "NER", "NET", "NEZ", "NID", "NOE", "NOM", "NUL", "OIE", "OIL", "ONC",
+    "ORT", "OUI", "PAN", "PAR", "PAS", "PIN", "POI", "POT", "PRE", "PUB",
+    "PUR", "RAI", "RAS", "RAT", "RIZ", "ROI", "RUE", "RUS", "SAC", "SEC",
+    "SEL", "SOL", "SOT", "SUD", "TAS", "THE", "TIR", "TON", "TUB", "VIN"
+  ],
+  "medium": [
+    "ACTE", "AIDE", "ANGE", "ARME", "AUBE", "AVEC", "AVIS", "BAIN", "BANC",
+    "BEAU", "BETE", "BIEN", "BISE", "BLEU", "BLOC", "BOIS", "BOND", "BOUT",
+    "BRAS", "BREF", "BRUT", "CAGE", "CAMP", "CAPE", "CART", "CAVE", "CHEF",
+    "CIEL", "CLEF", "COIF", "COIN", "COLT", "COME", "COUP", "COUR", "CRAN",
+    "CRIE", "CROIX", "CUBE", "DANS", "DATE", "DENT", "DEUX", "DIEU", "DITE",
+    "DOME", "DONT", "DOSE", "DOUX", "DRAP", "DUEL", "DURE", "ELAN", "ELLE",
+    "FACE", "FAIT", "FAON", "FARD", "FATE", "FAUX", "FEVE", "FIER", "FILM",
+    "FLUX", "FOND", "FONT", "FORT", "FOUR", "FRAI", "FRET", "FUIT", "GARE",
+    "GOUT", "GRAS", "GRIS", "GROS", "HAUT", "HIER", "IDEE", "JOLI", "JOUR",
+    "JUGE", "JUPE", "JURE", "LAIT", "LAME", "LIEN", "LIEU", "LIME", "LINE",
+    "LION", "LIRE", "LOIN", "LONG", "LOUP", "LUXE", "MAIN", "MAIS", "MARE",
+    "MIDI"
+  ],
+  "hard": [
+    "ABORD", "ACIER", "AGILE", "AIMER", "ALBUM", "ALLER", "AMOUR", "ANGLE",
+    "APPEL", "ARBRE", "ASTRE", "AVION", "AVOIR", "BANJO", "BARGE", "BAZAR",
+    "BLANC", "BOIRE", "BOMBE", "BRISE", "BRUME", "BULLE", "CANAL", "CHAIR",
+    "CHAMP", "CHAUD", "CHEMIN", "CHOSE", "CLAIR", "COEUR", "CONTE", "COUDE",
+    "COUPE", "COURS", "CRUEL", "DENSE", "DROIT", "ECLAT", "ECRIT", "ELEVE",
+    "ENVIE", "ETAGE", "ETUDE", "FAUTE", "FICHE", "FINAL", "FLEUR", "FORET",
+    "FORME", "FRAIS"
+  ]
+}

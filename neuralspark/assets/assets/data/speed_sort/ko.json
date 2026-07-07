@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "고양이",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "개",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "말",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "소",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "돼지",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "양",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "닭",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "오리",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "독수리",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "사자",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "호랑이",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "곰",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "늑대",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "사슴",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "토끼",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "여우",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "돌고래",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "고래",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "펭귄",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "앵무새",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "상어",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "거북이",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "개구리",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "뱀",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "매",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "수달",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "도마뱀붙이",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "의자",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "탁자",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "램프",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "시계",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "거울",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "베개",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "책",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "컵",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "접시",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "병",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "열쇠",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "전화기",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "펜",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "가방",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "상자",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "지갑",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "우산",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "양초",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "액자",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "꽃병",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "빗자루",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "바구니",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "사다리",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "밧줄",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "솔",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "스펀지",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "옷걸이",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "사과",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "빵",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "치즈",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "밥",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "달걀",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "우유",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "바나나",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "닭",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "피자",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "파스타",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "수프",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "케이크",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "쿠키",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "오렌지",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "포도",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "토마토",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "감자",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "당근",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "양파",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "버터",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "꿀",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "멜론",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "레몬",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "망고",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "타코",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "스시",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "와플",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "망치",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "톱",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "드릴",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "렌치",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "플라이어",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "드라이버",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "못",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "볼트",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "테이프",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "수평기",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "클램프",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "끌",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "줄",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "도끼",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "삽",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "자",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "가위",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "흙손",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "렌치",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "나무망치",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "선반",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "모루",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "바이스",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "캘리퍼",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "대패",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "송곳",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "거친줄",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "나무",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "강",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "산",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "바다",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "숲",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "호수",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "구름",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "비",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "태양",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "달",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "별",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "꽃",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "바위",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "모래",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "눈",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "화산",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "협곡",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "빙하",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "산호",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "이끼",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "자갈",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "모래 언덕",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "조수",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "안개",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "미풍",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "간헐천",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "피오르",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "자동차",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "버스",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "기차",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "비행기",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "보트",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "트럭",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "자전거",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "배",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "택시",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "밴",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "지하철",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "페리",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "제트기",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "카누",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "뗏목",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "트램",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "요트",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "스쿠터",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "카약",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "글라이더",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "썰매",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "바지선",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "모페드",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "곤돌라",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "유조선",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "호위함",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "체플린",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "셔츠",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "바지",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "신발",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "모자",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "재킷",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "양말",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "드레스",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "코트",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "장갑",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "스카프",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "벨트",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "부츠",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "치마",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "넥타이",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "조끼",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "스웨터",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "블라우스",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "샌들",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "후드티",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "청바지",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "반바지",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "운동화",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "망토",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "앞치마",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "튜닉",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "판초",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "베레모",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "기타",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "피아노",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "드럼",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "바이올린",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "플루트",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "트럼펫",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "하프",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "종",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "호른",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "오르간",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "베이스",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "첼로",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "밴조",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "튜바",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "오보에",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "클라리넷",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "색소폰",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "탬버린",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "우쿨렐레",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "아코디언",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "만돌린",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "실로폰",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "마라카스",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "하모니카",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "시타르",
+    "category": "instruments",
+    "difficulty": "hard"
+  },
+  {
+    "word": "류트",
+    "category": "instruments",
+    "difficulty": "hard"
+  },
+  {
+    "word": "덜시머",
+    "category": "instruments",
+    "difficulty": "hard"
+  }
+]

@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Gato",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Perro",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Caballo",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Vaca",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cerdo",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Oveja",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pollo",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pato",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Águila",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "León",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tigre",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Oso",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lobo",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ciervo",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Conejo",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zorro",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Delfín",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ballena",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pingüino",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Loro",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tiburón",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tortuga",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rana",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Serpiente",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Halcón",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Nutria",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Gecko",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Silla",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mesa",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lámpara",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Reloj",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Espejo",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Almohada",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Libro",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Taza",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Plato",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Botella",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Llave",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Teléfono",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bolígrafo",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bolsa",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Caja",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cartera",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Paraguas",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Vela",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Marco",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Jarrón",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Escoba",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Cesta",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Escalera",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Cuerda",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Cepillo",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Esponja",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Percha",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Manzana",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pan",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Queso",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Arroz",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Huevo",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Leche",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Plátano",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pollo",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pizza",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pasta",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sopa",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pastel",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Galleta",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Naranja",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Uva",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tomate",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Patata",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Zanahoria",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Cebolla",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mantequilla",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Miel",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Melón",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Limón",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mango",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Taco",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Sushi",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Gofre",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Martillo",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sierra",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Taladro",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Llave inglesa",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Alicates",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Destornillador",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Clavo",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Perno",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cinta",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nivel",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Abrazadera",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cincel",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lima",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hacha",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pala",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Regla",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tijeras",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Paleta",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Llave inglesa",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mazo",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Torno",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Yunque",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tornillo de banco",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Calibrador",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Cepillo",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Punzón",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Escofina",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Árbol",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Río",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Montaña",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Océano",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bosque",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lago",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nube",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lluvia",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sol",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Luna",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Estrella",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Flor",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Roca",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Arena",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nieve",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Volcán",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Cañón",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Glaciar",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Coral",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Musgo",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Guijarro",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Duna",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Marea",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Niebla",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Brisa",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Géiser",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Fiordo",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Coche",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Autobús",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tren",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Avión",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Barco",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Camión",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bicicleta",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Barco",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Taxi",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Furgoneta",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Metro",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ferri",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Avión",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Canoa",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Balsa",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tranvía",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Yate",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Scooter",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kayak",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Planeador",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Trineo",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Barcaza",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ciclomotor",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Góndola",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Petrolero",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Fragata",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Zeppelin",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Camisa",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pantalones",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zapatos",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sombrero",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Chaqueta",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Calcetines",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Vestido",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Abrigo",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Guantes",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bufanda",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cinturón",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Botas",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Falda",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Corbata",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Chaleco",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Suéter",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Blusa",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sandalias",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sudadera",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Vaqueros",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pantalones cortos",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Zapatillas",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Capa",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Delantal",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Túnica",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Poncho",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Boina",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Guitarra",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Piano",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Batería",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Violín",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Flauta",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Trompeta",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Arpa",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Campana",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cuerno",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Órgano",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bajo",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Violonchelo",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Banjo",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tuba",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Oboe",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Clarinete",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Saxofón",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pandereta",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ukelele",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Acordeón",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mandolina",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Xilófono",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Maracas",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Armónica",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sitar",
+    "category": "instruments",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Laúd",
+    "category": "instruments",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Dulcémele",
+    "category": "instruments",
+    "difficulty": "hard"
+  }
+]

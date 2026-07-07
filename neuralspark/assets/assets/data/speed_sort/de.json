@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Katze",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hund",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pferd",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kuh",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schwein",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schaf",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Huhn",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ente",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Adler",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Löwe",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tiger",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bär",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wolf",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hirsch",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kaninchen",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fuchs",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Delfin",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Wal",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pinguin",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Papagei",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hai",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schildkröte",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Frosch",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schlange",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Falke",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Otter",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Gecko",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Stuhl",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tisch",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lampe",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Uhr",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Spiegel",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kissen",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Buch",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tasse",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Teller",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Flasche",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schlüssel",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Telefon",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Stift",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tasche",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kiste",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Brieftasche",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Regenschirm",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kerze",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rahmen",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Vase",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Besen",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Korb",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Leiter",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Seil",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bürste",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Schwamm",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Kleiderbügel",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Apfel",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Brot",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Käse",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Reis",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ei",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Milch",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Banane",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Huhn",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pizza",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nudeln",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Suppe",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kuchen",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Keks",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Orange",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Traube",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tomate",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kartoffel",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Karotte",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Zwiebel",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Butter",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Honig",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Melone",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Zitrone",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mango",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Taco",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Sushi",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Waffel",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Hammer",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Säge",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bohrer",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schraubenschlüssel",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zange",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schraubenzieher",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nagel",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bolzen",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Klebeband",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wasserwaage",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Klemme",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Meißel",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Feile",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Axt",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schaufel",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lineal",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schere",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kelle",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schraubenschlüssel",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Holzhammer",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Drehbank",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Amboss",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schraubstock",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schieblehre",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hobel",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Ahle",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Raspel",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Baum",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fluss",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Berg",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ozean",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wald",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "See",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Wolke",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Regen",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sonne",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mond",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Stern",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Blume",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fels",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sand",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schnee",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Vulkan",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schlucht",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gletscher",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Koralle",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Moos",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kiesel",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Düne",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gezeiten",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Nebel",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Brise",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Geysir",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Fjord",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Auto",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bus",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zug",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Flugzeug",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Boot",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lastwagen",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fahrrad",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schiff",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Taxi",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lieferwagen",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "U-Bahn",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fähre",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Jet",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kanu",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Floß",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Straßenbahn",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Yacht",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Roller",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kajak",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Segelflugzeug",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schlitten",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Lastkahn",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Moped",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gondel",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tanker",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Fregatte",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Zeppelin",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Hemd",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hose",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schuhe",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hut",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Jacke",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Socken",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kleid",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mantel",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Handschuhe",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schal",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gürtel",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Stiefel",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Rock",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Krawatte",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Weste",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pullover",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bluse",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sandalen",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kapuzenpulli",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Jeans",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Shorts",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Turnschuhe",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Umhang",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Schürze",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tunika",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Poncho",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Baskenmütze",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Gitarre",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Klavier",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Schlagzeug",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Geige",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Flöte",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Trompete",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Harfe",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Glocke",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Horn",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Orgel",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bass",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cello",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Banjo",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tuba",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Oboe",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Klarinette",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Saxophon",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tamburin",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ukulele",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Akkordeon",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mandoline",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Xylophon",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Maracas",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mundharmonika",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sitar",
+    "category": "instruments",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Laute",
+    "category": "instruments",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Hackbrett",
+    "category": "instruments",
+    "difficulty": "hard"
+  }
+]

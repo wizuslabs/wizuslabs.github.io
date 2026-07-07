@@ -1,0 +1,22 @@
+[
+  {"id": "rat_zh_e01", "difficulty": "easy", "words": ["火", "电", "体"], "answer": "力", "explanation": "火力、电力、体力 ── 都可以和「力」组成词语。"},
+  {"id": "rat_zh_e02", "difficulty": "easy", "words": ["天", "空", "生"], "answer": "气", "explanation": "天气、空气、生气 ── 都可以和「气」组成词语。"},
+  {"id": "rat_zh_e03", "difficulty": "easy", "words": ["人", "入", "出"], "answer": "口", "explanation": "人口、入口、出口 ── 都可以和「口」组成词语。"},
+  {"id": "rat_zh_e04", "difficulty": "easy", "words": ["风", "火", "电"], "answer": "车", "explanation": "风车、火车、电车 ── 都可以和「车」组成词语。"},
+  {"id": "rat_zh_e05", "difficulty": "easy", "words": ["日", "月", "观"], "answer": "光", "explanation": "日光、月光、观光 ── 都可以和「光」组成词语。"},
+  {"id": "rat_zh_e06", "difficulty": "easy", "words": ["地", "海", "表"], "answer": "面", "explanation": "地面、海面、表面 ── 都可以和「面」组成词语。"},
+  {"id": "rat_zh_e07", "difficulty": "easy", "words": ["大", "雨", "海"], "answer": "水", "explanation": "大水、雨水、海水 ── 都可以和「水」组成词语。"},
+  {"id": "rat_zh_m01", "difficulty": "medium", "words": ["感", "行", "运"], "answer": "动", "explanation": "感动、行动、运动 ── 都可以和「动」组成词语。"},
+  {"id": "rat_zh_m02", "difficulty": "medium", "words": ["医", "学", "法"], "answer": "院", "explanation": "医院、学院、法院 ── 都可以和「院」组成词语。"},
+  {"id": "rat_zh_m03", "difficulty": "medium", "words": ["年", "世", "时"], "answer": "代", "explanation": "年代、世代、时代 ── 都可以和「代」组成词语。"},
+  {"id": "rat_zh_m04", "difficulty": "medium", "words": ["公", "花", "乐"], "answer": "园", "explanation": "公园、花园、乐园 ── 都可以和「园」组成词语。"},
+  {"id": "rat_zh_m05", "difficulty": "medium", "words": ["教", "卧", "办公"], "answer": "室", "explanation": "教室、卧室、办公室 ── 都可以和「室」组成词语。"},
+  {"id": "rat_zh_m06", "difficulty": "medium", "words": ["友", "爱", "主"], "answer": "人", "explanation": "友人、爱人、主人 ── 都可以和「人」组成词语。"},
+  {"id": "rat_zh_m07", "difficulty": "medium", "words": ["变", "进", "文"], "answer": "化", "explanation": "变化、进化、文化 ── 都可以和「化」组成词语。"},
+  {"id": "rat_zh_m08", "difficulty": "medium", "words": ["平", "均", "对"], "answer": "等", "explanation": "平等、均等、对等 ── 都可以和「等」组成词语。"},
+  {"id": "rat_zh_h01", "difficulty": "hard", "words": ["印", "现", "抽"], "answer": "象", "explanation": "印象、现象、抽象 ── 都可以和「象」组成词语。"},
+  {"id": "rat_zh_h02", "difficulty": "hard", "words": ["创", "制", "构"], "answer": "造", "explanation": "创造、制造、构造 ── 都可以和「造」组成词语。"},
+  {"id": "rat_zh_h03", "difficulty": "hard", "words": ["确", "保", "认"], "answer": "证", "explanation": "确证、保证、认证 ── 都可以和「证」组成词语。"},
+  {"id": "rat_zh_h04", "difficulty": "hard", "words": ["达", "完", "赞"], "answer": "成", "explanation": "达成、完成、赞成 ── 都可以和「成」组成词语。"},
+  {"id": "rat_zh_h05", "difficulty": "hard", "words": ["传", "系", "正"], "answer": "统", "explanation": "传统、系统、正统 ── 都可以和「统」组成词语。"}
+]

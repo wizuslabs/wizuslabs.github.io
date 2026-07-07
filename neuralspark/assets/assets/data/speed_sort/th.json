@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "แมว",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "สุนัข",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ม้า",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "วัว",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "หมู",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "แกะ",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ไก่",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "เป็ด",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "นกอินทรี",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "สิงโต",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "เสือ",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "หมี",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "หมาป่า",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "กวาง",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "กระต่าย",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "สุนัขจิ้งจอก",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "โลมา",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "วาฬ",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "เพนกวิน",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "นกแก้ว",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ฉลาม",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "เต่า",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "กบ",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "งู",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "เหยี่ยว",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "นากทะเล",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "ตุ๊กแก",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "เก้าอี้",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "โต๊ะ",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "โคมไฟ",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "นาฬิกา",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "กระจก",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "หมอน",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "หนังสือ",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ถ้วย",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "จาน",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ขวด",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "กุญแจ",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "โทรศัพท์",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ปากกา",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "กระเป๋า",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "กล่อง",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "กระเป๋าสตางค์",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ร่ม",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "เทียน",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "กรอบ",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "แจกัน",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ไม้กวาด",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ตะกร้า",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "บันได",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "เชือก",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "แปรง",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "ฟองน้ำ",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "ไม้แขวน",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "แอปเปิล",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ขนมปัง",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ชีส",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ข้าว",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ไข่",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "นม",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "กล้วย",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ไก่",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "พิซซ่า",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "พาสต้า",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ซุป",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "เค้ก",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "คุกกี้",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ส้ม",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "องุ่น",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "มะเขือเทศ",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "มันฝรั่ง",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "แครอท",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "หัวหอม",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "เนย",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "น้ำผึ้ง",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "แตงโม",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "มะนาว",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "มะม่วง",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ทาโก้",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "ซูชิ",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "วาฟเฟิล",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "ค้อน",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "เลื่อย",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "สว่าน",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ประแจ",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "คีม",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ไขควง",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ตะปู",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "สลักเกลียว",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "เทป",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ระดับน้ำ",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "แคลมป์",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "สิ่ว",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ตะไบ",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ขวาน",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "พลั่ว",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ไม้บรรทัด",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "กรรไกร",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "เกรียง",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ประแจ",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ค้อนยาง",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "เครื่องกลึง",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ทั่ง",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ปากกาจับ",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "คาลิเปอร์",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "กบไสไม้",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "เหล็กแหลม",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "ตะไบหยาบ",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "ต้นไม้",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "แม่น้ำ",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ภูเขา",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "มหาสมุทร",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ป่า",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ทะเลสาบ",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "เมฆ",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ฝน",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ดวงอาทิตย์",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ดวงจันทร์",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ดาว",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ดอกไม้",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "หิน",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ทราย",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "หิมะ",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ภูเขาไฟ",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "หุบเขา",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ธารน้ำแข็ง",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ปะการัง",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "มอส",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ก้อนกรวด",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "เนินทราย",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "น้ำขึ้นน้ำลง",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "หมอก",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "สายลม",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "น้ำพุร้อน",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "ฟยอร์ด",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "รถยนต์",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "รถบัส",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "รถไฟ",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "เครื่องบิน",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "เรือ",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "รถบรรทุก",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "จักรยาน",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "เรือใหญ่",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "แท็กซี่",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "รถตู้",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "รถไฟใต้ดิน",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "เรือข้ามฟาก",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "เครื่องบินเจ็ท",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "เรือแคนู",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "แพ",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "รถราง",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "เรือยอชท์",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "สกูตเตอร์",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "เรือคายัค",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "เครื่องร่อน",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "เลื่อนหิมะ",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "เรือบรรทุก",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "มอเตอร์ไซค์",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "เรือกอนโดลา",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "เรือบรรทุกน้ำมัน",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "เรือรบ",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "เรือเหาะ",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "เสื้อ",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "กางเกง",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "รองเท้า",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "หมวก",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "แจ็คเก็ต",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ถุงเท้า",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ชุดเดรส",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "เสื้อโค้ท",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ถุงมือ",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ผ้าพันคอ",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "เข็มขัด",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "รองเท้าบูท",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "กระโปรง",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "เนคไท",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "เสื้อกั๊ก",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "เสื้อสเวตเตอร์",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "เสื้อเบลาส์",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "รองเท้าแตะ",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "เสื้อฮู้ด",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "กางเกงยีนส์",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "กางเกงขาสั้น",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "รองเท้าผ้าใบ",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "เสื้อคลุม",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ผ้ากันเปื้อน",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "เสื้อทูนิก",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "ผ้าคลุมกันฝน",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "หมวกเบเร่ต์",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "กีตาร์",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "เปียโน",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "กลอง",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ไวโอลิน",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ขลุ่ย",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ทรัมเป็ต",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "พิณ",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ระฆัง",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "แตร",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ออร์แกน",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "เบส",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "เชลโล",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "แบนโจ",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "ทูบา",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "โอโบ",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "คลาริเน็ต",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "แซกโซโฟน",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "แทมบูรีน",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "อูคูเลเล่",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "หีบเพลง",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "แมนโดลิน",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ระนาด",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ลูกแซก",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ฮาร์โมนิกา",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "ซิตาร์",
+    "category": "instruments",
+    "difficulty": "hard"
+  },
+  {
+    "word": "ลูต",
+    "category": "instruments",
+    "difficulty": "hard"
+  },
+  {
+    "word": "ดัลซิเมอร์",
+    "category": "instruments",
+    "difficulty": "hard"
+  }
+]

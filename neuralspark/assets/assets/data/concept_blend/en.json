@@ -1,0 +1,7707 @@
+[
+  {
+    "tier": 1,
+    "concept1": "umbrella",
+    "concept2": "music",
+    "options": [
+      {
+        "text": "An umbrella that plays melodies based on rain intensity",
+        "correct": true
+      },
+      {
+        "text": "A musical umbrella",
+        "correct": false
+      },
+      {
+        "text": "An umbrella-shaped speaker",
+        "correct": false
+      },
+      {
+        "text": "A rain sound machine",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "clock",
+    "concept2": "garden",
+    "options": [
+      {
+        "text": "A clock whose hands are growing vines that bloom at each hour",
+        "correct": true
+      },
+      {
+        "text": "A clock in a garden",
+        "correct": false
+      },
+      {
+        "text": "A flower-shaped clock",
+        "correct": false
+      },
+      {
+        "text": "A garden timer",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "bicycle",
+    "concept2": "fish",
+    "options": [
+      {
+        "text": "A bicycle whose wheels leave ripple trails that attract fish-shaped shadows",
+        "correct": true
+      },
+      {
+        "text": "A fish-shaped bicycle",
+        "correct": false
+      },
+      {
+        "text": "A bicycle you ride underwater",
+        "correct": false
+      },
+      {
+        "text": "A fishing rod on a bicycle",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "pillow",
+    "concept2": "map",
+    "options": [
+      {
+        "text": "A pillow that records your dreams and maps them into explorable landscapes",
+        "correct": true
+      },
+      {
+        "text": "A pillow with a map printed on it",
+        "correct": false
+      },
+      {
+        "text": "A travel pillow with a map pocket",
+        "correct": false
+      },
+      {
+        "text": "A map of pillow factories",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "candle",
+    "concept2": "snow",
+    "options": [
+      {
+        "text": "A candle whose melting wax freezes into snowflake sculptures on the table",
+        "correct": true
+      },
+      {
+        "text": "A snow-scented candle",
+        "correct": false
+      },
+      {
+        "text": "A candle shaped like a snowman",
+        "correct": false
+      },
+      {
+        "text": "Using candles to melt snow",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "shoe",
+    "concept2": "camera",
+    "options": [
+      {
+        "text": "Shoes that photograph the ground with every step, building a mosaic of your journey",
+        "correct": true
+      },
+      {
+        "text": "Camera-shaped shoes",
+        "correct": false
+      },
+      {
+        "text": "A camera attached to a shoe",
+        "correct": false
+      },
+      {
+        "text": "Shoes for a photographer",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "bridge",
+    "concept2": "piano",
+    "options": [
+      {
+        "text": "A bridge whose planks are piano keys that play notes as people walk across",
+        "correct": true
+      },
+      {
+        "text": "A piano on a bridge",
+        "correct": false
+      },
+      {
+        "text": "A bridge-shaped piano",
+        "correct": false
+      },
+      {
+        "text": "A piano near a bridge",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "mirror",
+    "concept2": "tree",
+    "options": [
+      {
+        "text": "A mirror that shows your reflection aging like tree rings as you stare",
+        "correct": true
+      },
+      {
+        "text": "A mirror hanging on a tree",
+        "correct": false
+      },
+      {
+        "text": "A tree-shaped mirror",
+        "correct": false
+      },
+      {
+        "text": "A mirror made from tree bark",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "bread",
+    "concept2": "cloud",
+    "options": [
+      {
+        "text": "Bread that rises so much it floats and dissolves like clouds when bitten",
+        "correct": true
+      },
+      {
+        "text": "Cloud-shaped bread",
+        "correct": false
+      },
+      {
+        "text": "Bread as soft as clouds",
+        "correct": false
+      },
+      {
+        "text": "A cloud that rains bread crumbs",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "key",
+    "concept2": "butterfly",
+    "options": [
+      {
+        "text": "A key whose teeth change shape like butterfly wings to fit any lock it touches",
+        "correct": true
+      },
+      {
+        "text": "A butterfly-shaped key",
+        "correct": false
+      },
+      {
+        "text": "A key chain with a butterfly charm",
+        "correct": false
+      },
+      {
+        "text": "A butterfly that lands on keys",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "ladder",
+    "concept2": "rainbow",
+    "options": [
+      {
+        "text": "A ladder whose rungs change color as you climb, revealing a hidden message at the top",
+        "correct": true
+      },
+      {
+        "text": "A rainbow-colored ladder",
+        "correct": false
+      },
+      {
+        "text": "A ladder to reach a rainbow",
+        "correct": false
+      },
+      {
+        "text": "A rainbow over a ladder",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "blanket",
+    "concept2": "ocean",
+    "options": [
+      {
+        "text": "A blanket that ripples with ocean wave patterns that respond to your breathing rhythm",
+        "correct": true
+      },
+      {
+        "text": "An ocean-blue blanket",
+        "correct": false
+      },
+      {
+        "text": "A blanket used at the beach",
+        "correct": false
+      },
+      {
+        "text": "A waterproof blanket",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "pencil",
+    "concept2": "moon",
+    "options": [
+      {
+        "text": "A pencil that only writes visible words under moonlight, hiding daytime secrets",
+        "correct": true
+      },
+      {
+        "text": "A pencil shaped like a crescent moon",
+        "correct": false
+      },
+      {
+        "text": "Drawing the moon with a pencil",
+        "correct": false
+      },
+      {
+        "text": "A glow-in-the-dark pencil",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "hat",
+    "concept2": "compass",
+    "options": [
+      {
+        "text": "A hat that tilts itself toward the direction you subconsciously want to go",
+        "correct": true
+      },
+      {
+        "text": "A hat with a compass on it",
+        "correct": false
+      },
+      {
+        "text": "A compass-shaped hat",
+        "correct": false
+      },
+      {
+        "text": "A hat for hikers",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "cup",
+    "concept2": "star",
+    "options": [
+      {
+        "text": "A cup that shows different constellations in the liquid based on the time of night",
+        "correct": true
+      },
+      {
+        "text": "A star-patterned cup",
+        "correct": false
+      },
+      {
+        "text": "A cup shaped like a star",
+        "correct": false
+      },
+      {
+        "text": "A cup that glows in the dark",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "rope",
+    "concept2": "wind",
+    "options": [
+      {
+        "text": "A rope that stiffens or loosens based on wind direction, guiding sailors by touch alone",
+        "correct": true
+      },
+      {
+        "text": "A rope blowing in the wind",
+        "correct": false
+      },
+      {
+        "text": "A wind-resistant rope",
+        "correct": false
+      },
+      {
+        "text": "A windsock made of rope",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "feather",
+    "concept2": "ink",
+    "options": [
+      {
+        "text": "A feather that absorbs stories from the air and writes them automatically when dipped in ink",
+        "correct": true
+      },
+      {
+        "text": "Using a feather as a quill pen",
+        "correct": false
+      },
+      {
+        "text": "An ink drawing of a feather",
+        "correct": false
+      },
+      {
+        "text": "A feather dipped in ink",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "bell",
+    "concept2": "ice",
+    "options": [
+      {
+        "text": "A bell made of ice that produces different notes as it slowly melts",
+        "correct": true
+      },
+      {
+        "text": "A bell hanging in a freezer",
+        "correct": false
+      },
+      {
+        "text": "An ice sculpture of a bell",
+        "correct": false
+      },
+      {
+        "text": "Ringing a bell in winter",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "door",
+    "concept2": "book",
+    "options": [
+      {
+        "text": "A door that opens to different rooms depending on which book you are holding",
+        "correct": true
+      },
+      {
+        "text": "A book-shaped door",
+        "correct": false
+      },
+      {
+        "text": "A bookshelf behind a door",
+        "correct": false
+      },
+      {
+        "text": "A door with book titles carved on it",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "basket",
+    "concept2": "lightning",
+    "options": [
+      {
+        "text": "A basket woven from lightning bolts that keeps food fresh with static energy",
+        "correct": true
+      },
+      {
+        "text": "A basket struck by lightning",
+        "correct": false
+      },
+      {
+        "text": "A lightning-patterned basket",
+        "correct": false
+      },
+      {
+        "text": "An electric basket warmer",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "spoon",
+    "concept2": "river",
+    "options": [
+      {
+        "text": "A spoon that channels a tiny flowing current from handle to tip, cooling anything it stirs",
+        "correct": true
+      },
+      {
+        "text": "A spoon found in a river",
+        "correct": false
+      },
+      {
+        "text": "A river-shaped spoon",
+        "correct": false
+      },
+      {
+        "text": "Eating soup by a river",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "window",
+    "concept2": "paint",
+    "options": [
+      {
+        "text": "A window whose glass slowly paints what it sees outside into permanent murals over years",
+        "correct": true
+      },
+      {
+        "text": "A painted window",
+        "correct": false
+      },
+      {
+        "text": "A window to a paint shop",
+        "correct": false
+      },
+      {
+        "text": "Stained glass windows",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "tent",
+    "concept2": "volcano",
+    "options": [
+      {
+        "text": "A tent whose fabric warms itself using trapped geothermal energy from the ground",
+        "correct": true
+      },
+      {
+        "text": "A tent near a volcano",
+        "correct": false
+      },
+      {
+        "text": "A volcano-shaped tent",
+        "correct": false
+      },
+      {
+        "text": "A fireproof tent",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "coin",
+    "concept2": "shadow",
+    "options": [
+      {
+        "text": "A coin that casts a different shadow showing your fortune depending on the light angle",
+        "correct": true
+      },
+      {
+        "text": "A coin in the shadow",
+        "correct": false
+      },
+      {
+        "text": "A shadow-colored coin",
+        "correct": false
+      },
+      {
+        "text": "A dark coin",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "bottle",
+    "concept2": "forest",
+    "options": [
+      {
+        "text": "A bottle that grows a miniature forest inside when you fill it with water",
+        "correct": true
+      },
+      {
+        "text": "A bottle found in a forest",
+        "correct": false
+      },
+      {
+        "text": "A forest-green bottle",
+        "correct": false
+      },
+      {
+        "text": "A bottle made from wood",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "scarf",
+    "concept2": "sand",
+    "options": [
+      {
+        "text": "A scarf woven from sand grains that shifts patterns like desert dunes in the wind",
+        "correct": true
+      },
+      {
+        "text": "A sandy-colored scarf",
+        "correct": false
+      },
+      {
+        "text": "A scarf used at the beach",
+        "correct": false
+      },
+      {
+        "text": "A sand-textured scarf",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "kite",
+    "concept2": "fire",
+    "options": [
+      {
+        "text": "A kite that traces fire patterns in the sky visible only at sunset",
+        "correct": true
+      },
+      {
+        "text": "A fire-colored kite",
+        "correct": false
+      },
+      {
+        "text": "Flying a kite near a campfire",
+        "correct": false
+      },
+      {
+        "text": "A fireproof kite",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "glove",
+    "concept2": "stone",
+    "options": [
+      {
+        "text": "Gloves that turn your touch to stone for sculpting, then release when you clap",
+        "correct": true
+      },
+      {
+        "text": "Stone-colored gloves",
+        "correct": false
+      },
+      {
+        "text": "Gloves for picking up stones",
+        "correct": false
+      },
+      {
+        "text": "Heavy gloves",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "chair",
+    "concept2": "cloud",
+    "options": [
+      {
+        "text": "A chair that adjusts its firmness based on weather, becoming softer as clouds gather",
+        "correct": true
+      },
+      {
+        "text": "A cloud-soft chair",
+        "correct": false
+      },
+      {
+        "text": "A white fluffy chair",
+        "correct": false
+      },
+      {
+        "text": "A chair on a balcony",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "ring",
+    "concept2": "thunder",
+    "options": [
+      {
+        "text": "A ring that vibrates with approaching storms and hums louder as thunder nears",
+        "correct": true
+      },
+      {
+        "text": "A thunder-shaped ring",
+        "correct": false
+      },
+      {
+        "text": "A loud ringing sound",
+        "correct": false
+      },
+      {
+        "text": "A ring worn during a storm",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "soap",
+    "concept2": "mountain",
+    "options": [
+      {
+        "text": "Soap that carves itself into a mountain range as it dissolves, mapping your wash history",
+        "correct": true
+      },
+      {
+        "text": "Mountain-scented soap",
+        "correct": false
+      },
+      {
+        "text": "A soap shaped like a mountain",
+        "correct": false
+      },
+      {
+        "text": "Washing hands after hiking",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "lamp",
+    "concept2": "honey",
+    "options": [
+      {
+        "text": "A lamp filled with honey that slowly crystallizes into light-refracting prisms",
+        "correct": true
+      },
+      {
+        "text": "A honey-colored lamp",
+        "correct": false
+      },
+      {
+        "text": "A lamp shaped like a honey jar",
+        "correct": false
+      },
+      {
+        "text": "A lamp in a kitchen",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "drum",
+    "concept2": "leaf",
+    "options": [
+      {
+        "text": "A drum whose skin is a living leaf that changes the beat as seasons shift",
+        "correct": true
+      },
+      {
+        "text": "Drumming on a log covered in leaves",
+        "correct": false
+      },
+      {
+        "text": "A leaf-shaped drum",
+        "correct": false
+      },
+      {
+        "text": "A green drum",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "nest",
+    "concept2": "clock",
+    "options": [
+      {
+        "text": "A nest whose twigs rearrange themselves to display the current time from above",
+        "correct": true
+      },
+      {
+        "text": "A cuckoo clock",
+        "correct": false
+      },
+      {
+        "text": "A clock near a bird nest",
+        "correct": false
+      },
+      {
+        "text": "A nest-shaped clock",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "mask",
+    "concept2": "fruit",
+    "options": [
+      {
+        "text": "A mask that changes its expression based on the ripeness of nearby fruit",
+        "correct": true
+      },
+      {
+        "text": "A fruit-scented mask",
+        "correct": false
+      },
+      {
+        "text": "A mask shaped like an apple",
+        "correct": false
+      },
+      {
+        "text": "Wearing a mask while eating fruit",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "boat",
+    "concept2": "glass",
+    "options": [
+      {
+        "text": "A glass boat that magnifies the sea floor, turning every voyage into an underwater tour",
+        "correct": true
+      },
+      {
+        "text": "A glass-bottomed boat",
+        "correct": false
+      },
+      {
+        "text": "A boat carrying glassware",
+        "correct": false
+      },
+      {
+        "text": "A glass sculpture of a boat",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "comb",
+    "concept2": "maze",
+    "options": [
+      {
+        "text": "A comb whose teeth rearrange into a solvable maze puzzle before each use",
+        "correct": true
+      },
+      {
+        "text": "A maze-patterned comb",
+        "correct": false
+      },
+      {
+        "text": "A comb lost in a maze",
+        "correct": false
+      },
+      {
+        "text": "A complex comb design",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "flag",
+    "concept2": "perfume",
+    "options": [
+      {
+        "text": "A flag that releases a unique scent depending on which direction the wind blows it",
+        "correct": true
+      },
+      {
+        "text": "A perfume-scented flag",
+        "correct": false
+      },
+      {
+        "text": "A flag for a perfume brand",
+        "correct": false
+      },
+      {
+        "text": "A colorful flag that smells nice",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "net",
+    "concept2": "dream",
+    "options": [
+      {
+        "text": "A net hung above your bed that catches dream fragments and weaves them into visible patterns by morning",
+        "correct": true
+      },
+      {
+        "text": "A dreamcatcher",
+        "correct": false
+      },
+      {
+        "text": "Dreaming about fishing with a net",
+        "correct": false
+      },
+      {
+        "text": "A decorative net",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "wheel",
+    "concept2": "seed",
+    "options": [
+      {
+        "text": "A wheel that plants seeds in perfect spirals as it rolls across a field",
+        "correct": true
+      },
+      {
+        "text": "A wheel made of seeds",
+        "correct": false
+      },
+      {
+        "text": "Seeds shaped like wheels",
+        "correct": false
+      },
+      {
+        "text": "A seed-planting machine",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "telescope",
+    "concept2": "memory",
+    "options": [
+      {
+        "text": "A telescope that shows scenes from your past instead of distant stars when you look through it",
+        "correct": true
+      },
+      {
+        "text": "Remembering using a telescope",
+        "correct": false
+      },
+      {
+        "text": "A telescope that records what it sees",
+        "correct": false
+      },
+      {
+        "text": "A memorable telescope",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "violin",
+    "concept2": "loneliness",
+    "options": [
+      {
+        "text": "A violin that only produces sound when the player is truly alone, creating music from solitude itself",
+        "correct": true
+      },
+      {
+        "text": "Playing violin alone",
+        "correct": false
+      },
+      {
+        "text": "A sad violin song about loneliness",
+        "correct": false
+      },
+      {
+        "text": "A solo violin performance",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "camera",
+    "concept2": "courage",
+    "options": [
+      {
+        "text": "A camera that only captures the moment someone overcomes a fear, its shutter triggered by rising heartbeats",
+        "correct": true
+      },
+      {
+        "text": "Taking a courageous photo",
+        "correct": false
+      },
+      {
+        "text": "A camera for extreme sports",
+        "correct": false
+      },
+      {
+        "text": "A documentary about courage",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "compass",
+    "concept2": "nostalgia",
+    "options": [
+      {
+        "text": "A compass whose needle always points toward the place where you were happiest as a child",
+        "correct": true
+      },
+      {
+        "text": "An old compass that brings back memories",
+        "correct": false
+      },
+      {
+        "text": "A vintage compass",
+        "correct": false
+      },
+      {
+        "text": "Feeling nostalgic about travels",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "lantern",
+    "concept2": "patience",
+    "options": [
+      {
+        "text": "A lantern that grows brighter only when you sit still for long enough, rewarding patience with light",
+        "correct": true
+      },
+      {
+        "text": "Waiting patiently with a lantern",
+        "correct": false
+      },
+      {
+        "text": "A slow-burning lantern",
+        "correct": false
+      },
+      {
+        "text": "A lantern that lasts a long time",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "anchor",
+    "concept2": "hope",
+    "options": [
+      {
+        "text": "An anchor that floats upward in calm waters but sinks during storms, inverting its purpose when hope is needed most",
+        "correct": true
+      },
+      {
+        "text": "An anchor symbolizing hope",
+        "correct": false
+      },
+      {
+        "text": "A decorative anchor with the word hope",
+        "correct": false
+      },
+      {
+        "text": "Hoping the anchor holds",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "paintbrush",
+    "concept2": "anger",
+    "options": [
+      {
+        "text": "A paintbrush that only paints in shades matching your emotional temperature, turning red-hot with anger",
+        "correct": true
+      },
+      {
+        "text": "Painting angrily",
+        "correct": false
+      },
+      {
+        "text": "An angry-looking painting",
+        "correct": false
+      },
+      {
+        "text": "A red paintbrush",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "ladder",
+    "concept2": "curiosity",
+    "options": [
+      {
+        "text": "A ladder that adds new rungs only when you ask it a question, climbing higher with each inquiry",
+        "correct": true
+      },
+      {
+        "text": "Being curious about what is at the top of a ladder",
+        "correct": false
+      },
+      {
+        "text": "A ladder to explore new places",
+        "correct": false
+      },
+      {
+        "text": "A tall ladder for the curious",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "hourglass",
+    "concept2": "regret",
+    "options": [
+      {
+        "text": "An hourglass that replays your regrets in miniature scenes inside the falling sand",
+        "correct": true
+      },
+      {
+        "text": "Regretting wasted time shown by an hourglass",
+        "correct": false
+      },
+      {
+        "text": "An old hourglass that reminds you of regrets",
+        "correct": false
+      },
+      {
+        "text": "Running out of time with regrets",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "kite",
+    "concept2": "freedom",
+    "options": [
+      {
+        "text": "A kite that detaches from its string at peak altitude and transforms into a bird",
+        "correct": true
+      },
+      {
+        "text": "Flying a kite feels like freedom",
+        "correct": false
+      },
+      {
+        "text": "A free-flying kite",
+        "correct": false
+      },
+      {
+        "text": "Letting go of a kite string",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "clock",
+    "concept2": "jealousy",
+    "options": [
+      {
+        "text": "A clock that runs faster when you are envious, stealing your time the more you covet",
+        "correct": true
+      },
+      {
+        "text": "Being jealous of someone else's time",
+        "correct": false
+      },
+      {
+        "text": "A green clock symbolizing jealousy",
+        "correct": false
+      },
+      {
+        "text": "Watching the clock jealously",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "umbrella",
+    "concept2": "trust",
+    "options": [
+      {
+        "text": "An umbrella that opens only when two people hold it together, requiring mutual trust to stay dry",
+        "correct": true
+      },
+      {
+        "text": "Trusting an umbrella to keep you dry",
+        "correct": false
+      },
+      {
+        "text": "Sharing an umbrella as a sign of trust",
+        "correct": false
+      },
+      {
+        "text": "A trustworthy umbrella brand",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "mirror",
+    "concept2": "wisdom",
+    "options": [
+      {
+        "text": "A mirror that shows you not your face but the consequences of your next decision",
+        "correct": true
+      },
+      {
+        "text": "A wise saying etched on a mirror",
+        "correct": false
+      },
+      {
+        "text": "Looking in the mirror for wisdom",
+        "correct": false
+      },
+      {
+        "text": "A mirror for self-reflection",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "bridge",
+    "concept2": "forgiveness",
+    "options": [
+      {
+        "text": "A bridge that only fully forms when both people walking from opposite sides choose to forgive",
+        "correct": true
+      },
+      {
+        "text": "A bridge as a metaphor for forgiveness",
+        "correct": false
+      },
+      {
+        "text": "Crossing a bridge to forgive someone",
+        "correct": false
+      },
+      {
+        "text": "Building bridges through forgiveness",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "candle",
+    "concept2": "grief",
+    "options": [
+      {
+        "text": "A candle that burns with a black flame but produces warm, comforting light the longer it burns",
+        "correct": true
+      },
+      {
+        "text": "Lighting a candle in grief",
+        "correct": false
+      },
+      {
+        "text": "A memorial candle",
+        "correct": false
+      },
+      {
+        "text": "A candle that cries wax tears",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "seed",
+    "concept2": "doubt",
+    "options": [
+      {
+        "text": "A seed that grows into whatever you fear most, but wilts the moment you face it",
+        "correct": true
+      },
+      {
+        "text": "Doubting whether a seed will grow",
+        "correct": false
+      },
+      {
+        "text": "A seed of doubt planted in your mind",
+        "correct": false
+      },
+      {
+        "text": "Seeds that are hard to grow",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "thread",
+    "concept2": "love",
+    "options": [
+      {
+        "text": "A thread that glows warm between two people who care for each other but turns cold when one lies",
+        "correct": true
+      },
+      {
+        "text": "The red thread of fate connecting lovers",
+        "correct": false
+      },
+      {
+        "text": "Sewing a heart with red thread",
+        "correct": false
+      },
+      {
+        "text": "A love letter tied with thread",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "lighthouse",
+    "concept2": "ambition",
+    "options": [
+      {
+        "text": "A lighthouse whose beam only reaches as far as the keeper dares to dream",
+        "correct": true
+      },
+      {
+        "text": "An ambitious lighthouse keeper",
+        "correct": false
+      },
+      {
+        "text": "A lighthouse symbolizing ambition",
+        "correct": false
+      },
+      {
+        "text": "A tall lighthouse reaching for the sky",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "map",
+    "concept2": "fear",
+    "options": [
+      {
+        "text": "A map that shows blank zones where your fears live, filling in details only as you conquer them",
+        "correct": true
+      },
+      {
+        "text": "Being afraid of getting lost without a map",
+        "correct": false
+      },
+      {
+        "text": "A scary-looking map",
+        "correct": false
+      },
+      {
+        "text": "A map of haunted places",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "typewriter",
+    "concept2": "silence",
+    "options": [
+      {
+        "text": "A typewriter that makes no sound but types louder words the quieter the room becomes",
+        "correct": true
+      },
+      {
+        "text": "A silent typewriter",
+        "correct": false
+      },
+      {
+        "text": "Typing in silence",
+        "correct": false
+      },
+      {
+        "text": "A typewriter in an empty room",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "piano",
+    "concept2": "sorrow",
+    "options": [
+      {
+        "text": "A piano whose keys sink deeper the sadder the melody, eventually swallowing the player's hands in consolation",
+        "correct": true
+      },
+      {
+        "text": "Playing a sorrowful piano piece",
+        "correct": false
+      },
+      {
+        "text": "A piano in a sad movie scene",
+        "correct": false
+      },
+      {
+        "text": "Sad piano music",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "shoe",
+    "concept2": "confidence",
+    "options": [
+      {
+        "text": "Shoes that leave glowing footprints proportional to how confident the wearer feels",
+        "correct": true
+      },
+      {
+        "text": "Wearing nice shoes for confidence",
+        "correct": false
+      },
+      {
+        "text": "Power shoes for confident people",
+        "correct": false
+      },
+      {
+        "text": "Confident strides in new shoes",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "door",
+    "concept2": "gratitude",
+    "options": [
+      {
+        "text": "A door that remembers everyone who passed through it and opens easier for those who said thank you",
+        "correct": true
+      },
+      {
+        "text": "Being grateful when a door opens",
+        "correct": false
+      },
+      {
+        "text": "A door with a thank-you sign",
+        "correct": false
+      },
+      {
+        "text": "Gratefully opening a door",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "telescope",
+    "concept2": "guilt",
+    "options": [
+      {
+        "text": "A telescope that zooms into the exact moment you wish you could undo, growing heavier the longer you look",
+        "correct": true
+      },
+      {
+        "text": "Feeling guilty about spying with a telescope",
+        "correct": false
+      },
+      {
+        "text": "A telescope that shows bad things",
+        "correct": false
+      },
+      {
+        "text": "Looking away from guilt through a telescope",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "net",
+    "concept2": "inspiration",
+    "options": [
+      {
+        "text": "A net cast into the wind that catches stray ideas floating by, which solidify into objects when pulled in",
+        "correct": true
+      },
+      {
+        "text": "A net that inspires creativity",
+        "correct": false
+      },
+      {
+        "text": "An inspirational fishing net",
+        "correct": false
+      },
+      {
+        "text": "Catching inspiration like fish in a net",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "well",
+    "concept2": "empathy",
+    "options": [
+      {
+        "text": "A well where the water reflects not your own face but the emotions of the last person who drank",
+        "correct": true
+      },
+      {
+        "text": "An empathetic wishing well",
+        "correct": false
+      },
+      {
+        "text": "A well that listens to your problems",
+        "correct": false
+      },
+      {
+        "text": "Feeling empathy at a well",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "feather",
+    "concept2": "joy",
+    "options": [
+      {
+        "text": "A feather that lifts off the ground and floats higher with each genuine laugh it hears",
+        "correct": true
+      },
+      {
+        "text": "A joyful feather decoration",
+        "correct": false
+      },
+      {
+        "text": "Feathers at a celebration",
+        "correct": false
+      },
+      {
+        "text": "A colorful feather bringing joy",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "key",
+    "concept2": "resilience",
+    "options": [
+      {
+        "text": "A key that bends but never breaks, reshaping itself to fit whatever lock hardship puts before you",
+        "correct": true
+      },
+      {
+        "text": "A strong key that never breaks",
+        "correct": false
+      },
+      {
+        "text": "A key to resilience",
+        "correct": false
+      },
+      {
+        "text": "A durable metal key",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "window",
+    "concept2": "longing",
+    "options": [
+      {
+        "text": "A window that fogs up with scenes of places you miss, clearing only when you accept the present",
+        "correct": true
+      },
+      {
+        "text": "Looking out a window with longing",
+        "correct": false
+      },
+      {
+        "text": "A window to the past",
+        "correct": false
+      },
+      {
+        "text": "A foggy window on a rainy day",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "scissors",
+    "concept2": "joy",
+    "options": [
+      {
+        "text": "Scissors that cut paper into confetti shapes matching the holder's happiest memory",
+        "correct": true
+      },
+      {
+        "text": "Happy scissors",
+        "correct": false
+      },
+      {
+        "text": "Scissors decorated with smiley faces",
+        "correct": false
+      },
+      {
+        "text": "Joyfully using scissors",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "rope",
+    "concept2": "ambition",
+    "options": [
+      {
+        "text": "A rope that ties itself into knots of increasing complexity as the climber's ambition grows, becoming a ladder only for those who persist",
+        "correct": true
+      },
+      {
+        "text": "An ambitious rope climber",
+        "correct": false
+      },
+      {
+        "text": "A rope symbolizing ambition",
+        "correct": false
+      },
+      {
+        "text": "Climbing a rope with ambition",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "blanket",
+    "concept2": "courage",
+    "options": [
+      {
+        "text": "A blanket that becomes transparent when the person under it decides to face their fear, dissolving protection into visibility",
+        "correct": true
+      },
+      {
+        "text": "A courageous blanket",
+        "correct": false
+      },
+      {
+        "text": "A blanket for brave people",
+        "correct": false
+      },
+      {
+        "text": "Courageously throwing off a blanket",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "drum",
+    "concept2": "patience",
+    "options": [
+      {
+        "text": "A drum that rewards patient players by slowly revealing a hidden melody only after hours of the same steady beat",
+        "correct": true
+      },
+      {
+        "text": "Patiently learning to drum",
+        "correct": false
+      },
+      {
+        "text": "A slow drum rhythm",
+        "correct": false
+      },
+      {
+        "text": "Waiting for the drum solo",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "bottle",
+    "concept2": "nostalgia",
+    "options": [
+      {
+        "text": "A bottle that fills with mist from places you once loved, each sip tasting of a different goodbye",
+        "correct": true
+      },
+      {
+        "text": "A nostalgic old bottle",
+        "correct": false
+      },
+      {
+        "text": "A vintage bottle collection",
+        "correct": false
+      },
+      {
+        "text": "Feeling nostalgic about a bottle",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "coin",
+    "concept2": "regret",
+    "options": [
+      {
+        "text": "A coin that lands on its edge only when flipped during a regretted decision, freezing time until you choose again",
+        "correct": true
+      },
+      {
+        "text": "Regretting spending a coin",
+        "correct": false
+      },
+      {
+        "text": "A coin toss you regret",
+        "correct": false
+      },
+      {
+        "text": "A coin symbolizing regret",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "lamp",
+    "concept2": "loneliness",
+    "options": [
+      {
+        "text": "A lamp that grows dimmer the lonelier its owner becomes, forcing them to seek others to restore the light",
+        "correct": true
+      },
+      {
+        "text": "A lonely lamp in an empty room",
+        "correct": false
+      },
+      {
+        "text": "A lamp for lonely nights",
+        "correct": false
+      },
+      {
+        "text": "Sitting alone by a lamp",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "basket",
+    "concept2": "hope",
+    "options": [
+      {
+        "text": "A basket whose weave tightens around seeds of hope, protecting them through storms but loosening in sunlight so they can sprout",
+        "correct": true
+      },
+      {
+        "text": "A basket of hope",
+        "correct": false
+      },
+      {
+        "text": "Hopefully filling a basket",
+        "correct": false
+      },
+      {
+        "text": "A basket with a hopeful message",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "bell",
+    "concept2": "doubt",
+    "options": [
+      {
+        "text": "A bell whose ring becomes uncertain and wavering when the ringer doubts themselves, only producing a clear tone after genuine conviction",
+        "correct": true
+      },
+      {
+        "text": "Doubting the sound of a bell",
+        "correct": false
+      },
+      {
+        "text": "A bell that does not ring clearly",
+        "correct": false
+      },
+      {
+        "text": "A doubtful bell ringer",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "glove",
+    "concept2": "creativity",
+    "options": [
+      {
+        "text": "Gloves that leave invisible brushstrokes on everything they touch, turning daily life into an accidental masterpiece visible only under moonlight",
+        "correct": true
+      },
+      {
+        "text": "Creative glove designs",
+        "correct": false
+      },
+      {
+        "text": "Gloves for artists",
+        "correct": false
+      },
+      {
+        "text": "A creatively decorated glove",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "mask",
+    "concept2": "freedom",
+    "options": [
+      {
+        "text": "A mask that makes the wearer invisible but only while they are being their most authentic self",
+        "correct": true
+      },
+      {
+        "text": "Freedom to wear any mask",
+        "correct": false
+      },
+      {
+        "text": "Removing a mask for freedom",
+        "correct": false
+      },
+      {
+        "text": "A mask symbolizing freedom",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "silence",
+    "concept2": "architecture",
+    "options": [
+      {
+        "text": "Buildings designed so that their corridors amplify the smallest whisper into a chorus, turning silence into visible sound waves on the walls",
+        "correct": true
+      },
+      {
+        "text": "A quiet building with good soundproofing",
+        "correct": false
+      },
+      {
+        "text": "Architecture that promotes silence",
+        "correct": false
+      },
+      {
+        "text": "A silent library building",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "gravity",
+    "concept2": "nostalgia",
+    "options": [
+      {
+        "text": "A force that pulls you physically toward places from your past, growing stronger as memories fade",
+        "correct": true
+      },
+      {
+        "text": "The gravity of nostalgic memories",
+        "correct": false
+      },
+      {
+        "text": "Feeling weighed down by nostalgia",
+        "correct": false
+      },
+      {
+        "text": "Old memories pulling you back",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "rhythm",
+    "concept2": "decay",
+    "options": [
+      {
+        "text": "A musical composition that plays in reverse as the instrument physically crumbles, each broken piece altering the melody",
+        "correct": true
+      },
+      {
+        "text": "The rhythm of natural decay",
+        "correct": false
+      },
+      {
+        "text": "Music about things falling apart",
+        "correct": false
+      },
+      {
+        "text": "A decaying rhythm section",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "symmetry",
+    "concept2": "rebellion",
+    "options": [
+      {
+        "text": "A mirror world where every perfectly symmetrical thing spontaneously shatters and reforms into something beautifully asymmetric",
+        "correct": true
+      },
+      {
+        "text": "Breaking symmetry as an act of rebellion",
+        "correct": false
+      },
+      {
+        "text": "Asymmetric rebel art",
+        "correct": false
+      },
+      {
+        "text": "A rebel who hates order",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "erosion",
+    "concept2": "language",
+    "options": [
+      {
+        "text": "Words that physically wear down surfaces when spoken, carving meaning into stone and smoothing sharp edges with gentle conversation",
+        "correct": true
+      },
+      {
+        "text": "Language that erodes over time",
+        "correct": false
+      },
+      {
+        "text": "The erosion of old languages",
+        "correct": false
+      },
+      {
+        "text": "Harsh words that erode relationships",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "transparency",
+    "concept2": "grief",
+    "options": [
+      {
+        "text": "A material that becomes more transparent the more sorrow it absorbs, until the griever becomes visible through walls, surrounded by support they did not know was there",
+        "correct": true
+      },
+      {
+        "text": "Being transparent about grief",
+        "correct": false
+      },
+      {
+        "text": "Grief that is visible to others",
+        "correct": false
+      },
+      {
+        "text": "A clear memorial",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "friction",
+    "concept2": "creativity",
+    "options": [
+      {
+        "text": "A surface where ideas slide freely until two incompatible ones collide, generating heat that fuses them into something entirely new",
+        "correct": true
+      },
+      {
+        "text": "Creative friction between collaborators",
+        "correct": false
+      },
+      {
+        "text": "Friction that sparks new ideas",
+        "correct": false
+      },
+      {
+        "text": "A rough surface inspiring art",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "echo",
+    "concept2": "identity",
+    "options": [
+      {
+        "text": "An echo chamber where your voice returns as a different version of yourself, each repetition aging or de-aging the speaker",
+        "correct": true
+      },
+      {
+        "text": "An echo of your past self",
+        "correct": false
+      },
+      {
+        "text": "Identity shaped by echoes of others",
+        "correct": false
+      },
+      {
+        "text": "An echo that sounds like someone else",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "magnetism",
+    "concept2": "empathy",
+    "options": [
+      {
+        "text": "A field that pulls people closer when they share genuine feelings but repels them when they perform emotions they do not feel",
+        "correct": true
+      },
+      {
+        "text": "A magnetic personality drawn to empathy",
+        "correct": false
+      },
+      {
+        "text": "Empathy that attracts people like a magnet",
+        "correct": false
+      },
+      {
+        "text": "A device that measures empathy",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "combustion",
+    "concept2": "forgiveness",
+    "options": [
+      {
+        "text": "A ritual where grievances are written on flash paper that ignites and reforms into origami doves when both parties touch it",
+        "correct": true
+      },
+      {
+        "text": "Burning away old grudges",
+        "correct": false
+      },
+      {
+        "text": "The combustion of anger leading to forgiveness",
+        "correct": false
+      },
+      {
+        "text": "A fire ceremony for forgiveness",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "density",
+    "concept2": "loneliness",
+    "options": [
+      {
+        "text": "A material that grows denser around solitary people until it forms a protective cocoon that cracks open when genuine connection arrives",
+        "correct": true
+      },
+      {
+        "text": "The heavy density of loneliness",
+        "correct": false
+      },
+      {
+        "text": "Feeling dense with loneliness in a crowd",
+        "correct": false
+      },
+      {
+        "text": "A dense fog of isolation",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "velocity",
+    "concept2": "tradition",
+    "options": [
+      {
+        "text": "A festival where ancient dances accelerate each year, the traditions evolving in real time until they become something new while honoring the original steps",
+        "correct": true
+      },
+      {
+        "text": "The speed at which traditions change",
+        "correct": false
+      },
+      {
+        "text": "A traditional fast dance",
+        "correct": false
+      },
+      {
+        "text": "Racing as a cultural tradition",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "refraction",
+    "concept2": "truth",
+    "options": [
+      {
+        "text": "A lens that bends every statement into its component truths and lies, projecting them as separate colored beams on the wall",
+        "correct": true
+      },
+      {
+        "text": "The truth bending like light",
+        "correct": false
+      },
+      {
+        "text": "Seeing truth through a prism",
+        "correct": false
+      },
+      {
+        "text": "A truth-detecting lens",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "osmosis",
+    "concept2": "prejudice",
+    "options": [
+      {
+        "text": "A membrane between two communities that slowly absorbs each other's stories until the barrier dissolves entirely",
+        "correct": true
+      },
+      {
+        "text": "Prejudice seeping through society like osmosis",
+        "correct": false
+      },
+      {
+        "text": "Absorbing other people's prejudices",
+        "correct": false
+      },
+      {
+        "text": "A wall that separates prejudiced groups",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "entropy",
+    "concept2": "love",
+    "options": [
+      {
+        "text": "A snow globe where two figures slowly dissolve into particles yet always reconverge into new forms holding hands",
+        "correct": true
+      },
+      {
+        "text": "Love falling apart over time",
+        "correct": false
+      },
+      {
+        "text": "The entropy of relationships",
+        "correct": false
+      },
+      {
+        "text": "Chaotic love",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "texture",
+    "concept2": "memory",
+    "options": [
+      {
+        "text": "Walls that develop new textures overnight based on the dreams of those sleeping nearby, becoming smooth or rough with peaceful or troubled sleep",
+        "correct": true
+      },
+      {
+        "text": "The texture of old memories",
+        "correct": false
+      },
+      {
+        "text": "Memories that feel textured",
+        "correct": false
+      },
+      {
+        "text": "A textured photo album",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "resonance",
+    "concept2": "justice",
+    "options": [
+      {
+        "text": "A bell that rings at a frequency only the guilty can hear, growing louder until they confess or make amends",
+        "correct": true
+      },
+      {
+        "text": "Justice resonating through society",
+        "correct": false
+      },
+      {
+        "text": "A resonant call for justice",
+        "correct": false
+      },
+      {
+        "text": "A courtroom with good acoustics",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "buoyancy",
+    "concept2": "ambition",
+    "options": [
+      {
+        "text": "A city that floats higher above the ocean the more its citizens collectively strive, sinking back when they grow complacent",
+        "correct": true
+      },
+      {
+        "text": "Ambition that keeps you buoyant",
+        "correct": false
+      },
+      {
+        "text": "Rising to the top with ambition",
+        "correct": false
+      },
+      {
+        "text": "A floating city of ambitious people",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "wavelength",
+    "concept2": "trust",
+    "options": [
+      {
+        "text": "Two people whose brainwaves literally synchronize when they trust each other, creating a shared frequency that unlocks doors neither could open alone",
+        "correct": true
+      },
+      {
+        "text": "Being on the same wavelength through trust",
+        "correct": false
+      },
+      {
+        "text": "Trust vibrating at a certain frequency",
+        "correct": false
+      },
+      {
+        "text": "A trust-building radio device",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "conductivity",
+    "concept2": "guilt",
+    "options": [
+      {
+        "text": "A metal bridge that conducts guilt like electricity, shocking anyone who crosses while harboring a secret until they speak it aloud",
+        "correct": true
+      },
+      {
+        "text": "Guilt that conducts through a group",
+        "correct": false
+      },
+      {
+        "text": "A guilty conscience that spreads",
+        "correct": false
+      },
+      {
+        "text": "Conducting an investigation into guilt",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "pressure",
+    "concept2": "beauty",
+    "options": [
+      {
+        "text": "A chamber where immense pressure transforms ordinary objects into crystalline versions of themselves, but they shatter if anyone tries to possess them",
+        "correct": true
+      },
+      {
+        "text": "Beauty under pressure",
+        "correct": false
+      },
+      {
+        "text": "The pressure to be beautiful",
+        "correct": false
+      },
+      {
+        "text": "Diamonds formed under pressure",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "inertia",
+    "concept2": "change",
+    "options": [
+      {
+        "text": "A room where everything stays perfectly still until one person dares to move, causing a chain reaction where every object transforms into something unexpected",
+        "correct": true
+      },
+      {
+        "text": "The inertia that resists change",
+        "correct": false
+      },
+      {
+        "text": "Overcoming inertia to create change",
+        "correct": false
+      },
+      {
+        "text": "A still object that suddenly changes",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "viscosity",
+    "concept2": "time",
+    "options": [
+      {
+        "text": "A liquid that flows at different speeds in different rooms, making time pass thick and slow in some places and thin and fast in others",
+        "correct": true
+      },
+      {
+        "text": "Time moving slowly like thick liquid",
+        "correct": false
+      },
+      {
+        "text": "The viscosity of passing time",
+        "correct": false
+      },
+      {
+        "text": "A slow-flowing hourglass",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "polarity",
+    "concept2": "hope",
+    "options": [
+      {
+        "text": "A compass with two needles, one pointing to your greatest hope and one to your deepest fear, converging when you face both simultaneously",
+        "correct": true
+      },
+      {
+        "text": "The polarity of hope and despair",
+        "correct": false
+      },
+      {
+        "text": "Polarized views on hope",
+        "correct": false
+      },
+      {
+        "text": "A hope-seeking compass",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "diffusion",
+    "concept2": "anger",
+    "options": [
+      {
+        "text": "Anger released into a room as visible red mist that slowly diffuses, changing color to blue as everyone present breathes it in and processes it collectively",
+        "correct": true
+      },
+      {
+        "text": "Diffusing anger through calm words",
+        "correct": false
+      },
+      {
+        "text": "Anger that spreads through a room",
+        "correct": false
+      },
+      {
+        "text": "A diffuser that calms anger",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "equilibrium",
+    "concept2": "sacrifice",
+    "options": [
+      {
+        "text": "A scale where each sacrifice adds weight to one side but simultaneously lifts something precious on the other, never fully balancing",
+        "correct": true
+      },
+      {
+        "text": "Balancing sacrifice and reward",
+        "correct": false
+      },
+      {
+        "text": "An equilibrium reached through sacrifice",
+        "correct": false
+      },
+      {
+        "text": "A balanced life requiring sacrifice",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "absorption",
+    "concept2": "culture",
+    "options": [
+      {
+        "text": "A fabric that absorbs sounds from different cultures, playing them back in new combinations when wrung out like water",
+        "correct": true
+      },
+      {
+        "text": "Absorbing different cultures",
+        "correct": false
+      },
+      {
+        "text": "Cultural absorption through travel",
+        "correct": false
+      },
+      {
+        "text": "A sponge that soaks up culture",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "catalysis",
+    "concept2": "friendship",
+    "options": [
+      {
+        "text": "A table where strangers become friends faster when a catalyst object is placed between them, the object crumbling away once the bond forms",
+        "correct": true
+      },
+      {
+        "text": "A catalyst for friendship",
+        "correct": false
+      },
+      {
+        "text": "Friendship that catalyzes change",
+        "correct": false
+      },
+      {
+        "text": "A chemical reaction of friendship",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "amplitude",
+    "concept2": "vulnerability",
+    "options": [
+      {
+        "text": "A sound wave that grows louder the more honestly someone speaks, amplifying whispered truths into thunderous revelations",
+        "correct": true
+      },
+      {
+        "text": "The amplitude of emotional vulnerability",
+        "correct": false
+      },
+      {
+        "text": "Being vulnerable at high volume",
+        "correct": false
+      },
+      {
+        "text": "A loud cry of vulnerability",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "turbulence",
+    "concept2": "nostalgia",
+    "options": [
+      {
+        "text": "An aircraft that navigates turbulence by flying through pockets of the pilot's childhood memories, each bump unlocking a forgotten sensation that stabilizes the wings",
+        "correct": true
+      },
+      {
+        "text": "Turbulent nostalgic feelings",
+        "correct": false
+      },
+      {
+        "text": "Feeling nostalgic during turbulence",
+        "correct": false
+      },
+      {
+        "text": "A turbulent trip down memory lane",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "corrosion",
+    "concept2": "forgiveness",
+    "options": [
+      {
+        "text": "A metal sculpture that corrodes wherever its creator holds a grudge, restoring itself only when true forgiveness dissolves the oxidation from within",
+        "correct": true
+      },
+      {
+        "text": "Forgiveness that corrodes anger",
+        "correct": false
+      },
+      {
+        "text": "A corroded relationship needing forgiveness",
+        "correct": false
+      },
+      {
+        "text": "Forgiving a corroded surface",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "elasticity",
+    "concept2": "identity",
+    "options": [
+      {
+        "text": "A material that stretches to contain every version of who you have been, snapping back to your core self only when you stop pretending",
+        "correct": true
+      },
+      {
+        "text": "An elastic identity that changes easily",
+        "correct": false
+      },
+      {
+        "text": "Identity stretching to fit expectations",
+        "correct": false
+      },
+      {
+        "text": "A stretchy identity badge",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "saturation",
+    "concept2": "empathy",
+    "options": [
+      {
+        "text": "A room that absorbs so many shared emotions it becomes saturated, dripping empathy from the ceiling like condensation that refreshes everyone inside",
+        "correct": true
+      },
+      {
+        "text": "Being saturated with empathy",
+        "correct": false
+      },
+      {
+        "text": "Too much empathy leading to saturation",
+        "correct": false
+      },
+      {
+        "text": "An oversaturated empathetic person",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "frequency",
+    "concept2": "courage",
+    "options": [
+      {
+        "text": "A radio that broadcasts on the frequency of fear, but brave listeners who tune in long enough discover the signal transforms into a guide through their own darkness",
+        "correct": true
+      },
+      {
+        "text": "The frequency of courageous acts",
+        "correct": false
+      },
+      {
+        "text": "Courage at a certain frequency",
+        "correct": false
+      },
+      {
+        "text": "A brave radio operator",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "crystallization",
+    "concept2": "regret",
+    "options": [
+      {
+        "text": "Tears of regret that crystallize mid-fall into tiny prisms, scattering light that reveals the lesson hidden inside each mistake",
+        "correct": true
+      },
+      {
+        "text": "Crystallized regret",
+        "correct": false
+      },
+      {
+        "text": "Regret hardening like crystals",
+        "correct": false
+      },
+      {
+        "text": "A crystal formed from regret",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "permeability",
+    "concept2": "loneliness",
+    "options": [
+      {
+        "text": "A wall so permeable it lets loneliness seep out but not in, until the occupant realizes their isolation was self-made and the wall was always open",
+        "correct": true
+      },
+      {
+        "text": "Loneliness permeating through walls",
+        "correct": false
+      },
+      {
+        "text": "A permeable barrier against loneliness",
+        "correct": false
+      },
+      {
+        "text": "Loneliness that seeps everywhere",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "acceleration",
+    "concept2": "gratitude",
+    "options": [
+      {
+        "text": "Time that accelerates past people who take life for granted but slows to a crawl for those practicing gratitude, gifting them more moments to savor",
+        "correct": true
+      },
+      {
+        "text": "Accelerating gratitude",
+        "correct": false
+      },
+      {
+        "text": "Grateful for acceleration",
+        "correct": false
+      },
+      {
+        "text": "A fast-growing sense of gratitude",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "opacity",
+    "concept2": "ambition",
+    "options": [
+      {
+        "text": "Glass that becomes opaque the higher you climb in a tower, so the most ambitious climbers must ascend blind, trusting the view they can no longer verify",
+        "correct": true
+      },
+      {
+        "text": "Opaque ambitions",
+        "correct": false
+      },
+      {
+        "text": "An ambition that is not transparent",
+        "correct": false
+      },
+      {
+        "text": "Unclear ambitious goals",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "harmonics",
+    "concept2": "sacrifice",
+    "options": [
+      {
+        "text": "A choir where each singer must give up their favorite note to create a harmony, the sacrificed tones combining into an overtone none could produce alone",
+        "correct": true
+      },
+      {
+        "text": "Harmonious sacrifice",
+        "correct": false
+      },
+      {
+        "text": "Sacrificing for musical harmony",
+        "correct": false
+      },
+      {
+        "text": "A harmonic balance of sacrifice",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "solubility",
+    "concept2": "jealousy",
+    "options": [
+      {
+        "text": "A green dye that dissolves into water only when jealousy is present, staining everything the envious person touches until they wash their hands of comparison",
+        "correct": true
+      },
+      {
+        "text": "Jealousy that dissolves relationships",
+        "correct": false
+      },
+      {
+        "text": "A soluble jealousy remedy",
+        "correct": false
+      },
+      {
+        "text": "Dissolving jealous feelings",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "algorithmic bias",
+    "concept2": "mythology",
+    "options": [
+      {
+        "text": "A pantheon of digital gods whose powers are shaped by training data, each deity reflecting the prejudices of its creators and granting wishes with unintended side effects",
+        "correct": true
+      },
+      {
+        "text": "Myths about biased algorithms",
+        "correct": false
+      },
+      {
+        "text": "An algorithm that generates mythology",
+        "correct": false
+      },
+      {
+        "text": "Biased storytelling in ancient myths",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "planned obsolescence",
+    "concept2": "immortality",
+    "options": [
+      {
+        "text": "An immortal being cursed to watch every object they touch develop an expiration date, forced to choose between closeness and preservation",
+        "correct": true
+      },
+      {
+        "text": "Devices designed to fail versus eternal life",
+        "correct": false
+      },
+      {
+        "text": "Making immortality obsolete",
+        "correct": false
+      },
+      {
+        "text": "An immortal product that never breaks",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "quantum entanglement",
+    "concept2": "homesickness",
+    "options": [
+      {
+        "text": "Two entangled stones, one at home and one in your pocket, that warm simultaneously whenever either holder thinks of the other",
+        "correct": true
+      },
+      {
+        "text": "Feeling connected to home at a quantum level",
+        "correct": false
+      },
+      {
+        "text": "Quantum particles that miss each other",
+        "correct": false
+      },
+      {
+        "text": "A scientific explanation for homesickness",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "diplomatic immunity",
+    "concept2": "gardening",
+    "options": [
+      {
+        "text": "A garden where invasive species are protected by treaty, forcing native plants to evolve creative coexistence strategies that produce hybrid blooms",
+        "correct": true
+      },
+      {
+        "text": "A diplomat who enjoys gardening",
+        "correct": false
+      },
+      {
+        "text": "Political immunity for gardens",
+        "correct": false
+      },
+      {
+        "text": "A peace garden at an embassy",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "cognitive dissonance",
+    "concept2": "architecture",
+    "options": [
+      {
+        "text": "A building whose staircases lead both up and down simultaneously, forcing occupants to reconcile contradictory spatial experiences that reshape their perception",
+        "correct": true
+      },
+      {
+        "text": "Architecture that creates cognitive dissonance",
+        "correct": false
+      },
+      {
+        "text": "A confusing building design",
+        "correct": false
+      },
+      {
+        "text": "Escher-like impossible architecture",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "supply chain",
+    "concept2": "dreamcatching",
+    "options": [
+      {
+        "text": "A global network of sleeping minds whose dreams are harvested, processed, and delivered as bottled inspiration with full traceability back to the original dreamer",
+        "correct": true
+      },
+      {
+        "text": "Supplying dreamcatchers worldwide",
+        "correct": false
+      },
+      {
+        "text": "A chain of dreamcatchers",
+        "correct": false
+      },
+      {
+        "text": "Manufacturing dreamcatchers at scale",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "natural selection",
+    "concept2": "calligraphy",
+    "options": [
+      {
+        "text": "Letters that evolve over generations of writers, the most beautiful strokes surviving while clumsy forms go extinct, creating a living alphabet",
+        "correct": true
+      },
+      {
+        "text": "Naturally beautiful calligraphy",
+        "correct": false
+      },
+      {
+        "text": "Selecting the best calligraphy style",
+        "correct": false
+      },
+      {
+        "text": "Calligraphy inspired by nature",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "inflation",
+    "concept2": "storytelling",
+    "options": [
+      {
+        "text": "A world where stories lose value the more they are told, requiring storytellers to constantly invent new tales or watch their words literally deflate",
+        "correct": true
+      },
+      {
+        "text": "Inflated storytelling with exaggeration",
+        "correct": false
+      },
+      {
+        "text": "Stories about economic inflation",
+        "correct": false
+      },
+      {
+        "text": "The inflation of narrative expectations",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "gerrymandering",
+    "concept2": "cooking",
+    "options": [
+      {
+        "text": "A chef who redraws the boundaries of flavors on a plate so each bite technically contains all food groups but tastes completely different depending on where you start",
+        "correct": true
+      },
+      {
+        "text": "Manipulating cooking competition districts",
+        "correct": false
+      },
+      {
+        "text": "Political cooking boundaries",
+        "correct": false
+      },
+      {
+        "text": "A gerrymandered kitchen",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "confirmation bias",
+    "concept2": "cartography",
+    "options": [
+      {
+        "text": "Maps that rearrange themselves to show only the routes the viewer expects, hiding shortcuts they would not believe exist",
+        "correct": true
+      },
+      {
+        "text": "Maps that confirm existing beliefs",
+        "correct": false
+      },
+      {
+        "text": "Biased map-making throughout history",
+        "correct": false
+      },
+      {
+        "text": "A map that only shows what you want",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "sunk cost fallacy",
+    "concept2": "sculpture",
+    "options": [
+      {
+        "text": "A sculptor who cannot stop adding marble to a failed statue because of all the stone already spent, until the excess material forms a second accidental masterpiece",
+        "correct": true
+      },
+      {
+        "text": "A sculpture representing wasted investment",
+        "correct": false
+      },
+      {
+        "text": "Continuing a bad sculpture because you already started",
+        "correct": false
+      },
+      {
+        "text": "An expensive sculpture no one likes",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "herd immunity",
+    "concept2": "dance",
+    "options": [
+      {
+        "text": "A dance floor where everyone must learn the same choreography to protect those who cannot dance, creating a collective rhythm that shields the vulnerable",
+        "correct": true
+      },
+      {
+        "text": "A group dance that protects everyone",
+        "correct": false
+      },
+      {
+        "text": "Dancing together for immunity",
+        "correct": false
+      },
+      {
+        "text": "A healing dance ritual",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "butterfly effect",
+    "concept2": "ceramics",
+    "options": [
+      {
+        "text": "A ceramic bowl whose glaze pattern is determined by the flap of a butterfly wing during firing, making every piece a fossil of a single moment in the atmosphere",
+        "correct": true
+      },
+      {
+        "text": "A butterfly-patterned ceramic vase",
+        "correct": false
+      },
+      {
+        "text": "Small cracks in ceramics causing big breaks",
+        "correct": false
+      },
+      {
+        "text": "Ceramics inspired by butterfly wings",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "moral hazard",
+    "concept2": "weaving",
+    "options": [
+      {
+        "text": "A tapestry that unravels itself whenever the weaver makes a choice without consequence, demanding ethical stakes for every thread to hold",
+        "correct": true
+      },
+      {
+        "text": "Weaving a story about moral hazard",
+        "correct": false
+      },
+      {
+        "text": "The moral hazard of cheap fabric",
+        "correct": false
+      },
+      {
+        "text": "A weaver who takes no risks",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "feedback loop",
+    "concept2": "origami",
+    "options": [
+      {
+        "text": "Paper cranes that refold themselves based on audience reactions, each applause adding a wing detail and each silence smoothing a fold away",
+        "correct": true
+      },
+      {
+        "text": "Origami instructions that loop back on themselves",
+        "correct": false
+      },
+      {
+        "text": "Feedback on origami technique",
+        "correct": false
+      },
+      {
+        "text": "A repetitive origami pattern",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "tragedy of the commons",
+    "concept2": "perfumery",
+    "options": [
+      {
+        "text": "A shared garden of scented flowers where everyone picks the most fragrant blooms until only scentless weeds remain, and the last flower's perfume becomes priceless",
+        "correct": true
+      },
+      {
+        "text": "Overusing public perfume resources",
+        "correct": false
+      },
+      {
+        "text": "Everyone wearing the same perfume until it means nothing",
+        "correct": false
+      },
+      {
+        "text": "A communal perfume bottle",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "placebo effect",
+    "concept2": "music composition",
+    "options": [
+      {
+        "text": "A symphony performed on instruments with no strings or reeds, yet the audience hears full orchestral music because they collectively believe it into existence",
+        "correct": true
+      },
+      {
+        "text": "Music that heals through belief",
+        "correct": false
+      },
+      {
+        "text": "A fake instrument that sounds real",
+        "correct": false
+      },
+      {
+        "text": "The placebo of listening to calm music",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "survivorship bias",
+    "concept2": "archaeology",
+    "options": [
+      {
+        "text": "An archaeological dig that only finds successful civilizations' artifacts, while a parallel underground layer holds the failures that actually reveal the full story",
+        "correct": true
+      },
+      {
+        "text": "Archaeology that only studies survivors",
+        "correct": false
+      },
+      {
+        "text": "Biased archaeological conclusions",
+        "correct": false
+      },
+      {
+        "text": "Ancient civilizations that survived",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "opportunity cost",
+    "concept2": "photography",
+    "options": [
+      {
+        "text": "A camera that captures not only the moment you chose but also ghost images of every parallel moment you sacrificed by pressing the shutter",
+        "correct": true
+      },
+      {
+        "text": "The cost of missing a photo opportunity",
+        "correct": false
+      },
+      {
+        "text": "Choosing between photo subjects",
+        "correct": false
+      },
+      {
+        "text": "Expensive photography equipment trade-offs",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "network effect",
+    "concept2": "bonsai",
+    "options": [
+      {
+        "text": "Bonsai trees that grow faster and more beautifully the closer they are placed to other bonsai, their roots forming an underground communication network",
+        "correct": true
+      },
+      {
+        "text": "A network of bonsai growers",
+        "correct": false
+      },
+      {
+        "text": "Bonsai arranged in a network pattern",
+        "correct": false
+      },
+      {
+        "text": "Social media for bonsai enthusiasts",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "diminishing returns",
+    "concept2": "astronomy",
+    "options": [
+      {
+        "text": "Stars that dim proportionally as more telescopes point at them, as if the universe rations its beauty to preserve mystery",
+        "correct": true
+      },
+      {
+        "text": "Diminishing discoveries in astronomy",
+        "correct": false
+      },
+      {
+        "text": "Less return from bigger telescopes",
+        "correct": false
+      },
+      {
+        "text": "Stars fading over time",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "anchoring bias",
+    "concept2": "theater",
+    "options": [
+      {
+        "text": "A play where the first line spoken determines every audience member's interpretation, and the actors must perform all remaining dialogue fighting against that first impression",
+        "correct": true
+      },
+      {
+        "text": "Theater anchored in tradition",
+        "correct": false
+      },
+      {
+        "text": "A biased theater review",
+        "correct": false
+      },
+      {
+        "text": "The first scene anchoring the whole play",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "prisoner's dilemma",
+    "concept2": "glassblowing",
+    "options": [
+      {
+        "text": "Two glassblowers sharing one furnace who must decide simultaneously whether to cooperate on a masterpiece or compete for the last heat, their breaths shaping a vessel of trust or betrayal",
+        "correct": true
+      },
+      {
+        "text": "A glass prison dilemma artwork",
+        "correct": false
+      },
+      {
+        "text": "Prisoners learning glassblowing",
+        "correct": false
+      },
+      {
+        "text": "A glassblowing competition dilemma",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "creative destruction",
+    "concept2": "beekeeping",
+    "options": [
+      {
+        "text": "Bees that disassemble their own hive each season to build a structurally superior one, the destroyed comb fermenting into a honey that tastes of reinvention",
+        "correct": true
+      },
+      {
+        "text": "Destroying a beehive to start fresh",
+        "correct": false
+      },
+      {
+        "text": "Creative honey products",
+        "correct": false
+      },
+      {
+        "text": "New beekeeping methods replacing old ones",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "information asymmetry",
+    "concept2": "tattoo art",
+    "options": [
+      {
+        "text": "Tattoos that reveal different layers of meaning depending on how well the viewer knows the wearer, strangers seeing abstract patterns while intimates see a full narrative",
+        "correct": true
+      },
+      {
+        "text": "A tattoo artist with secret knowledge",
+        "correct": false
+      },
+      {
+        "text": "Hidden meaning in tattoos",
+        "correct": false
+      },
+      {
+        "text": "Tattoos that only the wearer understands",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "recency bias",
+    "concept2": "vinticulture",
+    "options": [
+      {
+        "text": "A wine that rewrites its own tasting notes with each sip, making the last flavor the only one the drinker remembers when rating the vintage",
+        "correct": true
+      },
+      {
+        "text": "Preferring recent wine vintages over aged ones",
+        "correct": false
+      },
+      {
+        "text": "A bias toward new wine trends",
+        "correct": false
+      },
+      {
+        "text": "A recently released wine winning a competition",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "regulatory capture",
+    "concept2": "puppetry",
+    "options": [
+      {
+        "text": "Puppet regulators who slowly begin mirroring the movements of the puppets they oversee, until the audience cannot tell who is pulling whose strings",
+        "correct": true
+      },
+      {
+        "text": "Puppets that regulate other puppets",
+        "correct": false
+      },
+      {
+        "text": "A puppet show about regulation",
+        "correct": false
+      },
+      {
+        "text": "Captured puppets being regulated",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "collective intelligence",
+    "concept2": "pottery",
+    "options": [
+      {
+        "text": "A communal potter's wheel that shapes clay based on the combined intentions of everyone touching it, producing forms no single mind could have envisioned",
+        "correct": true
+      },
+      {
+        "text": "A group pottery class",
+        "correct": false
+      },
+      {
+        "text": "Smart pottery designs",
+        "correct": false
+      },
+      {
+        "text": "Collectively made pottery",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "scope creep",
+    "concept2": "ice sculpting",
+    "options": [
+      {
+        "text": "An ice sculpture that keeps growing new features as the audience makes requests, until it melts under its own expanding ambition before anyone can admire the original design",
+        "correct": true
+      },
+      {
+        "text": "An ice sculpture project that goes over budget",
+        "correct": false
+      },
+      {
+        "text": "Adding too many details to an ice sculpture",
+        "correct": false
+      },
+      {
+        "text": "An expanding ice sculpture exhibition",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "status quo bias",
+    "concept2": "mask-making",
+    "options": [
+      {
+        "text": "Masks that permanently fuse to the wearer's face if worn too long, the original face slowly conforming to the mask's expression rather than the other way around",
+        "correct": true
+      },
+      {
+        "text": "Making the same masks as always",
+        "correct": false
+      },
+      {
+        "text": "Preferring traditional mask designs",
+        "correct": false
+      },
+      {
+        "text": "A mask that preserves the status quo",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "Streisand effect",
+    "concept2": "origami",
+    "options": [
+      {
+        "text": "An origami figure that unfolds into a larger, more complex version of itself every time someone tries to crumple it, the act of suppression multiplying its form",
+        "correct": true
+      },
+      {
+        "text": "Origami that draws more attention when hidden",
+        "correct": false
+      },
+      {
+        "text": "A famous origami design that went viral",
+        "correct": false
+      },
+      {
+        "text": "Trying to hide an origami creation",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "Pareto principle",
+    "concept2": "landscape painting",
+    "options": [
+      {
+        "text": "A landscape painting where twenty percent of the brushstrokes contain eighty percent of the emotion, and removing the rest reveals the painting's true soul",
+        "correct": true
+      },
+      {
+        "text": "Painting eighty percent of a landscape",
+        "correct": false
+      },
+      {
+        "text": "An efficient approach to landscape art",
+        "correct": false
+      },
+      {
+        "text": "A landscape showing the Pareto distribution",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "tragedy of the anticommons",
+    "concept2": "mosaic art",
+    "options": [
+      {
+        "text": "A mosaic where every tile belongs to a different owner who must consent before it can be placed, so the artwork remains forever incomplete yet more discussed than any finished piece",
+        "correct": true
+      },
+      {
+        "text": "Too many owners preventing mosaic completion",
+        "correct": false
+      },
+      {
+        "text": "A tragic mosaic artwork",
+        "correct": false
+      },
+      {
+        "text": "A mosaic about shared ownership problems",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "availability heuristic",
+    "concept2": "bookbinding",
+    "options": [
+      {
+        "text": "A bookbinder who only remembers how to bind the last style they used, each new commission overwriting the previous technique until their entire library becomes a history of forgetting",
+        "correct": true
+      },
+      {
+        "text": "The most available bookbinding method",
+        "correct": false
+      },
+      {
+        "text": "Easily available bookbinding supplies",
+        "correct": false
+      },
+      {
+        "text": "A biased book selection process",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "moral licensing",
+    "concept2": "ceramics",
+    "options": [
+      {
+        "text": "A ceramic kiln that fires perfectly after the potter performs a good deed, but produces cracked vessels after they use past kindness as permission for carelessness",
+        "correct": true
+      },
+      {
+        "text": "Licensed ceramic production",
+        "correct": false
+      },
+      {
+        "text": "Morally made ceramics",
+        "correct": false
+      },
+      {
+        "text": "A ceramics license for ethical potters",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "Dunbar's number",
+    "concept2": "quiltmaking",
+    "options": [
+      {
+        "text": "A quilt that can hold exactly one hundred and fifty patches before it refuses new fabric, each patch representing a meaningful relationship and tearing when a connection fades",
+        "correct": true
+      },
+      {
+        "text": "A quilt for one hundred and fifty people",
+        "correct": false
+      },
+      {
+        "text": "The maximum number of quilt patches",
+        "correct": false
+      },
+      {
+        "text": "A social quilt project",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "perverse incentive",
+    "concept2": "candle making",
+    "options": [
+      {
+        "text": "Candles rewarded for burning longest that learn to burn cooler and dimmer, until they produce no light at all while technically outlasting every competitor",
+        "correct": true
+      },
+      {
+        "text": "Incentives to make longer-lasting candles",
+        "correct": false
+      },
+      {
+        "text": "A bad incentive in the candle industry",
+        "correct": false
+      },
+      {
+        "text": "Candles that burn wrong",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "Simpson's paradox",
+    "concept2": "flower arranging",
+    "options": [
+      {
+        "text": "A flower arrangement where every individual bouquet is ugly, but when all are placed together the combined display becomes beautiful, and separating them returns each to ugliness",
+        "correct": true
+      },
+      {
+        "text": "Paradoxical flower arrangements",
+        "correct": false
+      },
+      {
+        "text": "Flowers that seem beautiful but are not",
+        "correct": false
+      },
+      {
+        "text": "A surprising flower display",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "cobra effect",
+    "concept2": "printmaking",
+    "options": [
+      {
+        "text": "A printmaker paid per error corrected who begins introducing deliberate flaws to fix, until their prints become more flaw than art yet technically more corrected than anyone else's",
+        "correct": true
+      },
+      {
+        "text": "Printing cobras as an unintended consequence",
+        "correct": false
+      },
+      {
+        "text": "The cobra effect in art production",
+        "correct": false
+      },
+      {
+        "text": "A printing mistake that creates more problems",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "externality",
+    "concept2": "sand art",
+    "options": [
+      {
+        "text": "Sand art whose beauty generates an externality of calm in all passersby, but whose creation disturbs the beach ecosystem in ways the artist never sees",
+        "correct": true
+      },
+      {
+        "text": "External factors affecting sand art",
+        "correct": false
+      },
+      {
+        "text": "Sand art with unintended side effects",
+        "correct": false
+      },
+      {
+        "text": "The external beauty of sand art",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "epistemic humility",
+    "concept2": "deep sea bioluminescence",
+    "options": [
+      {
+        "text": "Deep sea creatures whose bioluminescence dims the more they claim to know about the abyss, brightest in those who embrace the unknowable darkness around them",
+        "correct": true
+      },
+      {
+        "text": "Humbly studying bioluminescent organisms",
+        "correct": false
+      },
+      {
+        "text": "The limits of knowledge about deep sea light",
+        "correct": false
+      },
+      {
+        "text": "Bioluminescence as a humble display",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "panopticism",
+    "concept2": "seed banking",
+    "options": [
+      {
+        "text": "A seed vault where every seed can observe every other seed, and only those that remain authentic under perpetual surveillance evolve into plants that can withstand any environment",
+        "correct": true
+      },
+      {
+        "text": "Surveillance of seed banks",
+        "correct": false
+      },
+      {
+        "text": "A panoptic garden where all plants are watched",
+        "correct": false
+      },
+      {
+        "text": "Banking seeds under observation",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "liminal space",
+    "concept2": "fermentation",
+    "options": [
+      {
+        "text": "A brewery built in the threshold between two buildings where the yeast transforms differently because it exists in neither place fully, producing a beer that tastes of transition itself",
+        "correct": true
+      },
+      {
+        "text": "Fermenting in a transitional space",
+        "correct": false
+      },
+      {
+        "text": "The liminal stage of fermentation",
+        "correct": false
+      },
+      {
+        "text": "A brewery in an unusual location",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "apophenia",
+    "concept2": "astronomical cartography",
+    "options": [
+      {
+        "text": "Star maps drawn by connecting random stellar positions into meaningful patterns, where the constellations shift based on the observer's emotional state, each viewer seeing different stories",
+        "correct": true
+      },
+      {
+        "text": "Finding false patterns in star maps",
+        "correct": false
+      },
+      {
+        "text": "Pattern recognition in astronomy",
+        "correct": false
+      },
+      {
+        "text": "An astronomical map with hidden meaning",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "semantic satiation",
+    "concept2": "coral reef restoration",
+    "options": [
+      {
+        "text": "A coral reef where the same species repeated endlessly loses its ecological meaning until it collapses, restored only by introducing a single foreign organism that makes every existing species meaningful again",
+        "correct": true
+      },
+      {
+        "text": "Repeating reef restoration until it loses meaning",
+        "correct": false
+      },
+      {
+        "text": "Words about coral that become meaningless",
+        "correct": false
+      },
+      {
+        "text": "Overused marine conservation slogans",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "phenomenological reduction",
+    "concept2": "textile dyeing",
+    "options": [
+      {
+        "text": "A dyeing process that strips fabric of all color assumptions before re-immersing it, so the cloth experiences each hue as if for the first time and absorbs only the shade it truly needs",
+        "correct": true
+      },
+      {
+        "text": "Reducing textile dye to its essence",
+        "correct": false
+      },
+      {
+        "text": "A philosophical approach to fabric coloring",
+        "correct": false
+      },
+      {
+        "text": "Dyeing fabric with reduced chemicals",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "observer effect",
+    "concept2": "sourdough cultivation",
+    "options": [
+      {
+        "text": "A sourdough starter that ferments differently depending on who is watching it, each baker's gaze imparting a unique flavor signature that disappears when baked by machine",
+        "correct": true
+      },
+      {
+        "text": "Observing sourdough as it rises",
+        "correct": false
+      },
+      {
+        "text": "The effect of watching bread bake",
+        "correct": false
+      },
+      {
+        "text": "A sourdough experiment being observed",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "negative capability",
+    "concept2": "glacier formation",
+    "options": [
+      {
+        "text": "Glaciers that form only in regions of maximum uncertainty, their ice crystallizing from unanswered questions that compress over millennia into slow-moving rivers of preserved ambiguity",
+        "correct": true
+      },
+      {
+        "text": "The inability to understand glacier formation",
+        "correct": false
+      },
+      {
+        "text": "Glaciers that have a negative impact",
+        "correct": false
+      },
+      {
+        "text": "Not knowing how glaciers will form",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "hermeneutic circle",
+    "concept2": "mycorrhizal networks",
+    "options": [
+      {
+        "text": "A forest floor network where each tree interprets nutrients differently based on the whole forest's health, and the forest's health depends on each tree's interpretation, creating an endless loop of mutual meaning-making",
+        "correct": true
+      },
+      {
+        "text": "Interpreting fungal networks in circles",
+        "correct": false
+      },
+      {
+        "text": "A circular theory of mushroom communication",
+        "correct": false
+      },
+      {
+        "text": "Mycorrhizal networks forming circles",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "memetic evolution",
+    "concept2": "amber preservation",
+    "options": [
+      {
+        "text": "Ideas trapped in cultural amber that preserve their original form for centuries, until cracked open by a new generation that finds the ancient meme has evolved inside its prison",
+        "correct": true
+      },
+      {
+        "text": "Memes preserved like insects in amber",
+        "correct": false
+      },
+      {
+        "text": "The evolution of preserved ideas",
+        "correct": false
+      },
+      {
+        "text": "Ancient amber containing idea fossils",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "solipsism",
+    "concept2": "cartographic projection",
+    "options": [
+      {
+        "text": "A map where the entire world is drawn from a single consciousness's perspective, continents warping and vanishing as the mapmaker shifts attention, revealing that every projection is a self-portrait",
+        "correct": true
+      },
+      {
+        "text": "A selfish map that only shows one person's world",
+        "correct": false
+      },
+      {
+        "text": "Maps distorted by individual perception",
+        "correct": false
+      },
+      {
+        "text": "A projection that only the maker understands",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "creative destruction",
+    "concept2": "tidal pool ecology",
+    "options": [
+      {
+        "text": "A tidal pool that is violently emptied by each wave, but the destruction deposits new organisms that the survivors incorporate, each cycle producing a more complex micro-ecosystem than the last",
+        "correct": true
+      },
+      {
+        "text": "Tidal pools destroyed and rebuilt by tides",
+        "correct": false
+      },
+      {
+        "text": "The creative rebirth of tidal ecosystems",
+        "correct": false
+      },
+      {
+        "text": "Waves destroying tidal pool habitats",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "ontological dependency",
+    "concept2": "shadow puppetry",
+    "options": [
+      {
+        "text": "Shadow puppets that become self-aware but cannot exist without the puppeteer's hand, staging a play about whether their stories belong to them or to the hands that cast them",
+        "correct": true
+      },
+      {
+        "text": "Puppets that depend on shadows to exist",
+        "correct": false
+      },
+      {
+        "text": "The philosophical nature of shadow puppets",
+        "correct": false
+      },
+      {
+        "text": "Shadow puppets exploring existence",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "modal realism",
+    "concept2": "composting",
+    "options": [
+      {
+        "text": "A compost heap where every possible version of a discarded fruit exists simultaneously, decomposing in infinite parallel heaps until the resulting soil grows a plant that exists in all possible worlds at once",
+        "correct": true
+      },
+      {
+        "text": "Composting in multiple possible ways",
+        "correct": false
+      },
+      {
+        "text": "The reality of different composting methods",
+        "correct": false
+      },
+      {
+        "text": "Realistic composting practices",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "defamiliarization",
+    "concept2": "speleology",
+    "options": [
+      {
+        "text": "A cave system that rearranges its passages after every visit so that even expert spelunkers experience each descent as their first, the familiarity of the stone perpetually made strange",
+        "correct": true
+      },
+      {
+        "text": "Making caves seem unfamiliar",
+        "correct": false
+      },
+      {
+        "text": "Seeing caves with fresh eyes",
+        "correct": false
+      },
+      {
+        "text": "A strange new cave discovery",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "semiotic drift",
+    "concept2": "coral bleaching",
+    "options": [
+      {
+        "text": "A reef whose colors are a living language that slowly loses meaning as the water warms, each bleached coral a word forgotten, until a new cold current arrives carrying entirely different color-words",
+        "correct": true
+      },
+      {
+        "text": "The changing meaning of coral colors",
+        "correct": false
+      },
+      {
+        "text": "Drifting coral reefs losing their symbolism",
+        "correct": false
+      },
+      {
+        "text": "Coral bleaching as a sign of change",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "Dunning-Kruger effect",
+    "concept2": "bonsai cultivation",
+    "options": [
+      {
+        "text": "A bonsai that grows wildly when the grower is confident they have mastered pruning, but produces its most elegant form only when the grower admits they understand nothing about the tree's true nature",
+        "correct": true
+      },
+      {
+        "text": "Overconfident bonsai growers making mistakes",
+        "correct": false
+      },
+      {
+        "text": "Not knowing how incompetent you are at bonsai",
+        "correct": false
+      },
+      {
+        "text": "A beginner bonsai grower who thinks they are an expert",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "rhizomatic thinking",
+    "concept2": "volcanic island formation",
+    "options": [
+      {
+        "text": "Islands that emerge not from a single volcanic vent but from an underground network of interconnected magma chambers, each eruption creating a new landmass that is secretly part of a single sprawling thought",
+        "correct": true
+      },
+      {
+        "text": "A root-like network of volcanic islands",
+        "correct": false
+      },
+      {
+        "text": "Islands connected underground like rhizomes",
+        "correct": false
+      },
+      {
+        "text": "Thinking about island formation in networks",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "strange attractor",
+    "concept2": "wool spinning",
+    "options": [
+      {
+        "text": "A spinning wheel that never produces the same yarn twice yet always spirals toward an impossible pattern, each skein orbiting the same unattainable center of perfect thread",
+        "correct": true
+      },
+      {
+        "text": "A strange wool-spinning device",
+        "correct": false
+      },
+      {
+        "text": "Wool attracted to a strange magnet",
+        "correct": false
+      },
+      {
+        "text": "An unusual spinning pattern",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "existential risk",
+    "concept2": "sand mandala creation",
+    "options": [
+      {
+        "text": "A civilization that builds an infinitely detailed sand mandala knowing a single cosmic wind could erase it, finding meaning precisely because its beauty and annihilation share the same breath",
+        "correct": true
+      },
+      {
+        "text": "The risk of destroying a sand mandala",
+        "correct": false
+      },
+      {
+        "text": "Existential themes in mandala art",
+        "correct": false
+      },
+      {
+        "text": "A sand mandala about the end of the world",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "qualia",
+    "concept2": "glassblowing",
+    "options": [
+      {
+        "text": "Glass vessels that contain the subjective experience of color itself, so that shattering a red vase releases not pigment but the raw feeling of redness into the room",
+        "correct": true
+      },
+      {
+        "text": "The subjective experience of watching glassblowing",
+        "correct": false
+      },
+      {
+        "text": "Glass that captures personal experiences",
+        "correct": false
+      },
+      {
+        "text": "A philosophical glass artwork",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "collective unconscious",
+    "concept2": "ice core sampling",
+    "options": [
+      {
+        "text": "Ice cores that contain not just atmospheric data but the frozen dreams of every generation that lived above the glacier, each layer a stratum of shared human archetypes",
+        "correct": true
+      },
+      {
+        "text": "Unconsciously collecting ice core samples",
+        "correct": false
+      },
+      {
+        "text": "A collective effort to sample ice cores",
+        "correct": false
+      },
+      {
+        "text": "Ice cores revealing humanity's history",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "kairos",
+    "concept2": "dry stone walling",
+    "options": [
+      {
+        "text": "A dry stone wall where each stone can only be placed at its perfect moment in time, the wall building itself across centuries as the right instants arrive for each piece",
+        "correct": true
+      },
+      {
+        "text": "The right time to build a stone wall",
+        "correct": false
+      },
+      {
+        "text": "A timely stone wall construction",
+        "correct": false
+      },
+      {
+        "text": "Ancient walls built at the perfect moment",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "Overton window",
+    "concept2": "stained glass artistry",
+    "options": [
+      {
+        "text": "A stained glass window whose acceptable colors shift with public opinion, previously banned hues suddenly flooding through as ideas once unthinkable become the light that illuminates the cathedral",
+        "correct": true
+      },
+      {
+        "text": "The window of acceptable stained glass designs",
+        "correct": false
+      },
+      {
+        "text": "Political stained glass art",
+        "correct": false
+      },
+      {
+        "text": "A shifting window of artistic taste",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "proprioception",
+    "concept2": "cave painting",
+    "options": [
+      {
+        "text": "Cave painters who lost all sense of their body's position in total darkness, their art emerging from pure spatial intuition as the cave walls became extensions of muscles they could not see",
+        "correct": true
+      },
+      {
+        "text": "Painting caves while sensing your body position",
+        "correct": false
+      },
+      {
+        "text": "Body awareness during cave art creation",
+        "correct": false
+      },
+      {
+        "text": "Cave paintings depicting human movement",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "wabi-sabi",
+    "concept2": "satellite debris",
+    "options": [
+      {
+        "text": "Orbital debris that is not cleaned up but curated, each fragment's decay and impermanence celebrated as a cosmic kintsugi, its re-entry trails painting fleeting beauty across the night sky",
+        "correct": true
+      },
+      {
+        "text": "Finding beauty in damaged satellites",
+        "correct": false
+      },
+      {
+        "text": "Imperfect space technology",
+        "correct": false
+      },
+      {
+        "text": "Wabi-sabi inspired spacecraft design",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "superposition",
+    "concept2": "tapestry weaving",
+    "options": [
+      {
+        "text": "A tapestry that exists in all possible patterns simultaneously until a viewer focuses on one section, collapsing the superposition into a single narrative that was always woven into the threads",
+        "correct": true
+      },
+      {
+        "text": "Weaving multiple patterns on top of each other",
+        "correct": false
+      },
+      {
+        "text": "A quantum physics tapestry",
+        "correct": false
+      },
+      {
+        "text": "Superimposing designs on a tapestry",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "temporal paradox",
+    "concept2": "sourdough breadmaking",
+    "options": [
+      {
+        "text": "A sourdough starter sent back in time that becomes the ancestor of all modern starters, meaning every loaf baked today contains yeast that was both created by and responsible for its own existence",
+        "correct": true
+      },
+      {
+        "text": "A time travel story involving bread",
+        "correct": false
+      },
+      {
+        "text": "The paradox of ancient sourdough starters",
+        "correct": false
+      },
+      {
+        "text": "Bread that tastes like the past",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "panpsychism",
+    "concept2": "urban mycology",
+    "options": [
+      {
+        "text": "City fungi that form a sentient network beneath the pavement, each mushroom sprouting through a crack as a single thought surfacing from a concrete consciousness that dreams in spore clouds",
+        "correct": true
+      },
+      {
+        "text": "Mushrooms with consciousness growing in cities",
+        "correct": false
+      },
+      {
+        "text": "The mind of urban fungi",
+        "correct": false
+      },
+      {
+        "text": "Sentient mushrooms in an urban setting",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "simulacrum",
+    "concept2": "permaculture",
+    "options": [
+      {
+        "text": "A permaculture garden so perfectly self-sustaining that it becomes more real than the wild ecosystem it was modeled on, the original wilderness slowly copying the garden's improvements",
+        "correct": true
+      },
+      {
+        "text": "A simulated permaculture environment",
+        "correct": false
+      },
+      {
+        "text": "Permaculture as a copy of nature",
+        "correct": false
+      },
+      {
+        "text": "A virtual permaculture garden",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "Zeno's paradox",
+    "concept2": "pottery glazing",
+    "options": [
+      {
+        "text": "A glaze that approaches its final color but never quite arrives, each firing bringing it halfway closer to perfection so that the potter must decide when almost-there is beautiful enough",
+        "correct": true
+      },
+      {
+        "text": "Never finishing a pottery glaze",
+        "correct": false
+      },
+      {
+        "text": "An infinite glazing process",
+        "correct": false
+      },
+      {
+        "text": "A paradoxically colored glaze",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "ergodicity",
+    "concept2": "bone carving",
+    "options": [
+      {
+        "text": "A bone carver who carves the same material for an entire lifetime and discovers that every possible sculpture already existed within the bone, their career simply the bone revealing its own statistical destiny",
+        "correct": true
+      },
+      {
+        "text": "Carving bones in a repetitive pattern",
+        "correct": false
+      },
+      {
+        "text": "The probability of bone carving outcomes",
+        "correct": false
+      },
+      {
+        "text": "A mathematical approach to bone art",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "biosemiotics",
+    "concept2": "aurora borealis",
+    "options": [
+      {
+        "text": "Northern lights that are actually a planetary sign language, the magnetosphere interpreting solar wind as messages and displaying them in colors that migrating birds read as navigation instructions",
+        "correct": true
+      },
+      {
+        "text": "The biological signals in the aurora",
+        "correct": false
+      },
+      {
+        "text": "Aurora as a natural communication system",
+        "correct": false
+      },
+      {
+        "text": "Animals reacting to northern lights",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "hylomorphism",
+    "concept2": "sandcastle engineering",
+    "options": [
+      {
+        "text": "A sandcastle whose form persists even after the sand blows away, the invisible shape haunting the beach until new grains drift into position and rebuild it from pure architectural memory",
+        "correct": true
+      },
+      {
+        "text": "The form and matter of sandcastles",
+        "correct": false
+      },
+      {
+        "text": "Engineering sandcastles with philosophy",
+        "correct": false
+      },
+      {
+        "text": "A philosophical sandcastle",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "aporia",
+    "concept2": "meteor shower observation",
+    "options": [
+      {
+        "text": "A meteor shower that presents more questions with every falling star, each streak of light an unanswerable riddle that enriches the night sky precisely because understanding it would extinguish its beauty",
+        "correct": true
+      },
+      {
+        "text": "The puzzlement of watching meteor showers",
+        "correct": false
+      },
+      {
+        "text": "Unanswered questions about meteors",
+        "correct": false
+      },
+      {
+        "text": "A confusing meteor shower display",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "anamorphosis",
+    "concept2": "tide pool succession",
+    "options": [
+      {
+        "text": "A tide pool whose organisms only form a coherent ecosystem when viewed from one precise angle above, shifting into chaos from every other perspective, the order itself a trick of vantage point",
+        "correct": true
+      },
+      {
+        "text": "Distorted views of tide pools",
+        "correct": false
+      },
+      {
+        "text": "Anamorphic art inspired by tide pools",
+        "correct": false
+      },
+      {
+        "text": "Tide pools viewed from unusual angles",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "underdetermination",
+    "concept2": "lacquerware",
+    "options": [
+      {
+        "text": "Lacquerware whose surface supports an infinite number of equally valid interpretations of its pattern, each viewer constructing a different narrative from the same evidence of brushstrokes",
+        "correct": true
+      },
+      {
+        "text": "Undetermined lacquer patterns",
+        "correct": false
+      },
+      {
+        "text": "Lacquerware with ambiguous designs",
+        "correct": false
+      },
+      {
+        "text": "An underdetermined lacquer technique",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "counterfactual reasoning",
+    "concept2": "moss gardening",
+    "options": [
+      {
+        "text": "A moss garden that grows paths representing every decision the gardener almost made, the untaken routes lush and green while the chosen path shows the actual wear of living",
+        "correct": true
+      },
+      {
+        "text": "Imagining what the moss garden could have been",
+        "correct": false
+      },
+      {
+        "text": "A counterfactual gardening experiment",
+        "correct": false
+      },
+      {
+        "text": "Moss growing in alternative patterns",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "pharmakon",
+    "concept2": "kelp forest dynamics",
+    "options": [
+      {
+        "text": "A kelp forest that is simultaneously the cure and the disease of its own ecosystem, its canopy providing life-giving shade while blocking the very light its roots need to anchor",
+        "correct": true
+      },
+      {
+        "text": "Medicine derived from kelp forests",
+        "correct": false
+      },
+      {
+        "text": "The healing and harming properties of kelp",
+        "correct": false
+      },
+      {
+        "text": "A pharmaceutical kelp product",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "palimpsest",
+    "concept2": "volcanic glass formation",
+    "options": [
+      {
+        "text": "Obsidian that preserves every eruption's chemical signature in translucent layers, each volcanic episode overwriting but never fully erasing the previous, readable only when light passes through the stone at dawn",
+        "correct": true
+      },
+      {
+        "text": "Volcanic glass with layered patterns",
+        "correct": false
+      },
+      {
+        "text": "Rewriting volcanic history in glass",
+        "correct": false
+      },
+      {
+        "text": "A palimpsest-like volcanic formation",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "teacup",
+    "concept2": "forest",
+    "options": [
+      {
+        "text": "A teacup whose steam grows into a tiny breathing forest that wilts as the tea cools",
+        "correct": true
+      },
+      {
+        "text": "A forest-green teacup",
+        "correct": false
+      },
+      {
+        "text": "A teacup with trees painted on it",
+        "correct": false
+      },
+      {
+        "text": "Drinking tea in a forest",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "shoe",
+    "concept2": "clock",
+    "options": [
+      {
+        "text": "Shoes that speed up or slow your sense of time depending on how fast you walk in them",
+        "correct": true
+      },
+      {
+        "text": "A clock shaped like a shoe",
+        "correct": false
+      },
+      {
+        "text": "A shoe with a watch on the strap",
+        "correct": false
+      },
+      {
+        "text": "Timing how fast you run",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "mirror",
+    "concept2": "river",
+    "options": [
+      {
+        "text": "A mirror whose surface flows like a river, carrying your reflection downstream to whoever needs it",
+        "correct": true
+      },
+      {
+        "text": "A mirror placed beside a river",
+        "correct": false
+      },
+      {
+        "text": "A river so still it acts like a mirror",
+        "correct": false
+      },
+      {
+        "text": "A river-blue mirror frame",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "lantern",
+    "concept2": "seed",
+    "options": [
+      {
+        "text": "A lantern whose flame plants a glowing seed each night that sprouts into next evening's light",
+        "correct": true
+      },
+      {
+        "text": "A seed-shaped lantern",
+        "correct": false
+      },
+      {
+        "text": "A lantern hung in a garden",
+        "correct": false
+      },
+      {
+        "text": "A lantern that helps seeds grow faster",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "kettle",
+    "concept2": "cloud",
+    "options": [
+      {
+        "text": "A kettle whose whistle releases a small cloud that drifts off carrying the day's worries away",
+        "correct": true
+      },
+      {
+        "text": "A cloud-white kettle",
+        "correct": false
+      },
+      {
+        "text": "Steam rising from a kettle",
+        "correct": false
+      },
+      {
+        "text": "A kettle used on a foggy morning",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "chair",
+    "concept2": "ocean",
+    "options": [
+      {
+        "text": "A chair that gently rocks in rhythm with the distant tide, syncing your rest to the sea",
+        "correct": true
+      },
+      {
+        "text": "A chair on the beach",
+        "correct": false
+      },
+      {
+        "text": "An ocean-blue chair",
+        "correct": false
+      },
+      {
+        "text": "A waterproof deck chair",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "pencil",
+    "concept2": "garden",
+    "options": [
+      {
+        "text": "A pencil whose shavings sprout into flowers wherever they fall, growing a garden as you write",
+        "correct": true
+      },
+      {
+        "text": "A pencil with flowers printed on it",
+        "correct": false
+      },
+      {
+        "text": "A garden tool shaped like a pencil",
+        "correct": false
+      },
+      {
+        "text": "Sketching a garden with a pencil",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "hat",
+    "concept2": "rain",
+    "options": [
+      {
+        "text": "A hat that funnels rain into a small reservoir, watering a flower tucked in its brim",
+        "correct": true
+      },
+      {
+        "text": "A rain hat",
+        "correct": false
+      },
+      {
+        "text": "A hat worn in the rain",
+        "correct": false
+      },
+      {
+        "text": "A waterproof hat",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "spoon",
+    "concept2": "star",
+    "options": [
+      {
+        "text": "A spoon that scoops a little starlight into your bowl, making any meal glow until you finish it",
+        "correct": true
+      },
+      {
+        "text": "A star-shaped spoon",
+        "correct": false
+      },
+      {
+        "text": "A spoon used while stargazing",
+        "correct": false
+      },
+      {
+        "text": "A silver spoon that shines",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "window",
+    "concept2": "music",
+    "options": [
+      {
+        "text": "A window whose glass vibrates passing breezes into melodies, scoring the street outside",
+        "correct": true
+      },
+      {
+        "text": "A window in a music room",
+        "correct": false
+      },
+      {
+        "text": "A window with notes painted on it",
+        "correct": false
+      },
+      {
+        "text": "A speaker placed by a window",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "boot",
+    "concept2": "snow",
+    "options": [
+      {
+        "text": "Boots that knit fresh snow into warm wool around your feet with every cold step",
+        "correct": true
+      },
+      {
+        "text": "Snow boots",
+        "correct": false
+      },
+      {
+        "text": "Boots worn in the snow",
+        "correct": false
+      },
+      {
+        "text": "White winter boots",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "book",
+    "concept2": "candle",
+    "options": [
+      {
+        "text": "A book whose pages only reveal text in the warmth of a candle, fading again in daylight",
+        "correct": true
+      },
+      {
+        "text": "A book read by candlelight",
+        "correct": false
+      },
+      {
+        "text": "A candle shaped like a book",
+        "correct": false
+      },
+      {
+        "text": "A book about candles",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "basket",
+    "concept2": "cloud",
+    "options": [
+      {
+        "text": "A basket woven so loosely it holds only clouds, releasing a soft rain when tipped over",
+        "correct": true
+      },
+      {
+        "text": "A cloud-white basket",
+        "correct": false
+      },
+      {
+        "text": "A basket carried on a cloudy day",
+        "correct": false
+      },
+      {
+        "text": "A basket of cotton",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "ring",
+    "concept2": "garden",
+    "options": [
+      {
+        "text": "A ring whose tiny gem blooms into a real flower for a day whenever its wearer feels loved",
+        "correct": true
+      },
+      {
+        "text": "A flower-shaped ring",
+        "correct": false
+      },
+      {
+        "text": "A ring found in a garden",
+        "correct": false
+      },
+      {
+        "text": "A garden ring path",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "bell",
+    "concept2": "river",
+    "options": [
+      {
+        "text": "A bell that rings only when the river's level rises, warning the village by its own current",
+        "correct": true
+      },
+      {
+        "text": "A bell beside a river",
+        "correct": false
+      },
+      {
+        "text": "A bell-shaped buoy",
+        "correct": false
+      },
+      {
+        "text": "Ringing a bell near water",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "compass",
+    "concept2": "grief",
+    "options": [
+      {
+        "text": "A compass whose needle points toward whoever you have lost, spinning freely only once you have truly let go",
+        "correct": true
+      },
+      {
+        "text": "A compass that helps you find your way through grief",
+        "correct": false
+      },
+      {
+        "text": "A sad old compass",
+        "correct": false
+      },
+      {
+        "text": "Grieving a lost traveler",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "violin",
+    "concept2": "hope",
+    "options": [
+      {
+        "text": "A violin that can only be tuned by someone who still believes things will improve, falling silent in despair",
+        "correct": true
+      },
+      {
+        "text": "A hopeful violin melody",
+        "correct": false
+      },
+      {
+        "text": "An uplifting violin song",
+        "correct": false
+      },
+      {
+        "text": "A violin played to cheer people up",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "mirror",
+    "concept2": "shame",
+    "options": [
+      {
+        "text": "A mirror that reflects you smaller the more you hide a secret, returning to full size when you confess",
+        "correct": true
+      },
+      {
+        "text": "Feeling ashamed of your reflection",
+        "correct": false
+      },
+      {
+        "text": "A mirror covered out of shame",
+        "correct": false
+      },
+      {
+        "text": "Avoiding a mirror when embarrassed",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "lantern",
+    "concept2": "fear",
+    "options": [
+      {
+        "text": "A lantern that burns brightest exactly where you are most afraid, refusing to light the safe corners",
+        "correct": true
+      },
+      {
+        "text": "A lantern carried by a frightened child",
+        "correct": false
+      },
+      {
+        "text": "A scary glowing lantern",
+        "correct": false
+      },
+      {
+        "text": "A lantern in a haunted house",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "thread",
+    "concept2": "memory",
+    "options": [
+      {
+        "text": "A thread that knots itself once for every promise you forget, tangling until you remember and keep it",
+        "correct": true
+      },
+      {
+        "text": "A thread tied around a finger to remember",
+        "correct": false
+      },
+      {
+        "text": "Remembering how to sew",
+        "correct": false
+      },
+      {
+        "text": "A thread of old memories",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "anchor",
+    "concept2": "doubt",
+    "options": [
+      {
+        "text": "An anchor that grows heavier the more uncertain you are, releasing the moment you commit to a decision",
+        "correct": true
+      },
+      {
+        "text": "Doubting whether the anchor will hold",
+        "correct": false
+      },
+      {
+        "text": "A heavy anchor of worry",
+        "correct": false
+      },
+      {
+        "text": "An anchor symbolizing doubt",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "clock",
+    "concept2": "forgiveness",
+    "options": [
+      {
+        "text": "A clock that runs backward by one minute each time you let go of an old grudge, returning stolen time",
+        "correct": true
+      },
+      {
+        "text": "Forgiving someone over time",
+        "correct": false
+      },
+      {
+        "text": "An old clock and old grievances",
+        "correct": false
+      },
+      {
+        "text": "Watching the clock while staying angry",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "kite",
+    "concept2": "grief",
+    "options": [
+      {
+        "text": "A kite that flies higher each time you speak aloud the name of someone you miss, carrying the words skyward",
+        "correct": true
+      },
+      {
+        "text": "Flying a kite to feel better after a loss",
+        "correct": false
+      },
+      {
+        "text": "A black mourning kite",
+        "correct": false
+      },
+      {
+        "text": "A kite flown at a memorial",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "window",
+    "concept2": "trust",
+    "options": [
+      {
+        "text": "A window that turns clear only between two people who never lie to each other, fogging the instant deceit enters",
+        "correct": true
+      },
+      {
+        "text": "Trusting what you see through a window",
+        "correct": false
+      },
+      {
+        "text": "A transparent honest window",
+        "correct": false
+      },
+      {
+        "text": "A clear window between neighbors",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "bridge",
+    "concept2": "loneliness",
+    "options": [
+      {
+        "text": "A bridge that only appears beneath the feet of someone willing to reach out first, vanishing for those who wait alone",
+        "correct": true
+      },
+      {
+        "text": "A lonely empty bridge",
+        "correct": false
+      },
+      {
+        "text": "Crossing a bridge by yourself",
+        "correct": false
+      },
+      {
+        "text": "A bridge over isolated water",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "feather",
+    "concept2": "courage",
+    "options": [
+      {
+        "text": "A feather that grows heavier with every brave act, eventually weighing enough to anchor a frightened heart",
+        "correct": true
+      },
+      {
+        "text": "A feather worn by a brave warrior",
+        "correct": false
+      },
+      {
+        "text": "A symbol of courage",
+        "correct": false
+      },
+      {
+        "text": "A light feather floating bravely",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "key",
+    "concept2": "secrecy",
+    "options": [
+      {
+        "text": "A key that dissolves the moment its lock is opened in front of witnesses, existing only for private truths",
+        "correct": true
+      },
+      {
+        "text": "A key to a secret room",
+        "correct": false
+      },
+      {
+        "text": "Hiding a key carefully",
+        "correct": false
+      },
+      {
+        "text": "A locked diary key",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "candle",
+    "concept2": "patience",
+    "options": [
+      {
+        "text": "A candle whose single flame lasts exactly as long as you are willing to sit and watch it, extinguishing the instant you grow restless",
+        "correct": true
+      },
+      {
+        "text": "A slow-burning patient candle",
+        "correct": false
+      },
+      {
+        "text": "Waiting for a candle to burn down",
+        "correct": false
+      },
+      {
+        "text": "A long-lasting candle",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "drum",
+    "concept2": "anger",
+    "options": [
+      {
+        "text": "A drum that absorbs each angry strike and replays it later as a gentle heartbeat, returning rage as calm",
+        "correct": true
+      },
+      {
+        "text": "Drumming out your anger",
+        "correct": false
+      },
+      {
+        "text": "An angry loud drum solo",
+        "correct": false
+      },
+      {
+        "text": "Hitting a drum when frustrated",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "mirror",
+    "concept2": "gratitude",
+    "options": [
+      {
+        "text": "A mirror that shows the faces of everyone who helped you become who you are, layered behind your own",
+        "correct": true
+      },
+      {
+        "text": "Being grateful for your reflection",
+        "correct": false
+      },
+      {
+        "text": "A thank-you note on a mirror",
+        "correct": false
+      },
+      {
+        "text": "Smiling gratefully in a mirror",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "capillary action",
+    "concept2": "ambition",
+    "options": [
+      {
+        "text": "A tower that draws determined people upward through invisible channels, rising only as high as their shared resolve sustains the climb",
+        "correct": true
+      },
+      {
+        "text": "Ambition that rises like water in a straw",
+        "correct": false
+      },
+      {
+        "text": "Climbing toward your goals",
+        "correct": false
+      },
+      {
+        "text": "The upward pull of ambition",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "sublimation",
+    "concept2": "grief",
+    "options": [
+      {
+        "text": "A solid block of sorrow that skips melting entirely, evaporating directly into a fine mist that others can breathe and share",
+        "correct": true
+      },
+      {
+        "text": "Grief that fades over time",
+        "correct": false
+      },
+      {
+        "text": "Sad feelings disappearing slowly",
+        "correct": false
+      },
+      {
+        "text": "The transformation of grief",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "interference",
+    "concept2": "memory",
+    "options": [
+      {
+        "text": "Two overlapping recollections that cancel into blank silence where they contradict and amplify into vivid clarity where they agree",
+        "correct": true
+      },
+      {
+        "text": "Memories interfering with each other",
+        "correct": false
+      },
+      {
+        "text": "Conflicting old memories",
+        "correct": false
+      },
+      {
+        "text": "Forgetting overlapping events",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "surface tension",
+    "concept2": "intimacy",
+    "options": [
+      {
+        "text": "A film between two people so taut that small confessions bead up and roll harmlessly off, but one honest word breaks it and they merge",
+        "correct": true
+      },
+      {
+        "text": "The tension of getting close to someone",
+        "correct": false
+      },
+      {
+        "text": "Awkward tension between strangers",
+        "correct": false
+      },
+      {
+        "text": "Intimacy held at the surface",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "phase transition",
+    "concept2": "identity",
+    "options": [
+      {
+        "text": "A person who exists as fluid possibility until a single decisive choice crystallizes them instantly into a fixed, knowable self",
+        "correct": true
+      },
+      {
+        "text": "Changing who you are over phases of life",
+        "correct": false
+      },
+      {
+        "text": "An identity in transition",
+        "correct": false
+      },
+      {
+        "text": "Becoming a new person",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "thermal expansion",
+    "concept2": "generosity",
+    "options": [
+      {
+        "text": "A heart-shaped material that physically grows larger the warmer its owner's kindness runs, making more room with every gift given",
+        "correct": true
+      },
+      {
+        "text": "Generosity that grows with warmth",
+        "correct": false
+      },
+      {
+        "text": "A warm generous person",
+        "correct": false
+      },
+      {
+        "text": "Expanding your circle of giving",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "diffraction",
+    "concept2": "reputation",
+    "options": [
+      {
+        "text": "A single act that bends around obstacles and spreads into countless overlapping rumors, each fringe a slightly altered version of the truth",
+        "correct": true
+      },
+      {
+        "text": "A reputation that spreads widely",
+        "correct": false
+      },
+      {
+        "text": "Distorted gossip about someone",
+        "correct": false
+      },
+      {
+        "text": "Bending the truth about a person",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "latent heat",
+    "concept2": "trauma",
+    "options": [
+      {
+        "text": "An experience that releases no visible change while it is absorbed, storing enormous energy that erupts only when the person finally begins to thaw",
+        "correct": true
+      },
+      {
+        "text": "Hidden emotional pain",
+        "correct": false
+      },
+      {
+        "text": "Trauma that surfaces later",
+        "correct": false
+      },
+      {
+        "text": "Bottled-up feelings",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "resonant frequency",
+    "concept2": "conviction",
+    "options": [
+      {
+        "text": "A bridge of beliefs that holds steady against doubt until someone strikes the exact argument it shares, shaking the entire structure apart",
+        "correct": true
+      },
+      {
+        "text": "A strong conviction resonating with others",
+        "correct": false
+      },
+      {
+        "text": "Beliefs that vibrate with passion",
+        "correct": false
+      },
+      {
+        "text": "A convincing resonant speech",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "hysteresis",
+    "concept2": "grudge",
+    "options": [
+      {
+        "text": "A material that, once bent by an insult, never quite returns to its original shape even after the apology, retaining a faint memory of the strain",
+        "correct": true
+      },
+      {
+        "text": "A grudge that lingers",
+        "correct": false
+      },
+      {
+        "text": "Holding onto past hurts",
+        "correct": false
+      },
+      {
+        "text": "Slowly bending under resentment",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "refractive index",
+    "concept2": "perspective",
+    "options": [
+      {
+        "text": "A medium so dense with one person's worldview that any idea passing through it bends sharply, arriving at a completely different angle than it entered",
+        "correct": true
+      },
+      {
+        "text": "Different perspectives bending the truth",
+        "correct": false
+      },
+      {
+        "text": "Seeing things from another angle",
+        "correct": false
+      },
+      {
+        "text": "A biased point of view",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "supersaturation",
+    "concept2": "patience",
+    "options": [
+      {
+        "text": "A solution of waiting held perfectly still and clear until a single disturbance triggers a cascade, crystallizing years of restraint into sudden reward",
+        "correct": true
+      },
+      {
+        "text": "Patiently waiting for results",
+        "correct": false
+      },
+      {
+        "text": "A buildup of patience",
+        "correct": false
+      },
+      {
+        "text": "Reaching the limit of patience",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "angular momentum",
+    "concept2": "tradition",
+    "options": [
+      {
+        "text": "A spinning ritual that resists every attempt to stop it, its accumulated motion carrying customs forward long after anyone remembers why they began",
+        "correct": true
+      },
+      {
+        "text": "Traditions that keep spinning along",
+        "correct": false
+      },
+      {
+        "text": "Momentum behind old customs",
+        "correct": false
+      },
+      {
+        "text": "A fast traditional dance",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "half-life",
+    "concept2": "forgiveness",
+    "options": [
+      {
+        "text": "A wound that loses exactly half its sting in each fixed interval, never reaching zero yet always diminishing, so the act of forgiving is endless but bearable",
+        "correct": true
+      },
+      {
+        "text": "Forgiveness that fades by half",
+        "correct": false
+      },
+      {
+        "text": "Slowly forgiving over time",
+        "correct": false
+      },
+      {
+        "text": "Letting anger decay",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "thermal conductivity",
+    "concept2": "compassion",
+    "options": [
+      {
+        "text": "A person through whom others' suffering passes so freely that it warms everyone nearby, while an indifferent one insulates and lets the cold pool",
+        "correct": true
+      },
+      {
+        "text": "Compassion spreading warmth",
+        "correct": false
+      },
+      {
+        "text": "A warm-hearted caring person",
+        "correct": false
+      },
+      {
+        "text": "Feeling for others' pain",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "network externality",
+    "concept2": "quilting",
+    "options": [
+      {
+        "text": "A communal quilt that becomes warmer and more beautiful with each new contributor, so valuable that no single panel can be removed without unraveling everyone's",
+        "correct": true
+      },
+      {
+        "text": "A quilt made by a network of friends",
+        "correct": false
+      },
+      {
+        "text": "A popular quilting community",
+        "correct": false
+      },
+      {
+        "text": "A large collaborative blanket",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "path dependence",
+    "concept2": "stonemasonry",
+    "options": [
+      {
+        "text": "A cathedral whose every later arch is forced into shape by the first crooked foundation stone, its accidental flaw becoming the signature of the entire structure",
+        "correct": true
+      },
+      {
+        "text": "A cathedral built stone by stone",
+        "correct": false
+      },
+      {
+        "text": "Following a traditional building path",
+        "correct": false
+      },
+      {
+        "text": "A historic stone building",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "moral licensing",
+    "concept2": "embroidery",
+    "options": [
+      {
+        "text": "An embroiderer who, after one charitable stitch, grants themselves permission to sew three careless ones, the fabric recording each indulgence as a loose thread",
+        "correct": true
+      },
+      {
+        "text": "Embroidering a moral message",
+        "correct": false
+      },
+      {
+        "text": "Doing one good deed then relaxing",
+        "correct": false
+      },
+      {
+        "text": "A licensed professional embroiderer",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "loss aversion",
+    "concept2": "glassblowing",
+    "options": [
+      {
+        "text": "A glassblower who keeps reheating a misshapen vase rather than start fresh, terrified of losing the breath already spent, until the reworked flaw becomes irreplaceable",
+        "correct": true
+      },
+      {
+        "text": "Fearing the loss of a broken vase",
+        "correct": false
+      },
+      {
+        "text": "A glassblower afraid to fail",
+        "correct": false
+      },
+      {
+        "text": "Hating to waste glass",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "tragedy of the commons",
+    "concept2": "beekeeping",
+    "options": [
+      {
+        "text": "A shared meadow of hives where every keeper takes a little extra honey, until the collectively starved bees abandon a field that could have fed them all",
+        "correct": true
+      },
+      {
+        "text": "Overharvesting a shared beehive",
+        "correct": false
+      },
+      {
+        "text": "Beekeepers sharing a meadow",
+        "correct": false
+      },
+      {
+        "text": "A common beekeeping problem",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "signaling theory",
+    "concept2": "tattoo art",
+    "options": [
+      {
+        "text": "Tattoos so painful to earn that they cannot be faked, their very cost proving the bearer truly belongs to what the ink claims",
+        "correct": true
+      },
+      {
+        "text": "Tattoos that send a message",
+        "correct": false
+      },
+      {
+        "text": "A meaningful symbolic tattoo",
+        "correct": false
+      },
+      {
+        "text": "Showing off with body art",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "deadweight loss",
+    "concept2": "cheesemaking",
+    "options": [
+      {
+        "text": "A tax on aging that forces a cheesemaker to sell wheels before their peak, so neither buyer nor seller ever tastes the flavor that simply never got to exist",
+        "correct": true
+      },
+      {
+        "text": "A loss of cheese during aging",
+        "correct": false
+      },
+      {
+        "text": "Wasted cheese from bad storage",
+        "correct": false
+      },
+      {
+        "text": "Heavy expensive cheese",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "observer expectancy",
+    "concept2": "puppetry",
+    "options": [
+      {
+        "text": "Marionettes that subtly perform whatever the audience leans forward expecting, so a crowd hungry for tragedy unknowingly tugs the strings toward sorrow",
+        "correct": true
+      },
+      {
+        "text": "Puppets watched by an expectant crowd",
+        "correct": false
+      },
+      {
+        "text": "A puppeteer reading the audience",
+        "correct": false
+      },
+      {
+        "text": "Performing what people want to see",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "regression to the mean",
+    "concept2": "portrait painting",
+    "options": [
+      {
+        "text": "A portraitist whose wildly flattering and brutally harsh sketches of the same face, averaged over a hundred sittings, always converge on one ordinary, honest likeness",
+        "correct": true
+      },
+      {
+        "text": "Average-looking portrait paintings",
+        "correct": false
+      },
+      {
+        "text": "A painter who paints many faces",
+        "correct": false
+      },
+      {
+        "text": "Returning to a normal painting style",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "information cascade",
+    "concept2": "weaving",
+    "options": [
+      {
+        "text": "A loom where each weaver copies the visible choice of the one before, so a single early mistake propagates into a textile everyone repeats but no one chose",
+        "correct": true
+      },
+      {
+        "text": "Copying a popular weaving pattern",
+        "correct": false
+      },
+      {
+        "text": "Information passed between weavers",
+        "correct": false
+      },
+      {
+        "text": "A trend in textile design",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "creative destruction",
+    "concept2": "lacemaking",
+    "options": [
+      {
+        "text": "A lace tradition that must burn its old masterworks to free the threads for radically new patterns, each generation's beauty built from the ashes of the last",
+        "correct": true
+      },
+      {
+        "text": "Destroying old lace to make new",
+        "correct": false
+      },
+      {
+        "text": "Innovation replacing old crafts",
+        "correct": false
+      },
+      {
+        "text": "Recycling thread from old lace",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "adverse selection",
+    "concept2": "matchmaking",
+    "options": [
+      {
+        "text": "A village matchmaker who finds that only the most desperate hide their flaws best, so her pool fills with exactly the partners least suited to honesty",
+        "correct": true
+      },
+      {
+        "text": "Choosing the wrong match",
+        "correct": false
+      },
+      {
+        "text": "A bad selection of partners",
+        "correct": false
+      },
+      {
+        "text": "Matchmaking gone wrong",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "common knowledge",
+    "concept2": "mosaic",
+    "options": [
+      {
+        "text": "A mosaic that only depicts its true image once every viewer in the room knows that every other viewer can also see it, the tiles rearranging on shared recognition",
+        "correct": true
+      },
+      {
+        "text": "A well-known famous mosaic",
+        "correct": false
+      },
+      {
+        "text": "A mosaic everyone recognizes",
+        "correct": false
+      },
+      {
+        "text": "Common patterns in mosaic art",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "endowment effect",
+    "concept2": "pottery",
+    "options": [
+      {
+        "text": "A potter who values any cup more highly the moment their own hands have shaped it, unable to sell at any price the very mug a stranger would dismiss as plain",
+        "correct": true
+      },
+      {
+        "text": "Becoming attached to your own pottery",
+        "correct": false
+      },
+      {
+        "text": "A potter proud of their work",
+        "correct": false
+      },
+      {
+        "text": "Valuing handmade ceramics",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "survivorship bias",
+    "concept2": "shipbuilding",
+    "options": [
+      {
+        "text": "A shipwright who reinforces only the hull sections of returning vessels, never the parts that sank unseen, until the fleet is armored everywhere except where it actually fails",
+        "correct": true
+      },
+      {
+        "text": "Studying ships that survived storms",
+        "correct": false
+      },
+      {
+        "text": "Building stronger surviving ships",
+        "correct": false
+      },
+      {
+        "text": "Learning from successful voyages",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "emergence",
+    "concept2": "slime mold foraging",
+    "options": [
+      {
+        "text": "A civilization with no rulers whose collective intelligence arises purely from millions of local decisions, solving problems no individual could even perceive, exactly as a brainless mold maps optimal networks",
+        "correct": true
+      },
+      {
+        "text": "Slime mold spreading like a society",
+        "correct": false
+      },
+      {
+        "text": "Complex behavior in nature",
+        "correct": false
+      },
+      {
+        "text": "A self-organizing colony",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "the sublime",
+    "concept2": "glacial calving",
+    "options": [
+      {
+        "text": "An awe so vast it borders on terror, the mind dwarfed by a force indifferent to it, the way a watcher feels both annihilated and exalted as a continent of ice collapses into the sea",
+        "correct": true
+      },
+      {
+        "text": "A beautiful glacier breaking apart",
+        "correct": false
+      },
+      {
+        "text": "Feeling small before nature",
+        "correct": false
+      },
+      {
+        "text": "An impressive ice collapse",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "intersubjectivity",
+    "concept2": "fungal communication",
+    "options": [
+      {
+        "text": "A shared reality that exists only in the chemical conversation between separate minds, no single one holding the meaning, the way a forest's knowledge lives only in the signals passing between trees",
+        "correct": true
+      },
+      {
+        "text": "Fungi talking to each other",
+        "correct": false
+      },
+      {
+        "text": "A network of communicating organisms",
+        "correct": false
+      },
+      {
+        "text": "Shared meaning between people",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "the eternal return",
+    "concept2": "tidal rhythm",
+    "options": [
+      {
+        "text": "A life lived as if every choice must recur identically forever, embraced not endured, mirrored in a shore that receives and surrenders the same water endlessly without despair",
+        "correct": true
+      },
+      {
+        "text": "Tides coming back again and again",
+        "correct": false
+      },
+      {
+        "text": "An endless repeating cycle",
+        "correct": false
+      },
+      {
+        "text": "The eternal motion of the sea",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "reification",
+    "concept2": "crystallization",
+    "options": [
+      {
+        "text": "The error of mistaking a living process for a finished thing, freezing a fluid relationship into a hard object you can blame, the way a dynamic solution betrays itself the instant it locks into rigid lattice",
+        "correct": true
+      },
+      {
+        "text": "Turning ideas into crystals",
+        "correct": false
+      },
+      {
+        "text": "Solidifying abstract concepts",
+        "correct": false
+      },
+      {
+        "text": "A process becoming a crystal",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "the apophatic",
+    "concept2": "cave formation",
+    "options": [
+      {
+        "text": "A truth defined only by negation, knowable solely through what it is not, carved out over millennia the way a vast chamber is shaped not by what was added but by everything patiently dissolved away",
+        "correct": true
+      },
+      {
+        "text": "A dark mysterious cave",
+        "correct": false
+      },
+      {
+        "text": "Negative space in a cavern",
+        "correct": false
+      },
+      {
+        "text": "An unknowable hollow place",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "tacit knowledge",
+    "concept2": "mycelial spread",
+    "options": [
+      {
+        "text": "A skill that lives entirely in the doing and cannot be written down or transferred by instruction, propagating only by direct contact and slow colonization, the way an underground web extends itself without a single map",
+        "correct": true
+      },
+      {
+        "text": "Knowledge spreading like fungus",
+        "correct": false
+      },
+      {
+        "text": "Hidden underground knowledge",
+        "correct": false
+      },
+      {
+        "text": "Skills passed silently along",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "the dialectic",
+    "concept2": "river meander",
+    "options": [
+      {
+        "text": "A truth that advances only by generating its own contradiction and resolving into a higher synthesis, each turn cutting against the last, the way a stream carves an opposing bend that itself becomes the next thing to be opposed",
+        "correct": true
+      },
+      {
+        "text": "A winding philosophical river",
+        "correct": false
+      },
+      {
+        "text": "A river that changes course",
+        "correct": false
+      },
+      {
+        "text": "Opposing ideas flowing together",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "negative entropy",
+    "concept2": "coral accretion",
+    "options": [
+      {
+        "text": "A pocket of rising order that defies universal decay only by exporting disorder to its surroundings, building intricate structure from the sea's raw chaos the way a reef accumulates living architecture while heating the water it draws from",
+        "correct": true
+      },
+      {
+        "text": "Coral building up over time",
+        "correct": false
+      },
+      {
+        "text": "Order emerging from chaos",
+        "correct": false
+      },
+      {
+        "text": "A growing reef structure",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "the uncanny",
+    "concept2": "mimic octopus",
+    "options": [
+      {
+        "text": "The dread of something almost-but-not-quite familiar, a self that is wrong in a way you cannot name, embodied by a creature whose flawless impersonation of another is precisely what reveals it as neither",
+        "correct": true
+      },
+      {
+        "text": "An octopus copying other animals",
+        "correct": false
+      },
+      {
+        "text": "A strange disturbing creature",
+        "correct": false
+      },
+      {
+        "text": "Imitation in the deep sea",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "deferred meaning",
+    "concept2": "sediment layering",
+    "options": [
+      {
+        "text": "A signification that never arrives at a final referent, each definition pointing only to further definitions, accreting like silt where every stratum's meaning depends entirely on the one not yet deposited above it",
+        "correct": true
+      },
+      {
+        "text": "Layers of meaning in sediment",
+        "correct": false
+      },
+      {
+        "text": "Meaning built up over time",
+        "correct": false
+      },
+      {
+        "text": "Geological layers of significance",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "autopoiesis",
+    "concept2": "lichen symbiosis",
+    "options": [
+      {
+        "text": "A system that continuously produces the very components that produce it, its boundary and its maker one and the same, exactly as two organisms become a single self-sustaining being that neither could be alone",
+        "correct": true
+      },
+      {
+        "text": "Two organisms living together",
+        "correct": false
+      },
+      {
+        "text": "A self-creating partnership",
+        "correct": false
+      },
+      {
+        "text": "Lichen growing on rock",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "the noumenal",
+    "concept2": "abyssal zone",
+    "options": [
+      {
+        "text": "A reality that exists wholly beyond the reach of any instrument or sense, knowable only as the limit of perception itself, like a depth where no light has ever traveled yet whose pressure shapes everything that dares descend toward it",
+        "correct": true
+      },
+      {
+        "text": "The unreachable deep ocean",
+        "correct": false
+      },
+      {
+        "text": "A place beyond human sight",
+        "correct": false
+      },
+      {
+        "text": "The mystery of the abyss",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "performativity",
+    "concept2": "metamorphosis",
+    "options": [
+      {
+        "text": "An utterance that does not describe a state but enacts it, becoming true in the speaking, the way a creature does not announce its transformation but is wholly remade by the very process of becoming",
+        "correct": true
+      },
+      {
+        "text": "A creature transforming itself",
+        "correct": false
+      },
+      {
+        "text": "Words that change reality",
+        "correct": false
+      },
+      {
+        "text": "Speaking something into being",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "the absurd",
+    "concept2": "desert varnish",
+    "options": [
+      {
+        "text": "The confrontation between a mind demanding meaning and a universe offering none, met not with despair but with defiant attention, like a patina of order that accretes grain by patient grain across a vast indifferent stone over ten thousand silent years",
+        "correct": true
+      },
+      {
+        "text": "A meaningless desert landscape",
+        "correct": false
+      },
+      {
+        "text": "Patterns forming on rock",
+        "correct": false
+      },
+      {
+        "text": "An indifferent barren place",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "mailbox",
+    "concept2": "comet",
+    "options": [
+      {
+        "text": "A mailbox that only opens when a comet passes, delivering letters from the last time it appeared",
+        "correct": true
+      },
+      {
+        "text": "A comet-shaped mailbox",
+        "correct": false
+      },
+      {
+        "text": "A mailbox painted with stars",
+        "correct": false
+      },
+      {
+        "text": "A mailbox you launch into space",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "shovel",
+    "concept2": "melody",
+    "options": [
+      {
+        "text": "A shovel that hums a different tune for every layer of soil it digs through",
+        "correct": true
+      },
+      {
+        "text": "A musical instrument shaped like a shovel",
+        "correct": false
+      },
+      {
+        "text": "A shovel with a radio attached",
+        "correct": false
+      },
+      {
+        "text": "A shovel for digging up records",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "mitten",
+    "concept2": "river",
+    "options": [
+      {
+        "text": "A mitten that grows warmer the closer your hand drifts toward flowing water",
+        "correct": true
+      },
+      {
+        "text": "A waterproof mitten for fishing",
+        "correct": false
+      },
+      {
+        "text": "A river-blue colored mitten",
+        "correct": false
+      },
+      {
+        "text": "A mitten shaped like a fish",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "telephone",
+    "concept2": "garden",
+    "options": [
+      {
+        "text": "A telephone where each flower in the garden rings a different friend when it blooms",
+        "correct": true
+      },
+      {
+        "text": "A garden-themed phone case",
+        "correct": false
+      },
+      {
+        "text": "A phone buried in a garden",
+        "correct": false
+      },
+      {
+        "text": "A flower-shaped telephone",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "staircase",
+    "concept2": "cloud",
+    "options": [
+      {
+        "text": "A staircase whose steps soften into mist the higher you climb, until you walk on cloud",
+        "correct": true
+      },
+      {
+        "text": "A staircase painted to look like sky",
+        "correct": false
+      },
+      {
+        "text": "A cloud-shaped step stool",
+        "correct": false
+      },
+      {
+        "text": "A staircase leading to a balcony",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "whistle",
+    "concept2": "candle",
+    "options": [
+      {
+        "text": "A whistle that, when blown, lights nearby candles to the pitch of the note",
+        "correct": true
+      },
+      {
+        "text": "A candle that smells like a whistle",
+        "correct": false
+      },
+      {
+        "text": "A whistle-shaped candle",
+        "correct": false
+      },
+      {
+        "text": "A candle on a string you can whistle past",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "hammock",
+    "concept2": "mirror",
+    "options": [
+      {
+        "text": "A hammock that reflects the swaying sky above you so you nap inside the clouds",
+        "correct": true
+      },
+      {
+        "text": "A hammock with a mirror beside it",
+        "correct": false
+      },
+      {
+        "text": "A mirror you can lie on",
+        "correct": false
+      },
+      {
+        "text": "A reflective silver hammock",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "acorn",
+    "concept2": "clock",
+    "options": [
+      {
+        "text": "An acorn that counts the seasons, sprouting one ring of leaves for each year it should wait",
+        "correct": true
+      },
+      {
+        "text": "A clock carved from an acorn",
+        "correct": false
+      },
+      {
+        "text": "An acorn-shaped wall clock",
+        "correct": false
+      },
+      {
+        "text": "A clock that ticks like falling nuts",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "sail",
+    "concept2": "violin",
+    "options": [
+      {
+        "text": "A sail stitched from violin strings that plays the wind as the boat changes course",
+        "correct": true
+      },
+      {
+        "text": "A violin shaped like a sail",
+        "correct": false
+      },
+      {
+        "text": "A boat with a violin onboard",
+        "correct": false
+      },
+      {
+        "text": "A sail painted with music notes",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "saddle",
+    "concept2": "lantern",
+    "options": [
+      {
+        "text": "A saddle that glows brighter the faster the horse gallops, lighting the road ahead",
+        "correct": true
+      },
+      {
+        "text": "A lantern hung on a saddle",
+        "correct": false
+      },
+      {
+        "text": "A saddle the color of lamplight",
+        "correct": false
+      },
+      {
+        "text": "A horse-shaped lantern",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "quilt",
+    "concept2": "map",
+    "options": [
+      {
+        "text": "A quilt where each patch is a place you've slept, sewn so your dreams retrace the journey",
+        "correct": true
+      },
+      {
+        "text": "A quilt with a map printed on it",
+        "correct": false
+      },
+      {
+        "text": "A map folded like a blanket",
+        "correct": false
+      },
+      {
+        "text": "A travel blanket with a pocket",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 1,
+    "concept1": "anvil",
+    "concept2": "feather",
+    "options": [
+      {
+        "text": "An anvil that forges objects as light as the feathers laid upon it before each strike",
+        "correct": true
+      },
+      {
+        "text": "A feather-light toy anvil",
+        "correct": false
+      },
+      {
+        "text": "An anvil with a feather painted on it",
+        "correct": false
+      },
+      {
+        "text": "A feather used to dust an anvil",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "harp",
+    "concept2": "melancholy",
+    "options": [
+      {
+        "text": "A harp whose strings only sound when the player stops trying to be cheerful and lets the sadness breathe",
+        "correct": true
+      },
+      {
+        "text": "A sad-sounding harp",
+        "correct": false
+      },
+      {
+        "text": "A harp played at funerals",
+        "correct": false
+      },
+      {
+        "text": "A gray-colored harp",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "compass",
+    "concept2": "forgiveness",
+    "options": [
+      {
+        "text": "A compass that always points toward the person you most need to make peace with",
+        "correct": true
+      },
+      {
+        "text": "A compass given as an apology gift",
+        "correct": false
+      },
+      {
+        "text": "A forgiving, easy-to-use compass",
+        "correct": false
+      },
+      {
+        "text": "A compass that never breaks",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "matchstick",
+    "concept2": "resentment",
+    "options": [
+      {
+        "text": "A matchstick that burns longer the longer a grudge is held, consuming the one who strikes it",
+        "correct": true
+      },
+      {
+        "text": "A match used to start arguments",
+        "correct": false
+      },
+      {
+        "text": "An angry red matchstick",
+        "correct": false
+      },
+      {
+        "text": "A match that's hard to light",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "hourglass",
+    "concept2": "reconciliation",
+    "options": [
+      {
+        "text": "An hourglass whose sand flows upward when two estranged people finally speak again",
+        "correct": true
+      },
+      {
+        "text": "An hourglass shared after a fight",
+        "correct": false
+      },
+      {
+        "text": "A slow, patient hourglass",
+        "correct": false
+      },
+      {
+        "text": "An hourglass with two chambers",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "keyhole",
+    "concept2": "intimacy",
+    "options": [
+      {
+        "text": "A keyhole that widens only for someone you've chosen to truly let see inside you",
+        "correct": true
+      },
+      {
+        "text": "A keyhole on a diary",
+        "correct": false
+      },
+      {
+        "text": "A romantic heart-shaped keyhole",
+        "correct": false
+      },
+      {
+        "text": "A keyhole that's hard to peek through",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "sextant",
+    "concept2": "belonging",
+    "options": [
+      {
+        "text": "A sextant that takes its bearings not from stars but from the faces of people who feel like home",
+        "correct": true
+      },
+      {
+        "text": "A navigation tool for finding family",
+        "correct": false
+      },
+      {
+        "text": "A sextant kept as a heirloom",
+        "correct": false
+      },
+      {
+        "text": "An old sailor's sextant",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "loom",
+    "concept2": "grudge",
+    "options": [
+      {
+        "text": "A loom that weaves every unspoken grievance into a cloth too heavy to ever set down",
+        "correct": true
+      },
+      {
+        "text": "A loom that makes ugly fabric",
+        "correct": false
+      },
+      {
+        "text": "An old broken loom",
+        "correct": false
+      },
+      {
+        "text": "A loom used during arguments",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "weathervane",
+    "concept2": "indecision",
+    "options": [
+      {
+        "text": "A weathervane that spins endlessly, never settling, mirroring a mind that cannot choose",
+        "correct": true
+      },
+      {
+        "text": "A wobbly weathervane",
+        "correct": false
+      },
+      {
+        "text": "A weathervane in a storm",
+        "correct": false
+      },
+      {
+        "text": "A confusing-looking weathervane",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "inkwell",
+    "concept2": "confession",
+    "options": [
+      {
+        "text": "An inkwell that runs dry the instant you write down the truth you've been hiding",
+        "correct": true
+      },
+      {
+        "text": "An inkwell used to sign letters",
+        "correct": false
+      },
+      {
+        "text": "A dark, secretive inkwell",
+        "correct": false
+      },
+      {
+        "text": "An inkwell for writing diaries",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "birdcage",
+    "concept2": "attachment",
+    "options": [
+      {
+        "text": "A birdcage whose door is always open, yet the bird stays because letting go frightens them both",
+        "correct": true
+      },
+      {
+        "text": "A cage for a pet you love",
+        "correct": false
+      },
+      {
+        "text": "A decorative birdcage",
+        "correct": false
+      },
+      {
+        "text": "A cage that's hard to open",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "compass rose",
+    "concept2": "yearning",
+    "options": [
+      {
+        "text": "A compass rose that adds a new petal for every place you ache to be but cannot reach",
+        "correct": true
+      },
+      {
+        "text": "A rose-shaped compass",
+        "correct": false
+      },
+      {
+        "text": "A pretty drawing on a map",
+        "correct": false
+      },
+      {
+        "text": "A compass that points to dreams",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 2,
+    "concept1": "plumb line",
+    "concept2": "integrity",
+    "options": [
+      {
+        "text": "A plumb line that hangs crooked whenever you tell yourself a comfortable lie",
+        "correct": true
+      },
+      {
+        "text": "A perfectly straight string",
+        "correct": false
+      },
+      {
+        "text": "An honest builder's tool",
+        "correct": false
+      },
+      {
+        "text": "A plumb line for true walls",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "surface tension",
+    "concept2": "reputation",
+    "options": [
+      {
+        "text": "Reputation as a meniscus: it holds remarkable weight intact until a single point breaks the skin and it collapses inward",
+        "correct": true
+      },
+      {
+        "text": "A reputation that is hard to penetrate",
+        "correct": false
+      },
+      {
+        "text": "A floating, fragile reputation",
+        "correct": false
+      },
+      {
+        "text": "Reputation as a thin film of water",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "annealing",
+    "concept2": "trauma",
+    "options": [
+      {
+        "text": "Healing modeled as annealing: only by reheating the hardened, brittle self can the internal stresses finally relax into strength",
+        "correct": true
+      },
+      {
+        "text": "Trauma that makes you harder",
+        "correct": false
+      },
+      {
+        "text": "A slow heat that hurts",
+        "correct": false
+      },
+      {
+        "text": "Trauma cooling over time",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "resonance",
+    "concept2": "conviction",
+    "options": [
+      {
+        "text": "Conviction as resonance: a belief amplifies overwhelmingly only when an outside force matches its own hidden frequency",
+        "correct": true
+      },
+      {
+        "text": "A loud, strong belief",
+        "correct": false
+      },
+      {
+        "text": "A belief that echoes",
+        "correct": false
+      },
+      {
+        "text": "Conviction that vibrates with anger",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "critical mass",
+    "concept2": "movement",
+    "options": [
+      {
+        "text": "Social change as critical mass: each new participant is inert until the density of dissent triggers an unstoppable chain reaction",
+        "correct": true
+      },
+      {
+        "text": "A heavy crowd of people",
+        "correct": false
+      },
+      {
+        "text": "A movement that explodes",
+        "correct": false
+      },
+      {
+        "text": "A large gathering reaching a peak",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "refraction",
+    "concept2": "empathy",
+    "options": [
+      {
+        "text": "Empathy as refraction: understanding another bends as it crosses the boundary between your medium and theirs, never arriving quite straight",
+        "correct": true
+      },
+      {
+        "text": "Seeing someone clearly",
+        "correct": false
+      },
+      {
+        "text": "Empathy that distorts the truth",
+        "correct": false
+      },
+      {
+        "text": "Light passing through a person",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "phase transition",
+    "concept2": "grief",
+    "options": [
+      {
+        "text": "Grief as a phase transition: heat pours in for ages with no visible change until, all at once, the whole self melts into something new",
+        "correct": true
+      },
+      {
+        "text": "Grief that boils over",
+        "correct": false
+      },
+      {
+        "text": "A sad change of state",
+        "correct": false
+      },
+      {
+        "text": "Grief freezing you in place",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "entropy",
+    "concept2": "memory",
+    "options": [
+      {
+        "text": "Memory as a fight against entropy: each recollection costs energy to re-order, and the unattended past drifts irreversibly toward noise",
+        "correct": true
+      },
+      {
+        "text": "Memories fading over time",
+        "correct": false
+      },
+      {
+        "text": "A disorganized mind",
+        "correct": false
+      },
+      {
+        "text": "Forgetting things at random",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "capacitance",
+    "concept2": "patience",
+    "options": [
+      {
+        "text": "Patience as capacitance: the self stores frustration silently across a gap, discharging only when the accumulated potential overwhelms it",
+        "correct": true
+      },
+      {
+        "text": "Holding in your anger",
+        "correct": false
+      },
+      {
+        "text": "A slow electric build-up",
+        "correct": false
+      },
+      {
+        "text": "Patience that charges up",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "diffraction",
+    "concept2": "rumor",
+    "options": [
+      {
+        "text": "A rumor as diffraction: a story bends around every person it meets, spreading into a pattern of bright and dark versions far from its source",
+        "correct": true
+      },
+      {
+        "text": "A rumor spreading widely",
+        "correct": false
+      },
+      {
+        "text": "A story bending the truth",
+        "correct": false
+      },
+      {
+        "text": "Gossip echoing around town",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "viscosity",
+    "concept2": "bureaucracy",
+    "options": [
+      {
+        "text": "Bureaucracy as viscosity: each request moves through an institution at a speed inversely proportional to how urgently it must arrive",
+        "correct": true
+      },
+      {
+        "text": "A slow, thick process",
+        "correct": false
+      },
+      {
+        "text": "Bureaucracy that sticks to you",
+        "correct": false
+      },
+      {
+        "text": "A syrupy slow office",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "hysteresis",
+    "concept2": "reconciliation",
+    "options": [
+      {
+        "text": "Reconciliation as hysteresis: trust returns along a different curve than it was lost, never recovering the exact path of the original bond",
+        "correct": true
+      },
+      {
+        "text": "Trust that lags behind",
+        "correct": false
+      },
+      {
+        "text": "A relationship looping back",
+        "correct": false
+      },
+      {
+        "text": "Slow rebuilding of trust",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "concept1": "sublimation",
+    "concept2": "denial",
+    "options": [
+      {
+        "text": "Denial as sublimation: a painful truth skips the liquid stage entirely, vanishing from solid fact straight into thin, unacknowledged air",
+        "correct": true
+      },
+      {
+        "text": "Avoiding the truth",
+        "correct": false
+      },
+      {
+        "text": "A truth evaporating",
+        "correct": false
+      },
+      {
+        "text": "Pushing feelings away into vapor",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "moral hazard",
+    "concept2": "tightrope walking",
+    "options": [
+      {
+        "text": "A tightrope school where a net so plush it's pleasant to fall into quietly erodes every student's reason to keep their balance",
+        "correct": true
+      },
+      {
+        "text": "Walking a tightrope safely",
+        "correct": false
+      },
+      {
+        "text": "A risky balancing performance",
+        "correct": false
+      },
+      {
+        "text": "Tightrope walking with insurance",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "emergence",
+    "concept2": "mosaic restoration",
+    "options": [
+      {
+        "text": "Restoring an ancient mosaic where the lost image only reasserts itself from a million placed tiles none of which contain it alone",
+        "correct": true
+      },
+      {
+        "text": "Fixing a broken mosaic",
+        "correct": false
+      },
+      {
+        "text": "A mosaic appearing slowly",
+        "correct": false
+      },
+      {
+        "text": "Piecing together small tiles",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "goodhart's law",
+    "concept2": "fly tying",
+    "options": [
+      {
+        "text": "A fly-tying contest judged purely on realism, until anglers craft lures so lifelike they catch judges' eyes but never a single fish",
+        "correct": true
+      },
+      {
+        "text": "Making fishing lures look real",
+        "correct": false
+      },
+      {
+        "text": "A contest with bad rules",
+        "correct": false
+      },
+      {
+        "text": "Tying flies to win prizes",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "hedonic adaptation",
+    "concept2": "perfumery",
+    "options": [
+      {
+        "text": "A perfumer's curse: every new signature scent thrills for a week, then fades into the unsmelled baseline of their own breathing air",
+        "correct": true
+      },
+      {
+        "text": "A perfume that fades",
+        "correct": false
+      },
+      {
+        "text": "Getting used to a smell",
+        "correct": false
+      },
+      {
+        "text": "Perfumers losing their sense of smell",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "tacit collusion",
+    "concept2": "jazz improvisation",
+    "options": [
+      {
+        "text": "A jazz quartet that, without a word or signal, drifts into the same unspoken groove no one agreed to but all silently enforce",
+        "correct": true
+      },
+      {
+        "text": "Musicians playing together",
+        "correct": false
+      },
+      {
+        "text": "A secret musical agreement",
+        "correct": false
+      },
+      {
+        "text": "Jazz players reading each other",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "principal-agent problem",
+    "concept2": "ghostwriting",
+    "options": [
+      {
+        "text": "A ghostwriter hired to capture a memoirist's voice who slowly substitutes the sentences he'd rather the world remember instead",
+        "correct": true
+      },
+      {
+        "text": "A writer working for someone else",
+        "correct": false
+      },
+      {
+        "text": "A dishonest ghostwriter",
+        "correct": false
+      },
+      {
+        "text": "Someone writing another's story",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "observer effect",
+    "concept2": "wildlife photography",
+    "options": [
+      {
+        "text": "A wildlife photographer who can never capture the truly wild animal, because the act of watching has already tamed the scene",
+        "correct": true
+      },
+      {
+        "text": "Photographing shy animals",
+        "correct": false
+      },
+      {
+        "text": "A camera that scares wildlife",
+        "correct": false
+      },
+      {
+        "text": "Hard-to-get nature photos",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "second-order thinking",
+    "concept2": "topiary",
+    "options": [
+      {
+        "text": "A topiary artist who prunes not for today's shape but for the branch each cut will provoke the hedge to grow three seasons hence",
+        "correct": true
+      },
+      {
+        "text": "Trimming bushes into shapes",
+        "correct": false
+      },
+      {
+        "text": "Planning a garden ahead",
+        "correct": false
+      },
+      {
+        "text": "A clever hedge sculptor",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "survivorship bias",
+    "concept2": "instrument restoration",
+    "options": [
+      {
+        "text": "A luthier who concludes old violins sound best, never counting the thousands of fragile ones that crumbled before he was born",
+        "correct": true
+      },
+      {
+        "text": "Restoring only good violins",
+        "correct": false
+      },
+      {
+        "text": "Old instruments sounding better",
+        "correct": false
+      },
+      {
+        "text": "A biased instrument collector",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "reflexivity",
+    "concept2": "commodities trading",
+    "options": [
+      {
+        "text": "A grain trader whose belief that prices will rise, once acted upon at scale, becomes the very force that lifts the prices",
+        "correct": true
+      },
+      {
+        "text": "A trader who predicts prices",
+        "correct": false
+      },
+      {
+        "text": "Prices going up and down",
+        "correct": false
+      },
+      {
+        "text": "A self-confident investor",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "chesterton's fence",
+    "concept2": "river restoration",
+    "options": [
+      {
+        "text": "An engineer who refuses to remove an old useless-looking weir until he understands why a long-dead predecessor built it there",
+        "correct": true
+      },
+      {
+        "text": "Restoring an old river",
+        "correct": false
+      },
+      {
+        "text": "Keeping an old dam around",
+        "correct": false
+      },
+      {
+        "text": "A cautious river engineer",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "concept1": "the cobra effect",
+    "concept2": "invasive species management",
+    "options": [
+      {
+        "text": "A bounty on invasive snails that inspires locals to farm the snails for cash, multiplying the very plague it meant to end",
+        "correct": true
+      },
+      {
+        "text": "A reward for catching pests",
+        "correct": false
+      },
+      {
+        "text": "A failed pest program",
+        "correct": false
+      },
+      {
+        "text": "Breeding animals for money",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "the apeiron",
+    "concept2": "abyssal gigantism",
+    "options": [
+      {
+        "text": "The boundless deep as Anaximander's apeiron made flesh: in the formless dark, creatures swell toward the indefinite, unbounded by the limits light imposes",
+        "correct": true
+      },
+      {
+        "text": "Giant creatures in the deep sea",
+        "correct": false
+      },
+      {
+        "text": "An endless dark ocean",
+        "correct": false
+      },
+      {
+        "text": "Big animals where there's no light",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "epistemic closure",
+    "concept2": "cave biota evolution",
+    "options": [
+      {
+        "text": "A cave ecosystem as a sealed system of belief: organisms perfectly adapted to total darkness lose the very eyes that could reveal the system is incomplete",
+        "correct": true
+      },
+      {
+        "text": "Blind cave animals",
+        "correct": false
+      },
+      {
+        "text": "A closed-off cave world",
+        "correct": false
+      },
+      {
+        "text": "Creatures evolving in the dark",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "the hermeneutics of suspicion",
+    "concept2": "fossil reinterpretation",
+    "options": [
+      {
+        "text": "A fossil read like a suspect text: each new theorist exhumes a hidden motive beneath the bones, distrusting the story the last reading carved into stone",
+        "correct": true
+      },
+      {
+        "text": "Studying old fossils",
+        "correct": false
+      },
+      {
+        "text": "Doubting fossil theories",
+        "correct": false
+      },
+      {
+        "text": "Reinterpreting dinosaur bones",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "anatta",
+    "concept2": "tidal salt marsh succession",
+    "options": [
+      {
+        "text": "A salt marsh as the doctrine of no-self: there is no fixed marsh, only a ceaseless flux of silt, root, and tide that we conveniently name as one thing",
+        "correct": true
+      },
+      {
+        "text": "A changing salt marsh",
+        "correct": false
+      },
+      {
+        "text": "A marsh with no center",
+        "correct": false
+      },
+      {
+        "text": "Mud and plants shifting around",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "the eternal recurrence",
+    "concept2": "stellar nucleosynthesis",
+    "options": [
+      {
+        "text": "Nietzsche's eternal return written in fusion: the same atoms forged, scattered by supernova, and gathered to be forged again in star after identical star",
+        "correct": true
+      },
+      {
+        "text": "Stars being born again",
+        "correct": false
+      },
+      {
+        "text": "Atoms made inside stars",
+        "correct": false
+      },
+      {
+        "text": "A cycle of exploding stars",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "deconstruction",
+    "concept2": "sediment unconformity",
+    "options": [
+      {
+        "text": "A geologic unconformity as deconstruction: the missing layers are the loudest text, the absence speaking more truth than the strata that survived",
+        "correct": true
+      },
+      {
+        "text": "A gap in rock layers",
+        "correct": false
+      },
+      {
+        "text": "Missing pieces of rock",
+        "correct": false
+      },
+      {
+        "text": "Reading absent geology",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "the will to power",
+    "concept2": "fungal saprotrophy",
+    "options": [
+      {
+        "text": "A saprotrophic fungus as pure will to power: not malice but an insatiable drive to overcome and incorporate, dissolving the dead world into its own becoming",
+        "correct": true
+      },
+      {
+        "text": "A fungus eating dead matter",
+        "correct": false
+      },
+      {
+        "text": "An aggressive growing mold",
+        "correct": false
+      },
+      {
+        "text": "Fungi spreading hungrily",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "phenomenal binding",
+    "concept2": "octopus distributed cognition",
+    "options": [
+      {
+        "text": "An octopus whose arms each half-think on their own poses the binding problem in flesh: where, if anywhere, does the single felt experience cohere?",
+        "correct": true
+      },
+      {
+        "text": "An octopus with smart arms",
+        "correct": false
+      },
+      {
+        "text": "A creature that thinks everywhere",
+        "correct": false
+      },
+      {
+        "text": "Octopus arms acting alone",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "the categorical imperative",
+    "concept2": "keystone species ethics",
+    "options": [
+      {
+        "text": "A keystone predator as a living categorical imperative: it acts only in ways that, if every member of the web acted likewise, the whole ecosystem could endure",
+        "correct": true
+      },
+      {
+        "text": "A predator keeping balance",
+        "correct": false
+      },
+      {
+        "text": "An important animal in nature",
+        "correct": false
+      },
+      {
+        "text": "A wolf following rules",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "theodicy",
+    "concept2": "parasitism in deep ecology",
+    "options": [
+      {
+        "text": "The brutal elegance of a parasitoid wasp posed as theodicy: how a world we call good can be woven thread by thread from another creature's slow consumption",
+        "correct": true
+      },
+      {
+        "text": "A cruel parasite in nature",
+        "correct": false
+      },
+      {
+        "text": "Evil bugs eating others",
+        "correct": false
+      },
+      {
+        "text": "Why nature is harsh",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "the rhizome",
+    "concept2": "slime mold network optimization",
+    "options": [
+      {
+        "text": "A slime mold solving a maze as Deleuze's rhizome alive: no center, no hierarchy, only a flat web that thinks by spreading in every direction at once",
+        "correct": true
+      },
+      {
+        "text": "A slime mold finding paths",
+        "correct": false
+      },
+      {
+        "text": "A network with no boss",
+        "correct": false
+      },
+      {
+        "text": "Mold growing through a maze",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "concept1": "apophatic theology",
+    "concept2": "the deep biosphere",
+    "options": [
+      {
+        "text": "Microbes miles beneath the crust as an apophatic divine: we can say almost nothing of what life is there, defining it only by all the surface things it is not",
+        "correct": true
+      },
+      {
+        "text": "Life deep underground",
+        "correct": false
+      },
+      {
+        "text": "Unknown bacteria in rock",
+        "correct": false
+      },
+      {
+        "text": "Hidden microbes we can't study",
+        "correct": false
+      }
+    ]
+  }
+]

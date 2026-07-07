@@ -1,0 +1,2567 @@
+[
+  {
+    "id": "es_001",
+    "sentence": "Their going to the store tomorrow.",
+    "words": ["Their", "going", "to", "the", "store", "tomorrow."],
+    "errorIndices": [0],
+    "corrections": ["They're"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_002",
+    "sentence": "The dog wagged it's tail happily.",
+    "words": ["The", "dog", "wagged", "it's", "tail", "happily."],
+    "errorIndices": [3],
+    "corrections": ["its"],
+    "errorType": "apostrophe",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_003",
+    "sentence": "Your the best friend I ever had.",
+    "words": ["Your", "the", "best", "friend", "I", "ever", "had."],
+    "errorIndices": [0],
+    "corrections": ["You're"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_004",
+    "sentence": "She went too the library after school.",
+    "words": ["She", "went", "too", "the", "library", "after", "school."],
+    "errorIndices": [2],
+    "corrections": ["to"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_005",
+    "sentence": "The whether is nice today.",
+    "words": ["The", "whether", "is", "nice", "today."],
+    "errorIndices": [1],
+    "corrections": ["weather"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_006",
+    "sentence": "He should of called before coming.",
+    "words": ["He", "should", "of", "called", "before", "coming."],
+    "errorIndices": [2],
+    "corrections": ["have"],
+    "errorType": "usage",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_007",
+    "sentence": "I could of won the race easily.",
+    "words": ["I", "could", "of", "won", "the", "race", "easily."],
+    "errorIndices": [2],
+    "corrections": ["have"],
+    "errorType": "usage",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_008",
+    "sentence": "There house is on the corner.",
+    "words": ["There", "house", "is", "on", "the", "corner."],
+    "errorIndices": [0],
+    "corrections": ["Their"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_009",
+    "sentence": "The cat cleaned it's paws carefully.",
+    "words": ["The", "cat", "cleaned", "it's", "paws", "carefully."],
+    "errorIndices": [3],
+    "corrections": ["its"],
+    "errorType": "apostrophe",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_010",
+    "sentence": "We walked passed the old church.",
+    "words": ["We", "walked", "passed", "the", "old", "church."],
+    "errorIndices": [2],
+    "corrections": ["past"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_011",
+    "sentence": "She is taller then her brother.",
+    "words": ["She", "is", "taller", "then", "her", "brother."],
+    "errorIndices": [3],
+    "corrections": ["than"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_012",
+    "sentence": "The affect of the storm was devastating.",
+    "words": ["The", "affect", "of", "the", "storm", "was", "devastating."],
+    "errorIndices": [1],
+    "corrections": ["effect"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_013",
+    "sentence": "I need to by some groceries today.",
+    "words": ["I", "need", "to", "by", "some", "groceries", "today."],
+    "errorIndices": [3],
+    "corrections": ["buy"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_014",
+    "sentence": "Please except my sincere apology.",
+    "words": ["Please", "except", "my", "sincere", "apology."],
+    "errorIndices": [1],
+    "corrections": ["accept"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_015",
+    "sentence": "The birds sang beautifully this morning.",
+    "words": ["The", "birds", "sang", "beautifully", "this", "morning."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_016",
+    "sentence": "He is a man of principal and integrity.",
+    "words": ["He", "is", "a", "man", "of", "principal", "and", "integrity."],
+    "errorIndices": [5],
+    "corrections": ["principle"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_017",
+    "sentence": "She road her bicycle to school every day.",
+    "words": ["She", "road", "her", "bicycle", "to", "school", "every", "day."],
+    "errorIndices": [1],
+    "corrections": ["rode"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_018",
+    "sentence": "The children played quietly in the park.",
+    "words": ["The", "children", "played", "quietly", "in", "the", "park."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_019",
+    "sentence": "I here that the concert was amazing.",
+    "words": ["I", "here", "that", "the", "concert", "was", "amazing."],
+    "errorIndices": [1],
+    "corrections": ["hear"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_020",
+    "sentence": "They're dog is very well trained.",
+    "words": ["They're", "dog", "is", "very", "well", "trained."],
+    "errorIndices": [0],
+    "corrections": ["Their"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_021",
+    "sentence": "We should go over their and say hello.",
+    "words": ["We", "should", "go", "over", "their", "and", "say", "hello."],
+    "errorIndices": [4],
+    "corrections": ["there"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_022",
+    "sentence": "The new employee adapted quickly to the role.",
+    "words": ["The", "new", "employee", "adapted", "quickly", "to", "the", "role."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_023",
+    "sentence": "She would of helped if you had asked.",
+    "words": ["She", "would", "of", "helped", "if", "you", "had", "asked."],
+    "errorIndices": [2],
+    "corrections": ["have"],
+    "errorType": "usage",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_024",
+    "sentence": "The knight rode bravely into battle.",
+    "words": ["The", "knight", "rode", "bravely", "into", "battle."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_025",
+    "sentence": "Your welcome to join us for dinner.",
+    "words": ["Your", "welcome", "to", "join", "us", "for", "dinner."],
+    "errorIndices": [0],
+    "corrections": ["You're"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_026",
+    "sentence": "I took are dog for a walk this evening.",
+    "words": ["I", "took", "are", "dog", "for", "a", "walk", "this", "evening."],
+    "errorIndices": [2],
+    "corrections": ["our"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_027",
+    "sentence": "Please right your name on the form.",
+    "words": ["Please", "right", "your", "name", "on", "the", "form."],
+    "errorIndices": [1],
+    "corrections": ["write"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_028",
+    "sentence": "The students finished the test on time.",
+    "words": ["The", "students", "finished", "the", "test", "on", "time."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_029",
+    "sentence": "He was to tired to finish the project.",
+    "words": ["He", "was", "to", "tired", "to", "finish", "the", "project."],
+    "errorIndices": [2],
+    "corrections": ["too"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_030",
+    "sentence": "Its been a long day at work.",
+    "words": ["Its", "been", "a", "long", "day", "at", "work."],
+    "errorIndices": [0],
+    "corrections": ["It's"],
+    "errorType": "apostrophe",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_031",
+    "sentence": "The team celebrated its victory enthusiastically.",
+    "words": ["The", "team", "celebrated", "its", "victory", "enthusiastically."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_032",
+    "sentence": "She gave me an advise about my career.",
+    "words": ["She", "gave", "me", "an", "advise", "about", "my", "career."],
+    "errorIndices": [4],
+    "corrections": ["piece of advice"],
+    "errorType": "usage",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_033",
+    "sentence": "The children played in they're backyard.",
+    "words": ["The", "children", "played", "in", "they're", "backyard."],
+    "errorIndices": [4],
+    "corrections": ["their"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_034",
+    "sentence": "We drove passed the school on our way home.",
+    "words": ["We", "drove", "passed", "the", "school", "on", "our", "way", "home."],
+    "errorIndices": [2],
+    "corrections": ["past"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_035",
+    "sentence": "I can't weight to see the new movie.",
+    "words": ["I", "can't", "weight", "to", "see", "the", "new", "movie."],
+    "errorIndices": [2],
+    "corrections": ["wait"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_036",
+    "sentence": "She learned to play the piano as a child.",
+    "words": ["She", "learned", "to", "play", "the", "piano", "as", "a", "child."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_037",
+    "sentence": "He has less friends then he used to.",
+    "words": ["He", "has", "less", "friends", "then", "he", "used", "to."],
+    "errorIndices": [2],
+    "corrections": ["fewer"],
+    "errorType": "usage",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_038",
+    "sentence": "The cake tasted delicious at the party.",
+    "words": ["The", "cake", "tasted", "delicious", "at", "the", "party."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_039",
+    "sentence": "She was suppose to arrive by noon.",
+    "words": ["She", "was", "suppose", "to", "arrive", "by", "noon."],
+    "errorIndices": [2],
+    "corrections": ["supposed"],
+    "errorType": "usage",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_040",
+    "sentence": "He payed for dinner last night.",
+    "words": ["He", "payed", "for", "dinner", "last", "night."],
+    "errorIndices": [1],
+    "corrections": ["paid"],
+    "errorType": "spelling",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_041",
+    "sentence": "Everyone must bring they're own lunch.",
+    "words": ["Everyone", "must", "bring", "they're", "own", "lunch."],
+    "errorIndices": [3],
+    "corrections": ["their"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_042",
+    "sentence": "He did good on the test yesterday.",
+    "words": ["He", "did", "good", "on", "the", "test", "yesterday."],
+    "errorIndices": [2],
+    "corrections": ["well"],
+    "errorType": "usage",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_043",
+    "sentence": "The sun set beautifully behind the mountains.",
+    "words": ["The", "sun", "set", "beautifully", "behind", "the", "mountains."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_044",
+    "sentence": "I want to go to but I have work.",
+    "words": ["I", "want", "to", "go", "to", "but", "I", "have", "work."],
+    "errorIndices": [4],
+    "corrections": ["too,"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_045",
+    "sentence": "The dog chased it's own tail around the yard.",
+    "words": ["The", "dog", "chased", "it's", "own", "tail", "around", "the", "yard."],
+    "errorIndices": [3],
+    "corrections": ["its"],
+    "errorType": "apostrophe",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_046",
+    "sentence": "She use to live in New York City.",
+    "words": ["She", "use", "to", "live", "in", "New", "York", "City."],
+    "errorIndices": [1],
+    "corrections": ["used"],
+    "errorType": "usage",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_047",
+    "sentence": "We saw a beautiful dear in the forest.",
+    "words": ["We", "saw", "a", "beautiful", "dear", "in", "the", "forest."],
+    "errorIndices": [4],
+    "corrections": ["deer"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_048",
+    "sentence": "The teacher explained the lesson clearly.",
+    "words": ["The", "teacher", "explained", "the", "lesson", "clearly."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_049",
+    "sentence": "He eats alot of fruit every morning.",
+    "words": ["He", "eats", "alot", "of", "fruit", "every", "morning."],
+    "errorIndices": [2],
+    "corrections": ["a lot"],
+    "errorType": "spelling",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_050",
+    "sentence": "She did not loose her temper during the meeting.",
+    "words": ["She", "did", "not", "loose", "her", "temper", "during", "the", "meeting."],
+    "errorIndices": [3],
+    "corrections": ["lose"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_051",
+    "sentence": "They invited my wife and I to dinner.",
+    "words": ["They", "invited", "my", "wife", "and", "I", "to", "dinner."],
+    "errorIndices": [5],
+    "corrections": ["me"],
+    "errorType": "pronoun_case",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_052",
+    "sentence": "Please be quite during the presentation.",
+    "words": ["Please", "be", "quite", "during", "the", "presentation."],
+    "errorIndices": [2],
+    "corrections": ["quiet"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_053",
+    "sentence": "He brang his lunch to work today.",
+    "words": ["He", "brang", "his", "lunch", "to", "work", "today."],
+    "errorIndices": [1],
+    "corrections": ["brought"],
+    "errorType": "verb_form",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_054",
+    "sentence": "The old bridge creaked under the heavy load.",
+    "words": ["The", "old", "bridge", "creaked", "under", "the", "heavy", "load."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_055",
+    "sentence": "My mother makes the most delicious bred.",
+    "words": ["My", "mother", "makes", "the", "most", "delicious", "bred."],
+    "errorIndices": [6],
+    "corrections": ["bread."],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_056",
+    "sentence": "She has a beautiful peace of artwork.",
+    "words": ["She", "has", "a", "beautiful", "peace", "of", "artwork."],
+    "errorIndices": [4],
+    "corrections": ["piece"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_057",
+    "sentence": "They poured over the documents for hours.",
+    "words": ["They", "poured", "over", "the", "documents", "for", "hours."],
+    "errorIndices": [1],
+    "corrections": ["pored"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_058",
+    "sentence": "The restaurant served excellent pasta.",
+    "words": ["The", "restaurant", "served", "excellent", "pasta."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_059",
+    "sentence": "He seams like a very honest person.",
+    "words": ["He", "seams", "like", "a", "very", "honest", "person."],
+    "errorIndices": [1],
+    "corrections": ["seems"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_060",
+    "sentence": "She through the ball across the field.",
+    "words": ["She", "through", "the", "ball", "across", "the", "field."],
+    "errorIndices": [1],
+    "corrections": ["threw"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_061",
+    "sentence": "I am going to lay down for a nap.",
+    "words": ["I", "am", "going", "to", "lay", "down", "for", "a", "nap."],
+    "errorIndices": [4],
+    "corrections": ["lie"],
+    "errorType": "usage",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_062",
+    "sentence": "The wether forecast calls for rain tomorrow.",
+    "words": ["The", "wether", "forecast", "calls", "for", "rain", "tomorrow."],
+    "errorIndices": [1],
+    "corrections": ["weather"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_063",
+    "sentence": "She tryed to finish the book before bedtime.",
+    "words": ["She", "tryed", "to", "finish", "the", "book", "before", "bedtime."],
+    "errorIndices": [1],
+    "corrections": ["tried"],
+    "errorType": "spelling",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_064",
+    "sentence": "The garden looked beautiful in the spring.",
+    "words": ["The", "garden", "looked", "beautiful", "in", "the", "spring."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_065",
+    "sentence": "We had a wonderful time at the beach.",
+    "words": ["We", "had", "a", "wonderful", "time", "at", "the", "beach."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_066",
+    "sentence": "He was definately going to the meeting.",
+    "words": ["He", "was", "definately", "going", "to", "the", "meeting."],
+    "errorIndices": [2],
+    "corrections": ["definitely"],
+    "errorType": "spelling",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_067",
+    "sentence": "The cat hid under the couch during the storm.",
+    "words": ["The", "cat", "hid", "under", "the", "couch", "during", "the", "storm."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_068",
+    "sentence": "She didn't know weather to laugh or cry.",
+    "words": ["She", "didn't", "know", "weather", "to", "laugh", "or", "cry."],
+    "errorIndices": [3],
+    "corrections": ["whether"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_069",
+    "sentence": "He gived me his phone number yesterday.",
+    "words": ["He", "gived", "me", "his", "phone", "number", "yesterday."],
+    "errorIndices": [1],
+    "corrections": ["gave"],
+    "errorType": "verb_form",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_070",
+    "sentence": "The committee have reached a decision.",
+    "words": ["The", "committee", "have", "reached", "a", "decision."],
+    "errorIndices": [2],
+    "corrections": ["has"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_071",
+    "sentence": "Each of the students need to submit their homework.",
+    "words": ["Each", "of", "the", "students", "need", "to", "submit", "their", "homework."],
+    "errorIndices": [4],
+    "corrections": ["needs"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_072",
+    "sentence": "The team are playing well, they are in first place.",
+    "words": ["The", "team", "are", "playing", "well,", "they", "are", "in", "first", "place."],
+    "errorIndices": [2],
+    "corrections": ["is"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_073",
+    "sentence": "I went to the store, I bought some milk.",
+    "words": ["I", "went", "to", "the", "store,", "I", "bought", "some", "milk."],
+    "errorIndices": [4],
+    "corrections": ["store, and"],
+    "errorType": "comma_splice",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_074",
+    "sentence": "The data shows that sales have increased this quarter.",
+    "words": ["The", "data", "shows", "that", "sales", "have", "increased", "this", "quarter."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_075",
+    "sentence": "Neither the teacher nor the students was prepared.",
+    "words": ["Neither", "the", "teacher", "nor", "the", "students", "was", "prepared."],
+    "errorIndices": [6],
+    "corrections": ["were"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_076",
+    "sentence": "The company lost it's leading position in the market.",
+    "words": ["The", "company", "lost", "it's", "leading", "position", "in", "the", "market."],
+    "errorIndices": [3],
+    "corrections": ["its"],
+    "errorType": "apostrophe",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_077",
+    "sentence": "She felt badly about missing the meeting.",
+    "words": ["She", "felt", "badly", "about", "missing", "the", "meeting."],
+    "errorIndices": [2],
+    "corrections": ["bad"],
+    "errorType": "adjective_adverb",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_078",
+    "sentence": "The news are not encouraging this morning.",
+    "words": ["The", "news", "are", "not", "encouraging", "this", "morning."],
+    "errorIndices": [2],
+    "corrections": ["is"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_079",
+    "sentence": "Everyone in the class have completed their assignment.",
+    "words": ["Everyone", "in", "the", "class", "have", "completed", "their", "assignment."],
+    "errorIndices": [4],
+    "corrections": ["has"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_080",
+    "sentence": "She is the most smartest person I know.",
+    "words": ["She", "is", "the", "most", "smartest", "person", "I", "know."],
+    "errorIndices": [3, 4],
+    "corrections": ["", "smartest"],
+    "errorType": "double_comparative",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_081",
+    "sentence": "The children's toys were scattered across the floor.",
+    "words": ["The", "children's", "toys", "were", "scattered", "across", "the", "floor."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_082",
+    "sentence": "He done a great job on the presentation.",
+    "words": ["He", "done", "a", "great", "job", "on", "the", "presentation."],
+    "errorIndices": [1],
+    "corrections": ["did"],
+    "errorType": "verb_form",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_083",
+    "sentence": "There is less people here than expected.",
+    "words": ["There", "is", "less", "people", "here", "than", "expected."],
+    "errorIndices": [1, 2],
+    "corrections": ["are", "fewer"],
+    "errorType": "usage",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_084",
+    "sentence": "The children enjoy's playing in the park.",
+    "words": ["The", "children", "enjoy's", "playing", "in", "the", "park."],
+    "errorIndices": [2],
+    "corrections": ["enjoy"],
+    "errorType": "apostrophe",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_085",
+    "sentence": "I seen him at the store yesterday afternoon.",
+    "words": ["I", "seen", "him", "at", "the", "store", "yesterday", "afternoon."],
+    "errorIndices": [1],
+    "corrections": ["saw"],
+    "errorType": "verb_form",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_086",
+    "sentence": "The manager, along with his team, were late.",
+    "words": ["The", "manager,", "along", "with", "his", "team,", "were", "late."],
+    "errorIndices": [6],
+    "corrections": ["was"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_087",
+    "sentence": "She can't hardly wait for the holiday season.",
+    "words": ["She", "can't", "hardly", "wait", "for", "the", "holiday", "season."],
+    "errorIndices": [1],
+    "corrections": ["can"],
+    "errorType": "double_negative",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_088",
+    "sentence": "The professor spoke clearly and confidently.",
+    "words": ["The", "professor", "spoke", "clearly", "and", "confidently."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_089",
+    "sentence": "Her and I went to the movies last night.",
+    "words": ["Her", "and", "I", "went", "to", "the", "movies", "last", "night."],
+    "errorIndices": [0],
+    "corrections": ["She"],
+    "errorType": "pronoun_case",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_090",
+    "sentence": "The dog laid on the rug all afternoon.",
+    "words": ["The", "dog", "laid", "on", "the", "rug", "all", "afternoon."],
+    "errorIndices": [2],
+    "corrections": ["lay"],
+    "errorType": "usage",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_091",
+    "sentence": "Every student must bring their own laptop.",
+    "words": ["Every", "student", "must", "bring", "their", "own", "laptop."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_092",
+    "sentence": "She didn't have no time to finish the report.",
+    "words": ["She", "didn't", "have", "no", "time", "to", "finish", "the", "report."],
+    "errorIndices": [3],
+    "corrections": ["any"],
+    "errorType": "double_negative",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_093",
+    "sentence": "The amount of students in the class is growing.",
+    "words": ["The", "amount", "of", "students", "in", "the", "class", "is", "growing."],
+    "errorIndices": [1],
+    "corrections": ["number"],
+    "errorType": "usage",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_094",
+    "sentence": "He is more taller than his older brother.",
+    "words": ["He", "is", "more", "taller", "than", "his", "older", "brother."],
+    "errorIndices": [2],
+    "corrections": [""],
+    "errorType": "double_comparative",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_095",
+    "sentence": "Between you and I, the project is doomed.",
+    "words": ["Between", "you", "and", "I,", "the", "project", "is", "doomed."],
+    "errorIndices": [3],
+    "corrections": ["me,"],
+    "errorType": "pronoun_case",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_096",
+    "sentence": "The politician made a number of promises, most were unrealistic.",
+    "words": ["The", "politician", "made", "a", "number", "of", "promises,", "most", "were", "unrealistic."],
+    "errorIndices": [6],
+    "corrections": ["promises;"],
+    "errorType": "comma_splice",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_097",
+    "sentence": "The audience were deeply moved by the performance.",
+    "words": ["The", "audience", "were", "deeply", "moved", "by", "the", "performance."],
+    "errorIndices": [2],
+    "corrections": ["was"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_098",
+    "sentence": "She spoke more softer than anyone else in the room.",
+    "words": ["She", "spoke", "more", "softer", "than", "anyone", "else", "in", "the", "room."],
+    "errorIndices": [2],
+    "corrections": [""],
+    "errorType": "double_comparative",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_099",
+    "sentence": "A group of scientists have published their findings.",
+    "words": ["A", "group", "of", "scientists", "have", "published", "their", "findings."],
+    "errorIndices": [4],
+    "corrections": ["has"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_100",
+    "sentence": "Me and him went fishing by the lake.",
+    "words": ["Me", "and", "him", "went", "fishing", "by", "the", "lake."],
+    "errorIndices": [0, 2],
+    "corrections": ["He", "I"],
+    "errorType": "pronoun_case",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_101",
+    "sentence": "The earthquake effected thousands of families.",
+    "words": ["The", "earthquake", "effected", "thousands", "of", "families."],
+    "errorIndices": [2],
+    "corrections": ["affected"],
+    "errorType": "homophone",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_102",
+    "sentence": "She is one of those students who works diligently.",
+    "words": ["She", "is", "one", "of", "those", "students", "who", "works", "diligently."],
+    "errorIndices": [7],
+    "corrections": ["work"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_103",
+    "sentence": "The library has an excellent collection of books.",
+    "words": ["The", "library", "has", "an", "excellent", "collection", "of", "books."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_104",
+    "sentence": "Him and her are always arguing about trivial matters.",
+    "words": ["Him", "and", "her", "are", "always", "arguing", "about", "trivial", "matters."],
+    "errorIndices": [0, 2],
+    "corrections": ["He", "she"],
+    "errorType": "pronoun_case",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_105",
+    "sentence": "The children was excited about the field trip.",
+    "words": ["The", "children", "was", "excited", "about", "the", "field", "trip."],
+    "errorIndices": [2],
+    "corrections": ["were"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_106",
+    "sentence": "She cooked dinner while he set the table.",
+    "words": ["She", "cooked", "dinner", "while", "he", "set", "the", "table."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_107",
+    "sentence": "The coach told the players to try and improve.",
+    "words": ["The", "coach", "told", "the", "players", "to", "try", "and", "improve."],
+    "errorIndices": [7],
+    "corrections": ["to"],
+    "errorType": "usage",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_108",
+    "sentence": "The reason is because he was not prepared.",
+    "words": ["The", "reason", "is", "because", "he", "was", "not", "prepared."],
+    "errorIndices": [3],
+    "corrections": ["that"],
+    "errorType": "usage",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_109",
+    "sentence": "She was literally dying of laughter at the show.",
+    "words": ["She", "was", "literally", "dying", "of", "laughter", "at", "the", "show."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_110",
+    "sentence": "The boy who's dog ran away was very sad.",
+    "words": ["The", "boy", "who's", "dog", "ran", "away", "was", "very", "sad."],
+    "errorIndices": [2],
+    "corrections": ["whose"],
+    "errorType": "apostrophe",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_111",
+    "sentence": "She sung beautifully at the concert last night.",
+    "words": ["She", "sung", "beautifully", "at", "the", "concert", "last", "night."],
+    "errorIndices": [1],
+    "corrections": ["sang"],
+    "errorType": "verb_form",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_112",
+    "sentence": "The jury was unable to reach a unanimous verdict.",
+    "words": ["The", "jury", "was", "unable", "to", "reach", "a", "unanimous", "verdict."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_113",
+    "sentence": "He don't know the answer to that question.",
+    "words": ["He", "don't", "know", "the", "answer", "to", "that", "question."],
+    "errorIndices": [1],
+    "corrections": ["doesn't"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_114",
+    "sentence": "The teacher gave less homework then usual today.",
+    "words": ["The", "teacher", "gave", "less", "homework", "then", "usual", "today."],
+    "errorIndices": [5],
+    "corrections": ["than"],
+    "errorType": "homophone",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_115",
+    "sentence": "She could care less about the outcome.",
+    "words": ["She", "could", "care", "less", "about", "the", "outcome."],
+    "errorIndices": [1],
+    "corrections": ["couldn't"],
+    "errorType": "usage",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_116",
+    "sentence": "The number of applicants were higher than expected.",
+    "words": ["The", "number", "of", "applicants", "were", "higher", "than", "expected."],
+    "errorIndices": [4],
+    "corrections": ["was"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_117",
+    "sentence": "She ran quick to catch the departing bus.",
+    "words": ["She", "ran", "quick", "to", "catch", "the", "departing", "bus."],
+    "errorIndices": [2],
+    "corrections": ["quickly"],
+    "errorType": "adjective_adverb",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_118",
+    "sentence": "The movie was real exciting from start to finish.",
+    "words": ["The", "movie", "was", "real", "exciting", "from", "start", "to", "finish."],
+    "errorIndices": [3],
+    "corrections": ["really"],
+    "errorType": "adjective_adverb",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_119",
+    "sentence": "I have went to that restaurant many times before.",
+    "words": ["I", "have", "went", "to", "that", "restaurant", "many", "times", "before."],
+    "errorIndices": [2],
+    "corrections": ["gone"],
+    "errorType": "verb_form",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_120",
+    "sentence": "The cat climbed gracefully onto the windowsill.",
+    "words": ["The", "cat", "climbed", "gracefully", "onto", "the", "windowsill."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_121",
+    "sentence": "He swum across the lake in record time.",
+    "words": ["He", "swum", "across", "the", "lake", "in", "record", "time."],
+    "errorIndices": [1],
+    "corrections": ["swam"],
+    "errorType": "verb_form",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_122",
+    "sentence": "The company unveiled it's new product line today.",
+    "words": ["The", "company", "unveiled", "it's", "new", "product", "line", "today."],
+    "errorIndices": [3],
+    "corrections": ["its"],
+    "errorType": "apostrophe",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_123",
+    "sentence": "She borrowed the book off of her friend.",
+    "words": ["She", "borrowed", "the", "book", "off", "of", "her", "friend."],
+    "errorIndices": [4, 5],
+    "corrections": ["from", ""],
+    "errorType": "usage",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_124",
+    "sentence": "The report was well written and thoroughly researched.",
+    "words": ["The", "report", "was", "well", "written", "and", "thoroughly", "researched."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_125",
+    "sentence": "Irregardless of the weather, the event will proceed.",
+    "words": ["Irregardless", "of", "the", "weather,", "the", "event", "will", "proceed."],
+    "errorIndices": [0],
+    "corrections": ["Regardless"],
+    "errorType": "usage",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_126",
+    "sentence": "The family have been living here for decades.",
+    "words": ["The", "family", "have", "been", "living", "here", "for", "decades."],
+    "errorIndices": [2],
+    "corrections": ["has"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_127",
+    "sentence": "She should of been more careful with the equipment.",
+    "words": ["She", "should", "of", "been", "more", "careful", "with", "the", "equipment."],
+    "errorIndices": [2],
+    "corrections": ["have"],
+    "errorType": "usage",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_128",
+    "sentence": "The results exceeded our expectations significantly.",
+    "words": ["The", "results", "exceeded", "our", "expectations", "significantly."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_129",
+    "sentence": "He asked for who the letter was addressed to.",
+    "words": ["He", "asked", "for", "who", "the", "letter", "was", "addressed", "to."],
+    "errorIndices": [3],
+    "corrections": ["whom"],
+    "errorType": "who_whom",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_130",
+    "sentence": "Ten items or less are allowed in the express lane.",
+    "words": ["Ten", "items", "or", "less", "are", "allowed", "in", "the", "express", "lane."],
+    "errorIndices": [3],
+    "corrections": ["fewer"],
+    "errorType": "usage",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_131",
+    "sentence": "The scientist whom discovered the molecule won the prize.",
+    "words": ["The", "scientist", "whom", "discovered", "the", "molecule", "won", "the", "prize."],
+    "errorIndices": [2],
+    "corrections": ["who"],
+    "errorType": "who_whom",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_132",
+    "sentence": "She laid down on the sofa and fell asleep instantly.",
+    "words": ["She", "laid", "down", "on", "the", "sofa", "and", "fell", "asleep", "instantly."],
+    "errorIndices": [1],
+    "corrections": ["lay"],
+    "errorType": "lay_lie",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_133",
+    "sentence": "The data supports the hypothesis clearly.",
+    "words": ["The", "data", "supports", "the", "hypothesis", "clearly."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_134",
+    "sentence": "Walking through the park, the flowers smelled wonderful.",
+    "words": ["Walking", "through", "the", "park,", "the", "flowers", "smelled", "wonderful."],
+    "errorIndices": [0],
+    "corrections": ["As I walked"],
+    "errorType": "dangling_modifier",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_135",
+    "sentence": "The author, who's latest novel topped the charts, gave a reading.",
+    "words": ["The", "author,", "who's", "latest", "novel", "topped", "the", "charts,", "gave", "a", "reading."],
+    "errorIndices": [2],
+    "corrections": ["whose"],
+    "errorType": "apostrophe",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_136",
+    "sentence": "If I was you, I would accept the offer immediately.",
+    "words": ["If", "I", "was", "you,", "I", "would", "accept", "the", "offer", "immediately."],
+    "errorIndices": [2],
+    "corrections": ["were"],
+    "errorType": "subjunctive",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_137",
+    "sentence": "The teacher gave the award to whomever deserved it most.",
+    "words": ["The", "teacher", "gave", "the", "award", "to", "whomever", "deserved", "it", "most."],
+    "errorIndices": [6],
+    "corrections": ["whoever"],
+    "errorType": "who_whom",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_138",
+    "sentence": "Having finished the report, the computer was shut down.",
+    "words": ["Having", "finished", "the", "report,", "the", "computer", "was", "shut", "down."],
+    "errorIndices": [0],
+    "corrections": ["After finishing"],
+    "errorType": "dangling_modifier",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_139",
+    "sentence": "The museum was built in 1892 and remains open today.",
+    "words": ["The", "museum", "was", "built", "in", "1892", "and", "remains", "open", "today."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_140",
+    "sentence": "She asked him to lay the book on the table carefully.",
+    "words": ["She", "asked", "him", "to", "lay", "the", "book", "on", "the", "table", "carefully."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_141",
+    "sentence": "The CEO, along with senior executives, are attending the summit.",
+    "words": ["The", "CEO,", "along", "with", "senior", "executives,", "are", "attending", "the", "summit."],
+    "errorIndices": [6],
+    "corrections": ["is"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_142",
+    "sentence": "She has less responsibilities then her predecessor had.",
+    "words": ["She", "has", "less", "responsibilities", "then", "her", "predecessor", "had."],
+    "errorIndices": [2, 4],
+    "corrections": ["fewer", "than"],
+    "errorType": "usage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_143",
+    "sentence": "He is the person who I believe should lead the project.",
+    "words": ["He", "is", "the", "person", "who", "I", "believe", "should", "lead", "the", "project."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_144",
+    "sentence": "Laying in the sun all day, he got a terrible sunburn.",
+    "words": ["Laying", "in", "the", "sun", "all", "day,", "he", "got", "a", "terrible", "sunburn."],
+    "errorIndices": [0],
+    "corrections": ["Lying"],
+    "errorType": "lay_lie",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_145",
+    "sentence": "The report concludes; therefore, further research is needed.",
+    "words": ["The", "report", "concludes;", "therefore,", "further", "research", "is", "needed."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_146",
+    "sentence": "Tired and frustrated the worker decided to quit.",
+    "words": ["Tired", "and", "frustrated", "the", "worker", "decided", "to", "quit."],
+    "errorIndices": [2],
+    "corrections": ["frustrated,"],
+    "errorType": "comma",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_147",
+    "sentence": "The criteria for selection was announced last week.",
+    "words": ["The", "criteria", "for", "selection", "was", "announced", "last", "week."],
+    "errorIndices": [4],
+    "corrections": ["were"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_148",
+    "sentence": "Between the three of us, we should find a solution.",
+    "words": ["Between", "the", "three", "of", "us,", "we", "should", "find", "a", "solution."],
+    "errorIndices": [0],
+    "corrections": ["Among"],
+    "errorType": "usage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_149",
+    "sentence": "The chairman said that he will resign effective immediately.",
+    "words": ["The", "chairman", "said", "that", "he", "will", "resign", "effective", "immediately."],
+    "errorIndices": [5],
+    "corrections": ["would"],
+    "errorType": "tense_agreement",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_150",
+    "sentence": "Whom shall I say is calling this afternoon?",
+    "words": ["Whom", "shall", "I", "say", "is", "calling", "this", "afternoon?"],
+    "errorIndices": [0],
+    "corrections": ["Who"],
+    "errorType": "who_whom",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_151",
+    "sentence": "She immigrated from Canada to the United States in 2010.",
+    "words": ["She", "immigrated", "from", "Canada", "to", "the", "United", "States", "in", "2010."],
+    "errorIndices": [1],
+    "corrections": ["emigrated"],
+    "errorType": "usage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_152",
+    "sentence": "The evidence was compelling enough to warrant further inquiry.",
+    "words": ["The", "evidence", "was", "compelling", "enough", "to", "warrant", "further", "inquiry."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_153",
+    "sentence": "After reviewing the data; the team decided to proceed.",
+    "words": ["After", "reviewing", "the", "data;", "the", "team", "decided", "to", "proceed."],
+    "errorIndices": [3],
+    "corrections": ["data,"],
+    "errorType": "semicolon",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_154",
+    "sentence": "Each member of the board has their own responsibilities.",
+    "words": ["Each", "member", "of", "the", "board", "has", "their", "own", "responsibilities."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_155",
+    "sentence": "The phenomena was observed by multiple research teams.",
+    "words": ["The", "phenomena", "was", "observed", "by", "multiple", "research", "teams."],
+    "errorIndices": [1, 2],
+    "corrections": ["phenomenon", "was"],
+    "errorType": "plural_form",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_156",
+    "sentence": "It is her who should be credited for the discovery.",
+    "words": ["It", "is", "her", "who", "should", "be", "credited", "for", "the", "discovery."],
+    "errorIndices": [2],
+    "corrections": ["she"],
+    "errorType": "pronoun_case",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_157",
+    "sentence": "Running through the hallway, the vase was knocked over.",
+    "words": ["Running", "through", "the", "hallway,", "the", "vase", "was", "knocked", "over."],
+    "errorIndices": [0],
+    "corrections": ["While running"],
+    "errorType": "dangling_modifier",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_158",
+    "sentence": "She was the one whom everyone trusted with their secrets.",
+    "words": ["She", "was", "the", "one", "whom", "everyone", "trusted", "with", "their", "secrets."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_159",
+    "sentence": "The media have been covering the story extensively.",
+    "words": ["The", "media", "have", "been", "covering", "the", "story", "extensively."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_160",
+    "sentence": "He implied that I did not try hard enough, inferring laziness.",
+    "words": ["He", "implied", "that", "I", "did", "not", "try", "hard", "enough,", "inferring", "laziness."],
+    "errorIndices": [9],
+    "corrections": ["implying"],
+    "errorType": "usage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_161",
+    "sentence": "The company is comprised of three main divisions.",
+    "words": ["The", "company", "is", "comprised", "of", "three", "main", "divisions."],
+    "errorIndices": [3, 4],
+    "corrections": ["composed", "of"],
+    "errorType": "usage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_162",
+    "sentence": "She graduated college with honors last spring.",
+    "words": ["She", "graduated", "college", "with", "honors", "last", "spring."],
+    "errorIndices": [1],
+    "corrections": ["graduated from"],
+    "errorType": "usage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_163",
+    "sentence": "The hypothesis, which was tested rigorously, proved correct.",
+    "words": ["The", "hypothesis,", "which", "was", "tested", "rigorously,", "proved", "correct."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_164",
+    "sentence": "Hopefully, the weather will improve by the weekend.",
+    "words": ["Hopefully,", "the", "weather", "will", "improve", "by", "the", "weekend."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_165",
+    "sentence": "He lay the documents carefully on the conference table.",
+    "words": ["He", "lay", "the", "documents", "carefully", "on", "the", "conference", "table."],
+    "errorIndices": [1],
+    "corrections": ["laid"],
+    "errorType": "lay_lie",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_166",
+    "sentence": "The data is inconclusive at this stage of the study.",
+    "words": ["The", "data", "is", "inconclusive", "at", "this", "stage", "of", "the", "study."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_167",
+    "sentence": "Compared to last year, profits have risen sharply.",
+    "words": ["Compared", "to", "last", "year,", "profits", "have", "risen", "sharply."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_168",
+    "sentence": "The alumni was invited back for the anniversary celebration.",
+    "words": ["The", "alumni", "was", "invited", "back", "for", "the", "anniversary", "celebration."],
+    "errorIndices": [2],
+    "corrections": ["were"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_169",
+    "sentence": "Farther research is needed before we draw conclusions.",
+    "words": ["Farther", "research", "is", "needed", "before", "we", "draw", "conclusions."],
+    "errorIndices": [0],
+    "corrections": ["Further"],
+    "errorType": "usage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_170",
+    "sentence": "She is the candidate whom the committee selected after careful review.",
+    "words": ["She", "is", "the", "candidate", "whom", "the", "committee", "selected", "after", "careful", "review."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_171",
+    "sentence": "He literally froze in his tracks when he saw the bear.",
+    "words": ["He", "literally", "froze", "in", "his", "tracks", "when", "he", "saw", "the", "bear."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_172",
+    "sentence": "To who should I address this formal complaint?",
+    "words": ["To", "who", "should", "I", "address", "this", "formal", "complaint?"],
+    "errorIndices": [1],
+    "corrections": ["whom"],
+    "errorType": "who_whom",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_173",
+    "sentence": "The team insures that all safety protocols are followed.",
+    "words": ["The", "team", "insures", "that", "all", "safety", "protocols", "are", "followed."],
+    "errorIndices": [2],
+    "corrections": ["ensures"],
+    "errorType": "usage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_174",
+    "sentence": "Neither the manager or the employees were consulted beforehand.",
+    "words": ["Neither", "the", "manager", "or", "the", "employees", "were", "consulted", "beforehand."],
+    "errorIndices": [3],
+    "corrections": ["nor"],
+    "errorType": "correlative_conjunction",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_175",
+    "sentence": "The reason being is that the budget was cut dramatically.",
+    "words": ["The", "reason", "being", "is", "that", "the", "budget", "was", "cut", "dramatically."],
+    "errorIndices": [2],
+    "corrections": [""],
+    "errorType": "usage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_176",
+    "sentence": "After careful deliberation, the board reached a consensus.",
+    "words": ["After", "careful", "deliberation,", "the", "board", "reached", "a", "consensus."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_177",
+    "sentence": "She acts as if she was the only person who matters.",
+    "words": ["She", "acts", "as", "if", "she", "was", "the", "only", "person", "who", "matters."],
+    "errorIndices": [5],
+    "corrections": ["were"],
+    "errorType": "subjunctive",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_178",
+    "sentence": "The novel, along with its sequels, are bestsellers worldwide.",
+    "words": ["The", "novel,", "along", "with", "its", "sequels,", "are", "bestsellers", "worldwide."],
+    "errorIndices": [6],
+    "corrections": ["is"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_179",
+    "sentence": "He dove into the pool and swam to the other side.",
+    "words": ["He", "dove", "into", "the", "pool", "and", "swam", "to", "the", "other", "side."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_180",
+    "sentence": "The report states that less errors occurred this quarter.",
+    "words": ["The", "report", "states", "that", "less", "errors", "occurred", "this", "quarter."],
+    "errorIndices": [4],
+    "corrections": ["fewer"],
+    "errorType": "usage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_181",
+    "sentence": "Having been delayed by traffic; the speaker arrived late.",
+    "words": ["Having", "been", "delayed", "by", "traffic;", "the", "speaker", "arrived", "late."],
+    "errorIndices": [4],
+    "corrections": ["traffic,"],
+    "errorType": "semicolon",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_182",
+    "sentence": "The government announced a series of economic reforms.",
+    "words": ["The", "government", "announced", "a", "series", "of", "economic", "reforms."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_183",
+    "sentence": "The boy, whom I believe is talented, won the competition.",
+    "words": ["The", "boy,", "whom", "I", "believe", "is", "talented,", "won", "the", "competition."],
+    "errorIndices": [2],
+    "corrections": ["who"],
+    "errorType": "who_whom",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_184",
+    "sentence": "She laid in bed for hours before finally falling asleep.",
+    "words": ["She", "laid", "in", "bed", "for", "hours", "before", "finally", "falling", "asleep."],
+    "errorIndices": [1],
+    "corrections": ["lay"],
+    "errorType": "lay_lie",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_185",
+    "sentence": "The affect of the new policy was immediately apparent.",
+    "words": ["The", "affect", "of", "the", "new", "policy", "was", "immediately", "apparent."],
+    "errorIndices": [1],
+    "corrections": ["effect"],
+    "errorType": "homophone",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_186",
+    "sentence": "These type of problems require a collaborative approach.",
+    "words": ["These", "type", "of", "problems", "require", "a", "collaborative", "approach."],
+    "errorIndices": [1],
+    "corrections": ["types"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_187",
+    "sentence": "The speaker literally brought the house down with applause.",
+    "words": ["The", "speaker", "literally", "brought", "the", "house", "down", "with", "applause."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_188",
+    "sentence": "The couple was eager to begin their new life together.",
+    "words": ["The", "couple", "was", "eager", "to", "begin", "their", "new", "life", "together."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_189",
+    "sentence": "Whomever is responsible should come forward at once.",
+    "words": ["Whomever", "is", "responsible", "should", "come", "forward", "at", "once."],
+    "errorIndices": [0],
+    "corrections": ["Whoever"],
+    "errorType": "who_whom",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_190",
+    "sentence": "The steak tasted well after marinating overnight.",
+    "words": ["The", "steak", "tasted", "well", "after", "marinating", "overnight."],
+    "errorIndices": [3],
+    "corrections": ["good"],
+    "errorType": "adjective_adverb",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_191",
+    "sentence": "Based on the findings, the study was well designed.",
+    "words": ["Based", "on", "the", "findings,", "the", "study", "was", "well", "designed."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_192",
+    "sentence": "She lead the meeting with confidence yesterday afternoon.",
+    "words": ["She", "lead", "the", "meeting", "with", "confidence", "yesterday", "afternoon."],
+    "errorIndices": [1],
+    "corrections": ["led"],
+    "errorType": "verb_form",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_193",
+    "sentence": "One criteria has been met; the others remain outstanding.",
+    "words": ["One", "criteria", "has", "been", "met;", "the", "others", "remain", "outstanding."],
+    "errorIndices": [1],
+    "corrections": ["criterion"],
+    "errorType": "plural_form",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_194",
+    "sentence": "Anxious to hear the news, a celebration was planned.",
+    "words": ["Anxious", "to", "hear", "the", "news,", "a", "celebration", "was", "planned."],
+    "errorIndices": [0],
+    "corrections": ["As they were anxious"],
+    "errorType": "dangling_modifier",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_195",
+    "sentence": "The team's performance this season has been exceptional.",
+    "words": ["The", "team's", "performance", "this", "season", "has", "been", "exceptional."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_196",
+    "sentence": "I would have went if I had known about the event.",
+    "words": ["I", "would", "have", "went", "if", "I", "had", "known", "about", "the", "event."],
+    "errorIndices": [3],
+    "corrections": ["gone"],
+    "errorType": "verb_form",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_197",
+    "sentence": "Comprised of four departments; the division operates efficiently.",
+    "words": ["Comprised", "of", "four", "departments;", "the", "division", "operates", "efficiently."],
+    "errorIndices": [0, 3],
+    "corrections": ["Composed", "departments,"],
+    "errorType": "usage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_198",
+    "sentence": "The conference attracted scholars from around the world.",
+    "words": ["The", "conference", "attracted", "scholars", "from", "around", "the", "world."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_199",
+    "sentence": "The instructor asked whom was ready to take the test.",
+    "words": ["The", "instructor", "asked", "whom", "was", "ready", "to", "take", "the", "test."],
+    "errorIndices": [3],
+    "corrections": ["who"],
+    "errorType": "who_whom",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_200",
+    "sentence": "She hanged the painting above the fireplace in the study.",
+    "words": ["She", "hanged", "the", "painting", "above", "the", "fireplace", "in", "the", "study."],
+    "errorIndices": [1],
+    "corrections": ["hung"],
+    "errorType": "verb_form",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_201",
+    "sentence": "The professor, as well as his students, were impressed.",
+    "words": ["The", "professor,", "as", "well", "as", "his", "students,", "were", "impressed."],
+    "errorIndices": [7],
+    "corrections": ["was"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_202",
+    "sentence": "The meeting adjourned promptly at five o'clock.",
+    "words": ["The", "meeting", "adjourned", "promptly", "at", "five", "o'clock."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_203",
+    "sentence": "Between all the candidates, she was clearly the best qualified.",
+    "words": ["Between", "all", "the", "candidates,", "she", "was", "clearly", "the", "best", "qualified."],
+    "errorIndices": [0],
+    "corrections": ["Among"],
+    "errorType": "usage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_204",
+    "sentence": "The child was setting in the corner reading his book.",
+    "words": ["The", "child", "was", "setting", "in", "the", "corner", "reading", "his", "book."],
+    "errorIndices": [3],
+    "corrections": ["sitting"],
+    "errorType": "usage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_205",
+    "sentence": "Having carefully reviewed the proposal, it was approved.",
+    "words": ["Having", "carefully", "reviewed", "the", "proposal,", "it", "was", "approved."],
+    "errorIndices": [0],
+    "corrections": ["After carefully reviewing"],
+    "errorType": "dangling_modifier",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_206",
+    "sentence": "The new regulations will effect thousands of small businesses.",
+    "words": ["The", "new", "regulations", "will", "effect", "thousands", "of", "small", "businesses."],
+    "errorIndices": [4],
+    "corrections": ["affect"],
+    "errorType": "homophone",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_207",
+    "sentence": "The orchestra performed flawlessly throughout the evening.",
+    "words": ["The", "orchestra", "performed", "flawlessly", "throughout", "the", "evening."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_208",
+    "sentence": "Not only she completed the task but also exceeded expectations.",
+    "words": ["Not", "only", "she", "completed", "the", "task", "but", "also", "exceeded", "expectations."],
+    "errorIndices": [2, 3],
+    "corrections": ["did she", "complete"],
+    "errorType": "inversion",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_209",
+    "sentence": "The staff is dedicated to providing excellent customer service.",
+    "words": ["The", "staff", "is", "dedicated", "to", "providing", "excellent", "customer", "service."],
+    "errorIndices": [],
+    "corrections": [],
+    "errorType": "none",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_210",
+    "sentence": "I wish I was able to attend the ceremony last night.",
+    "words": ["I", "wish", "I", "was", "able", "to", "attend", "the", "ceremony", "last", "night."],
+    "errorIndices": [3],
+    "corrections": ["had been"],
+    "errorType": "subjunctive",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_211",
+    "sentence": "Their planning a trip to Spain next summer.",
+    "words": ["Their", "planning", "a", "trip", "to", "Spain", "next", "summer."],
+    "errorIndices": [0],
+    "corrections": ["They're"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_212",
+    "sentence": "The bird built it's nest in the oak tree.",
+    "words": ["The", "bird", "built", "it's", "nest", "in", "the", "oak", "tree."],
+    "errorIndices": [3],
+    "corrections": ["its"],
+    "errorType": "apostrophe",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_213",
+    "sentence": "Your going to love this new restaurant.",
+    "words": ["Your", "going", "to", "love", "this", "new", "restaurant."],
+    "errorIndices": [0],
+    "corrections": ["You're"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_214",
+    "sentence": "She gave the book too her younger sister.",
+    "words": ["She", "gave", "the", "book", "too", "her", "younger", "sister."],
+    "errorIndices": [4],
+    "corrections": ["to"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_215",
+    "sentence": "The whether turned cold overnight without warning.",
+    "words": ["The", "whether", "turned", "cold", "overnight", "without", "warning."],
+    "errorIndices": [1],
+    "corrections": ["weather"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_216",
+    "sentence": "We would of stayed longer if possible.",
+    "words": ["We", "would", "of", "stayed", "longer", "if", "possible."],
+    "errorIndices": [2],
+    "corrections": ["have"],
+    "errorType": "usage",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_217",
+    "sentence": "There car broke down on the highway.",
+    "words": ["There", "car", "broke", "down", "on", "the", "highway."],
+    "errorIndices": [0],
+    "corrections": ["Their"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_218",
+    "sentence": "He should of brought an umbrella today.",
+    "words": ["He", "should", "of", "brought", "an", "umbrella", "today."],
+    "errorIndices": [2],
+    "corrections": ["have"],
+    "errorType": "usage",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_219",
+    "sentence": "The horse galloped passed the finish line.",
+    "words": ["The", "horse", "galloped", "passed", "the", "finish", "line."],
+    "errorIndices": [3],
+    "corrections": ["past"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_220",
+    "sentence": "She is smarter then most of her classmates.",
+    "words": ["She", "is", "smarter", "then", "most", "of", "her", "classmates."],
+    "errorIndices": [3],
+    "corrections": ["than"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_221",
+    "sentence": "The affect of the medicine was immediate.",
+    "words": ["The", "affect", "of", "the", "medicine", "was", "immediate."],
+    "errorIndices": [1],
+    "corrections": ["effect"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_222",
+    "sentence": "I need to by a new phone soon.",
+    "words": ["I", "need", "to", "by", "a", "new", "phone", "soon."],
+    "errorIndices": [3],
+    "corrections": ["buy"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_223",
+    "sentence": "Please except this gift as a token.",
+    "words": ["Please", "except", "this", "gift", "as", "a", "token."],
+    "errorIndices": [1],
+    "corrections": ["accept"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_224",
+    "sentence": "He is a person of strong principal.",
+    "words": ["He", "is", "a", "person", "of", "strong", "principal."],
+    "errorIndices": [6],
+    "corrections": ["principle."],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_225",
+    "sentence": "She road the train to work this morning.",
+    "words": ["She", "road", "the", "train", "to", "work", "this", "morning."],
+    "errorIndices": [1],
+    "corrections": ["rode"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_226",
+    "sentence": "I here the music playing next door.",
+    "words": ["I", "here", "the", "music", "playing", "next", "door."],
+    "errorIndices": [1],
+    "corrections": ["hear"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_227",
+    "sentence": "They're house was painted bright blue.",
+    "words": ["They're", "house", "was", "painted", "bright", "blue."],
+    "errorIndices": [0],
+    "corrections": ["Their"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_228",
+    "sentence": "We met over their by the fountain.",
+    "words": ["We", "met", "over", "their", "by", "the", "fountain."],
+    "errorIndices": [3],
+    "corrections": ["there"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_229",
+    "sentence": "Your welcome to stay for the weekend.",
+    "words": ["Your", "welcome", "to", "stay", "for", "the", "weekend."],
+    "errorIndices": [0],
+    "corrections": ["You're"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_230",
+    "sentence": "I took are car to the mechanic.",
+    "words": ["I", "took", "are", "car", "to", "the", "mechanic."],
+    "errorIndices": [2],
+    "corrections": ["our"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_231",
+    "sentence": "Please right the answer on the board.",
+    "words": ["Please", "right", "the", "answer", "on", "the", "board."],
+    "errorIndices": [1],
+    "corrections": ["write"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_232",
+    "sentence": "He was to nervous to give the speech.",
+    "words": ["He", "was", "to", "nervous", "to", "give", "the", "speech."],
+    "errorIndices": [2],
+    "corrections": ["too"],
+    "errorType": "homophone",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_233",
+    "sentence": "Its been raining all day without stopping.",
+    "words": ["Its", "been", "raining", "all", "day", "without", "stopping."],
+    "errorIndices": [0],
+    "corrections": ["It's"],
+    "errorType": "apostrophe",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_234",
+    "sentence": "She gave me an advise about investing.",
+    "words": ["She", "gave", "me", "an", "advise", "about", "investing."],
+    "errorIndices": [4],
+    "corrections": ["advice"],
+    "errorType": "usage",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_235",
+    "sentence": "The puppy chased it's tail in circles.",
+    "words": ["The", "puppy", "chased", "it's", "tail", "in", "circles."],
+    "errorIndices": [3],
+    "corrections": ["its"],
+    "errorType": "apostrophe",
+    "difficulty": "easy"
+  },
+  {
+    "id": "es_236",
+    "sentence": "Each of the players need a new uniform.",
+    "words": ["Each", "of", "the", "players", "need", "a", "new", "uniform."],
+    "errorIndices": [4],
+    "corrections": ["needs"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_237",
+    "sentence": "The team are traveling to the championship game.",
+    "words": ["The", "team", "are", "traveling", "to", "the", "championship", "game."],
+    "errorIndices": [2],
+    "corrections": ["is"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_238",
+    "sentence": "Neither the coach nor the players was ready.",
+    "words": ["Neither", "the", "coach", "nor", "the", "players", "was", "ready."],
+    "errorIndices": [6],
+    "corrections": ["were"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_239",
+    "sentence": "She seen the movie three times already.",
+    "words": ["She", "seen", "the", "movie", "three", "times", "already."],
+    "errorIndices": [1],
+    "corrections": ["has seen"],
+    "errorType": "verb_form",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_240",
+    "sentence": "He gived his old toys to charity.",
+    "words": ["He", "gived", "his", "old", "toys", "to", "charity."],
+    "errorIndices": [1],
+    "corrections": ["gave"],
+    "errorType": "verb_form",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_241",
+    "sentence": "The news are surprising everyone in the office.",
+    "words": ["The", "news", "are", "surprising", "everyone", "in", "the", "office."],
+    "errorIndices": [2],
+    "corrections": ["is"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_242",
+    "sentence": "Everyone on the team have signed the contract.",
+    "words": ["Everyone", "on", "the", "team", "have", "signed", "the", "contract."],
+    "errorIndices": [4],
+    "corrections": ["has"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_243",
+    "sentence": "She is the most fastest runner on the squad.",
+    "words": ["She", "is", "the", "most", "fastest", "runner", "on", "the", "squad."],
+    "errorIndices": [4],
+    "corrections": ["fastest"],
+    "errorType": "double_comparative",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_244",
+    "sentence": "He done the dishes after every meal.",
+    "words": ["He", "done", "the", "dishes", "after", "every", "meal."],
+    "errorIndices": [1],
+    "corrections": ["did"],
+    "errorType": "verb_form",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_245",
+    "sentence": "There is fewer cars on the road today.",
+    "words": ["There", "is", "fewer", "cars", "on", "the", "road", "today."],
+    "errorIndices": [1],
+    "corrections": ["are"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_246",
+    "sentence": "I seen the fireworks from the rooftop terrace.",
+    "words": ["I", "seen", "the", "fireworks", "from", "the", "rooftop", "terrace."],
+    "errorIndices": [1],
+    "corrections": ["saw"],
+    "errorType": "verb_form",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_247",
+    "sentence": "The manager, along with her staff, were late.",
+    "words": ["The", "manager,", "along", "with", "her", "staff,", "were", "late."],
+    "errorIndices": [6],
+    "corrections": ["was"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_248",
+    "sentence": "She can't hardly believe she won the lottery.",
+    "words": ["She", "can't", "hardly", "believe", "she", "won", "the", "lottery."],
+    "errorIndices": [1],
+    "corrections": ["can"],
+    "errorType": "double_negative",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_249",
+    "sentence": "He swum across the river before breakfast.",
+    "words": ["He", "swum", "across", "the", "river", "before", "breakfast."],
+    "errorIndices": [1],
+    "corrections": ["swam"],
+    "errorType": "verb_form",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_250",
+    "sentence": "The committee have voted to approve the budget.",
+    "words": ["The", "committee", "have", "voted", "to", "approve", "the", "budget."],
+    "errorIndices": [2],
+    "corrections": ["has"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_251",
+    "sentence": "She runned all the way to the station.",
+    "words": ["She", "runned", "all", "the", "way", "to", "the", "station."],
+    "errorIndices": [1],
+    "corrections": ["ran"],
+    "errorType": "verb_form",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_252",
+    "sentence": "He don't understand the instructions at all.",
+    "words": ["He", "don't", "understand", "the", "instructions", "at", "all."],
+    "errorIndices": [1],
+    "corrections": ["doesn't"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_253",
+    "sentence": "The number of complaints were higher last month.",
+    "words": ["The", "number", "of", "complaints", "were", "higher", "last", "month."],
+    "errorIndices": [4],
+    "corrections": ["was"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_254",
+    "sentence": "She sung a lovely song at the wedding.",
+    "words": ["She", "sung", "a", "lovely", "song", "at", "the", "wedding."],
+    "errorIndices": [1],
+    "corrections": ["sang"],
+    "errorType": "verb_form",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_255",
+    "sentence": "He is more smarter than his older cousin.",
+    "words": ["He", "is", "more", "smarter", "than", "his", "older", "cousin."],
+    "errorIndices": [2],
+    "corrections": ["smarter"],
+    "errorType": "double_comparative",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_256",
+    "sentence": "I have went to that museum many times.",
+    "words": ["I", "have", "went", "to", "that", "museum", "many", "times."],
+    "errorIndices": [2],
+    "corrections": ["gone"],
+    "errorType": "verb_form",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_257",
+    "sentence": "The children was thrilled about the surprise party.",
+    "words": ["The", "children", "was", "thrilled", "about", "the", "surprise", "party."],
+    "errorIndices": [2],
+    "corrections": ["were"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_258",
+    "sentence": "She didn't have no idea about the change.",
+    "words": ["She", "didn't", "have", "no", "idea", "about", "the", "change."],
+    "errorIndices": [3],
+    "corrections": ["any"],
+    "errorType": "double_negative",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_259",
+    "sentence": "He breaked the window with a stray ball.",
+    "words": ["He", "breaked", "the", "window", "with", "a", "stray", "ball."],
+    "errorIndices": [1],
+    "corrections": ["broke"],
+    "errorType": "verb_form",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_260",
+    "sentence": "The amount of guests at the wedding was large.",
+    "words": ["The", "amount", "of", "guests", "at", "the", "wedding", "was", "large."],
+    "errorIndices": [1],
+    "corrections": ["number"],
+    "errorType": "usage",
+    "difficulty": "medium"
+  },
+  {
+    "id": "es_261",
+    "sentence": "If I was rich, I would travel the world.",
+    "words": ["If", "I", "was", "rich,", "I", "would", "travel", "the", "world."],
+    "errorIndices": [2],
+    "corrections": ["were"],
+    "errorType": "subjunctive",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_262",
+    "sentence": "Her and I attended the conference together.",
+    "words": ["Her", "and", "I", "attended", "the", "conference", "together."],
+    "errorIndices": [0],
+    "corrections": ["She"],
+    "errorType": "pronoun_case",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_263",
+    "sentence": "The award went to whomever scored the highest.",
+    "words": ["The", "award", "went", "to", "whomever", "scored", "the", "highest."],
+    "errorIndices": [4],
+    "corrections": ["whoever"],
+    "errorType": "who_whom",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_264",
+    "sentence": "Walking down the street, the rain began to fall.",
+    "words": ["Walking", "down", "the", "street,", "the", "rain", "began", "to", "fall."],
+    "errorIndices": [0],
+    "corrections": ["As I walked"],
+    "errorType": "dangling_modifier",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_265",
+    "sentence": "The author, who's book won the prize, spoke today.",
+    "words": ["The", "author,", "who's", "book", "won", "the", "prize,", "spoke", "today."],
+    "errorIndices": [2],
+    "corrections": ["whose"],
+    "errorType": "homophone",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_266",
+    "sentence": "Between you and I, this plan will fail.",
+    "words": ["Between", "you", "and", "I,", "this", "plan", "will", "fail."],
+    "errorIndices": [3],
+    "corrections": ["me,"],
+    "errorType": "pronoun_case",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_267",
+    "sentence": "She laid on the beach all afternoon yesterday.",
+    "words": ["She", "laid", "on", "the", "beach", "all", "afternoon", "yesterday."],
+    "errorIndices": [1],
+    "corrections": ["lay"],
+    "errorType": "lay_lie",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_268",
+    "sentence": "The scientist whom proposed the theory was praised.",
+    "words": ["The", "scientist", "whom", "proposed", "the", "theory", "was", "praised."],
+    "errorIndices": [2],
+    "corrections": ["who"],
+    "errorType": "who_whom",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_269",
+    "sentence": "I wish I was taller for the basketball team.",
+    "words": ["I", "wish", "I", "was", "taller", "for", "the", "basketball", "team."],
+    "errorIndices": [3],
+    "corrections": ["were"],
+    "errorType": "subjunctive",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_270",
+    "sentence": "Him and her never agree on anything important.",
+    "words": ["Him", "and", "her", "never", "agree", "on", "anything", "important."],
+    "errorIndices": [0],
+    "corrections": ["He"],
+    "errorType": "pronoun_case",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_271",
+    "sentence": "The data suggest that the trend is reversing.",
+    "words": ["The", "data", "suggest", "that", "the", "trend", "is", "reversing."],
+    "errorIndices": [2],
+    "corrections": ["suggests"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_272",
+    "sentence": "Having finished dinner, the dishes were washed quickly.",
+    "words": ["Having", "finished", "dinner,", "the", "dishes", "were", "washed", "quickly."],
+    "errorIndices": [0],
+    "corrections": ["After we finished"],
+    "errorType": "dangling_modifier",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_273",
+    "sentence": "The reason is because the budget was reduced.",
+    "words": ["The", "reason", "is", "because", "the", "budget", "was", "reduced."],
+    "errorIndices": [3],
+    "corrections": ["that"],
+    "errorType": "usage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_274",
+    "sentence": "She is the candidate whom we believe is best.",
+    "words": ["She", "is", "the", "candidate", "whom", "we", "believe", "is", "best."],
+    "errorIndices": [4],
+    "corrections": ["who"],
+    "errorType": "who_whom",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_275",
+    "sentence": "Irregardless of the cost, the project will continue.",
+    "words": ["Irregardless", "of", "the", "cost,", "the", "project", "will", "continue."],
+    "errorIndices": [0],
+    "corrections": ["Regardless"],
+    "errorType": "usage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_276",
+    "sentence": "The criteria for the award was set last year.",
+    "words": ["The", "criteria", "for", "the", "award", "was", "set", "last", "year."],
+    "errorIndices": [5],
+    "corrections": ["were"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_277",
+    "sentence": "To who should I direct this urgent request?",
+    "words": ["To", "who", "should", "I", "direct", "this", "urgent", "request?"],
+    "errorIndices": [1],
+    "corrections": ["whom"],
+    "errorType": "who_whom",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_278",
+    "sentence": "Tired from the journey the travelers fell asleep.",
+    "words": ["Tired", "from", "the", "journey", "the", "travelers", "fell", "asleep."],
+    "errorIndices": [3],
+    "corrections": ["journey,"],
+    "errorType": "comma",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_279",
+    "sentence": "The phenomena was studied by leading researchers.",
+    "words": ["The", "phenomena", "was", "studied", "by", "leading", "researchers."],
+    "errorIndices": [1],
+    "corrections": ["phenomenon"],
+    "errorType": "plural_form",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_280",
+    "sentence": "He acts as if he was the boss here.",
+    "words": ["He", "acts", "as", "if", "he", "was", "the", "boss", "here."],
+    "errorIndices": [5],
+    "corrections": ["were"],
+    "errorType": "subjunctive",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_281",
+    "sentence": "Laying in the hammock, he read all afternoon.",
+    "words": ["Laying", "in", "the", "hammock,", "he", "read", "all", "afternoon."],
+    "errorIndices": [0],
+    "corrections": ["Lying"],
+    "errorType": "lay_lie",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_282",
+    "sentence": "The professor, as well as her assistants, were absent.",
+    "words": ["The", "professor,", "as", "well", "as", "her", "assistants,", "were", "absent."],
+    "errorIndices": [7],
+    "corrections": ["was"],
+    "errorType": "subject_verb_agreement",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_283",
+    "sentence": "She graduated college with top marks this year.",
+    "words": ["She", "graduated", "college", "with", "top", "marks", "this", "year."],
+    "errorIndices": [1],
+    "corrections": ["graduated from"],
+    "errorType": "usage",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_284",
+    "sentence": "Whomever finishes first will receive the grand prize.",
+    "words": ["Whomever", "finishes", "first", "will", "receive", "the", "grand", "prize."],
+    "errorIndices": [0],
+    "corrections": ["Whoever"],
+    "errorType": "who_whom",
+    "difficulty": "hard"
+  },
+  {
+    "id": "es_285",
+    "sentence": "If he was here, he would solve this problem.",
+    "words": ["If", "he", "was", "here,", "he", "would", "solve", "this", "problem."],
+    "errorIndices": [2],
+    "corrections": ["were"],
+    "errorType": "subjunctive",
+    "difficulty": "hard"
+  }
+]

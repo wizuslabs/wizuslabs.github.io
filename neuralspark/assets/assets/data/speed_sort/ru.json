@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Кот",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Собака",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Лошадь",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Корова",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Свинья",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Овца",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Курица",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Утка",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Орёл",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Лев",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Тигр",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Медведь",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Волк",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Олень",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Кролик",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Лиса",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Дельфин",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Кит",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Пингвин",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Попугай",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Акула",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Черепаха",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Лягушка",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Змея",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ястреб",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Выдра",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Геккон",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Стул",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Стол",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Лампа",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Часы",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Зеркало",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Подушка",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Книга",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Чашка",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Тарелка",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Бутылка",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ключ",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Телефон",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ручка",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Сумка",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Коробка",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Кошелёк",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Зонт",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Свеча",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Рамка",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ваза",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Метла",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Корзина",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Лестница",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Верёвка",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Щётка",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Губка",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Вешалка",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Яблоко",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Хлеб",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Сыр",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Рис",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Яйцо",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Молоко",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Банан",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Курица",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Пицца",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Паста",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Суп",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Торт",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Печенье",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Апельсин",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Виноград",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Помидор",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Картофель",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Морковь",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Лук",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Масло",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Мёд",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Дыня",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Лимон",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Манго",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Тако",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Суши",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Вафля",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Молоток",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Пила",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Дрель",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Гаечный ключ",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Плоскогубцы",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Отвёртка",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Гвоздь",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Болт",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Скотч",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Уровень",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Зажим",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Долото",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Напильник",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Топор",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Лопата",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Линейка",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ножницы",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Мастерок",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Гаечный ключ",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Киянка",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Токарный станок",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Наковальня",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Тиски",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Штангенциркуль",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Рубанок",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Шило",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Рашпиль",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Дерево",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Река",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Гора",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Океан",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Лес",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Озеро",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Облако",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Дождь",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Солнце",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Луна",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Звезда",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Цветок",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Камень",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Песок",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Снег",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Вулкан",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Каньон",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ледник",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Коралл",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Мох",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Галька",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Дюна",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Прилив",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Туман",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Бриз",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Гейзер",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Фьорд",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Машина",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Автобус",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Поезд",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Самолёт",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Лодка",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Грузовик",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Велосипед",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Корабль",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Такси",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Фургон",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Метро",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Паром",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Реактивный самолёт",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Каноэ",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Плот",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Трамвай",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Яхта",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Скутер",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Каяк",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Планер",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Сани",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Баржа",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Мопед",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Гондола",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Танкер",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Фрегат",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Цеппелин",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Рубашка",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Штаны",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ботинки",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Шляпа",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Куртка",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Носки",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Платье",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Пальто",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Перчатки",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Шарф",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ремень",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Сапоги",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Юбка",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Галстук",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Жилет",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Свитер",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Блузка",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Сандалии",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Худи",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Джинсы",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Шорты",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Кроссовки",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Плащ",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Фартук",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Туника",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Пончо",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Берет",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Гитара",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Пианино",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Барабаны",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Скрипка",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Флейта",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Труба",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Арфа",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Колокол",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Рожок",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Орган",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Бас",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Виолончель",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Банджо",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Туба",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Гобой",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Кларнет",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Саксофон",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Бубен",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Укулеле",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Аккордеон",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Мандолина",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ксилофон",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Маракасы",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Гармоника",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ситар",
+    "category": "instruments",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Лютня",
+    "category": "instruments",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Цимбалы",
+    "category": "instruments",
+    "difficulty": "hard"
+  }
+]

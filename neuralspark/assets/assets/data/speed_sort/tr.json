@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Kedi",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Köpek",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "At",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "İnek",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Domuz",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Koyun",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tavuk",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ördek",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kartal",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Aslan",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kaplan",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ayı",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kurt",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Geyik",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tavşan",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tilki",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Yunus",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Balina",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Penguen",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Papağan",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Köpekbalığı",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kaplumbağa",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kurbağa",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Yılan",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Şahin",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Su samuru",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Kertenkele",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Sandalye",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Masa",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lamba",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Saat",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ayna",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Yastık",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kitap",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fincan",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tabak",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Şişe",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Anahtar",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Telefon",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kalem",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Çanta",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kutu",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cüzdan",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Şemsiye",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mum",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Çerçeve",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Vazo",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Süpürge",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sepet",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Merdiven",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "İp",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Fırça",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Sünger",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Askı",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Elma",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ekmek",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Peynir",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pirinç",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Yumurta",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Süt",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Muz",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tavuk",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pizza",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Makarna",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Çorba",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kek",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kurabiye",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Portakal",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Üzüm",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Domates",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Patates",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Havuç",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Soğan",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tereyağı",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bal",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kavun",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Limon",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mango",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tako",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Suşi",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Waffle",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Çekiç",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Testere",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Matkap",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "İngiliz anahtarı",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pense",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tornavida",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Çivi",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cıvata",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bant",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Su terazisi",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kelepçe",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Keski",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eğe",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Balta",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kürek",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cetvel",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Makas",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mala",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "İngiliz anahtarı",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tokmak",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Torna",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Örs",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mengene",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kumpas",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rende",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Biz",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Törpü",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Ağaç",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nehir",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Dağ",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Okyanus",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Orman",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Göl",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bulut",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Yağmur",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Güneş",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ay",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Yıldız",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Çiçek",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kaya",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kum",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kar",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Yanardağ",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kanyon",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Buzul",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mercan",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Yosun",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Çakıl",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kumul",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gelgit",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sis",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Esinti",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Gayzer",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Fiyort",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Araba",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Otobüs",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tren",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Uçak",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tekne",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kamyon",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bisiklet",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gemi",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Taksi",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Minivan",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Metro",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Feribot",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Jet",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kano",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sal",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tramvay",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Yat",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Scooter",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kayak",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Planör",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kızak",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mavna",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Moped",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gondol",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tanker",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Fırkateyn",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Zeplin",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Gömlek",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pantolon",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ayakkabı",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Şapka",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ceket",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Çorap",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Elbise",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Palto",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Eldiven",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Atkı",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kemer",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bot",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Etek",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kravat",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Yelek",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kazak",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bluz",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sandalet",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kapüşonlu",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kot",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Şort",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Spor ayakkabı",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pelerin",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Önlük",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tunik",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Panço",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Bere",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Gitar",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Piyano",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Davul",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Keman",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Flüt",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Trompet",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Arp",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zil",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Korna",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Org",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bas",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Çello",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Banjo",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tuba",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Obua",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Klarnet",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Saksafon",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tef",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ukulele",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Akordeon",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mandolin",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ksilofon",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Marakas",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mızıka",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sitar",
+    "category": "instruments",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Lavta",
+    "category": "instruments",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Santur",
+    "category": "instruments",
+    "difficulty": "hard"
+  }
+]

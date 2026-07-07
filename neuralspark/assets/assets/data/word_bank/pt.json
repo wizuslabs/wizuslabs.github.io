@@ -1,0 +1,37 @@
+{
+  "easy": [
+    "ABO", "ACO", "AGO", "ALA", "ALI", "AMO", "ANO", "APE", "ARA", "AVE",
+    "BAR", "BEM", "BOA", "BOL", "BOM", "BUS", "CAL", "CAN", "CAO", "CAS",
+    "CEU", "CHA", "COR", "CRU", "DAR", "DIA", "DOM", "DOR", "DUA", "ECO",
+    "ERA", "ETC", "FAR", "FAX", "FEL", "FIM", "FOG", "FOI", "GAS", "GEL",
+    "GOL", "GRU", "IRA", "IVA", "JET", "KIT", "LAR", "LEI", "LER", "LUA",
+    "LUZ", "MAE", "MAL", "MAO", "MAR", "MAS", "MAU", "MEL", "MES", "MIL",
+    "MIM", "MIX", "MOL", "NAO", "NEO", "NEM", "NOZ", "OCA", "ORA", "ORO",
+    "OSO", "OVO", "PAI", "PAN", "PAR", "PAZ", "PEZ", "PIE", "POR", "PUB",
+    "RAP", "REI", "RIO", "RUA", "RUM", "SAL", "SER", "SIM", "SOL", "SOM",
+    "SUL", "TAL", "TEM", "TIO", "UMA", "UNS", "UVA", "VAI", "VER", "VEZ"
+  ],
+  "medium": [
+    "ACRE", "AGUA", "ALEM", "ALGO", "ALMA", "ALTO", "AMOR", "ANJO", "ARCO",
+    "ARMA", "AUTO", "AVES", "BALA", "BASE", "BELO", "BENS", "BOCA", "BODE",
+    "BOIA", "BOLA", "BOLO", "CABO", "CACO", "CAFE", "CAMA", "CANA", "CAPA",
+    "CARA", "CASO", "CEIA", "CENA", "CERA", "CIMO", "CIPO", "COCA", "COCO",
+    "CODO", "COLA", "COMO", "CONE", "COPA", "COPO", "CORA", "COTA", "CUBO",
+    "DADO", "DAMA", "DANO", "DEDO", "DELE", "DEUS", "DICA", "DITA", "DIVA",
+    "DOSE", "DOTE", "DOZE", "DURA", "EDIL", "FACA", "FADA", "FAMA", "FARO",
+    "FASE", "FATO", "FAVA", "FILA", "FINO", "FITA", "FOCO", "FOGO", "FOME",
+    "FORA", "GADO", "GALO", "GAMA", "GATA", "GATO", "GELO", "GIRO", "GOTA",
+    "GUIA", "HORA", "IBIS", "IATE", "IBIS", "IDEA", "ILIA", "ILHA", "IOGA",
+    "JATO", "JOIA", "JOGO", "JUIZ", "JURO", "LADO", "LAGO", "LAMA", "LATA",
+    "LEAL"
+  ],
+  "hard": [
+    "ABRIR", "ALBUM", "AMIGO", "ANDAR", "ARENA", "AVIAO", "BAIXO", "BANCO",
+    "BARCO", "BEIJO", "BOLSA", "BRACO", "BRIGA", "BRISA", "BURRO", "CALMO",
+    "CAMPO", "CANAL", "CANTO", "CARGA", "CARNE", "CARTA", "CASAL", "CAUSA",
+    "CESTO", "CHAVE", "CINCO", "CIRCO", "CLARO", "COBRA", "COLOR", "CONTA",
+    "CORTE", "CRAVO", "CRUEL", "DANCA", "DIETA", "DOIDO", "DRIVE", "DUQUE",
+    "ELITE", "EXAME", "FALSO", "FAVOR", "FELIZ", "FINCA", "FORMA", "FRACO",
+    "GESTO", "GLOBO"
+  ]
+}

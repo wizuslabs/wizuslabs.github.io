@@ -1,0 +1,37 @@
+{
+  "easy": [
+    "ACI", "ADA", "ADI", "AIT", "AKI", "ALA", "ALI", "ANA", "ANI", "ARA",
+    "ARK", "ART", "ASI", "ATA", "ATE", "AVI", "BAK", "BAL", "BAN", "BAR",
+    "BAS", "BAT", "BAY", "BEL", "BEN", "BET", "BIL", "BIN", "BIR", "BOL",
+    "BOY", "BUG", "BUL", "BUN", "BUS", "BUT", "CAM", "CAN", "CAP", "CAR",
+    "CET", "CIN", "CIS", "CUP", "DAL", "DAM", "DAR", "DEN", "DEV", "DIS",
+    "DIZ", "DOK", "DOR", "DUL", "DUR", "EKI", "ELI", "EST", "ETI", "EVE",
+    "FER", "FES", "GAL", "GAR", "GAZ", "GEL", "GEN", "GIR", "GOL", "GOR",
+    "GUL", "GUN", "GUR", "HAK", "HAL", "HAN", "HAS", "HAT", "HER", "HIS",
+    "HOP", "HUZ", "ICE", "ICI", "IKI", "ILK", "IYI", "KAL", "KAN", "KAP",
+    "KAR", "KAS", "KAT", "KIL", "KIM", "KIS", "KOL", "KON", "KOR", "KUL"
+  ],
+  "medium": [
+    "ADIM", "AGIR", "AKIL", "ALEM", "ALEV", "ALIN", "AMIR", "ASAL", "ASIL",
+    "ATIS", "AVCI", "AYAK", "AYIN", "AZIM", "BABA", "BACA", "BAHT", "BAKI",
+    "BALI", "BARI", "BASI", "BAYI", "BELA", "BENT", "BERI", "BINA", "BIRA",
+    "BOLU", "BORC", "BOYA", "BULE", "CADI", "CAMI", "CANI", "CARI", "CATI",
+    "CAYI", "CEKI", "CEZA", "CILT", "CINS", "DAHI", "DALI", "DARI", "DAVA",
+    "DEDE", "DELI", "DERE", "DERI", "DEVA", "DIBE", "DINI", "DIRI", "DIZI",
+    "DOLU", "DOST", "DURU", "EGER", "EKIM", "EMIR", "ENIS", "ERGI", "ESKI",
+    "ETKI", "EVIN", "EZAN", "FARE", "FARZ", "FIKR", "FILO", "GAZI", "GEBE",
+    "GECE", "GEMI", "GERI", "GEZI", "GIDA", "GORI", "GUCU", "GUMU", "GURU",
+    "HACI", "HALI", "HAMI", "HAPI", "HAVA", "HEYE", "HIRS", "IGNE", "ILAC",
+    "IMAR", "IMGE", "INCE", "IPEK", "ISIM", "IZIN", "KALE", "KAPI", "KARA",
+    "KARI"
+  ],
+  "hard": [
+    "ADALI", "AGACI", "BALIK", "BASAK", "BILGI", "BIRAZ", "BULUT", "CADDE",
+    "CANAK", "CESUR", "CUMLE", "DALGA", "DARBE", "DEGER", "DENIZ", "DEVIR",
+    "DILEK", "DONEM", "DUNYA", "DUVAR", "EKMEK", "ELMAS", "ERKEK", "EVREN",
+    "EZBER", "GECIT", "GOREV", "GUZEL", "HAKIM", "HARBI", "HAYAT", "HUKUK",
+    "IKLIM", "INSAN", "ISLEM", "KALBI", "KALEM", "KAYAK", "KITAP", "KOPEK",
+    "KURAL", "LIMON", "MEYVE", "MUTLU", "NEHIR", "ORMAN", "RESIM", "SAHIL",
+    "SINIR", "YUZUK"
+  ]
+}

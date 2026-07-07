@@ -1,0 +1,254 @@
+[
+  {
+    "id": "au_e01",
+    "difficulty": "easy",
+    "object": "Tijolo",
+    "validUses": ["Peso de porta", "Apoio para livros", "Peso de papel", "Substituto de martelo", "Degrau improvisado"],
+    "distractors": ["Telescópio", "Paraquedas", "Apito"]
+  },
+  {
+    "id": "au_e02",
+    "difficulty": "easy",
+    "object": "Jornal",
+    "validUses": ["Papel de presente", "Limpa-vidros", "Acendedor de fogo", "Forro de prateleira", "Material de embalagem"],
+    "distractors": ["Guarda-chuva", "Espelho", "Bússola"]
+  },
+  {
+    "id": "au_e03",
+    "difficulty": "easy",
+    "object": "Elástico",
+    "validUses": ["Abridor de potes", "Marcador de página", "Grip para suporte de celular", "Prendedor de cabelo", "Lançador de lápis"],
+    "distractors": ["Lupa", "Bateria de relógio", "Lâmpada"]
+  },
+  {
+    "id": "au_e04",
+    "difficulty": "easy",
+    "object": "Clipe de papel",
+    "validUses": ["Marcador de página", "Puxador de zíper", "Pino de reset de celular", "Organizador de cabos", "Prendedor de embalagem"],
+    "distractors": ["Tesoura", "Porta-fita", "Grampeador"]
+  },
+  {
+    "id": "au_e05",
+    "difficulty": "easy",
+    "object": "Balde",
+    "validUses": ["Banquinho", "Tambor", "Vaso de planta", "Caixa de armazenamento", "Balde de gelo"],
+    "distractors": ["Telescópio", "Pipa", "Calculadora"]
+  },
+  {
+    "id": "au_e06",
+    "difficulty": "easy",
+    "object": "Cobertor",
+    "validUses": ["Toalha de piquenique", "Cortina", "Capa de fantasia", "Proteção para mudança", "Cama para pet"],
+    "distractors": ["Escada", "Lanterna", "Régua"]
+  },
+  {
+    "id": "au_e07",
+    "difficulty": "easy",
+    "object": "Caixa de sapato",
+    "validUses": ["Organizador", "Caixa de presente", "Organizador de mesa", "Base para diorama", "Cama para gato"],
+    "distractors": ["Telescópio", "Vara de pescar", "Trompete"]
+  },
+  {
+    "id": "au_e08",
+    "difficulty": "easy",
+    "object": "Colher",
+    "validUses": ["Pá de jardim", "Alavanca de catapulta", "Baqueta", "Calçadeira", "Abridor de potes"],
+    "distractors": ["Bússola", "Termômetro", "Antena"]
+  },
+  {
+    "id": "au_e09",
+    "difficulty": "easy",
+    "object": "Toalha",
+    "validUses": ["Travesseiro", "Luva de forno", "Bloqueador de fresta", "Tapete de yoga", "Turbante"],
+    "distractors": ["Bomba de bicicleta", "Calculadora", "Bateria"]
+  },
+  {
+    "id": "au_e10",
+    "difficulty": "easy",
+    "object": "Garrafa plástica",
+    "validUses": ["Funil", "Regador de plantas", "Pá", "Cofrinho", "Pino de boliche"],
+    "distractors": ["Bússola", "Microscópio", "Ímã"]
+  },
+  {
+    "id": "au_e11",
+    "difficulty": "easy",
+    "object": "Lápis",
+    "validUses": ["Prendedor de coque", "Furador", "Substituto de régua", "Bastão para mexer", "Tala"],
+    "distractors": ["Câmera", "Tesoura", "Projetor"]
+  },
+  {
+    "id": "au_e12",
+    "difficulty": "easy",
+    "object": "Caixa de papelão",
+    "validUses": ["Casa para pet", "Trenó", "Caixa de armazenamento", "Tela de desenho", "Armadura de fantasia"],
+    "distractors": ["Máquina de lavar", "Forno", "Motor"]
+  },
+  {
+    "id": "au_m01",
+    "difficulty": "medium",
+    "object": "Moeda",
+    "validUses": ["Chave de fenda", "Palheta de guitarra", "Decisor de cara ou coroa", "Raspador de gelo", "Pião"],
+    "distractors": ["Borracha", "Pincel", "Telescópio", "Esponja", "Microfone"]
+  },
+  {
+    "id": "au_m02",
+    "difficulty": "medium",
+    "object": "Bola de tênis",
+    "validUses": ["Protetor de pé de cadeira", "Ferramenta de massagem", "Abridor de potes", "Lançador de brinquedo para pet", "Guia de estacionamento"],
+    "distractors": ["Bússola", "Lanterna", "Régua", "Apito", "Lupa"]
+  },
+  {
+    "id": "au_m03",
+    "difficulty": "medium",
+    "object": "Prendedor de roupa",
+    "validUses": ["Lacre de embalagem", "Porta-retrato", "Organizador de cabos", "Espremedor de pasta de dente", "Marcador de planta"],
+    "distractors": ["Telescópio", "Carregador de bateria", "Bússola", "Termômetro", "Calculadora"]
+  },
+  {
+    "id": "au_m04",
+    "difficulty": "medium",
+    "object": "Escada",
+    "validUses": ["Estante de livros", "Porta-cobertores", "Treliça para plantas", "Varal", "Divisor de ambientes"],
+    "distractors": ["Barraca", "Âncora de barco", "Turbina eólica", "Painel solar", "Antena de rádio"]
+  },
+  {
+    "id": "au_m05",
+    "difficulty": "medium",
+    "object": "Prendedor de papel",
+    "validUses": ["Prendedor de dinheiro", "Suporte de celular", "Prendedor de cabos", "Enrolador de fone", "Chaveiro"],
+    "distractors": ["Chave inglesa", "Broca", "Lupa", "Agulha de bússola", "Apontador"]
+  },
+  {
+    "id": "au_m06",
+    "difficulty": "medium",
+    "object": "Forma de gelo",
+    "validUses": ["Organizador de joias", "Congelador de ervas", "Paleta de tintas", "Sementeira", "Forma de chocolate"],
+    "distractors": ["Porta-fita", "Grampeador", "Furador", "Estojo", "Régua"]
+  },
+  {
+    "id": "au_m07",
+    "difficulty": "medium",
+    "object": "Forma de muffin",
+    "validUses": ["Paleta de tintas", "Organizador de peças", "Sementeira", "Forma de gelo", "Porta-velas"],
+    "distractors": ["Frisbee", "Espelho", "Megafone", "Lente de telescópio", "Mostrador de relógio"]
+  },
+  {
+    "id": "au_m08",
+    "difficulty": "medium",
+    "object": "Mala de viagem",
+    "validUses": ["Mesa lateral", "Cama para pet", "Prateleira", "Vitrine", "Elevador de mesa"],
+    "distractors": ["Máquina de lavar", "Forno", "Geladeira", "Micro-ondas", "Lava-louças"]
+  },
+  {
+    "id": "au_m09",
+    "difficulty": "medium",
+    "object": "Guarda-chuva",
+    "validUses": ["Bengala", "Gancho de cabide", "Refletor fotográfico", "Apontador de janela", "Extensor para colher frutas"],
+    "distractors": ["Roda de bicicleta", "Peça de motor", "Cabo de energia", "Placa de circuito", "Motor"]
+  },
+  {
+    "id": "au_m10",
+    "difficulty": "medium",
+    "object": "Cinto",
+    "validUses": ["Correia de transporte", "Torniquete", "Trava de porta", "Assento de balanço", "Porta-ferramentas"],
+    "distractors": ["Telescópio", "Tecla de piano", "Filamento de lâmpada", "Terminal de bateria", "Fusível"]
+  },
+  {
+    "id": "au_m11",
+    "difficulty": "medium",
+    "object": "Garfo",
+    "validUses": ["Coçador de costas", "Aerador de jardim", "Levantador de agulha de vinil", "Medidor de porção de macarrão", "Substituto de pente"],
+    "distractors": ["Telescópio", "Controle remoto", "Cabo USB", "Antena", "Interruptor"]
+  },
+  {
+    "id": "au_m12",
+    "difficulty": "medium",
+    "object": "Lata",
+    "validUses": ["Porta-canetas", "Cortador de biscoito", "Vaso de planta", "Lanterna", "Sino de vento"],
+    "distractors": ["GPS", "Caixa de som Bluetooth", "Projetor", "Controle remoto", "Bateria portátil"]
+  },
+  {
+    "id": "au_h01",
+    "difficulty": "hard",
+    "object": "Armação de óculos",
+    "validUses": ["Mini porta-retrato", "Ferramenta de ampliação", "Cortador de biscoito", "Tala nasal", "Arame para artesanato"],
+    "distractors": ["Bússola", "Termômetro", "Barômetro", "Velocímetro", "Altímetro", "Estetoscópio", "Giroscópio"]
+  },
+  {
+    "id": "au_h02",
+    "difficulty": "hard",
+    "object": "Tecla de piano",
+    "validUses": ["Régua", "Abridor de cartas", "Marcador de página", "Etiqueta de planta", "Peça de dominó"],
+    "distractors": ["Telescópio", "Antena", "Antena parabólica", "Célula solar", "Pá de turbina", "Hélice", "Pistão"]
+  },
+  {
+    "id": "au_h03",
+    "difficulty": "hard",
+    "object": "Rolha",
+    "validUses": ["Quadro de avisos", "Boia de pesca", "Almofada de carimbo", "Puxador de gaveta", "Bloco de lixar"],
+    "distractors": ["Válvula de motor", "Disjuntor", "Eixo de transmissão", "Bomba hidráulica", "Capacitor", "Bobina de transformador", "Volante"]
+  },
+  {
+    "id": "au_h04",
+    "difficulty": "hard",
+    "object": "Zíper",
+    "validUses": ["Fecho de pulseira", "Abraçadeira de cabos", "Divisor de bolsa", "Corrente de joias", "Aba de marcador"],
+    "distractors": ["Furadeira", "Ferro de solda", "Osciloscópio", "Multímetro", "Gerador", "Turbina", "Compressor"]
+  },
+  {
+    "id": "au_h05",
+    "difficulty": "hard",
+    "object": "Dedal",
+    "validUses": ["Copinho de dose", "Porta-velas", "Mini vaso de planta", "Ferramenta de carimbo", "Instrumento de percussão"],
+    "distractors": ["Rotor de helicóptero", "Periscópio de submarino", "Antena de radar", "Bocal de foguete", "Suporte de giroscópio", "Pá de turbina", "Cordas de paraquedas"]
+  },
+  {
+    "id": "au_h06",
+    "difficulty": "hard",
+    "object": "Varal",
+    "validUses": ["Corda de pular", "Suporte para trepadeiras", "Substituto de cinto", "Fio para pendurar quadro", "Fio de alarme"],
+    "distractors": ["Lente de telescópio", "Trilha de circuito", "Microchip", "Conector USB", "Fibra óptica", "Conjunto de antenas", "Fiação de painel solar"]
+  },
+  {
+    "id": "au_h07",
+    "difficulty": "hard",
+    "object": "Hashi",
+    "validUses": ["Prendedor de cabelo", "Tutor de planta", "Baqueta", "Espeto para marshmallow", "Bastão apontador"],
+    "distractors": ["Telescópio", "Agulha de bússola", "Tubo de barômetro", "Sonda de termômetro", "Medidor de pH", "Ponta de voltímetro", "Derivação de amperímetro"]
+  },
+  {
+    "id": "au_h08",
+    "difficulty": "hard",
+    "object": "Botão",
+    "validUses": ["Peça de jogo", "Olho para artesanato", "Estêncil circular", "Base de brinco", "Palheta de guitarra"],
+    "distractors": ["Ocular de telescópio", "Satélite", "Tela de radar", "Pulso de sonar", "Transistor", "Placa de capacitor", "Núcleo de indutor"]
+  },
+  {
+    "id": "au_h09",
+    "difficulty": "hard",
+    "object": "Caixa de ovos",
+    "validUses": ["Isolante acústico", "Sementeira", "Paleta de tintas", "Organizador de joias", "Acendedor de fogo"],
+    "distractors": ["Carcaça de telescópio", "Caixa de gerador", "Carenagem de turbina", "Vaso de reator", "Manômetro", "Medidor de fluxo", "Válvula de controle"]
+  },
+  {
+    "id": "au_h10",
+    "difficulty": "hard",
+    "object": "Carta de baralho",
+    "validUses": ["Marcador de página", "Espaçador de carteira", "Raspador de gelo", "Decoração de raio de bicicleta", "Palheta de guitarra"],
+    "distractors": ["Antena parabólica", "Conjunto de radar", "Transdutor de sonar", "Estabilizador giroscópico", "Capacitor de fluxo", "Conduto de plasma", "Sensor quântico"]
+  },
+  {
+    "id": "au_h11",
+    "difficulty": "hard",
+    "object": "Vela",
+    "validUses": ["Lubrificante de gaveta", "Selo de cera", "Acendedor de fogo", "Substituto de giz de cera", "Encerador de linha"],
+    "distractors": ["Espelho de telescópio", "Radiotransmissor", "Farol de sonar", "Refletor de radar", "Emissor de laser", "Sensor infravermelho", "Guia de micro-ondas"]
+  },
+  {
+    "id": "au_h12",
+    "difficulty": "hard",
+    "object": "Esponja",
+    "validUses": ["Almofada de carimbo", "Proteção de embalagem", "Alfineteiro", "Aplicador de tinta", "Canteiro para mudas"],
+    "distractors": ["Filtro de telescópio", "Absorvedor de radar", "Amortecedor de sonar", "Escova de gerador", "Vedação de turbina", "Barra de reator", "Dielétrico de capacitor"]
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "id": "au_e01",
+    "difficulty": "easy",
+    "object": "Batu Bata",
+    "validUses": ["Penahan pintu", "Penahan buku", "Pemberat kertas", "Pengganti palu", "Pijakan kaki"],
+    "distractors": ["Teleskop", "Parasut", "Peluit"]
+  },
+  {
+    "id": "au_e02",
+    "difficulty": "easy",
+    "object": "Koran",
+    "validUses": ["Pembungkus kado", "Pembersih jendela", "Penyala api", "Alas rak", "Bahan pengemas"],
+    "distractors": ["Payung", "Cermin", "Kompas"]
+  },
+  {
+    "id": "au_e03",
+    "difficulty": "easy",
+    "object": "Karet Gelang",
+    "validUses": ["Pegangan pembuka toples", "Pembatas buku", "Pegangan dudukan ponsel", "Ikat rambut", "Pelontar pensil"],
+    "distractors": ["Kaca pembesar", "Baterai jam", "Bohlam"]
+  },
+  {
+    "id": "au_e04",
+    "difficulty": "easy",
+    "object": "Penjepit Kertas",
+    "validUses": ["Pembatas buku", "Penarik resleting", "Pin reset ponsel", "Penata kabel", "Penjepit bungkus makanan"],
+    "distractors": ["Gunting", "Dispenser selotip", "Stapler"]
+  },
+  {
+    "id": "au_e05",
+    "difficulty": "easy",
+    "object": "Ember",
+    "validUses": ["Bangku", "Drum", "Pot tanaman", "Wadah penyimpanan", "Wadah es"],
+    "distractors": ["Teleskop", "Layang-layang", "Kalkulator"]
+  },
+  {
+    "id": "au_e06",
+    "difficulty": "easy",
+    "object": "Selimut",
+    "validUses": ["Alas piknik", "Tirai", "Kostum jubah", "Bantalan saat pindahan", "Tempat tidur hewan peliharaan"],
+    "distractors": ["Tangga", "Senter", "Penggaris"]
+  },
+  {
+    "id": "au_e07",
+    "difficulty": "easy",
+    "object": "Kotak Sepatu",
+    "validUses": ["Penata penyimpanan", "Kotak kado", "Penata meja", "Dasar diorama", "Tempat tidur kucing"],
+    "distractors": ["Teleskop", "Joran", "Terompet"]
+  },
+  {
+    "id": "au_e08",
+    "difficulty": "easy",
+    "object": "Sendok",
+    "validUses": ["Sekop kebun", "Tuas katapel", "Stik drum", "Sendok sepatu", "Pembuka toples"],
+    "distractors": ["Kompas", "Termometer", "Antena"]
+  },
+  {
+    "id": "au_e09",
+    "difficulty": "easy",
+    "object": "Handuk",
+    "validUses": ["Bantal", "Sarung tangan oven", "Penahan angin bawah pintu", "Matras yoga", "Sorban"],
+    "distractors": ["Pompa sepeda", "Kalkulator", "Baterai"]
+  },
+  {
+    "id": "au_e10",
+    "difficulty": "easy",
+    "object": "Botol Plastik",
+    "validUses": ["Corong", "Penyiram tanaman", "Sekop", "Celengan", "Pin boling"],
+    "distractors": ["Kompas", "Mikroskop", "Magnet"]
+  },
+  {
+    "id": "au_e11",
+    "difficulty": "easy",
+    "object": "Pensil",
+    "validUses": ["Penahan sanggul", "Pelubang", "Pengganti penggaris", "Batang pengaduk", "Bidai"],
+    "distractors": ["Kamera", "Gunting", "Proyektor"]
+  },
+  {
+    "id": "au_e12",
+    "difficulty": "easy",
+    "object": "Kotak Kardus",
+    "validUses": ["Rumah hewan peliharaan", "Kereta luncur", "Kotak penyimpanan", "Kanvas gambar", "Kostum baju besi"],
+    "distractors": ["Mesin cuci", "Oven", "Mesin"]
+  },
+  {
+    "id": "au_m01",
+    "difficulty": "medium",
+    "object": "Koin",
+    "validUses": ["Obeng", "Pick gitar", "Alat pengambil keputusan", "Pengikis es", "Gasing"],
+    "distractors": ["Penghapus", "Kuas", "Teleskop", "Spons", "Mikrofon"]
+  },
+  {
+    "id": "au_m02",
+    "difficulty": "medium",
+    "object": "Bola Tenis",
+    "validUses": ["Pelindung kaki kursi", "Alat pijat", "Pegangan pembuka toples", "Mainan lempar hewan peliharaan", "Pemandu parkir"],
+    "distractors": ["Kompas", "Senter", "Penggaris", "Peluit", "Kaca pembesar"]
+  },
+  {
+    "id": "au_m03",
+    "difficulty": "medium",
+    "object": "Jepitan Jemuran",
+    "validUses": ["Penyegel bungkus makanan", "Penahan foto", "Penata kabel", "Pemeras pasta gigi", "Penjepit label tanaman"],
+    "distractors": ["Teleskop", "Pengisi daya baterai", "Kompas", "Termometer", "Kalkulator"]
+  },
+  {
+    "id": "au_m04",
+    "difficulty": "medium",
+    "object": "Tangga",
+    "validUses": ["Rak buku", "Gantungan selimut", "Terali tanaman", "Rak pengering", "Pembatas ruangan"],
+    "distractors": ["Tenda", "Jangkar kapal", "Turbin angin", "Panel surya", "Antena radio"]
+  },
+  {
+    "id": "au_m05",
+    "difficulty": "medium",
+    "object": "Klip Binder",
+    "validUses": ["Penjepit uang", "Dudukan ponsel", "Penahan kabel", "Penggulung earphone", "Gantungan kunci"],
+    "distractors": ["Kunci inggris", "Mata bor", "Kaca pembesar", "Jarum kompas", "Rautan pensil"]
+  },
+  {
+    "id": "au_m06",
+    "difficulty": "medium",
+    "object": "Cetakan Es Batu",
+    "validUses": ["Penata perhiasan", "Penyimpan bumbu beku", "Palet cat", "Tempat semai benih", "Cetakan cokelat"],
+    "distractors": ["Dispenser selotip", "Stapler", "Pelubang kertas", "Kotak pensil", "Penggaris"]
+  },
+  {
+    "id": "au_m07",
+    "difficulty": "medium",
+    "object": "Cetakan Muffin",
+    "validUses": ["Palet cat", "Penata komponen", "Tempat semai benih", "Cetakan es", "Tempat lilin"],
+    "distractors": ["Frisbee", "Cermin", "Megafon", "Lensa teleskop", "Muka jam"]
+  },
+  {
+    "id": "au_m08",
+    "difficulty": "medium",
+    "object": "Koper",
+    "validUses": ["Meja samping", "Tempat tidur hewan peliharaan", "Rak penyimpanan", "Etalase pajangan", "Penambah tinggi meja berdiri"],
+    "distractors": ["Mesin cuci", "Oven", "Kulkas", "Microwave", "Mesin cuci piring"]
+  },
+  {
+    "id": "au_m09",
+    "difficulty": "medium",
+    "object": "Payung",
+    "validUses": ["Tongkat jalan", "Kait gantungan baju", "Reflektor fotografi", "Penunjuk jendela", "Perpanjangan pemetik buah"],
+    "distractors": ["Roda sepeda", "Bagian mesin", "Kabel listrik", "Papan sirkuit", "Motor"]
+  },
+  {
+    "id": "au_m10",
+    "difficulty": "medium",
+    "object": "Ikat Pinggang",
+    "validUses": ["Tali pengikat barang", "Tourniket", "Pengait pintu", "Dudukan ayunan anak", "Penahan perkakas"],
+    "distractors": ["Teleskop", "Tuts piano", "Filamen bohlam", "Terminal baterai", "Sekering"]
+  },
+  {
+    "id": "au_m11",
+    "difficulty": "medium",
+    "object": "Garpu",
+    "validUses": ["Penggaruk punggung", "Penggemburan tanah kebun", "Pengangkat jarum piringan hitam", "Pengukur pasta", "Pengganti sisir"],
+    "distractors": ["Teleskop", "Remote kontrol", "Kabel USB", "Antena", "Sakelar lampu"]
+  },
+  {
+    "id": "au_m12",
+    "difficulty": "medium",
+    "object": "Kaleng",
+    "validUses": ["Tempat pena", "Cetakan kue kering", "Pot tanaman", "Lentera", "Lonceng angin"],
+    "distractors": ["Perangkat GPS", "Speaker Bluetooth", "Proyektor", "Remote kontrol", "Power bank"]
+  },
+  {
+    "id": "au_h01",
+    "difficulty": "hard",
+    "object": "Bingkai Kacamata",
+    "validUses": ["Bingkai foto mini", "Alat pembesar", "Cetakan kue kering bentuk", "Bidai batang hidung", "Kawat kerajinan"],
+    "distractors": ["Kompas", "Termometer", "Barometer", "Speedometer", "Altimeter", "Stetoskop", "Giroskop"]
+  },
+  {
+    "id": "au_h02",
+    "difficulty": "hard",
+    "object": "Tuts Piano",
+    "validUses": ["Penggaris", "Pembuka surat", "Pembatas buku", "Label tanaman", "Bidak domino"],
+    "distractors": ["Teleskop", "Antena", "Parabola", "Sel surya", "Sudu turbin", "Baling-baling", "Piston"]
+  },
+  {
+    "id": "au_h03",
+    "difficulty": "hard",
+    "object": "Gabus",
+    "validUses": ["Papan pin", "Pelampung pancing", "Bantalan stempel", "Kenop laci", "Blok ampelas"],
+    "distractors": ["Katup mesin", "Pemutus sirkuit", "Poros gigi", "Pompa hidrolik", "Kapasitor", "Kumparan transformator", "Roda gila"]
+  },
+  {
+    "id": "au_h04",
+    "difficulty": "hard",
+    "object": "Resleting",
+    "validUses": ["Pengait gelang", "Pengikat kabel", "Pembatas tas", "Rantai perhiasan", "Tab pembatas buku"],
+    "distractors": ["Bor listrik", "Solder", "Osiloskop", "Multimeter", "Generator", "Turbin", "Kompresor"]
+  },
+  {
+    "id": "au_h05",
+    "difficulty": "hard",
+    "object": "Bidal",
+    "validUses": ["Gelas sloki", "Tempat lilin", "Pot tanaman mini", "Alat stempel", "Alat perkusi"],
+    "distractors": ["Rotor helikopter", "Periskop kapal selam", "Parabola radar", "Nosel roket", "Dudukan giroskop", "Sudu turbin", "Tali parasut"]
+  },
+  {
+    "id": "au_h06",
+    "difficulty": "hard",
+    "object": "Tali Jemuran",
+    "validUses": ["Tali lompat", "Penyangga terali", "Pengganti ikat pinggang", "Kawat gantungan gambar", "Kawat jebakan alarm"],
+    "distractors": ["Lensa teleskop", "Jalur papan sirkuit", "Mikrocip", "Konektor USB", "Kabel serat optik", "Susunan antena", "Kabel panel surya"]
+  },
+  {
+    "id": "au_h07",
+    "difficulty": "hard",
+    "object": "Sumpit",
+    "validUses": ["Tusuk sanggul", "Tiang penyangga tanaman", "Stik drum", "Tusuk marshmallow", "Tongkat penunjuk"],
+    "distractors": ["Teleskop", "Jarum kompas", "Tabung barometer", "Probe termometer", "pH meter", "Probe voltmeter", "Shunt ammeter"]
+  },
+  {
+    "id": "au_h08",
+    "difficulty": "hard",
+    "object": "Kancing",
+    "validUses": ["Bidak permainan", "Mata kerajinan", "Mal lingkaran", "Dasar anting", "Pick gitar"],
+    "distractors": ["Okuler teleskop", "Satelit", "Layar radar", "Sinyal sonar", "Transistor", "Pelat kapasitor", "Inti induktor"]
+  },
+  {
+    "id": "au_h09",
+    "difficulty": "hard",
+    "object": "Karton Telur",
+    "validUses": ["Peredam suara", "Tempat semai benih", "Palet cat", "Penata perhiasan", "Penyala api"],
+    "distractors": ["Rumah teleskop", "Rumah generator", "Selubung turbin", "Bejana reaktor", "Pengukur tekanan", "Pengukur aliran", "Katup kontrol"]
+  },
+  {
+    "id": "au_h10",
+    "difficulty": "hard",
+    "object": "Kartu Remi",
+    "validUses": ["Pembatas buku", "Penyekat dompet", "Pengikis es", "Hiasan jari-jari roda", "Pick gitar"],
+    "distractors": ["Parabola", "Susunan radar", "Transduser sonar", "Penstabil giro", "Kapasitor fluks", "Saluran plasma", "Sensor kuantum"]
+  },
+  {
+    "id": "au_h11",
+    "difficulty": "hard",
+    "object": "Lilin",
+    "validUses": ["Pelumas laci", "Stempel segel lilin", "Penyala api", "Pengganti krayon", "Pelapis benang"],
+    "distractors": ["Cermin teleskop", "Pemancar radio", "Suar sonar", "Pemantul radar", "Pemancar laser", "Sensor inframerah", "Pemandu gelombang mikro"]
+  },
+  {
+    "id": "au_h12",
+    "difficulty": "hard",
+    "object": "Spons",
+    "validUses": ["Bantalan stempel", "Bantalan pengemas", "Bantalan jarum", "Aplikator cat", "Media semai"],
+    "distractors": ["Filter teleskop", "Penyerap radar", "Peredam sonar", "Sikat generator", "Segel turbin", "Batang reaktor", "Dielektrik kapasitor"]
+  }
+]

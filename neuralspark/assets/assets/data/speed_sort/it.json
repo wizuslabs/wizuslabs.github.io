@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Gatto",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cane",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cavallo",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mucca",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Maiale",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pecora",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pollo",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Anatra",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Aquila",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Leone",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tigre",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Orso",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lupo",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cervo",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Coniglio",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Volpe",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Delfino",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Balena",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pinguino",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pappagallo",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Squalo",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tartaruga",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rana",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Serpente",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Falco",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Lontra",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Geco",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Sedia",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tavolo",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lampada",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Orologio",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Specchio",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cuscino",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Libro",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tazza",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Piatto",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bottiglia",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Chiave",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Telefono",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Penna",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Borsa",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Scatola",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Portafoglio",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ombrello",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Candela",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Cornice",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Vaso",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Scopa",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Cesto",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Scala",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Corda",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Spazzola",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Spugna",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Gruccia",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Mela",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pane",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Formaggio",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Riso",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Uovo",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Latte",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Banana",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pollo",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pizza",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pasta",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zuppa",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Torta",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Biscotto",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Arancia",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Uva",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pomodoro",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Patata",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Carota",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Cipolla",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Burro",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Miele",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Melone",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Limone",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mango",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Taco",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Sushi",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Waffle",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Martello",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sega",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Trapano",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Chiave inglese",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pinze",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cacciavite",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Chiodo",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bullone",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nastro",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Livella",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Morsetto",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Scalpello",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lima",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ascia",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pala",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Righello",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Forbici",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Cazzuola",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Chiave inglese",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mazzuolo",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tornio",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Incudine",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Morsa",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Calibro",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pialla",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Punteruolo",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Raspa",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Albero",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fiume",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Montagna",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Oceano",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Foresta",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Lago",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nuvola",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pioggia",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sole",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Luna",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Stella",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Fiore",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Roccia",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sabbia",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Neve",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Vulcano",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Canyon",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ghiacciaio",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Corallo",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Muschio",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ciottolo",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Duna",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Marea",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Nebbia",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Brezza",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Geyser",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Fiordo",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Auto",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Autobus",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Treno",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Aereo",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Barca",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Camion",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bicicletta",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nave",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Taxi",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Furgone",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Metropolitana",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Traghetto",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Jet",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Canoa",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Zattera",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tram",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Yacht",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Scooter",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kayak",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Aliante",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Slitta",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Chiatta",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ciclomotore",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gondola",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Petroliera",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Fregata",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Zeppelin",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Camicia",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pantaloni",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Scarpe",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cappello",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Giacca",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Calze",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Vestito",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cappotto",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Guanti",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sciarpa",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cintura",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Stivali",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gonna",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cravatta",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gilet",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Maglione",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Camicetta",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sandali",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Felpa",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Jeans",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Pantaloncini",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Scarpe da ginnastica",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mantello",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Grembiule",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tunica",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Poncho",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Basco",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Chitarra",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pianoforte",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Batteria",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Violino",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Flauto",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tromba",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Arpa",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Campana",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Corno",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Organo",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Basso",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Violoncello",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Banjo",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tuba",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Oboe",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Clarinetto",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sassofono",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tamburello",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ukulele",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Fisarmonica",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mandolino",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Xilofono",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Maracas",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Armonica",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sitar",
+    "category": "instruments",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Liuto",
+    "category": "instruments",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Dulcimer",
+    "category": "instruments",
+    "difficulty": "hard"
+  }
+]

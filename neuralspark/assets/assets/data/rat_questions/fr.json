@@ -1,0 +1,23 @@
+[
+  {"id": "rat_fr_e01", "difficulty": "easy", "words": ["TOURNESOL", "CHOUFLEUR", "PASSIFLORE"], "answer": "FLEUR", "explanation": "TOURNEsol contient la notion de FLEUR, CHOU-FLEUR, PASSIflore — toutes liées à FLEUR."},
+  {"id": "rat_fr_e02", "difficulty": "easy", "words": ["PARAPLUIE", "PARACHUTE", "PARASOL"], "answer": "PARA", "explanation": "PARApluie, PARACHute, PARAsol — toutes utilisent PARA comme préfixe (protéger contre)."},
+  {"id": "rat_fr_e03", "difficulty": "easy", "words": ["PORTEFEUILLE", "PORTEMANTEAU", "PORTECLÉ"], "answer": "PORTE", "explanation": "PORTEfeuille, PORTEmanteau, PORTEclé — toutes utilisent PORTE comme préfixe."},
+  {"id": "rat_fr_e04", "difficulty": "easy", "words": ["BONHEUR", "BONJOUR", "BONHOMME"], "answer": "BON", "explanation": "BONheur, BONjour, BONhomme — toutes utilisent BON comme préfixe."},
+  {"id": "rat_fr_e05", "difficulty": "easy", "words": ["GENDARME", "GENTILHOMME", "GENTILLESSE"], "answer": "GENT", "explanation": "GENdarme, GENTilhomme, GENTillesse — toutes dérivent de GENT (peuple/gens)."},
+  {"id": "rat_fr_e06", "difficulty": "easy", "words": ["CONTRETEMPS", "CONTRESENS", "CONTREPOIDS"], "answer": "CONTRE", "explanation": "CONTREtemps, CONTREsens, CONTREpoids — toutes utilisent CONTRE comme préfixe."},
+  {"id": "rat_fr_e07", "difficulty": "easy", "words": ["ENTRETIEN", "ENTREPÔT", "ENTRECÔTE"], "answer": "ENTRE", "explanation": "ENTREtien, ENTREpôt, ENTREcôte — toutes utilisent ENTRE comme préfixe."},
+  {"id": "rat_fr_e08", "difficulty": "easy", "words": ["SOUTERRAIN", "SOUSTRACTION", "SOUSMARIN"], "answer": "SOUS", "explanation": "SOUTerrain, SOUStraction, SOUS-MARIN — toutes utilisent SOUS comme préfixe."},
+  {"id": "rat_fr_e09", "difficulty": "easy", "words": ["SURNOM", "SURCHARGÉ", "SURVÊTEMENT"], "answer": "SUR", "explanation": "SURnom, SURchargé, SURvêtement — toutes utilisent SUR comme préfixe."},
+  {"id": "rat_fr_e10", "difficulty": "easy", "words": ["MALHEUR", "MALADRESSE", "MALENTENDU"], "answer": "MAL", "explanation": "MALheur, MALadresse, MALentendu — toutes utilisent MAL comme préfixe."},
+  {"id": "rat_fr_m01", "difficulty": "medium", "words": ["BIENFAIT", "BIENVENU", "BIENÊTRE"], "answer": "BIEN", "explanation": "BIENfait, BIENvenu, BIENêtre — toutes utilisent BIEN comme préfixe."},
+  {"id": "rat_fr_m02", "difficulty": "medium", "words": ["AVANTAGE", "AVANTGARDE", "AVANTBRAS"], "answer": "AVANT", "explanation": "AVANTage, AVANT-GARDE, AVANT-BRAS — toutes utilisent AVANT."},
+  {"id": "rat_fr_m03", "difficulty": "medium", "words": ["ARRIÈREGARDE", "ARRIÈREPENSÉE", "ARRIÈREPLAN"], "answer": "ARRIÈRE", "explanation": "ARRIÈRE-garde, ARRIÈRE-pensée, ARRIÈRE-plan — toutes utilisent ARRIÈRE comme préfixe."},
+  {"id": "rat_fr_m04", "difficulty": "medium", "words": ["CHEFDOEUVRE", "CHEFCUISINIER", "CHEFLIEU"], "answer": "CHEF", "explanation": "CHEF-d'oeuvre, CHEF cuisinier, CHEF-lieu — toutes utilisent CHEF."},
+  {"id": "rat_fr_m05", "difficulty": "medium", "words": ["DEMIJOURNÉE", "DEMILUNE", "DEMISAISON"], "answer": "DEMI", "explanation": "DEMI-journée, DEMI-lune, DEMI-saison — toutes utilisent DEMI comme préfixe."},
+  {"id": "rat_fr_m06", "difficulty": "medium", "words": ["HAUTPARLEUR", "HAUTEFIDÉLITÉ", "HAUTEFORME"], "answer": "HAUT", "explanation": "HAUT-parleur, HAUTE fidélité, HAUTE forme — toutes utilisent HAUT/HAUTE."},
+  {"id": "rat_fr_m07", "difficulty": "medium", "words": ["BASRELIEF", "BASSECOUR", "BASSEFONDATION"], "answer": "BAS", "explanation": "BAS-relief, BASSE-cour, BASSE fondation — toutes utilisent BAS/BASSE."},
+  {"id": "rat_fr_h01", "difficulty": "hard", "words": ["OUTREPASSER", "OUTREMER", "OUTRECUIDANCE"], "answer": "OUTRE", "explanation": "OUTREpasser, OUTRE-MER, OUTREcuidance — toutes utilisent OUTRE comme préfixe."},
+  {"id": "rat_fr_h02", "difficulty": "hard", "words": ["PRÉVOYANCE", "PRÉVENTION", "PRÉAVIS"], "answer": "PRÉ", "explanation": "PRÉvoyance, PRÉvention, PRÉavis — toutes utilisent PRÉ comme préfixe."},
+  {"id": "rat_fr_h03", "difficulty": "hard", "words": ["MÉSAVENTURE", "MÉSENTENTE", "MÉSESTIMER"], "answer": "MÉS", "explanation": "MÉSaventure, MÉSentente, MÉSestimer — toutes utilisent MÉS comme préfixe péjoratif."},
+  {"id": "rat_fr_h04", "difficulty": "hard", "words": ["POURBOIRE", "POURPARLER", "POURSUIVRE"], "answer": "POUR", "explanation": "POURboire, POURparler, POURsuivre — toutes utilisent POUR comme préfixe."}
+]

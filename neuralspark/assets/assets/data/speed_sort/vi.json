@@ -1,0 +1,1082 @@
+[
+  {
+    "word": "Mèo",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Chó",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ngựa",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bò",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Heo",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cừu",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gà",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Vịt",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Đại bàng",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sư tử",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hổ",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gấu",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sói",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hươu",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Thỏ",
+    "category": "animals",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cáo",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Cá heo",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Cá voi",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Chim cánh cụt",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Vẹt",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Cá mập",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rùa",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ếch",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rắn",
+    "category": "animals",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Diều hâu",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Rái cá",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Tắc kè",
+    "category": "animals",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Ghế",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bàn",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Đèn",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Đồng hồ",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gương",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gối",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sách",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cốc",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Đĩa",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Chai",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Chìa khóa",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Điện thoại",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bút",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Túi",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hộp",
+    "category": "objects",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ví",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ô",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Nến",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Khung",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bình hoa",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Chổi",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Giỏ",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Thang",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Dây",
+    "category": "objects",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bàn chải",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Bọt biển",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Móc áo",
+    "category": "objects",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Táo",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bánh mì",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Phô mai",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cơm",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Trứng",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sữa",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Chuối",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Gà",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Pizza",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mì Ý",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Súp",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bánh",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bánh quy",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cam",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Nho",
+    "category": "food",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cà chua",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Khoai tây",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Cà rốt",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hành",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bơ",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mật ong",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Dưa",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Chanh",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Xoài",
+    "category": "food",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Taco",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Sushi",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Bánh kẹp",
+    "category": "food",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Búa",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cưa",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Khoan",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cờ lê",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kìm",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tua vít",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Đinh",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bu lông",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Băng keo",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Thước thủy",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kẹp",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Đục",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Giũa",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Rìu",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Xẻng",
+    "category": "tools",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Thước",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kéo",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bay",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Cờ lê",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Vồ",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Máy tiện",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Đe",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ê tô",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Thước kẹp",
+    "category": "tools",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Bào",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Dùi",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Giũa thô",
+    "category": "tools",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Cây",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sông",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Núi",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Đại dương",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Rừng",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hồ",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mây",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mưa",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mặt trời",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mặt trăng",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ngôi sao",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Hoa",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Đá",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cát",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tuyết",
+    "category": "nature",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Núi lửa",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Hẻm núi",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sông băng",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "San hô",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Rêu",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sỏi",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Cồn cát",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Thủy triều",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Sương mù",
+    "category": "nature",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Gió nhẹ",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Mạch nước phun",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Vịnh hẹp",
+    "category": "nature",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Xe hơi",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Xe buýt",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tàu hỏa",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Máy bay",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Thuyền",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Xe tải",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Xe đạp",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tàu",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Taxi",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Xe van",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tàu điện ngầm",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Phà",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Máy bay phản lực",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ca nô",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Bè",
+    "category": "vehicles",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Xe điện",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Du thuyền",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Xe tay ga",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Thuyền kayak",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tàu lượn",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Xe trượt tuyết",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Xà lan",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Xe gắn máy",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Thuyền gondola",
+    "category": "vehicles",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tàu chở dầu",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Khinh hạm",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Khinh khí cầu",
+    "category": "vehicles",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Áo sơ mi",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Quần",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Giày",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Mũ",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Áo khoác",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Tất",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Váy",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Áo choàng",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Găng tay",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Khăn choàng",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Thắt lưng",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Ủng",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Chân váy",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cà vạt",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Áo ghi lê",
+    "category": "clothing",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Áo len",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Áo cánh",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Dép",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Áo hoodie",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Quần jeans",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Quần ngắn",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Giày thể thao",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Áo choàng",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Tạp dề",
+    "category": "clothing",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Áo dài",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Áo poncho",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Mũ nồi",
+    "category": "clothing",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Ghi ta",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Dương cầm",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Trống",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Vĩ cầm",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Sáo",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kèn trumpet",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Đàn hạc",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Chuông",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kèn cor",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Đàn organ",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Guitar bass",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Cello",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Banjo",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kèn tuba",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kèn oboe",
+    "category": "instruments",
+    "difficulty": "easy"
+  },
+  {
+    "word": "Kèn clarinet",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kèn saxophone",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Trống lắc",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Ukulele",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Phong cầm",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mandolin",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Mộc cầm",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Maracas",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Kèn harmonica",
+    "category": "instruments",
+    "difficulty": "medium"
+  },
+  {
+    "word": "Đàn sitar",
+    "category": "instruments",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Đàn lute",
+    "category": "instruments",
+    "difficulty": "hard"
+  },
+  {
+    "word": "Đàn dulcimer",
+    "category": "instruments",
+    "difficulty": "hard"
+  }
+]

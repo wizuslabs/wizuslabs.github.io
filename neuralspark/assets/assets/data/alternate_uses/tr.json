@@ -1,0 +1,254 @@
+[
+  {
+    "id": "au_e01",
+    "difficulty": "easy",
+    "object": "Tuğla",
+    "validUses": ["Kapı durdurucu", "Kitap dayama", "Kağıt ağırlığı", "Çekiç yedeği", "Basamak"],
+    "distractors": ["Teleskop", "Paraşüt", "Düdük"]
+  },
+  {
+    "id": "au_e02",
+    "difficulty": "easy",
+    "object": "Gazete",
+    "validUses": ["Hediye paketi", "Cam temizleyici", "Ateş yakıcı", "Raf örtüsü", "Ambalaj malzemesi"],
+    "distractors": ["Şemsiye", "Ayna", "Pusula"]
+  },
+  {
+    "id": "au_e03",
+    "difficulty": "easy",
+    "object": "Lastik Bant",
+    "validUses": ["Kavanoz açma tutuşu", "Kitap ayracı", "Telefon standı tutuşu", "Saç lastiği", "Kalem fırlatıcı"],
+    "distractors": ["Büyüteç", "Saat pili", "Ampul"]
+  },
+  {
+    "id": "au_e04",
+    "difficulty": "easy",
+    "object": "Ataç",
+    "validUses": ["Kitap ayracı", "Fermuar çekici", "Telefon sıfırlama iğnesi", "Kablo düzenleyici", "Poşet klipsi"],
+    "distractors": ["Makas", "Bant kesici", "Zımba"]
+  },
+  {
+    "id": "au_e05",
+    "difficulty": "easy",
+    "object": "Kova",
+    "validUses": ["Tabure", "Davul", "Saksı", "Saklama kabı", "Buz kovası"],
+    "distractors": ["Teleskop", "Uçurtma", "Hesap makinesi"]
+  },
+  {
+    "id": "au_e06",
+    "difficulty": "easy",
+    "object": "Battaniye",
+    "validUses": ["Piknik örtüsü", "Perde", "Pelerin kostümü", "Taşınma yastığı", "Evcil hayvan yatağı"],
+    "distractors": ["Merdiven", "El feneri", "Cetvel"]
+  },
+  {
+    "id": "au_e07",
+    "difficulty": "easy",
+    "object": "Ayakkabı Kutusu",
+    "validUses": ["Saklama düzenleyici", "Hediye kutusu", "Masa düzenleyici", "Diorama tabanı", "Kedi yatağı"],
+    "distractors": ["Teleskop", "Olta", "Trompet"]
+  },
+  {
+    "id": "au_e08",
+    "difficulty": "easy",
+    "object": "Kaşık",
+    "validUses": ["Bahçe küreği", "Mancınık kolu", "Baget", "Ayakkabı çekeceği", "Kavanoz açacağı"],
+    "distractors": ["Pusula", "Termometre", "Anten"]
+  },
+  {
+    "id": "au_e09",
+    "difficulty": "easy",
+    "object": "Havlu",
+    "validUses": ["Yastık", "Fırın eldiveni", "Kapı altı rüzgar önleyici", "Yoga matı", "Türban"],
+    "distractors": ["Bisiklet pompası", "Hesap makinesi", "Pil"]
+  },
+  {
+    "id": "au_e10",
+    "difficulty": "easy",
+    "object": "Plastik Şişe",
+    "validUses": ["Huni", "Bitki sulama kabı", "Kepçe", "Kumbara", "Bovling pini"],
+    "distractors": ["Pusula", "Mikroskop", "Mıknatıs"]
+  },
+  {
+    "id": "au_e11",
+    "difficulty": "easy",
+    "object": "Kurşun Kalem",
+    "validUses": ["Topuz tutturucusu", "Delik açıcı", "Cetvel yedeği", "Karıştırma çubuğu", "Atel"],
+    "distractors": ["Kamera", "Makas", "Projektör"]
+  },
+  {
+    "id": "au_e12",
+    "difficulty": "easy",
+    "object": "Karton Kutu",
+    "validUses": ["Evcil hayvan evi", "Kızak", "Saklama kutusu", "Çizim tuvali", "Kostüm zırhı"],
+    "distractors": ["Çamaşır makinesi", "Fırın", "Motor"]
+  },
+  {
+    "id": "au_m01",
+    "difficulty": "medium",
+    "object": "Madeni Para",
+    "validUses": ["Tornavida", "Gitar penası", "Karar verme aracı", "Buz kazıyıcı", "Topaç"],
+    "distractors": ["Silgi", "Boya fırçası", "Teleskop", "Sünger", "Mikrofon"]
+  },
+  {
+    "id": "au_m02",
+    "difficulty": "medium",
+    "object": "Tenis Topu",
+    "validUses": ["Sandalye ayağı koruyucu", "Masaj aleti", "Kavanoz açma tutuşu", "Evcil hayvan fırlatma oyuncağı", "Park rehberi"],
+    "distractors": ["Pusula", "El feneri", "Cetvel", "Düdük", "Büyüteç"]
+  },
+  {
+    "id": "au_m03",
+    "difficulty": "medium",
+    "object": "Çamaşır Mandalı",
+    "validUses": ["Poşet mühürleyici", "Fotoğraf tutucu", "Kablo düzenleyici", "Diş macunu sıkıştırıcı", "Bitki etiket klipsi"],
+    "distractors": ["Teleskop", "Pil şarj cihazı", "Pusula", "Termometre", "Hesap makinesi"]
+  },
+  {
+    "id": "au_m04",
+    "difficulty": "medium",
+    "object": "Merdiven",
+    "validUses": ["Kitaplık", "Battaniye askısı", "Bitki çardağı", "Kurutma rafı", "Oda bölücü"],
+    "distractors": ["Çadır", "Tekne çapası", "Rüzgar türbini", "Güneş paneli", "Radyo anteni"]
+  },
+  {
+    "id": "au_m05",
+    "difficulty": "medium",
+    "object": "Kıskaç",
+    "validUses": ["Para klipsi", "Telefon standı", "Kablo tutucu", "Kulaklık sarıcı", "Anahtarlık halkası"],
+    "distractors": ["İngiliz anahtarı", "Matkap ucu", "Büyüteç", "Pusula iğnesi", "Kalemtıraş"]
+  },
+  {
+    "id": "au_m06",
+    "difficulty": "medium",
+    "object": "Buz Kalıbı",
+    "validUses": ["Takı düzenleyici", "Bitki dondurucusu", "Boya paleti", "Tohum ekim tepsisi", "Çikolata kalıbı"],
+    "distractors": ["Bant kesici", "Zımba", "Delgeç", "Kalem kutusu", "Cetvel"]
+  },
+  {
+    "id": "au_m07",
+    "difficulty": "medium",
+    "object": "Muffin Kalıbı",
+    "validUses": ["Boya paleti", "Parça düzenleyici", "Tohum ekim tepsisi", "Buz kalıbı", "Mumluk"],
+    "distractors": ["Frizbi", "Ayna", "Megafon", "Teleskop merceği", "Saat kadranı"]
+  },
+  {
+    "id": "au_m08",
+    "difficulty": "medium",
+    "object": "Bavul",
+    "validUses": ["Yan sehpa", "Evcil hayvan yatağı", "Saklama rafı", "Sergi dolabı", "Ayakta çalışma masası yükseltici"],
+    "distractors": ["Çamaşır makinesi", "Fırın", "Buzdolabı", "Mikrodalga", "Bulaşık makinesi"]
+  },
+  {
+    "id": "au_m09",
+    "difficulty": "medium",
+    "object": "Şemsiye",
+    "validUses": ["Baston", "Elbise askısı kancası", "Fotoğraf yansıtıcısı", "Pencere işaret çubuğu", "Meyve toplama uzatıcısı"],
+    "distractors": ["Bisiklet tekeri", "Motor parçası", "Güç kablosu", "Devre kartı", "Motor"]
+  },
+  {
+    "id": "au_m10",
+    "difficulty": "medium",
+    "object": "Kemer",
+    "validUses": ["Taşıma kayışı", "Turnike", "Kapı mandalı", "Çocuk salıncak oturağı", "Alet tutucu"],
+    "distractors": ["Teleskop", "Piyano tuşu", "Ampul filamenti", "Pil terminali", "Sigorta"]
+  },
+  {
+    "id": "au_m11",
+    "difficulty": "medium",
+    "object": "Çatal",
+    "validUses": ["Sırt kaşıyıcı", "Bahçe havalandırıcısı", "Pikap iğnesi kaldırıcı", "Makarna ölçer", "Tarak yedeği"],
+    "distractors": ["Teleskop", "Uzaktan kumanda", "USB kablosu", "Anten", "Işık anahtarı"]
+  },
+  {
+    "id": "au_m12",
+    "difficulty": "medium",
+    "object": "Teneke Kutu",
+    "validUses": ["Kalemlik", "Kurabiye kalıbı", "Saksı", "Fener", "Rüzgar çanı"],
+    "distractors": ["GPS cihazı", "Bluetooth hoparlör", "Projektör", "Uzaktan kumanda", "Taşınabilir şarj cihazı"]
+  },
+  {
+    "id": "au_h01",
+    "difficulty": "hard",
+    "object": "Gözlük Çerçevesi",
+    "validUses": ["Minyatür resim çerçevesi", "Büyütme aracı", "Kurabiye kalıbı şekli", "Burun köprüsü ateli", "El işi teli"],
+    "distractors": ["Pusula", "Termometre", "Barometre", "Hız göstergesi", "Altimetre", "Stetoskop", "Jiroskop"]
+  },
+  {
+    "id": "au_h02",
+    "difficulty": "hard",
+    "object": "Piyano Tuşu",
+    "validUses": ["Cetvel", "Mektup açacağı", "Kitap ayracı", "Bitki etiketi", "Domino taşı"],
+    "distractors": ["Teleskop", "Anten", "Uydu çanağı", "Güneş pili", "Türbin kanadı", "Pervane", "Piston"]
+  },
+  {
+    "id": "au_h03",
+    "difficulty": "hard",
+    "object": "Mantar Tıpa",
+    "validUses": ["İğne tahtası", "Balık şamandırası", "Damga yastığı", "Çekmece topuzu", "Zımpara bloğu"],
+    "distractors": ["Motor valfi", "Devre kesici", "Dişli mili", "Hidrolik pompa", "Kondansatör", "Transformatör bobini", "Volan"]
+  },
+  {
+    "id": "au_h04",
+    "difficulty": "hard",
+    "object": "Fermuar",
+    "validUses": ["Bileklik tokası", "Kablo bağı", "Çanta bölücü", "Takı zinciri", "Ayraç şeridi"],
+    "distractors": ["Matkap", "Havya", "Osiloskop", "Multimetre", "Jeneratör", "Türbin", "Kompresör"]
+  },
+  {
+    "id": "au_h05",
+    "difficulty": "hard",
+    "object": "Yüksük",
+    "validUses": ["Shot bardağı", "Mumluk", "Minyatür saksı", "Damga aracı", "Vurmalı çalgı"],
+    "distractors": ["Helikopter rotoru", "Denizaltı periskopu", "Radar çanağı", "Roket nozulu", "Jiroskop yatağı", "Türbin kanadı", "Paraşüt ipi"]
+  },
+  {
+    "id": "au_h06",
+    "difficulty": "hard",
+    "object": "Çamaşır İpi",
+    "validUses": ["Atlama ipi", "Çardak desteği", "Kemer yedeği", "Resim asma teli", "Tuzak alarm teli"],
+    "distractors": ["Teleskop merceği", "Devre kartı izi", "Mikroçip", "USB konektörü", "Fiber optik kablo", "Anten dizisi", "Güneş paneli kablosu"]
+  },
+  {
+    "id": "au_h07",
+    "difficulty": "hard",
+    "object": "Yemek Çubuğu",
+    "validUses": ["Saç tokası", "Bitki desteği", "Baget", "Marshmallow çubuğu", "İşaret çubuğu"],
+    "distractors": ["Teleskop", "Pusula iğnesi", "Barometre tüpü", "Termometre probu", "pH ölçer", "Voltmetre probu", "Ampermetre şöntü"]
+  },
+  {
+    "id": "au_h08",
+    "difficulty": "hard",
+    "object": "Düğme",
+    "validUses": ["Oyun taşı", "El işi gözü", "Daire şablonu", "Küpe tabanı", "Gitar penası"],
+    "distractors": ["Teleskop oküler", "Uydu", "Radar ekranı", "Sonar sinyali", "Transistör", "Kondansatör plakası", "Endüktör çekirdeği"]
+  },
+  {
+    "id": "au_h09",
+    "difficulty": "hard",
+    "object": "Yumurta Kartonu",
+    "validUses": ["Ses yalıtımı", "Tohum ekim tepsisi", "Boya paleti", "Takı düzenleyici", "Ateş yakıcı"],
+    "distractors": ["Teleskop gövdesi", "Jeneratör muhafazası", "Türbin kılıfı", "Reaktör kabı", "Basınç göstergesi", "Akış ölçer", "Kontrol valfi"]
+  },
+  {
+    "id": "au_h10",
+    "difficulty": "hard",
+    "object": "Oyun Kağıdı",
+    "validUses": ["Kitap ayracı", "Cüzdan ara parçası", "Buz kazıyıcı", "Jant süsü", "Gitar penası"],
+    "distractors": ["Uydu çanağı", "Radar dizisi", "Sonar dönüştürücü", "Jiro dengeleyici", "Akı kondansatörü", "Plazma kanalı", "Kuantum sensörü"]
+  },
+  {
+    "id": "au_h11",
+    "difficulty": "hard",
+    "object": "Mum",
+    "validUses": ["Çekmece yağlayıcı", "Mühür mumu damgası", "Ateş yakıcı", "Mum boya yedeği", "İplik mumlaycı"],
+    "distractors": ["Teleskop aynası", "Radyo vericisi", "Sonar işareti", "Radar yansıtıcısı", "Lazer yayıcı", "Kızılötesi sensör", "Mikrodalga kılavuzu"]
+  },
+  {
+    "id": "au_h12",
+    "difficulty": "hard",
+    "object": "Sünger",
+    "validUses": ["Damga yastığı", "Ambalaj yastığı", "İğnelik", "Boya uygulayıcı", "Fide yatağı"],
+    "distractors": ["Teleskop filtresi", "Radar emici", "Sonar sönümleyici", "Jeneratör fırçası", "Türbin contası", "Reaktör çubuğu", "Kondansatör dielektriği"]
+  }
+]

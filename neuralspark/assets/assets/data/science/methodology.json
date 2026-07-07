@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "marker": "__T_W4_SCIENCE__",
+  "comment": "ADR-097 Decision 3 — Science / Methodology page. Section/body text is referenced BY ARB KEY (translatable via the normal l10n pipeline). Citations are locale-independent and live inline. EVERY citation below is extracted from the shipped theory bundle (assets/data/theory/en.json) — well-established, verifiable references already cited in article bodies. No citation was invented. If a citation could not be confirmed against the shipped library it was OMITTED.",
+  "disclaimerKey": "scienceDisclaimer",
+  "sections": [
+    {
+      "titleKey": "scienceSectionIntroTitle",
+      "bodyKey": "scienceSectionIntroBody",
+      "citations": []
+    },
+    {
+      "titleKey": "scienceSectionMethodologyTitle",
+      "bodyKey": "scienceSectionMethodologyBody",
+      "citations": []
+    },
+    {
+      "titleKey": "scienceSectionTransferTitle",
+      "bodyKey": "scienceSectionTransferBody",
+      "citations": [
+        {
+          "authors": "Melby-Lervåg, M., Redick, T. S., & Hulme, C.",
+          "year": 2016,
+          "title": "Working memory training does not improve performance on measures of intelligence or other measures of \"far transfer\": Evidence from a meta-analytic review",
+          "source": "Perspectives on Psychological Science, 11(4), 512–534",
+          "url": "https://doi.org/10.1177/1745691616635612"
+        },
+        {
+          "authors": "Simons, D. J., Boot, W. R., Charness, N., Gathercole, S. E., Chabris, C. F., Hambrick, D. Z., & Stine-Morrow, E. A. L.",
+          "year": 2016,
+          "title": "Do \"brain-training\" programs work?",
+          "source": "Psychological Science in the Public Interest, 17(3), 103–186",
+          "url": "https://doi.org/10.1177/1529100616661983"
+        }
+      ]
+    },
+    {
+      "titleKey": "scienceSectionParadigmsTitle",
+      "bodyKey": "scienceSectionParadigmsBody",
+      "citations": [
+        {
+          "authors": "Stroop, J. R.",
+          "year": 1935,
+          "title": "Studies of interference in serial verbal reactions",
+          "source": "Journal of Experimental Psychology, 18(6), 643–662",
+          "url": "https://doi.org/10.1037/h0054651"
+        },
+        {
+          "authors": "Jaeggi, S. M., Buschkuehl, M., Jonides, J., & Perrig, W. J.",
+          "year": 2008,
+          "title": "Improving fluid intelligence with training on working memory",
+          "source": "Proceedings of the National Academy of Sciences, 105(19), 6829–6833",
+          "url": "https://doi.org/10.1073/pnas.0801268105"
+        },
+        {
+          "authors": "Baddeley, A. D., & Hitch, G.",
+          "year": 1974,
+          "title": "Working memory",
+          "source": "Psychology of Learning and Motivation, 8, 47–89",
+          "url": "https://doi.org/10.1016/S0079-7421(08)60452-1"
+        },
+        {
+          "authors": "Miller, G. A.",
+          "year": 1956,
+          "title": "The magical number seven, plus or minus two: Some limits on our capacity for processing information",
+          "source": "Psychological Review, 63(2), 81–97",
+          "url": "https://doi.org/10.1037/h0043158"
+        }
+      ]
+    },
+    {
+      "titleKey": "scienceSectionPracticeTitle",
+      "bodyKey": "scienceSectionPracticeBody",
+      "citations": [
+        {
+          "authors": "Hebb, D. O.",
+          "year": 1949,
+          "title": "The Organization of Behavior: A Neuropsychological Theory",
+          "source": "Wiley, New York",
+          "url": ""
+        },
+        {
+          "authors": "Ebbinghaus, H.",
+          "year": 1885,
+          "title": "Über das Gedächtnis (Memory: A Contribution to Experimental Psychology)",
+          "source": "Duncker & Humblot, Leipzig",
+          "url": ""
+        }
+      ]
+    }
+  ]
+}

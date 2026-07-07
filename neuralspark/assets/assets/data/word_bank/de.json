@@ -1,0 +1,37 @@
+{
+  "easy": [
+    "AAS", "ABS", "ACH", "ALM", "ALS", "ALT", "AMT", "ANI", "APT", "ARM",
+    "ART", "AST", "AUE", "AUS", "BAD", "BAR", "BAT", "BAU", "BEI", "BIS",
+    "BOG", "BOT", "BUG", "BUS", "DAM", "DAS", "DEM", "DEN", "DER", "DIE",
+    "DOM", "EHE", "EID", "EIS", "ELF", "ERZ", "FAD", "FAN", "FAT", "FEE",
+    "FIT", "FON", "GAB", "GAR", "GAS", "GAU", "GEL", "GUT", "HAT", "HEU",
+    "HIN", "HOF", "HUB", "HUT", "IRR", "IST", "JAM", "JOB", "KAR", "KIT",
+    "KOT", "KUH", "LAB", "LAG", "LAM", "LAU", "LOS", "LOT", "LUG", "MAD",
+    "MAL", "MAN", "MAT", "MIR", "MIT", "MIX", "MOL", "MUT", "NAH", "NAT",
+    "NEU", "NIE", "NOT", "NUN", "NUR", "NUT", "OBI", "OFT", "OHM", "OHR",
+    "ORT", "RAD", "RAT", "ROH", "ROT", "RUF", "RUH", "TAG", "TAL", "TAT"
+  ],
+  "medium": [
+    "ADEL", "ADER", "ALLE", "ALSO", "ANGST", "ARZT", "AUGE", "AUTO", "BACH",
+    "BAHN", "BALD", "BALL", "BAND", "BANK", "BART", "BAUM", "BERG", "BETT",
+    "BIER", "BILD", "BLAU", "BLEI", "BLUT", "BOCK", "BOOT", "BOTE", "BRAU",
+    "BROT", "BUCH", "BURG", "DACH", "DAME", "DANK", "DARM", "DEIN", "DENN",
+    "DICH", "DORF", "DORN", "DOSE", "DUFT", "DUMM", "EBEN", "ECHT", "EDEL",
+    "EILE", "ENDE", "ENTE", "ERBE", "ERDE", "ESEL", "EWIG", "FACH", "FALL",
+    "FANG", "FARB", "FAST", "FELD", "FELL", "FELS", "FERN", "FEST", "FEUD",
+    "FILM", "FIND", "FIRM", "FLOH", "FORM", "FREI", "FUND", "GABE", "GALA",
+    "GANG", "GANZ", "GARN", "GAST", "GELD", "GERN", "GLAS", "GOLD", "GOLF",
+    "GOTT", "GRAB", "GRAM", "GRAU", "GROB", "GURT", "HAAR", "HAFEN", "HALB",
+    "HALT", "HAND", "HARZ", "HAUS", "HAUT", "HEFT", "HELD", "HELM", "HEMD",
+    "HERR"
+  ],
+  "hard": [
+    "ABEND", "ADLER", "AHORN", "ALLEIN", "AMPEL", "ANGEL", "ARBEIT", "ASCHE",
+    "BANDE", "BAUCH", "BLATT", "BLICK", "BLITZ", "BLUME", "BRAND", "BRAUN",
+    "BRIEF", "BRUCH", "BRUST", "DAUER", "DECKE", "DIENST", "DRAHT", "DRANG",
+    "DRUCK", "DUNST", "EICHE", "ENGEL", "ERNTE", "ESSIG", "FALLE", "FARBE",
+    "FEDER", "FEIER", "FEIND", "FLECK", "FLUCHT", "FLUSS", "FORST", "FROST",
+    "GABEL", "GARTEN", "GEIST", "GIPFEL", "GLAUBE", "GLEICH", "GLUCK", "GRUBE",
+    "GRUND", "HANDEL"
+  ]
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "id": "au_e01",
+    "difficulty": "easy",
+    "object": "Ziegelstein",
+    "validUses": ["Türstopper", "Buchstütze", "Briefbeschwerer", "Hammerersatz", "Trittstufe"],
+    "distractors": ["Teleskop", "Fallschirm", "Pfeife"]
+  },
+  {
+    "id": "au_e02",
+    "difficulty": "easy",
+    "object": "Zeitung",
+    "validUses": ["Geschenkpapier", "Fensterreiniger", "Feueranzünder", "Regaleinlage", "Verpackungsmaterial"],
+    "distractors": ["Regenschirm", "Spiegel", "Kompass"]
+  },
+  {
+    "id": "au_e03",
+    "difficulty": "easy",
+    "object": "Gummiband",
+    "validUses": ["Glasöffner-Griff", "Lesezeichen", "Handyhalter-Griff", "Haargummi", "Bleistiftschleuder"],
+    "distractors": ["Lupe", "Uhrenbatterie", "Glühbirne"]
+  },
+  {
+    "id": "au_e04",
+    "difficulty": "easy",
+    "object": "Büroklammer",
+    "validUses": ["Lesezeichen", "Reißverschlusszieher", "Handy-Reset-Pin", "Kabelorganizer", "Tütenclip"],
+    "distractors": ["Schere", "Klebebandspender", "Hefter"]
+  },
+  {
+    "id": "au_e05",
+    "difficulty": "easy",
+    "object": "Eimer",
+    "validUses": ["Hocker", "Trommel", "Blumentopf", "Aufbewahrungsbehälter", "Eishalter"],
+    "distractors": ["Teleskop", "Drachen", "Taschenrechner"]
+  },
+  {
+    "id": "au_e06",
+    "difficulty": "easy",
+    "object": "Decke",
+    "validUses": ["Picknickdecke", "Vorhang", "Umhang-Kostüm", "Umzugspolsterung", "Haustier-Bett"],
+    "distractors": ["Leiter", "Taschenlampe", "Lineal"]
+  },
+  {
+    "id": "au_e07",
+    "difficulty": "easy",
+    "object": "Schuhkarton",
+    "validUses": ["Aufbewahrungsbox", "Geschenkbox", "Schreibtisch-Organizer", "Diorama-Basis", "Katzenbett"],
+    "distractors": ["Teleskop", "Angelrute", "Trompete"]
+  },
+  {
+    "id": "au_e08",
+    "difficulty": "easy",
+    "object": "Löffel",
+    "validUses": ["Gartenschaufel", "Katapulthebel", "Trommelstock", "Schuhlöffel", "Glasöffner"],
+    "distractors": ["Kompass", "Thermometer", "Antenne"]
+  },
+  {
+    "id": "au_e09",
+    "difficulty": "easy",
+    "object": "Handtuch",
+    "validUses": ["Kissen", "Ofenhandschuh", "Zugluftstopper", "Yogamatte", "Turban"],
+    "distractors": ["Fahrradpumpe", "Taschenrechner", "Batterie"]
+  },
+  {
+    "id": "au_e10",
+    "difficulty": "easy",
+    "object": "Plastikflasche",
+    "validUses": ["Trichter", "Pflanzenbewässerer", "Schaufel", "Sparschwein", "Bowlingkegel"],
+    "distractors": ["Kompass", "Mikroskop", "Magnet"]
+  },
+  {
+    "id": "au_e11",
+    "difficulty": "easy",
+    "object": "Bleistift",
+    "validUses": ["Haarnadel", "Locher", "Linealersatz", "Rührstab", "Schiene"],
+    "distractors": ["Kamera", "Schere", "Projektor"]
+  },
+  {
+    "id": "au_e12",
+    "difficulty": "easy",
+    "object": "Pappkarton",
+    "validUses": ["Haustierhaus", "Schlitten", "Aufbewahrungsbox", "Zeichenfläche", "Kostüm-Rüstung"],
+    "distractors": ["Waschmaschine", "Ofen", "Motor"]
+  },
+  {
+    "id": "au_m01",
+    "difficulty": "medium",
+    "object": "Münze",
+    "validUses": ["Schraubendreher", "Gitarrenplektrum", "Entscheidungshilfe", "Eiskratzer", "Kreisel"],
+    "distractors": ["Radiergummi", "Pinsel", "Teleskop", "Schwamm", "Mikrofon"]
+  },
+  {
+    "id": "au_m02",
+    "difficulty": "medium",
+    "object": "Tennisball",
+    "validUses": ["Stuhlbeinschutz", "Massagewerkzeug", "Glasöffner-Griff", "Haustier-Wurfspielzeug", "Einparkhilfe"],
+    "distractors": ["Kompass", "Taschenlampe", "Lineal", "Pfeife", "Lupe"]
+  },
+  {
+    "id": "au_m03",
+    "difficulty": "medium",
+    "object": "Wäscheklammer",
+    "validUses": ["Tütenclip", "Fotohalter", "Kabelorganizer", "Zahnpastaausdrücker", "Pflanzenmarkierung"],
+    "distractors": ["Teleskop", "Batterieladegerät", "Kompass", "Thermometer", "Taschenrechner"]
+  },
+  {
+    "id": "au_m04",
+    "difficulty": "medium",
+    "object": "Leiter",
+    "validUses": ["Bücherregal", "Deckenhalter", "Pflanzengitter", "Trockengestell", "Raumteiler"],
+    "distractors": ["Zelt", "Bootsanker", "Windturbine", "Solarpanel", "Radioantenne"]
+  },
+  {
+    "id": "au_m05",
+    "difficulty": "medium",
+    "object": "Foldbackklammer",
+    "validUses": ["Geldklammer", "Handyhalter", "Kabelhalter", "Kopfhörerwickler", "Schlüsselring"],
+    "distractors": ["Schraubenschlüssel", "Bohrer", "Lupe", "Kompassnadel", "Anspitzer"]
+  },
+  {
+    "id": "au_m06",
+    "difficulty": "medium",
+    "object": "Eiswürfelform",
+    "validUses": ["Schmuckaufbewahrung", "Kräutereinfrieren", "Farbpalette", "Saatgut-Starter", "Schokoladenform"],
+    "distractors": ["Klebebandspender", "Hefter", "Locher", "Stifteetui", "Lineal"]
+  },
+  {
+    "id": "au_m07",
+    "difficulty": "medium",
+    "object": "Muffinform",
+    "validUses": ["Farbpalette", "Kleinteile-Organizer", "Saatgut-Starter", "Eisform", "Kerzenhalter"],
+    "distractors": ["Frisbee", "Spiegel", "Megafon", "Teleskoplinse", "Ziffernblatt"]
+  },
+  {
+    "id": "au_m08",
+    "difficulty": "medium",
+    "object": "Koffer",
+    "validUses": ["Beistelltisch", "Haustier-Bett", "Aufbewahrungsregal", "Vitrine", "Stehpult-Erhöhung"],
+    "distractors": ["Waschmaschine", "Ofen", "Kühlschrank", "Mikrowelle", "Geschirrspüler"]
+  },
+  {
+    "id": "au_m09",
+    "difficulty": "medium",
+    "object": "Regenschirm",
+    "validUses": ["Gehstock", "Kleiderhaken", "Fotoreflector", "Fensterzeiger", "Fruchtpflücker-Verlängerung"],
+    "distractors": ["Fahrradrad", "Motorteil", "Stromkabel", "Platine", "Motor"]
+  },
+  {
+    "id": "au_m10",
+    "difficulty": "medium",
+    "object": "Gürtel",
+    "validUses": ["Traggurt", "Tourniquet", "Türriegel", "Schaukelsitz", "Werkzeughalter"],
+    "distractors": ["Teleskop", "Klaviertaste", "Glühfaden", "Batteriepol", "Sicherung"]
+  },
+  {
+    "id": "au_m11",
+    "difficulty": "medium",
+    "object": "Gabel",
+    "validUses": ["Rückenkratzer", "Gartenbelüfter", "Plattenspieler-Nadelheber", "Nudelmesser", "Kammersatz"],
+    "distractors": ["Teleskop", "Fernbedienung", "USB-Kabel", "Antenne", "Lichtschalter"]
+  },
+  {
+    "id": "au_m12",
+    "difficulty": "medium",
+    "object": "Blechdose",
+    "validUses": ["Stiftehalter", "Keksausstecher", "Blumentopf", "Laterne", "Windspiel"],
+    "distractors": ["GPS-Gerät", "Bluetooth-Lautsprecher", "Projektor", "Fernbedienung", "Akkupack"]
+  },
+  {
+    "id": "au_h01",
+    "difficulty": "hard",
+    "object": "Brillengestell",
+    "validUses": ["Kleiner Bilderrahmen", "Vergrößerungswerkzeug", "Keksausstecher-Form", "Nasenschiene", "Basteldraht"],
+    "distractors": ["Kompass", "Thermometer", "Barometer", "Tacho", "Höhenmesser", "Stethoskop", "Gyroskop"]
+  },
+  {
+    "id": "au_h02",
+    "difficulty": "hard",
+    "object": "Klaviertaste",
+    "validUses": ["Lineal", "Brieföffner", "Lesezeichen", "Pflanzenschild", "Dominostein"],
+    "distractors": ["Teleskop", "Antenne", "Satellitenschüssel", "Solarzelle", "Turbinenschaufel", "Propeller", "Kolben"]
+  },
+  {
+    "id": "au_h03",
+    "difficulty": "hard",
+    "object": "Korken",
+    "validUses": ["Pinnwand", "Schwimmer zum Angeln", "Stempelkissen", "Schubladenknauf", "Schleifblock"],
+    "distractors": ["Motorventil", "Sicherungsautomat", "Getriebewelle", "Hydraulikpumpe", "Kondensator", "Transformatorspule", "Schwungrad"]
+  },
+  {
+    "id": "au_h04",
+    "difficulty": "hard",
+    "object": "Reißverschluss",
+    "validUses": ["Armbandverschluss", "Kabelbinder", "Taschentrenner", "Schmuckkette", "Lesezeichenlasche"],
+    "distractors": ["Bohrmaschine", "Lötkolben", "Oszilloskop", "Multimeter", "Generator", "Turbine", "Kompressor"]
+  },
+  {
+    "id": "au_h05",
+    "difficulty": "hard",
+    "object": "Fingerhut",
+    "validUses": ["Schnapsglas", "Kerzenhalter", "Mini-Blumentopf", "Stempelwerkzeug", "Schlaginstrument"],
+    "distractors": ["Hubschrauberrotor", "U-Boot-Periskop", "Radarschüssel", "Raketendüse", "Gyroskophalterung", "Turbinenschaufel", "Fallschirmschnur"]
+  },
+  {
+    "id": "au_h06",
+    "difficulty": "hard",
+    "object": "Wäscheleine",
+    "validUses": ["Springseil", "Rankhilfe", "Gürtelersatz", "Bilderaufhängedraht", "Stolperdraht-Alarm"],
+    "distractors": ["Teleskoplinse", "Leiterbahnenspur", "Mikrochip", "USB-Stecker", "Glasfaserkabel", "Antennenarray", "Solarverdrahtung"]
+  },
+  {
+    "id": "au_h07",
+    "difficulty": "hard",
+    "object": "Essstäbchen",
+    "validUses": ["Haarnadel", "Pflanzenstab", "Trommelstock", "Marshmallow-Spieß", "Zeigestock"],
+    "distractors": ["Teleskop", "Kompassnadel", "Barometer-Röhre", "Thermometer-Sonde", "pH-Messgerät", "Voltmeter-Leitung", "Amperemeter-Shunt"]
+  },
+  {
+    "id": "au_h08",
+    "difficulty": "hard",
+    "object": "Knopf",
+    "validUses": ["Spielfigur", "Bastel-Auge", "Kreisschablone", "Ohrring-Basis", "Gitarrenplektrum"],
+    "distractors": ["Teleskopokular", "Satellit", "Radarbildschirm", "Sonar-Ping", "Transistor", "Kondensatorplatte", "Induktorkern"]
+  },
+  {
+    "id": "au_h09",
+    "difficulty": "hard",
+    "object": "Eierkarton",
+    "validUses": ["Schalldämpfer", "Saatgut-Starter", "Farbpalette", "Schmuckorganizer", "Feueranzünder"],
+    "distractors": ["Teleskopgehäuse", "Generatorgehäuse", "Turbinenverkleidung", "Reaktorbehälter", "Druckmesser", "Durchflussmesser", "Regelventil"]
+  },
+  {
+    "id": "au_h10",
+    "difficulty": "hard",
+    "object": "Spielkarte",
+    "validUses": ["Lesezeichen", "Geldbeutel-Abstandhalter", "Eiskratzer", "Speichendekor", "Gitarrenplektrum"],
+    "distractors": ["Satellitenschüssel", "Radaranordnung", "Sonarwandler", "Kreiselstabilisator", "Flusskondensator", "Plasmaleitung", "Quantensensor"]
+  },
+  {
+    "id": "au_h11",
+    "difficulty": "hard",
+    "object": "Kerze",
+    "validUses": ["Schubladenschmiermittel", "Wachssiegel", "Feueranzünder", "Wachsmalstift-Ersatz", "Fadenwachser"],
+    "distractors": ["Teleskopspiegel", "Radiosender", "Sonarbake", "Radarreflektor", "Laseremitter", "Infrarotsensor", "Mikrowellenleiter"]
+  },
+  {
+    "id": "au_h12",
+    "difficulty": "hard",
+    "object": "Schwamm",
+    "validUses": ["Stempelkissen", "Verpackungspolster", "Nadelkissen", "Farbauftragswerkzeug", "Keimbett"],
+    "distractors": ["Teleskopfilter", "Radarabsorber", "Sonardämpfer", "Generatorbürste", "Turbinendichtung", "Reaktorstab", "Kondensatordielektrikum"]
+  }
+]

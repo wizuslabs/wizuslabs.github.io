@@ -1,0 +1,23 @@
+[
+  {"id": "rat_it_e01", "difficulty": "easy", "words": ["CAPOLUOGO", "CAPOLAVORO", "CAPOBANDA"], "answer": "CAPO", "explanation": "CAPOluogo, CAPOlavoro, CAPObanda — tutte usano CAPO come prefisso."},
+  {"id": "rat_it_e02", "difficulty": "easy", "words": ["PORTAFOGLIO", "PORTACHIAVI", "PORTABAGAGLI"], "answer": "PORTA", "explanation": "PORTAfoglio, PORTAchiavi, PORTAbagagli — tutte usano PORTA come prefisso."},
+  {"id": "rat_it_e03", "difficulty": "easy", "words": ["SOTTOSCALA", "SOTTOSUOLO", "SOTTOMARINO"], "answer": "SOTTO", "explanation": "SOTTOscala, SOTTOsuolo, SOTTOmarino — tutte usano SOTTO come prefisso."},
+  {"id": "rat_it_e04", "difficulty": "easy", "words": ["SOPRANNOME", "SOPRAVVIVERE", "SOPRATTUTTO"], "answer": "SOPRA", "explanation": "SOPRAnnome, SOPRAvvivere, SOPRAttutto — tutte usano SOPRA come prefisso."},
+  {"id": "rat_it_e05", "difficulty": "easy", "words": ["GIRASOLE", "GIRAVOLTA", "GIROTONDO"], "answer": "GIRA", "explanation": "GIRAsole, GIRAvolta, GIROtondo — tutte derivano da GIRARE."},
+  {"id": "rat_it_e06", "difficulty": "easy", "words": ["FUORILEGGE", "FUORISTRADA", "FUORIGIOCO"], "answer": "FUORI", "explanation": "FUORIlegge, FUORIstrada, FUORIgioco — tutte usano FUORI come prefisso."},
+  {"id": "rat_it_e07", "difficulty": "easy", "words": ["MANODOPERA", "MANOMETTERE", "MANOSCRITTO"], "answer": "MANO", "explanation": "MANOdopera, MANOmettere, MANOscritto — tutte usano MANO come prefisso."},
+  {"id": "rat_it_e08", "difficulty": "easy", "words": ["CONTROTEMPO", "CONTROMANO", "CONTROVENTO"], "answer": "CONTRO", "explanation": "CONTROtempo, CONTROmano, CONTROvento — tutte usano CONTRO come prefisso."},
+  {"id": "rat_it_e09", "difficulty": "easy", "words": ["ACQUAZZONE", "ACQUEDOTTO", "ACQUARIO"], "answer": "ACQUA", "explanation": "ACQUAzzone, ACQUEdotto, ACQUArio — tutte derivano da ACQUA."},
+  {"id": "rat_it_e10", "difficulty": "easy", "words": ["TERREMOTO", "TERRENO", "TERRAFERMA"], "answer": "TERRA", "explanation": "TERREmoto, TERREno, TERRAferma — tutte derivano da TERRA."},
+  {"id": "rat_it_m01", "difficulty": "medium", "words": ["MEZZOGIORNO", "MEZZANOTTE", "MEZZALUNA"], "answer": "MEZZO", "explanation": "MEZZOgiorno, MEZZAnotte, MEZZAluna — tutte usano MEZZO/MEZZA."},
+  {"id": "rat_it_m02", "difficulty": "medium", "words": ["OLTREMARE", "OLTREPASSARE", "OLTRETOMBA"], "answer": "OLTRE", "explanation": "OLTREmare, OLTREpassare, OLTREtomba — tutte usano OLTRE come prefisso."},
+  {"id": "rat_it_m03", "difficulty": "medium", "words": ["CAPOGIRO", "CAPOSTAZIONE", "CAPOFAMIGLIA"], "answer": "CAPO", "explanation": "CAPOgiro, CAPOstazione, CAPOfamiglia — tutte usano CAPO come primo componente."},
+  {"id": "rat_it_m04", "difficulty": "medium", "words": ["BENVISTO", "BENVENUTO", "BENESTARE"], "answer": "BEN", "explanation": "BENvisto, BENvenuto, BENEstare — tutte usano BEN/BENE come prefisso."},
+  {"id": "rat_it_m05", "difficulty": "medium", "words": ["MALAFEDE", "MALANIMO", "MALCOSTUME"], "answer": "MAL", "explanation": "MALAfede, MALAnimo, MALcostume — tutte usano MAL/MALA come prefisso."},
+  {"id": "rat_it_m06", "difficulty": "medium", "words": ["ALTOPIANO", "ALTOPARLANTE", "ALTOFORNO"], "answer": "ALTO", "explanation": "ALTOpiano, ALTOparlante, ALTOforno — tutte usano ALTO come primo componente."},
+  {"id": "rat_it_m07", "difficulty": "medium", "words": ["PASSAPORTO", "PASSATEMPO", "PASSAPAROLA"], "answer": "PASSA", "explanation": "PASSAporto, PASSAtempo, PASSAparola — tutte usano PASSA come prefisso."},
+  {"id": "rat_it_h01", "difficulty": "hard", "words": ["ROMPICAPO", "ROMPIGHIACCIO", "ROMPISCATOLE"], "answer": "ROMPI", "explanation": "ROMPIcapo, ROMPIghiaccio, ROMPIscatole — tutte usano ROMPI come prefisso."},
+  {"id": "rat_it_h02", "difficulty": "hard", "words": ["STUZZICADENTI", "BATTIMANI", "LAVASTOVIGLIE"], "answer": "VERBO", "explanation": "STUZZICAdenti (verbo+nome), BATTImani (verbo+nome), LAVAstoviglie (verbo+nome) — tutte sono composte da VERBO+nome."},
+  {"id": "rat_it_h03", "difficulty": "hard", "words": ["RETROSCENA", "RETROGUARDIA", "RETROMARCIA"], "answer": "RETRO", "explanation": "RETROscena, RETROguardia, RETROmarcia — tutte usano RETRO come prefisso."},
+  {"id": "rat_it_h04", "difficulty": "hard", "words": ["AVANGUARDIA", "AVAMBRACCIO", "AVAMPOSTO"], "answer": "AVAN", "explanation": "AVANguardia, AVAMbraccio, AVAMposto — tutte usano AVAN/AVAM come prefisso."}
+]

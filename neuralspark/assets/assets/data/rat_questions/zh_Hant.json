@@ -1,0 +1,22 @@
+[
+  {"id": "rat_zh_Hant_e01", "difficulty": "easy", "words": ["火", "電", "體"], "answer": "力", "explanation": "火力、電力、體力 ── 都可以和「力」組成詞語。"},
+  {"id": "rat_zh_Hant_e02", "difficulty": "easy", "words": ["天", "空", "生"], "answer": "氣", "explanation": "天氣、空氣、生氣 ── 都可以和「氣」組成詞語。"},
+  {"id": "rat_zh_Hant_e03", "difficulty": "easy", "words": ["人", "入", "出"], "answer": "口", "explanation": "人口、入口、出口 ── 都可以和「口」組成詞語。"},
+  {"id": "rat_zh_Hant_e04", "difficulty": "easy", "words": ["風", "火", "電"], "answer": "車", "explanation": "風車、火車、電車 ── 都可以和「車」組成詞語。"},
+  {"id": "rat_zh_Hant_e05", "difficulty": "easy", "words": ["日", "月", "觀"], "answer": "光", "explanation": "日光、月光、觀光 ── 都可以和「光」組成詞語。"},
+  {"id": "rat_zh_Hant_e06", "difficulty": "easy", "words": ["地", "海", "表"], "answer": "面", "explanation": "地面、海面、表面 ── 都可以和「面」組成詞語。"},
+  {"id": "rat_zh_Hant_e07", "difficulty": "easy", "words": ["大", "雨", "海"], "answer": "水", "explanation": "大水、雨水、海水 ── 都可以和「水」組成詞語。"},
+  {"id": "rat_zh_Hant_m01", "difficulty": "medium", "words": ["感", "行", "運"], "answer": "動", "explanation": "感動、行動、運動 ── 都可以和「動」組成詞語。"},
+  {"id": "rat_zh_Hant_m02", "difficulty": "medium", "words": ["醫", "學", "法"], "answer": "院", "explanation": "醫院、學院、法院 ── 都可以和「院」組成詞語。"},
+  {"id": "rat_zh_Hant_m03", "difficulty": "medium", "words": ["年", "世", "時"], "answer": "代", "explanation": "年代、世代、時代 ── 都可以和「代」組成詞語。"},
+  {"id": "rat_zh_Hant_m04", "difficulty": "medium", "words": ["公", "花", "樂"], "answer": "園", "explanation": "公園、花園、樂園 ── 都可以和「園」組成詞語。"},
+  {"id": "rat_zh_Hant_m05", "difficulty": "medium", "words": ["教", "臥", "辦公"], "answer": "室", "explanation": "教室、臥室、辦公室 ── 都可以和「室」組成詞語。"},
+  {"id": "rat_zh_Hant_m06", "difficulty": "medium", "words": ["友", "愛", "主"], "answer": "人", "explanation": "友人、愛人、主人 ── 都可以和「人」組成詞語。"},
+  {"id": "rat_zh_Hant_m07", "difficulty": "medium", "words": ["變", "進", "文"], "answer": "化", "explanation": "變化、進化、文化 ── 都可以和「化」組成詞語。"},
+  {"id": "rat_zh_Hant_m08", "difficulty": "medium", "words": ["平", "均", "對"], "answer": "等", "explanation": "平等、均等、對等 ── 都可以和「等」組成詞語。"},
+  {"id": "rat_zh_Hant_h01", "difficulty": "hard", "words": ["印", "現", "抽"], "answer": "象", "explanation": "印象、現象、抽象 ── 都可以和「象」組成詞語。"},
+  {"id": "rat_zh_Hant_h02", "difficulty": "hard", "words": ["創", "製", "構"], "answer": "造", "explanation": "創造、製造、構造 ── 都可以和「造」組成詞語。"},
+  {"id": "rat_zh_Hant_h03", "difficulty": "hard", "words": ["確", "保", "認"], "answer": "證", "explanation": "確證、保證、認證 ── 都可以和「證」組成詞語。"},
+  {"id": "rat_zh_Hant_h04", "difficulty": "hard", "words": ["達", "完", "贊"], "answer": "成", "explanation": "達成、完成、贊成 ── 都可以和「成」組成詞語。"},
+  {"id": "rat_zh_Hant_h05", "difficulty": "hard", "words": ["傳", "系", "正"], "answer": "統", "explanation": "傳統、系統、正統 ── 都可以和「統」組成詞語。"}
+]

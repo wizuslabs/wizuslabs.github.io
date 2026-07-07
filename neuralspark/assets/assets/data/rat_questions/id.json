@@ -1,0 +1,22 @@
+[
+  {"id": "rat_id_e01", "difficulty": "easy", "words": ["MINUM", "MATA", "LAUT"], "answer": "AIR", "explanation": "AIR minum, AIR mata, AIR laut — semua kombinasi kata majemuk dengan AIR."},
+  {"id": "rat_id_e02", "difficulty": "easy", "words": ["TULIS", "HARIAN", "TAMU"], "answer": "BUKU", "explanation": "BUKU tulis, BUKU harian, BUKU tamu — semua kombinasi kata majemuk dengan BUKU."},
+  {"id": "rat_id_e03", "difficulty": "easy", "words": ["SAKIT", "MAKAN", "IBADAH"], "answer": "RUMAH", "explanation": "RUMAH sakit, RUMAH makan, RUMAH ibadah — semua kombinasi kata majemuk dengan RUMAH."},
+  {"id": "rat_id_e04", "difficulty": "easy", "words": ["SEKOLAH", "BATU", "SURAT"], "answer": "KEPALA", "explanation": "KEPALA sekolah, KEPALA batu, KEPALA surat — semua kombinasi kata majemuk dengan KEPALA."},
+  {"id": "rat_id_e05", "difficulty": "easy", "words": ["KOSONG", "PANJANG", "DINGIN"], "answer": "TANGAN", "explanation": "TANGAN kosong, TANGAN panjang, TANGAN dingin — semua kombinasi kata majemuk dengan TANGAN."},
+  {"id": "rat_id_e06", "difficulty": "easy", "words": ["UANG", "PELAJARAN", "HARI"], "answer": "MATA", "explanation": "MATA uang, MATA pelajaran, MATA hari — semua kombinasi kata majemuk dengan MATA."},
+  {"id": "rat_id_e07", "difficulty": "easy", "words": ["KAKI", "TENIS", "BASKET"], "answer": "BOLA", "explanation": "BOLA kaki, BOLA tenis, BOLA basket — semua kombinasi kata majemuk dengan BOLA."},
+  {"id": "rat_id_m01", "difficulty": "medium", "words": ["LUANG", "SENGGANG", "TUNDA"], "answer": "WAKTU", "explanation": "WAKTU luang, WAKTU senggang, WAKTU tunda — semua kombinasi kata majemuk dengan WAKTU."},
+  {"id": "rat_id_m02", "difficulty": "medium", "words": ["HUKUM", "KESATUAN", "BERKEMBANG"], "answer": "NEGARA", "explanation": "NEGARA hukum, NEGARA kesatuan, NEGARA berkembang — semua kombinasi kata majemuk dengan NEGARA."},
+  {"id": "rat_id_m03", "difficulty": "medium", "words": ["PANJANG", "PENDEK", "SEMPIT"], "answer": "PIKIRAN", "explanation": "PIKIRAN panjang, PIKIRAN pendek, PIKIRAN sempit — semua kombinasi kata majemuk dengan PIKIRAN."},
+  {"id": "rat_id_m04", "difficulty": "medium", "words": ["KERJA", "JUANG", "HIDUP"], "answer": "SEMANGAT", "explanation": "SEMANGAT kerja, SEMANGAT juang, SEMANGAT hidup — semua kombinasi kata majemuk dengan SEMANGAT."},
+  {"id": "rat_id_m05", "difficulty": "medium", "words": ["DARAT", "LAUT", "UDARA"], "answer": "ANGKATAN", "explanation": "ANGKATAN darat, ANGKATAN laut, ANGKATAN udara — semua kombinasi kata majemuk dengan ANGKATAN."},
+  {"id": "rat_id_m06", "difficulty": "medium", "words": ["IBU", "ASING", "DAERAH"], "answer": "BAHASA", "explanation": "BAHASA ibu, BAHASA asing, BAHASA daerah — semua kombinasi kata majemuk dengan BAHASA."},
+  {"id": "rat_id_m07", "difficulty": "medium", "words": ["TERBANG", "TEMPUR", "PENUMPANG"], "answer": "PESAWAT", "explanation": "PESAWAT terbang, PESAWAT tempur, PESAWAT penumpang — semua kombinasi kata majemuk dengan PESAWAT."},
+  {"id": "rat_id_m08", "difficulty": "medium", "words": ["DALAM", "LUAR", "MANCA"], "answer": "NEGERI", "explanation": "Dalam NEGERI, luar NEGERI, mancanegara (NEGERI) — semua kombinasi kata majemuk dengan NEGERI."},
+  {"id": "rat_id_h01", "difficulty": "hard", "words": ["OPERASI", "SARAF", "INFORMASI"], "answer": "SISTEM", "explanation": "SISTEM operasi, SISTEM saraf, SISTEM informasi — semua kombinasi kata majemuk formal dengan SISTEM."},
+  {"id": "rat_id_h02", "difficulty": "hard", "words": ["STUDI", "KERJA", "TELEVISI"], "answer": "PROGRAM", "explanation": "PROGRAM studi, PROGRAM kerja, PROGRAM televisi — semua kombinasi kata majemuk dengan PROGRAM."},
+  {"id": "rat_id_h03", "difficulty": "hard", "words": ["SIPIL", "MESIN", "KIMIA"], "answer": "TEKNIK", "explanation": "TEKNIK sipil, TEKNIK mesin, TEKNIK kimia — semua kombinasi kata majemuk bidang keilmuan dengan TEKNIK."},
+  {"id": "rat_id_h04", "difficulty": "hard", "words": ["DASAR", "PIDANA", "PERDATA"], "answer": "HUKUM", "explanation": "HUKUM dasar, HUKUM pidana, HUKUM perdata — semua kombinasi kata majemuk formal dengan HUKUM."},
+  {"id": "rat_id_h05", "difficulty": "hard", "words": ["ALAM", "HAYAT", "SOSIAL"], "answer": "ILMU", "explanation": "ILMU alam, ILMU hayat, ILMU sosial — semua kombinasi kata majemuk keilmuan dengan ILMU."}
+]
