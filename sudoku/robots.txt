@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sudoku.wizuslabs.com/sitemap.xml
+Sitemap: https://wizuslabs.com/sudoku/sitemap.xml
