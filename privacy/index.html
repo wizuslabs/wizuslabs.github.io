@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<!-- NOTE: standard template copy — pending owner legal review -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — WizusLabs</title>
+  <meta name="description" content="How the WizusLabs website handles data: server logs, no accounts, third-party advertising (Google AdSense cookies and how to opt out), children's privacy, and how to contact the studio.">
+  <meta name="color-scheme" content="light dark">
+
+  <link rel="canonical" href="https://wizuslabs.com/privacy/">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Privacy Policy — WizusLabs">
+  <meta property="og:description" content="How the WizusLabs website handles data: server logs, no accounts, third-party advertising, children's privacy, and how to contact the studio.">
+  <meta property="og:url" content="https://wizuslabs.com/privacy/">
+  <meta property="og:site_name" content="WizusLabs">
+  <meta property="og:image" content="https://wizuslabs.com/assets/img/social/wizuslabs-og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Privacy Policy — WizusLabs">
+  <meta name="twitter:description" content="How the WizusLabs website handles data: server logs, no accounts, third-party advertising, children's privacy, and how to contact the studio.">
+  <meta name="twitter:image" content="https://wizuslabs.com/assets/img/social/wizuslabs-og.png">
+
+  <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/js/app.js"></script>
+</head>
+<body>
+<!--
+  nav.html — SOURCE OF TRUTH for the site nav.
+  No build tool. Copy this block inline into each page's <body>.
+  If nav changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.1 + §11 (wordmark) + §7.10 (theme toggle).
+-->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <nav class="nav" aria-label="Primary">
+    <div class="container nav__inner">
+      <a class="wordmark" href="/" aria-label="WizusLabs home">
+        <span class="wordmark__first">Wizus</span><span class="wordmark__second">Labs</span>
+      </a>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a class="nav__link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__link" href="/agents/">Agents</a></li>
+        <li><a class="nav__link" href="/apps/">Apps</a></li>
+        <li><a class="nav__link" href="/human/">Human</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button
+          type="button"
+          class="nav__hamburger"
+          data-nav-open-btn
+          aria-expanded="false"
+          aria-controls="nav-panel"
+          aria-label="Open navigation">
+          <svg class="nav__hamburger-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M3 7h18M3 12h18M3 17h18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          class="theme-toggle"
+          data-theme-toggle
+          data-state="auto"
+          aria-label="Theme: auto"
+          aria-pressed="false">
+          <svg class="theme-toggle__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/>
+          </svg>
+          <span class="theme-toggle__label">Theme: auto</span>
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="nav-panel"
+      class="nav__panel"
+      data-nav-panel
+      role="dialog"
+      aria-modal="true"
+      aria-label="Primary navigation">
+      <button
+        type="button"
+        class="nav__panel-close"
+        data-nav-close-btn
+        aria-label="Close navigation">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+          <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <ul class="nav__panel-list">
+        <li><a class="nav__panel-link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__panel-link" href="/agents/">Agents</a></li>
+        <li><a class="nav__panel-link" href="/apps/">Apps</a></li>
+        <li><a class="nav__panel-link" href="/human/">Human</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Screen-reader announcement target for theme toggle -->
+<div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
+
+<main id="main">
+
+  <!-- ===== Page hero (interior band) ===== -->
+  <section class="page-hero" aria-labelledby="privacy-h1">
+    <div class="container page-hero__inner">
+      <div class="page-hero__content">
+        <p class="page-hero__eyebrow">Legal</p>
+        <h1 id="privacy-h1" class="page-hero__headline">Privacy Policy</h1>
+        <p class="page-hero__lead">
+          What this website collects, what it does not, and the third parties
+          that place cookies when you visit. Written plainly, on purpose.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== The policy ===== -->
+  <section class="content-section">
+    <div class="container">
+      <article class="editorial">
+
+        <p class="editorial__lead">This policy covers the WizusLabs website at wizuslabs.com — the marketing
+and studio pages you are reading now. Our individual apps handle their own
+data separately; each one ships with its own privacy policy, linked below.
+This page is about the site, not the apps.</p>
+
+        <h2>Who we are</h2>
+
+        <p>WizusLabs is a small independent software studio. The site is a static
+marketing and documentation site: pages describing the studio, its apps,
+and its shipping log. There is no account system, no login, and no store
+on this site. You can read every page without identifying yourself.</p>
+
+        <h2 class="reveal-on-scroll">What the site collects</h2>
+
+        <p class="reveal-on-scroll">We keep the site deliberately light. In the ordinary course of serving
+pages, our hosting provider may record standard technical information:</p>
+
+        <ul class="reveal-on-scroll">
+          <li>Basic server logs — IP address, browser user-agent, the page
+            requested, and the date and time. These are standard web-server
+            records used to keep the site running and to diagnose problems.</li>
+          <li>A local theme preference — if you use the light/dark theme
+            toggle, that choice is stored in your browser's local storage on
+            your device. It never leaves your browser and is not sent to us.</li>
+        </ul>
+
+        <p class="reveal-on-scroll">We do not ask you to create an account, we do not collect names or email
+addresses through this site unless you choose to email us, and we do not
+sell personal information.</p>
+
+        <h2 class="reveal-on-scroll">Third-party advertising</h2>
+
+        <p class="reveal-on-scroll">Some pages on this site display advertising served by Google. Google, as
+a third-party vendor, uses cookies to serve ads on this site.</p>
+
+        <ul class="reveal-on-scroll">
+          <li>Google AdSense uses cookies — including the DART advertising
+            cookie — to serve ads based on your prior visits to this site and
+            other sites on the internet.</li>
+          <li>Third-party vendors and ad networks may also use cookies to serve
+            ads based on your visits, and to measure ad performance.</li>
+          <li>You can opt out of personalized advertising by visiting Google's
+            Ads Settings at
+            <a class="link" href="https://www.google.com/settings/ads" rel="noopener" target="_blank">https://www.google.com/settings/ads</a>.</li>
+          <li>You can opt out of a third-party vendor's use of cookies for
+            personalized advertising by visiting
+            <a class="link" href="https://www.aboutads.info/choices/" rel="noopener" target="_blank">www.aboutads.info</a>.</li>
+        </ul>
+
+        <p class="reveal-on-scroll">For more detail on how Google uses information from sites that use its
+services, see Google's own privacy and advertising documentation. We do
+not control the cookies set by these third parties and we do not receive
+the personal data they collect.</p>
+
+        <h2 class="reveal-on-scroll">Cookies</h2>
+
+        <p class="reveal-on-scroll">The site itself does not set first-party tracking cookies. The cookies you
+may encounter come from the third-party advertising described above. You
+can control or delete cookies through your browser settings; blocking them
+will not stop you from reading any page on this site.</p>
+
+        <h2 class="reveal-on-scroll">Children's privacy</h2>
+
+        <p class="reveal-on-scroll">This site is not directed at children and does not knowingly collect
+personal information from children. If you believe a child has provided us
+personal information through this site, contact us and we will delete it.
+Age-appropriate handling for a specific app is described in that app's own
+privacy policy.</p>
+
+        <h2 class="reveal-on-scroll">Our apps handle their own data</h2>
+
+        <p class="reveal-on-scroll">The games and apps we publish are separate products with their own data
+practices. If you are looking for how a specific app handles your data —
+including any in-app advertising, purchases, or analytics — read that app's
+privacy policy:</p>
+
+        <ul class="reveal-on-scroll">
+          <li><a class="link" href="/neuralspark/privacy-policy.html">NeuralSpark privacy policy</a></li>
+          <li><a class="link" href="/sudoku/privacy-policy.html">Sudoku privacy policy</a></li>
+          <li><a class="link" href="/iron-swarm/privacy-policy.html">Iron Swarm privacy policy</a></li>
+        </ul>
+
+        <h2 class="reveal-on-scroll">Changes to this policy</h2>
+
+        <p class="reveal-on-scroll">We may update this policy as the site changes or as advertising and legal
+requirements evolve. When we do, we will update the date below. Continued
+use of the site after a change means you accept the updated policy.</p>
+
+        <h2 class="reveal-on-scroll">Contact</h2>
+
+        <p class="reveal-on-scroll">Questions about this policy, or a request about your data, can go to a real
+person at <a class="link" href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a>.</p>
+
+        <p class="content-note">Last updated: 2026-07-08 · wizuslabs.com</p>
+
+        <p><a class="link" href="/">← Back to home</a></p>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<!--
+  footer.html — SOURCE OF TRUTH for the site footer.
+  No build tool. Copy this block inline into each page's <body>.
+  If the footer changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.2 + §7.20 (footer mark).
+  Every legacy store-submission URL lives here by design.
+-->
+<footer class="footer">
+  <div class="footer__cols footer__cols--3col">
+    <section aria-labelledby="footer-lab">
+      <h2 id="footer-lab" class="footer__heading">Lab</h2>
+      <ul class="footer__list">
+        <li><a href="/manifesto/">Manifesto</a></li>
+        <li><a href="/agents/">Agents</a></li>
+        <li><a href="/human/">Human</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-apps">
+      <h2 id="footer-apps" class="footer__heading">Apps</h2>
+      <ul class="footer__list">
+        <li><a href="/apps/neuralspark/">NeuralSpark</a></li>
+        <li><a href="/apps/sudoku/">Sudoku</a></li>
+        <li><a href="/iron-swarm/">Iron Swarm</a></li>
+        <li><a href="/apps/shatterstone/">Shatterstone</a></li>
+        <li><a href="/apps/">All apps</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-contact">
+      <h2 id="footer-contact" class="footer__heading">Contact</h2>
+      <ul class="footer__list">
+        <li><a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+        <li><a href="/terms/">Terms</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; 2026 WizusLabs</p>
+    <p class="footer__mark">Always for Human.</p>
+    <p><a href="/">wizuslabs.com</a></p>
+  </div>
+</footer>
+</body>
+</html>

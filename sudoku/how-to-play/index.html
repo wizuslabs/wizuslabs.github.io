@@ -6,7 +6,80 @@
   <title>How to Play Sudoku — Rules &amp; Game Modes | WizusLabs</title>
   <meta name="description" content="Sudoku rules in plain language, plus a clear guide to eight game modes: Classic 9×9, Mini 6×6, Killer, Irregular, X-Sudoku, Windoku, Even-Odd, and Large 12×12.">
   <link rel="canonical" href="https://wizuslabs.com/sudoku/how-to-play/">
-  <link rel="icon" type="image/png" href="/favicon.png">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://wizuslabs.com/sudoku/how-to-play/">
+  <meta property="og:site_name" content="WizusLabs">
+  <meta property="og:title" content="How to Play Sudoku — Rules & Game Modes">
+  <meta property="og:description" content="Sudoku rules in plain language, plus a clear guide to eight game modes: Classic 9×9, Mini 6×6, Killer, Irregular, X-Sudoku, Windoku, Even-Odd, and Large 12×12.">
+  <meta property="og:image" content="https://wizuslabs.com/sudoku/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Sudoku by WizusLabs — play free online">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How to Play Sudoku — Rules & Game Modes">
+  <meta name="twitter:description" content="Sudoku rules in plain language, plus a clear guide to eight game modes: Classic 9×9, Mini 6×6, Killer, Irregular, X-Sudoku, Windoku, Even-Odd, and Large 12×12.">
+  <meta name="twitter:image" content="https://wizuslabs.com/sudoku/og-image.png">
+
+  <!-- Structured data (schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "HowTo",
+        "name": "How to Play Sudoku",
+        "description": "Sudoku rules in plain language, plus a clear guide to eight game modes: Classic 9×9, Mini 6×6, Killer, Irregular, X-Sudoku, Windoku, Even-Odd, and Large 12×12.",
+        "image": "https://wizuslabs.com/sudoku/og-image.png",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "Learn the goal",
+            "text": "Fill every empty cell so each row, each column, and each 3×3 box contains the digits 1 through 9 exactly once."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Scan for nearly full units",
+            "text": "Scan for nearly full rows, columns, and boxes first. A unit with eight digits placed tells you the ninth for free."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Trace a frequent digit",
+            "text": "Pick a digit that appears often on the board and trace where it can still legally go in each box."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Switch to notes when stuck",
+            "text": "When progress slows, write the remaining candidates in the corner of each empty cell and watch for cells that hold a single candidate."
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://wizuslabs.com/sudoku/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "How to Play",
+            "item": "https://wizuslabs.com/sudoku/how-to-play/"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="icon" type="image/png" href="../favicon.png">
   <style>
     * { box-sizing: border-box; }
     body {
@@ -83,8 +156,8 @@
 </head>
 <body>
   <header>
-    <a class="brand" href="/">Sudoku · WizusLabs</a>
-    <a class="play-cta" href="/">Play Sudoku</a>
+    <a class="brand" href="../">Sudoku · WizusLabs</a>
+    <a class="play-cta" href="../">Play Sudoku</a>
   </header>
   <main>
     <article>
@@ -101,7 +174,7 @@
       <p>That is the entire ruleset. The depth comes from how those three constraints interact. A well-made puzzle has exactly one solution, and every puzzle on this site is checked for that before you ever see it — so if you find yourself wanting to guess, there is always a logical step you haven't spotted yet.</p>
 
       <h2>A sensible way to start</h2>
-      <p>Scan for nearly full rows, columns, and boxes first. A unit with eight digits placed tells you the ninth for free. From there, pick a digit that appears often on the board and trace where it can still legally go in each box. When progress slows, switch to notes: write the remaining candidates in the corner of each empty cell, and watch for cells that hold a single candidate. Our <a href="/techniques/">Techniques</a> guide takes this much further, from those first scans up to advanced eliminations like the X-Wing.</p>
+      <p>Scan for nearly full rows, columns, and boxes first. A unit with eight digits placed tells you the ninth for free. From there, pick a digit that appears often on the board and trace where it can still legally go in each box. When progress slows, switch to notes: write the remaining candidates in the corner of each empty cell, and watch for cells that hold a single candidate. Our <a href="../techniques/">Techniques</a> guide takes this much further, from those first scans up to advanced eliminations like the X-Wing.</p>
       <p>A few habits help at every level. Work in pencil-mark logic rather than intuition — if you cannot say <em>why</em> a digit belongs in a cell, it does not belong there yet. And take breaks; a fresh look often finds in seconds what a tired one missed for minutes.</p>
 
       <h2>The eight game modes</h2>
@@ -123,15 +196,15 @@
       <p>A 12×12 grid using digits 1–12, divided into twelve 3×4 boxes. The rules are pure classic; there is simply more room to reason. Larger units mean longer scans and more patient bookkeeping — bring your notes.</p>
 
       <h2>Where to go next</h2>
-      <p>If the modes are clear but the solving still feels like trial and error, the <a href="/techniques/">Techniques</a> guide teaches the named moves — Naked Singles through XY-Wings — in the order most players learn them. And if you are unsure which level to pick, <a href="/difficulty/">Difficulty Levels</a> explains exactly how our puzzles are graded.</p>
+      <p>If the modes are clear but the solving still feels like trial and error, the <a href="../techniques/">Techniques</a> guide teaches the named moves — Naked Singles through XY-Wings — in the order most players learn them. And if you are unsure which level to pick, <a href="../difficulty/">Difficulty Levels</a> explains exactly how our puzzles are graded.</p>
     </article>
-    <p class="play-back"><a class="play-cta" href="/">Play Sudoku</a></p>
+    <p class="play-back"><a class="play-cta" href="../">Play Sudoku</a></p>
   </main>
   <footer>
     <nav aria-label="Site">
-      <a href="/how-to-play/">How to Play</a> ·
-      <a href="/techniques/">Techniques</a> ·
-      <a href="/difficulty/">Difficulty</a> ·
+      <a href="../how-to-play/">How to Play</a> ·
+      <a href="../techniques/">Techniques</a> ·
+      <a href="../difficulty/">Difficulty</a> ·
       <a href="https://wizuslabs.com/sudoku/privacy-policy">Privacy Policy</a> ·
       <a href="https://wizuslabs.com/sudoku/terms-of-use">Terms</a>
     </nav>

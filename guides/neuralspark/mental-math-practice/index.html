@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental math practice: shortcuts and how to drill them — NeuralSpark</title>
+  <meta name="description" content="Practical mental-math shortcuts for addition, subtraction, multiplication, and estimation, how to practise them, and how NeuralSpark's math mode is set up for short reps.">
+  <meta name="color-scheme" content="light dark">
+
+  <link rel="canonical" href="https://wizuslabs.com/guides/neuralspark/mental-math-practice/">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Mental math practice: shortcuts and how to drill them — NeuralSpark">
+  <meta property="og:description" content="Practical mental-math shortcuts for addition, subtraction, multiplication, and estimation, and how to practise them.">
+  <meta property="og:url" content="https://wizuslabs.com/guides/neuralspark/mental-math-practice/">
+  <meta property="og:site_name" content="WizusLabs">
+  <meta property="og:image" content="https://wizuslabs.com/assets/img/pages/neuralspark-hero.webp">
+  <meta property="og:image:width" content="1536">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mental math practice: shortcuts and how to drill them — NeuralSpark">
+  <meta name="twitter:description" content="Practical mental-math shortcuts for addition, subtraction, multiplication, and estimation, and how to practise them.">
+  <meta name="twitter:image" content="https://wizuslabs.com/assets/img/pages/neuralspark-hero.webp">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": "https://wizuslabs.com/guides/neuralspark/mental-math-practice/#breadcrumbs",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://wizuslabs.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Guides",
+        "item": "https://wizuslabs.com/guides/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Mental math practice"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/js/app.js"></script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5856240427546455" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--
+  nav.html — SOURCE OF TRUTH for the site nav.
+  No build tool. Copy this block inline into each page's <body>.
+  If nav changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.1 + §11 (wordmark) + §7.10 (theme toggle).
+-->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <nav class="nav" aria-label="Primary">
+    <div class="container nav__inner">
+      <a class="wordmark" href="/" aria-label="WizusLabs home">
+        <span class="wordmark__first">Wizus</span><span class="wordmark__second">Labs</span>
+      </a>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a class="nav__link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__link" href="/agents/">Agents</a></li>
+        <li><a class="nav__link" href="/apps/">Apps</a></li>
+        <li><a class="nav__link" href="/human/">Human</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button
+          type="button"
+          class="nav__hamburger"
+          data-nav-open-btn
+          aria-expanded="false"
+          aria-controls="nav-panel"
+          aria-label="Open navigation">
+          <svg class="nav__hamburger-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M3 7h18M3 12h18M3 17h18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          class="theme-toggle"
+          data-theme-toggle
+          data-state="auto"
+          aria-label="Theme: auto"
+          aria-pressed="false">
+          <svg class="theme-toggle__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/>
+          </svg>
+          <span class="theme-toggle__label">Theme: auto</span>
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="nav-panel"
+      class="nav__panel"
+      data-nav-panel
+      role="dialog"
+      aria-modal="true"
+      aria-label="Primary navigation">
+      <button
+        type="button"
+        class="nav__panel-close"
+        data-nav-close-btn
+        aria-label="Close navigation">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+          <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <ul class="nav__panel-list">
+        <li><a class="nav__panel-link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__panel-link" href="/agents/">Agents</a></li>
+        <li><a class="nav__panel-link" href="/apps/">Apps</a></li>
+        <li><a class="nav__panel-link" href="/human/">Human</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Screen-reader announcement target for theme toggle -->
+<div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
+
+<main id="main">
+
+  <!-- ===== Page hero (interior band) ===== -->
+  <section class="page-hero" aria-labelledby="mmp-h1">
+    <img
+      class="page-hero__bg"
+      src="/assets/img/pages/neuralspark-hero.webp"
+      alt=""
+      width="1536"
+      height="1024"
+      loading="eager"
+      fetchpriority="high"
+      decoding="async">
+    <div class="page-hero__overlay" aria-hidden="true"></div>
+    <div class="container page-hero__inner">
+      <div class="page-hero__content">
+        <p class="page-hero__eyebrow">NeuralSpark · Guide</p>
+        <h1 id="mmp-h1" class="page-hero__headline">Mental math practice</h1>
+        <p class="page-hero__lead">
+          The shortcuts that make arithmetic quicker in your head — and how to
+          drill them in short, repeatable rounds.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== The guide ===== -->
+  <section class="content-section">
+    <div class="container">
+      <nav class="content-note" aria-label="Breadcrumb">
+        <a class="link" href="/guides/">Guides</a> / NeuralSpark / Mental math practice
+      </nav>
+
+      <article class="editorial">
+
+        <p class="editorial__lead">Mental math is a skill, and like most skills it comes down to a small set
+        of reliable shortcuts plus regular reps. This guide walks through the
+        shortcuts that do the most work — for addition, subtraction,
+        multiplication, and estimation — with worked examples you can follow,
+        then explains how to practise them in short sessions. At the end it
+        covers how NeuralSpark's math mode is set up if you want somewhere to
+        drill.</p>
+
+        <h2>Addition: work left to right</h2>
+
+        <p class="reveal-on-scroll">On paper you add from the right, carrying as you go. In your head it is
+        easier to work left to right, because you hear the biggest part of the
+        answer first and adjust from there. To add 47 + 38, add the tens
+        (40 + 30 = 70), then the ones (7 + 8 = 15), then combine: 70 + 15 = 85.
+        You are never holding more than one running total.</p>
+
+        <p class="reveal-on-scroll">The other big addition trick is <strong>round and adjust</strong>. Turn
+        an awkward number into a round one, then correct. For 47 + 38, treat 38
+        as 40: 47 + 40 = 87, then subtract the 2 you added, giving 85. This is
+        fastest when a number is just below a multiple of ten.</p>
+
+        <h2 class="reveal-on-scroll">Subtraction: count up instead of taking away</h2>
+
+        <p class="reveal-on-scroll">Subtraction feels harder than addition largely because of borrowing.
+        You can sidestep it by <strong>counting up</strong> from the smaller
+        number. For 83 − 27, ask "27 plus what makes 83?" Go 27 → 30 (that is 3),
+        30 → 80 (that is 50), 80 → 83 (that is 3). Add the jumps: 3 + 50 + 3 = 56.
+        This is exactly how a shopkeeper counts out change, and it avoids
+        borrowing entirely.</p>
+
+        <p class="reveal-on-scroll">Round and adjust works here too. For 83 − 27, subtract 30 to get 53,
+        then add back the 3 you over-subtracted: 56. Pick whichever feels more
+        natural for the numbers in front of you.</p>
+
+        <h2 class="reveal-on-scroll">Multiplication: doubles, fives, elevens, and squares</h2>
+
+        <p class="reveal-on-scroll">A handful of multiplication patterns cover a surprising amount of
+        ground:</p>
+
+        <ul class="reveal-on-scroll">
+          <li><strong>Doubling and halving.</strong> To multiply by 4, double
+          twice; by 8, double three times. And if one factor is even, you can
+          halve it while doubling the other: 16 × 25 becomes 8 × 50 becomes
+          4 × 100 = 400.</li>
+          <li><strong>Times 5.</strong> Multiplying by 5 is the same as
+          multiplying by 10 and halving. 5 × 46 = 460 ÷ 2 = 230.</li>
+          <li><strong>Times 11 for two-digit numbers.</strong> Add the two
+          digits and drop the sum in the middle. 11 × 36: 3 and 6 sit on the
+          outside, 3 + 6 = 9 goes between them, giving 396. If the middle sum is
+          ten or more, carry the one: 11 × 57 → 5 (5+7=12) 7 → carry to make
+          627.</li>
+          <li><strong>Squares ending in 5.</strong> For a number ending in 5,
+          take the tens digit, multiply it by the next whole number up, and
+          stick 25 on the end. 35² : 3 × 4 = 12, then 25, giving 1225.</li>
+        </ul>
+
+        <p class="reveal-on-scroll">A more general trick is to break a factor apart. 18 × 7 is easier as
+        (20 × 7) − (2 × 7) = 140 − 14 = 126. Splitting into a round number and a
+        small correction turns most two-digit multiplications into two easy
+        ones.</p>
+
+        <h2 class="reveal-on-scroll">Estimation: get the size right first</h2>
+
+        <p class="reveal-on-scroll">Often you do not need the exact answer — you need to know roughly how big
+        it is, or whether an answer you were handed is plausible. That is
+        estimation, and it is the most useful everyday math skill of all.</p>
+
+        <p class="reveal-on-scroll">The core move is <strong>rounding before you compute</strong>. To
+        estimate 312 × 19, round to 300 × 20 = 6000; the true answer (5928) is
+        close, and you got there in one step. <strong>Front-end estimation</strong>
+        is a cousin: add only the leading digits first (for 412 + 388 + 205,
+        that is 4 + 3 + 2 hundreds = 900) then refine if you need to. And an
+        <strong>order-of-magnitude check</strong> — is this answer in the tens,
+        hundreds, or thousands? — catches the kind of slip where a decimal point
+        lands in the wrong place.</p>
+
+        <h2 class="reveal-on-scroll">How to practise</h2>
+
+        <p class="reveal-on-scroll">Techniques only become quick with reps, and reps work best in short,
+        frequent bursts rather than one long slog. A few practical habits:</p>
+
+        <ul class="reveal-on-scroll">
+          <li>Practise one shortcut at a time until it feels automatic, then
+          mix it with others.</li>
+          <li>Keep the sessions short — a few minutes of arithmetic you finish
+          beats twenty minutes you abandon.</li>
+          <li>Say the running total out loud or under your breath; it stops you
+          losing the thread halfway through.</li>
+          <li>Use real numbers when you can — a bill, a distance, a recipe
+          scaled up — so the practice has a point.</li>
+        </ul>
+
+        <p class="reveal-on-scroll">The honest framing: this is practice at the arithmetic itself. Doing the
+        reps makes you quicker and more confident <em>at the calculations</em>,
+        the same way practising scales makes you quicker at scales. We make no
+        claims beyond that.</p>
+
+        <h2 class="reveal-on-scroll">How NeuralSpark's math mode works</h2>
+
+        <p class="reveal-on-scroll">NeuralSpark bundles its arithmetic puzzles into a math category, one of
+        its six practice areas. The games there are short by design: a round
+        gives you a run of quick problems — sums, differences, comparisons, and
+        estimates — and a score at the end, then lets you go again or stop. Each
+        game has more than one difficulty, so you can keep the numbers gentle
+        while a shortcut is still new and turn them up once it is automatic. It
+        is offline-first and free to play, with no account required.</p>
+
+        <p class="reveal-on-scroll">If you want to try it, open
+        <a class="link" href="/neuralspark/">NeuralSpark in your browser</a> and
+        pick the math category, or read the
+        <a class="link" href="/guides/neuralspark/free-brain-training-games/">overview
+        of the whole collection</a> first. The
+        <a class="link" href="/guides/neuralspark/brain-training-exercises-explained/">brain-training
+        exercises explained guide</a> covers the other kinds of task the app
+        draws on.</p>
+
+        <p><a class="link" href="/guides/">← Back to all guides</a></p>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<!--
+  footer.html — SOURCE OF TRUTH for the site footer.
+  No build tool. Copy this block inline into each page's <body>.
+  If the footer changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.2 + §7.20 (footer mark).
+  Every legacy store-submission URL lives here by design.
+-->
+<footer class="footer">
+  <div class="footer__cols footer__cols--3col">
+    <section aria-labelledby="footer-lab">
+      <h2 id="footer-lab" class="footer__heading">Lab</h2>
+      <ul class="footer__list">
+        <li><a href="/manifesto/">Manifesto</a></li>
+        <li><a href="/agents/">Agents</a></li>
+        <li><a href="/human/">Human</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-apps">
+      <h2 id="footer-apps" class="footer__heading">Apps</h2>
+      <ul class="footer__list">
+        <li><a href="/apps/neuralspark/">NeuralSpark</a></li>
+        <li><a href="/apps/sudoku/">Sudoku</a></li>
+        <li><a href="/iron-swarm/">Iron Swarm</a></li>
+        <li><a href="/apps/shatterstone/">Shatterstone</a></li>
+        <li><a href="/apps/">All apps</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-contact">
+      <h2 id="footer-contact" class="footer__heading">Contact</h2>
+      <ul class="footer__list">
+        <li><a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+        <li><a href="/terms/">Terms</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; 2026 WizusLabs</p>
+    <p class="footer__mark">Always for Human.</p>
+    <p><a href="/">wizuslabs.com</a></p>
+  </div>
+</footer>
+</body>
+</html>

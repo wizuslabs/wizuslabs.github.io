@@ -4,7 +4,7 @@
   <script>
     (function () {
       if (location.hostname === 'sudoku-wizuslabs.pages.dev') {
-        location.replace('https://sudoku.wizuslabs.com' + location.pathname + location.search + location.hash);
+        location.replace('https://wizuslabs.com/sudoku' + location.pathname + location.search + location.hash);
       }
     })();
   </script>
@@ -24,7 +24,6 @@
   <base href="/sudoku/">
 
   <meta charset="UTF-8">
-  <link rel="canonical" href="https://wizuslabs.com/sudoku/">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <!-- Pre-boot viewport for crawlers/static rendering; the Flutter engine
        installs its own viewport meta at boot (full-page embedding replaces
@@ -42,6 +41,60 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <!-- Canonical home is the apex path; the subdomain is staging only. -->
+  <link rel="canonical" href="https://wizuslabs.com/sudoku/">
+  <meta property="og:url" content="https://wizuslabs.com/sudoku/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="WizusLabs">
+  <meta property="og:title" content="Sudoku — Play Free Online">
+  <meta property="og:description" content="Play sudoku free in your browser. Eight modes — Classic, Mini, Killer, Irregular, X-Sudoku, Windoku, Even-Odd, and 12×12 — across six difficulty levels, from Easy to Grandmaster.">
+  <meta property="og:image" content="https://wizuslabs.com/sudoku/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Sudoku by WizusLabs — play free online">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sudoku — Play Free Online">
+  <meta name="twitter:description" content="Play sudoku free in your browser. Eight modes — Classic, Mini, Killer, Irregular, X-Sudoku, Windoku, Even-Odd, and 12×12 — across six difficulty levels, from Easy to Grandmaster.">
+  <meta name="twitter:image" content="https://wizuslabs.com/sudoku/og-image.png">
+
+  <!-- Structured data (schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "name": "Sudoku",
+        "url": "https://wizuslabs.com/sudoku/",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "Any (web browser)",
+        "description": "Play sudoku free in your browser. Eight modes — Classic, Mini, Killer, Irregular, X-Sudoku, Windoku, Even-Odd, and 12×12 — across six difficulty levels, from Easy to Grandmaster.",
+        "image": "https://wizuslabs.com/sudoku/og-image.png",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "publisher": {
+          "@id": "https://wizuslabs.com/#organization"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://wizuslabs.com/#organization",
+        "name": "WizusLabs",
+        "url": "https://wizuslabs.com",
+        "logo": "https://wizuslabs.com/sudoku/icons/Icon-512.png"
+      }
+    ]
+  }
+  </script>
 
   <title>Sudoku — Play Free Online | WizusLabs</title>
   <link rel="manifest" href="manifest.json">
@@ -130,15 +183,15 @@
     run from a gentle Easy up to Grandmaster, where the hardest solving
     techniques come into play.</p>
     <p>New to sudoku, or stuck between Hard and Expert? Start with our
-    <a href="/how-to-play/">How to Play</a> guide, learn the named solving
-    moves in <a href="/techniques/">Techniques</a>, or see how puzzles are
-    graded in <a href="/difficulty/">Difficulty Levels</a>. Then come back
+    <a href="how-to-play/">How to Play</a> guide, learn the named solving
+    moves in <a href="techniques/">Techniques</a>, or see how puzzles are
+    graded in <a href="difficulty/">Difficulty Levels</a>. Then come back
     and put it into practice — the puzzle is waiting above.</p>
     <footer>
       <nav aria-label="Site">
-        <a href="/how-to-play/">How to Play</a> ·
-        <a href="/techniques/">Techniques</a> ·
-        <a href="/difficulty/">Difficulty</a> ·
+        <a href="how-to-play/">How to Play</a> ·
+        <a href="techniques/">Techniques</a> ·
+        <a href="difficulty/">Difficulty</a> ·
         <a href="https://wizuslabs.com/sudoku/privacy-policy">Privacy Policy</a> ·
         <a href="https://wizuslabs.com/sudoku/terms-of-use">Terms</a>
       </nav>
