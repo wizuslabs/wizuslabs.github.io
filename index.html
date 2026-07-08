@@ -165,52 +165,99 @@
 
 <main id="main">
 
-  <!-- ===== Section 1 — Hero (apps-forward) ===== -->
-  <section class="section hero-manifesto" aria-labelledby="hero-h1">
-    <div class="container">
-      <div class="hero-manifesto__content">
-        <h1 id="hero-h1" class="hero-manifesto__headline">
-          Apps worth keeping on your home screen.
+  <!-- ===== Section 1 — Cinematic Hero ===== -->
+  <section class="landing-hero" aria-labelledby="hero-h1">
+    <img
+      class="landing-hero__bg"
+      src="/assets/img/landing/hero-landing.webp"
+      alt=""
+      width="1536"
+      height="1024"
+      loading="eager"
+      fetchpriority="high"
+      decoding="async">
+    <div class="landing-hero__overlay" aria-hidden="true"></div>
+    <div class="container landing-hero__inner">
+      <div class="landing-hero__content">
+        <p class="landing-hero__eyebrow">AI Software Studio</p>
+        <h1 id="hero-h1" class="landing-hero__headline">
+          Apps built by AI agents. Signed by one human.
         </h1>
-        <p class="hero-manifesto__lead">
-          NeuralSpark, Sudoku, and Iron Swarm — three finished, free-to-play apps
-          you can open right now on the web, iOS, and Android. Built by AI agents.
-          Signed by one human.
+        <p class="landing-hero__lead">
+          NeuralSpark, Sudoku, and Iron Swarm — three finished, free-to-play
+          apps you can open right now on the web, iOS, and Android. This is a
+          working studio, and these are what come off the shelf.
         </p>
-        <p class="hero-manifesto__meta u-mono">wizuslabs · three apps live · web + ios + android</p>
-        <p class="hero-actions">
-          <a class="button" href="#apps">See the apps</a>
-          <a class="link" href="/studio/">Meet the studio →</a>
+        <p class="landing-hero__stats">3 apps live · iOS · Android · Web</p>
+        <p class="landing-hero__actions">
+          <a class="button" href="#apps">Explore the apps</a>
+          <a class="button button--secondary button--on-dark" href="/studio/">Meet the studio →</a>
         </p>
       </div>
     </div>
   </section>
 
-  <!-- ===== Section 2 — Featured Apps (core content) ===== -->
+  <!-- ===== Section 2 — App Showcases (core content) ===== -->
   <section class="section" id="apps" aria-labelledby="apps-h2">
     <div class="container">
-      <h2 id="apps-h2">Three apps, ready to play.</h2>
-      <p class="reading-measure">
-        Each one is finished, free to start, and carries its own support page,
-        privacy policy, and terms. Here is what you are actually getting.
-      </p>
+      <header class="landing-section-head reading-measure stack">
+        <h2 id="apps-h2">Three apps, ready to play.</h2>
+        <p class="u-muted">
+          Each one is finished, free to start, and carries its own support page,
+          privacy policy, and terms. Here is what you are actually getting.
+        </p>
+      </header>
 
-      <div class="stack-lg apps-shelf">
-        <article class="app-card app-card--full" aria-labelledby="app-neuralspark">
-          <div class="stack">
-            <img
-              class="app-icon app-icon--md"
-              src="/assets/img/apps/neuralspark-256.png"
-              alt="NeuralSpark app icon"
-              width="112"
-              height="112"
-              loading="lazy"
-              decoding="async">
-            <p>
+      <div class="showcase-list">
+
+        <!-- NeuralSpark — media left, text right -->
+        <article class="showcase" aria-labelledby="app-neuralspark">
+          <div class="showcase__media reveal-on-scroll">
+            <div class="device-cluster device-cluster--portrait">
+              <figure class="device device--primary">
+                <img
+                  src="/assets/img/apps/shots/neuralspark-shot-1.webp"
+                  alt="NeuralSpark home screen showing practice areas"
+                  width="720"
+                  height="1566"
+                  loading="lazy"
+                  decoding="async">
+              </figure>
+              <figure class="device device--thumb">
+                <img
+                  src="/assets/img/apps/shots/neuralspark-shot-2.webp"
+                  alt="A NeuralSpark memory exercise in progress"
+                  width="720"
+                  height="1566"
+                  loading="lazy"
+                  decoding="async">
+              </figure>
+              <figure class="device device--thumb">
+                <img
+                  src="/assets/img/apps/shots/neuralspark-shot-3.webp"
+                  alt="NeuralSpark results summary after a round"
+                  width="720"
+                  height="1566"
+                  loading="lazy"
+                  decoding="async">
+              </figure>
+            </div>
+          </div>
+
+          <div class="showcase__body stack">
+            <div class="showcase__id">
+              <img
+                class="app-icon showcase__icon"
+                src="/assets/img/apps/neuralspark-256.webp"
+                alt="NeuralSpark app icon"
+                width="88"
+                height="88"
+                loading="lazy"
+                decoding="async">
               <span class="pill pill--signal" aria-label="Status: Live"><span aria-hidden="true">●</span> Live</span>
-            </p>
-            <h3 id="app-neuralspark" class="app-card__name">NeuralSpark</h3>
-            <p class="u-mono app-card__team">v1.0 · neuralspark · web + ios + android</p>
+            </div>
+            <h3 id="app-neuralspark" class="showcase__name">NeuralSpark</h3>
+            <p class="u-mono showcase__meta">v1.0 · neuralspark · web + ios + android</p>
             <p>
               NeuralSpark is a pocketful of short mental workouts — more than seventy
               small games sorted into six practice areas: attention, memory, math,
@@ -238,7 +285,7 @@
             <p>
               <a class="link" href="/apps/neuralspark/">Read more about NeuralSpark →</a>
             </p>
-            <p class="u-mono app-card__policies">
+            <p class="u-mono showcase__policies">
               <a href="/neuralspark/privacy-policy">Privacy</a>
               <span aria-hidden="true"> · </span>
               <a href="/neuralspark/support">Support</a>
@@ -248,21 +295,54 @@
           </div>
         </article>
 
-        <article class="app-card app-card--full" aria-labelledby="app-sudoku">
-          <div class="stack">
-            <img
-              class="app-icon app-icon--md"
-              src="/assets/img/apps/sudoku-256.png"
-              alt="Sudoku by WizusLabs app icon"
-              width="112"
-              height="112"
-              loading="lazy"
-              decoding="async">
-            <p>
+        <!-- Sudoku — media right, text left -->
+        <article class="showcase showcase--reverse" aria-labelledby="app-sudoku">
+          <div class="showcase__media reveal-on-scroll">
+            <div class="device-cluster device-cluster--portrait">
+              <figure class="device device--primary">
+                <img
+                  src="/assets/img/apps/shots/sudoku-shot-1.webp"
+                  alt="A Sudoku by WizusLabs puzzle board mid-solve"
+                  width="720"
+                  height="1280"
+                  loading="lazy"
+                  decoding="async">
+              </figure>
+              <figure class="device device--thumb">
+                <img
+                  src="/assets/img/apps/shots/sudoku-shot-2.webp"
+                  alt="Sudoku difficulty and mode selection screen"
+                  width="720"
+                  height="1280"
+                  loading="lazy"
+                  decoding="async">
+              </figure>
+              <figure class="device device--thumb">
+                <img
+                  src="/assets/img/apps/shots/sudoku-shot-3.webp"
+                  alt="Sudoku daily challenge screen"
+                  width="720"
+                  height="1280"
+                  loading="lazy"
+                  decoding="async">
+              </figure>
+            </div>
+          </div>
+
+          <div class="showcase__body stack">
+            <div class="showcase__id">
+              <img
+                class="app-icon showcase__icon"
+                src="/assets/img/apps/sudoku-256.webp"
+                alt="Sudoku by WizusLabs app icon"
+                width="88"
+                height="88"
+                loading="lazy"
+                decoding="async">
               <span class="pill pill--signal" aria-label="Status: Live"><span aria-hidden="true">●</span> Live</span>
-            </p>
-            <h3 id="app-sudoku" class="app-card__name">Sudoku by WizusLabs</h3>
-            <p class="u-mono app-card__team">v1.0 · sudoku · web + ios + android</p>
+            </div>
+            <h3 id="app-sudoku" class="showcase__name">Sudoku by WizusLabs</h3>
+            <p class="u-mono showcase__meta">v1.0 · sudoku · web + ios + android</p>
             <p>
               Sudoku by WizusLabs is the classic nine-by-nine grid done properly,
               with killer variants and a fresh daily challenge alongside it. Every
@@ -290,7 +370,7 @@
             <p>
               <a class="link" href="/apps/sudoku/">Read more about Sudoku →</a>
             </p>
-            <p class="u-mono app-card__policies">
+            <p class="u-mono showcase__policies">
               <a href="/sudoku/privacy-policy">Privacy</a>
               <span aria-hidden="true"> · </span>
               <a href="/sudoku/support">Support</a>
@@ -300,21 +380,54 @@
           </div>
         </article>
 
-        <article class="app-card app-card--full" aria-labelledby="app-iron-swarm">
-          <div class="stack">
-            <img
-              class="app-icon app-icon--md"
-              src="/assets/img/apps/iron-swarm-256.png"
-              alt="Iron Swarm app icon"
-              width="112"
-              height="112"
-              loading="lazy"
-              decoding="async">
-            <p>
+        <!-- Iron Swarm — media left, text right; LANDSCAPE frames -->
+        <article class="showcase" aria-labelledby="app-iron-swarm">
+          <div class="showcase__media reveal-on-scroll">
+            <div class="device-cluster device-cluster--landscape">
+              <figure class="device device--primary device--landscape">
+                <img
+                  src="/assets/img/apps/shots/iron-swarm-shot-1.webp"
+                  alt="Iron Swarm tank battle in a mission arena"
+                  width="720"
+                  height="333"
+                  loading="lazy"
+                  decoding="async">
+              </figure>
+              <figure class="device device--thumb device--landscape">
+                <img
+                  src="/assets/img/apps/shots/iron-swarm-shot-2.webp"
+                  alt="Iron Swarm firing on a wave of enemy armor"
+                  width="720"
+                  height="333"
+                  loading="lazy"
+                  decoding="async">
+              </figure>
+              <figure class="device device--thumb device--landscape">
+                <img
+                  src="/assets/img/apps/shots/iron-swarm-shot-3.webp"
+                  alt="Iron Swarm boss tank encounter"
+                  width="720"
+                  height="333"
+                  loading="lazy"
+                  decoding="async">
+              </figure>
+            </div>
+          </div>
+
+          <div class="showcase__body stack">
+            <div class="showcase__id">
+              <img
+                class="app-icon showcase__icon"
+                src="/assets/img/apps/iron-swarm-256.webp"
+                alt="Iron Swarm app icon"
+                width="88"
+                height="88"
+                loading="lazy"
+                decoding="async">
               <span class="pill pill--signal" aria-label="Status: Live"><span aria-hidden="true">●</span> Live</span>
-            </p>
-            <h3 id="app-iron-swarm" class="app-card__name">Iron Swarm</h3>
-            <p class="u-mono app-card__team">ios + android · arcade</p>
+            </div>
+            <h3 id="app-iron-swarm" class="showcase__name">Iron Swarm</h3>
+            <p class="u-mono showcase__meta">ios + android · arcade</p>
             <p>
               Iron Swarm is a fast top-down tank arena. You drive a single tank
               through tight, readable battlefields, aiming where you steer, holding
@@ -341,7 +454,7 @@
             <p>
               <a class="link" href="/iron-swarm/">Read more about Iron Swarm →</a>
             </p>
-            <p class="u-mono app-card__policies">
+            <p class="u-mono showcase__policies">
               <a href="/iron-swarm/privacy-policy">Privacy</a>
               <span aria-hidden="true"> · </span>
               <a href="/iron-swarm/support">Support</a>
@@ -350,23 +463,26 @@
             </p>
           </div>
         </article>
+
       </div>
 
-      <p><a class="link" href="/apps/">See the full shelf →</a></p>
+      <p class="landing-section-tail"><a class="link" href="/apps/">See the full shelf →</a></p>
     </div>
   </section>
 
   <!-- ===== Section 3 — Explore by Category (content guides) ===== -->
   <section class="section" id="categories" aria-labelledby="categories-h2">
     <div class="container">
-      <h2 id="categories-h2">Explore by what you want to play.</h2>
-      <p class="reading-measure">
-        Prefer to browse by the kind of play instead of by app? These guides go a
-        level deeper into each one.
-      </p>
+      <header class="landing-section-head reading-measure stack">
+        <h2 id="categories-h2">Explore by what you want to play.</h2>
+        <p class="u-muted">
+          Prefer to browse by the kind of play instead of by app? These guides go a
+          level deeper into each one.
+        </p>
+      </header>
 
       <div class="team-section__grid" role="list">
-        <article class="agent-card" role="listitem" aria-labelledby="cat-neuralspark">
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="cat-neuralspark">
           <h3 id="cat-neuralspark" class="agent-card__name">Brain-training games</h3>
           <p class="agent-card__charter">
             Short, restrained practice rounds across attention, memory, math,
@@ -375,7 +491,7 @@
           <p><a class="link" href="/apps/neuralspark/brain-training-games/">Short practice games in NeuralSpark →</a></p>
         </article>
 
-        <article class="agent-card" role="listitem" aria-labelledby="cat-sudoku">
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="cat-sudoku">
           <h3 id="cat-sudoku" class="agent-card__name">Offline sudoku</h3>
           <p class="agent-card__charter">
             Classic and killer puzzles generated on device, playable with no signal
@@ -384,7 +500,7 @@
           <p><a class="link" href="/apps/sudoku/offline-sudoku/">Offline sudoku with classic and killer puzzles →</a></p>
         </article>
 
-        <article class="agent-card" role="listitem" aria-labelledby="cat-iron-swarm">
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="cat-iron-swarm">
           <h3 id="cat-iron-swarm" class="agent-card__name">Top-down tank combat</h3>
           <p class="agent-card__charter">
             Arcade tank battles with mission chapters, an endless swarm, multi-phase
@@ -396,51 +512,81 @@
     </div>
   </section>
 
-  <!-- ===== Section 4 — Studio Teaser (link to the preserved brand page) ===== -->
-  <section class="section" id="studio" aria-labelledby="studio-h2">
-    <div class="container reading-measure stack">
-      <h2 id="studio-h2">Made by a studio of AI agents.</h2>
-      <p>
-        WizusLabs is an AI software studio. Five crews of specialist agents research,
-        design, build, and ship; one human reviews every diff and signs every release
-        before it reaches a store. The apps above are what comes out the other side.
-      </p>
-      <p>
-        That process — and the manifesto behind it — used to live on this page. It
-        now has a home of its own.
-      </p>
-      <p>
-        <a class="button button--secondary" href="/studio/">Inside the studio →</a>
-      </p>
-      <p class="u-mono">
-        <a class="link" href="/manifesto/">Manifesto</a>
-        <span aria-hidden="true"> · </span>
-        <a class="link" href="/agents/">Agents</a>
-        <span aria-hidden="true"> · </span>
-        <a class="link" href="/human/">Human</a>
-      </p>
+  <!-- ===== Section 4 — Studio Strip (link to the preserved brand page) ===== -->
+  <section class="section landing-studio" id="studio" aria-labelledby="studio-h2">
+    <div class="container">
+      <div class="studio-strip">
+        <div class="studio-strip__media reveal-on-scroll">
+          <img
+            src="/assets/img/landing/studio-atmosphere.webp"
+            alt="A quiet, dim studio workspace lit by a single desk lamp"
+            width="1024"
+            height="1024"
+            loading="lazy"
+            decoding="async">
+        </div>
+        <div class="studio-strip__body stack">
+          <h2 id="studio-h2">Five crews of agents. One human signs every release.</h2>
+          <p>
+            WizusLabs is an AI software studio. Five crews of specialist agents
+            research, design, build, and ship; one human reviews every diff and
+            signs every release before it reaches a store. The apps above are what
+            comes out the other side.
+          </p>
+          <p>
+            That process — and the manifesto behind it — has a home of its own.
+          </p>
+          <p>
+            <a class="button button--secondary" href="/studio/">Inside the studio →</a>
+          </p>
+          <p class="u-mono">
+            <a class="link" href="/manifesto/">Manifesto</a>
+            <span aria-hidden="true"> · </span>
+            <a class="link" href="/agents/">Agents</a>
+            <span aria-hidden="true"> · </span>
+            <a class="link" href="/human/">Human</a>
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- ===== Section 5 — Principles ===== -->
   <section class="section" id="principles" aria-labelledby="principles-h2">
     <div class="container">
-      <h2 id="principles-h2">How we decide.</h2>
+      <header class="landing-section-head reading-measure stack">
+        <h2 id="principles-h2">How we decide.</h2>
+      </header>
 
       <div class="team-section__grid">
-        <article>
+        <article class="reveal-on-scroll">
           <h3>1 — Accessibility is a floor, not a feature.</h3>
           <p>Every page passes WCAG 2.2 AA. Every app is built to be used by a tired person on a small phone.</p>
         </article>
-        <article>
+        <article class="reveal-on-scroll">
           <h3>2 — Longevity over novelty.</h3>
           <p>We pick tools that will still work in ten years. The site is plain HTML on GitHub Pages for a reason.</p>
         </article>
-        <article>
+        <article class="reveal-on-scroll">
           <h3>3 — Human review, every release.</h3>
           <p>No commit ships to a store without a human reading the diff and signing off. That is what "in the loop" means.</p>
         </article>
       </div>
+    </div>
+  </section>
+
+  <!-- ===== Section 6 — Footer CTA ===== -->
+  <section class="section landing-cta" aria-labelledby="cta-h2">
+    <div class="container reading-measure stack u-center">
+      <h2 id="cta-h2">Start with the one you like.</h2>
+      <p class="u-muted">
+        They are all free to open, and none of them need an account. Pick a shelf,
+        or read how the studio works.
+      </p>
+      <p class="landing-cta__actions">
+        <a class="button" href="#apps">Explore the apps</a>
+        <a class="button button--secondary" href="/apps/">See the full shelf →</a>
+      </p>
     </div>
   </section>
 
