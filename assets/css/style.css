@@ -1246,6 +1246,23 @@ html[data-nav-open="true"] .nav__panel {
 }
 
 /* =====================================================
+   FRONT PAGE (apps-led home) — appended for the apps
+   relaunch. Tokens-only; reuses existing components
+   (hero-manifesto, app-card--full, get-it-links, pill,
+   team-section__grid, agent-card, button). The only new
+   rule is the hero action row.
+   ===================================================== */
+
+/* Hero CTA row — primary button + secondary text link, side by side */
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-4);
+  margin-block-start: var(--space-5);
+}
+
+/* =====================================================
    PRINT — minimal print styles for legal pages
    ===================================================== */
 
