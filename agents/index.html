@@ -14,9 +14,13 @@
   <meta property="og:description" content="Twenty-one specialist agents across five Wizus crews. Each crew has a charter. Each agent has one sentence.">
   <meta property="og:url" content="https://wizuslabs.com/agents/">
   <meta property="og:site_name" content="WizusLabs">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://wizuslabs.com/assets/img/pages/agents-hero.webp">
+  <meta property="og:image:width" content="1536">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="The Teams — WizusLabs">
   <meta name="twitter:description" content="Twenty-one specialist agents across five Wizus crews. Each crew has a charter. Each agent has one sentence.">
+  <meta name="twitter:image" content="https://wizuslabs.com/assets/img/pages/agents-hero.webp">
 
   <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
@@ -24,86 +28,7 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <script defer src="/assets/js/app.js"></script>
 
-  <!--
-    Page-scoped layout only. No new tokens. Every value resolves to an
-    existing token in style.css. Kept here (not in style.css) because this
-    layout is specific to /agents/ and Prism owns only this file per T015.
-  -->
-  <style>
-    .page-intro {
-      max-inline-size: var(--measure-short);
-      color: var(--muted);
-      font-size: var(--size-04);
-      line-height: var(--lh-relaxed);
-      margin-block-start: var(--space-4);
-    }
-    .crew {
-      padding-block: var(--space-7);
-      border-block-start: 1px solid var(--rule);
-    }
-    .crew:first-of-type { border-block-start: 0; padding-block-start: var(--space-6); }
-    .crew__heading { font-size: var(--size-07); }
-    .crew__mandate {
-      margin-block-start: var(--space-2);
-      padding-inline-start: var(--space-3);
-      border-inline-start: 2px solid var(--accent);
-      font-family: var(--font-serif);
-      font-style: italic;
-      font-size: var(--size-04);
-      color: var(--ink);
-      max-inline-size: var(--measure-short);
-    }
-    .crew__description {
-      margin-block-start: var(--space-4);
-      font-size: var(--size-03);
-      line-height: var(--lh-relaxed);
-      color: var(--ink);
-      max-inline-size: var(--measure-base);
-    }
-    .crew__count {
-      font-family: var(--font-mono);
-      font-size: var(--size-01);
-      letter-spacing: var(--tracking-mono);
-      color: var(--muted);
-      margin-block-start: var(--space-3);
-    }
-    .agent-roster {
-      list-style: none;
-      margin: var(--space-5) 0 0;
-      padding: 0;
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: var(--space-4);
-    }
-    .agent-roster li + li { margin-block-start: 0; }
-    @media (min-width: 48em) {
-      .agent-roster { grid-template-columns: repeat(2, 1fr); gap: var(--space-5); }
-    }
-    @media (min-width: 64em) {
-      .agent-roster { grid-template-columns: repeat(3, 1fr); }
-    }
-    .agent-row {
-      display: grid;
-      grid-template-columns: 48px 1fr;
-      column-gap: var(--space-3);
-      align-items: start;
-    }
-    .agent-row__body { min-inline-size: 0; }
-    .agent-row__name {
-      font-family: var(--font-serif);
-      font-size: var(--size-04);
-      font-weight: var(--weight-medium);
-      line-height: var(--lh-snug);
-      color: var(--ink);
-      margin: 0;
-    }
-    .agent-row__mandate {
-      margin: var(--space-1) 0 0;
-      font-size: var(--size-02);
-      line-height: var(--lh-normal);
-      color: var(--muted);
-    }
-  </style>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5856240427546455" crossorigin="anonymous"></script>
 </head>
 <body>
 <!--
@@ -186,203 +111,226 @@
 <!-- Screen-reader announcement target for theme toggle -->
 <div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
 
-<main id="main" class="container page-main">
-  <header>
-    <h1>The Teams</h1>
-    <p class="page-intro">Twenty-one specialist agents run the lab. They are grouped into five crews, each with a narrow mandate. We name the machines; we do not dress them up. Each agent has one sentence. Each crew has a charter. Every agent has an abstract glyph on this page — drawn by Palette, later in the sprint — in place of a portrait. No faces, no stock photos, no humanoid costumes.</p>
-  </header>
+<main id="main">
 
-  <section class="crew" aria-labelledby="crew-bridge">
-    <h2 id="crew-bridge" class="crew__heading">Wizus Bridge</h2>
-    <p class="crew__mandate">Reads the world, picks the target, charts the route.</p>
-    <p class="crew__description">Bridge is the direction crew. On a typical day, Bridge is the crew that reads the research, argues about what the lab should build next, draws up the architecture, writes the sprint plan, and hands a concrete task list to the rest of the lab. Bridge is also where the economy of each app gets designed — which features are free, which are paid, and why.</p>
-    <p class="crew__count">Five agents on Bridge.</p>
-    <ul class="agent-roster" aria-label="Bridge agents">
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">Nex</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Nexus</h3>
-          <p class="agent-row__mandate">Orchestrates the whole lab; owns the sprint plan, dispatches tasks to the right crew, and writes the handoffs.</p>
-        </div>
-      </li>
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">Cl</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Clarity</h3>
-          <p class="agent-row__mandate">Interrogates ambiguous requirements until the team knows exactly what is being asked.</p>
-        </div>
-      </li>
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">Sc</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Scout</h3>
-          <p class="agent-row__mandate">Researches the category, the competitors, and the 2026 zeitgeist, and returns a brief a builder can act on.</p>
-        </div>
-      </li>
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">Bl</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Blueprint</h3>
-          <p class="agent-row__mandate">Designs the software architecture, writes the ADRs, and picks the patterns the Workshop will use.</p>
-        </div>
-      </li>
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">Mi</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Mint</h3>
-          <p class="agent-row__mandate">Designs the economy — pricing, paywalls, hint tokens, ad placement — so the money and the playtime do not fight each other.</p>
-        </div>
-      </li>
-    </ul>
+  <!-- ===== Page hero (interior band) ===== -->
+  <section class="page-hero" aria-labelledby="agents-h1">
+    <img
+      class="page-hero__bg"
+      src="/assets/img/pages/agents-hero.webp"
+      alt=""
+      width="1536"
+      height="1024"
+      loading="eager"
+      fetchpriority="high"
+      decoding="async">
+    <div class="page-hero__overlay" aria-hidden="true"></div>
+    <div class="container page-hero__inner">
+      <div class="page-hero__content">
+        <p class="page-hero__eyebrow">Agents</p>
+        <h1 id="agents-h1" class="page-hero__headline">The Teams</h1>
+        <p class="page-hero__lead">
+          Twenty-one specialist agents, grouped into five crews. Each crew
+          has a charter; each agent, one sentence.
+        </p>
+      </div>
+    </div>
   </section>
 
-  <section class="crew" aria-labelledby="crew-atelier">
-    <h2 id="crew-atelier" class="crew__heading">Wizus Atelier</h2>
-    <p class="crew__mandate">Makes the thing beautiful, legible, and worth returning to.</p>
-    <p class="crew__description">Atelier is the design crew. On a typical day, Atelier is the crew that drafts the creative brief, proposes the visual language, draws the UI specs, scores the sound, and decides how a correct answer should feel when you tap it. Atelier owns the tiebreaker question: does this make the product more like the shelf we are proud of, or less?</p>
-    <p class="crew__count">Five agents on Atelier.</p>
-    <ul class="agent-roster" aria-label="Atelier agents">
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">Mu</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Muse</h3>
-          <p class="agent-row__mandate">Creative director; writes the briefs that everyone else's work hangs from, and guards the voice.</p>
-        </div>
-      </li>
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">Ca</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Canvas</h3>
-          <p class="agent-row__mandate">Designs the visual system — grid, type, color, component library — and reviews every screen against it.</p>
-        </div>
-      </li>
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">E</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Echo</h3>
-          <p class="agent-row__mandate">Writes the sound design document and delivers the music and sound effects under it.</p>
-        </div>
-      </li>
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">L</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Ludus</h3>
-          <p class="agent-row__mandate">Designs the game mechanics, the difficulty curves, and the feel of the moment a player wins.</p>
-        </div>
-      </li>
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">Pa</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Palette</h3>
-          <p class="agent-row__mandate">Generates the illustrations, glyphs, and marks the other crews need, including the ones on this page.</p>
-        </div>
-      </li>
-    </ul>
+  <!-- ===== Intro ===== -->
+  <section class="content-section">
+    <div class="container">
+      <article class="editorial">
+        <p class="editorial__lead reveal-on-scroll">Twenty-one specialist agents run the lab. They are grouped into five crews, each with a narrow mandate. We name the machines; we do not dress them up. Each agent has one sentence. Each crew has a charter. Every agent has an abstract glyph on this page — drawn by Palette, later in the sprint — in place of a portrait. No faces, no stock photos, no humanoid costumes.</p>
+      </article>
+    </div>
   </section>
 
-  <section class="crew" aria-labelledby="crew-workshop">
-    <h2 id="crew-workshop" class="crew__heading">Wizus Workshop</h2>
-    <p class="crew__mandate">Turns specifications into software, one module at a time.</p>
-    <p class="crew__description">Workshop is the build crew. On a typical day, Workshop is the crew that takes Blueprint's architecture and Canvas's visual spec and writes the code that turns them into a running app. Workshop owns the implementation files, the persistence layer, the component tree, and the ten thousand small decisions a real app makes between specification and shipping.</p>
-    <p class="crew__count">Five agents on Workshop.</p>
-    <ul class="agent-roster" aria-label="Workshop agents">
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">H</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Horizon</h3>
-          <p class="agent-row__mandate">Lead implementer; writes the Flutter/Dart code that most of our apps are actually made of.</p>
-        </div>
-      </li>
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">Pr</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Prism</h3>
-          <p class="agent-row__mandate">Builds the web surfaces — this site and the legacy policy pages — in plain HTML and CSS.</p>
-        </div>
-      </li>
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">F</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Forge</h3>
-          <p class="agent-row__mandate">Writes backend services, scripts, and the tools the team reaches for when a build breaks.</p>
-        </div>
-      </li>
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">Va</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Vault</h3>
-          <p class="agent-row__mandate">Owns the persistence layer — schemas, storage, and the contracts that keep data from drifting.</p>
-        </div>
-      </li>
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">Neu</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Neuron</h3>
-          <p class="agent-row__mandate">Implements any machine-learning or model-inference code a product actually needs, with the same discipline as any other module.</p>
-        </div>
-      </li>
-    </ul>
+  <hr class="content-divider">
+
+  <!-- ===== Crew — Bridge ===== -->
+  <section class="content-section" aria-labelledby="crew-bridge">
+    <div class="container">
+      <div class="reading-measure stack">
+        <h2 id="crew-bridge" class="team-section__heading">Wizus Bridge</h2>
+        <p class="team-section__intro">Reads the world, picks the target, charts the route.</p>
+        <p>Bridge is the direction crew. On a typical day, Bridge is the crew that reads the research, argues about what the lab should build next, draws up the architecture, writes the sprint plan, and hands a concrete task list to the rest of the lab. Bridge is also where the economy of each app gets designed — which features are free, which are paid, and why.</p>
+        <p class="content-note">Five agents on Bridge.</p>
+      </div>
+      <div class="content-grid" role="list" aria-label="Bridge agents">
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-nexus">
+          <span class="agent-glyph" aria-hidden="true">Nex</span>
+          <h3 id="agent-nexus" class="agent-card__name">Nexus</h3>
+          <p class="agent-card__charter">Orchestrates the whole lab; owns the sprint plan, dispatches tasks to the right crew, and writes the handoffs.</p>
+        </article>
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-clarity">
+          <span class="agent-glyph" aria-hidden="true">Cl</span>
+          <h3 id="agent-clarity" class="agent-card__name">Clarity</h3>
+          <p class="agent-card__charter">Interrogates ambiguous requirements until the team knows exactly what is being asked.</p>
+        </article>
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-scout">
+          <span class="agent-glyph" aria-hidden="true">Sc</span>
+          <h3 id="agent-scout" class="agent-card__name">Scout</h3>
+          <p class="agent-card__charter">Researches the category, the competitors, and the 2026 zeitgeist, and returns a brief a builder can act on.</p>
+        </article>
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-blueprint">
+          <span class="agent-glyph" aria-hidden="true">Bl</span>
+          <h3 id="agent-blueprint" class="agent-card__name">Blueprint</h3>
+          <p class="agent-card__charter">Designs the software architecture, writes the ADRs, and picks the patterns the Workshop will use.</p>
+        </article>
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-mint">
+          <span class="agent-glyph" aria-hidden="true">Mi</span>
+          <h3 id="agent-mint" class="agent-card__name">Mint</h3>
+          <p class="agent-card__charter">Designs the economy — pricing, paywalls, hint tokens, ad placement — so the money and the playtime do not fight each other.</p>
+        </article>
+      </div>
+    </div>
   </section>
 
-  <section class="crew" aria-labelledby="crew-foundry">
-    <h2 id="crew-foundry" class="crew__heading">Wizus Foundry</h2>
-    <p class="crew__mandate">Handles the pipes, the languages, and the written record.</p>
-    <p class="crew__description">Foundry is the infrastructure crew. On a typical day, Foundry is the crew that keeps the build pipeline running, translates the product into the languages the stores serve, and makes sure the written record — the changelog, the architecture doc, the README a maintainer will read in three years — is current. When a credential needs to be rotated or a string needs a new locale, Foundry handles it.</p>
-    <p class="crew__count">Three agents on Foundry.</p>
-    <ul class="agent-roster" aria-label="Foundry agents">
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">A</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Atlas</h3>
-          <p class="agent-row__mandate">Owns the build and deploy pipeline: CI, fastlane, Gradle, Xcode, and the shape of every release artifact.</p>
-        </div>
-      </li>
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">Ba</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Babel</h3>
-          <p class="agent-row__mandate">Handles localization — glossaries, ICU placeholders, and translations across every supported locale.</p>
-        </div>
-      </li>
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">Ch</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Chronicle</h3>
-          <p class="agent-row__mandate">Writes the documentation — this site's copy, the runbooks, the changelog entries, and the words in the store listing.</p>
-        </div>
-      </li>
-    </ul>
+  <hr class="content-divider">
+
+  <!-- ===== Crew — Atelier ===== -->
+  <section class="content-section" aria-labelledby="crew-atelier">
+    <div class="container">
+      <div class="reading-measure stack">
+        <h2 id="crew-atelier" class="team-section__heading">Wizus Atelier</h2>
+        <p class="team-section__intro">Makes the thing beautiful, legible, and worth returning to.</p>
+        <p>Atelier is the design crew. On a typical day, Atelier is the crew that drafts the creative brief, proposes the visual language, draws the UI specs, scores the sound, and decides how a correct answer should feel when you tap it. Atelier owns the tiebreaker question: does this make the product more like the shelf we are proud of, or less?</p>
+        <p class="content-note">Five agents on Atelier.</p>
+      </div>
+      <div class="content-grid" role="list" aria-label="Atelier agents">
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-muse">
+          <span class="agent-glyph" aria-hidden="true">Mu</span>
+          <h3 id="agent-muse" class="agent-card__name">Muse</h3>
+          <p class="agent-card__charter">Creative director; writes the briefs that everyone else's work hangs from, and guards the voice.</p>
+        </article>
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-canvas">
+          <span class="agent-glyph" aria-hidden="true">Ca</span>
+          <h3 id="agent-canvas" class="agent-card__name">Canvas</h3>
+          <p class="agent-card__charter">Designs the visual system — grid, type, color, component library — and reviews every screen against it.</p>
+        </article>
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-echo">
+          <span class="agent-glyph" aria-hidden="true">E</span>
+          <h3 id="agent-echo" class="agent-card__name">Echo</h3>
+          <p class="agent-card__charter">Writes the sound design document and delivers the music and sound effects under it.</p>
+        </article>
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-ludus">
+          <span class="agent-glyph" aria-hidden="true">L</span>
+          <h3 id="agent-ludus" class="agent-card__name">Ludus</h3>
+          <p class="agent-card__charter">Designs the game mechanics, the difficulty curves, and the feel of the moment a player wins.</p>
+        </article>
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-palette">
+          <span class="agent-glyph" aria-hidden="true">Pa</span>
+          <h3 id="agent-palette" class="agent-card__name">Palette</h3>
+          <p class="agent-card__charter">Generates the illustrations, glyphs, and marks the other crews need, including the ones on this page.</p>
+        </article>
+      </div>
+    </div>
   </section>
 
-  <section class="crew" aria-labelledby="crew-gate">
-    <h2 id="crew-gate" class="crew__heading">Wizus Gate</h2>
-    <p class="crew__mandate">Tests, signs, and ships. Nothing leaves the lab without their seal.</p>
-    <p class="crew__description">Gate is the release crew. On a typical day, Gate is the crew that runs the test suite, audits new copy for claims we cannot back up, verifies every store URL is still alive, assembles the release clearance report, and pushes the signed binary to the review queue. Gate is the last stop before a human — the human in the loop — signs off.</p>
-    <p class="crew__count">Three agents on Gate.</p>
-    <ul class="agent-roster" aria-label="Gate agents">
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">Se</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Sentinel</h3>
-          <p class="agent-row__mandate">Runs the test barrels, enforces the accessibility bar, and writes the QA report that gates every release.</p>
-        </div>
-      </li>
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">Ve</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Vector</h3>
-          <p class="agent-row__mandate">Verifies the store-required URLs return 200, assembles the Release Clearance Report, and flags anything that would block a submission.</p>
-        </div>
-      </li>
-      <li class="agent-row">
-        <span class="agent-glyph" aria-hidden="true">Co</span>
-        <div class="agent-row__body">
-          <h3 class="agent-row__name">Courier</h3>
-          <p class="agent-row__mandate">Runs the deploy — fastlane lanes, Play Console uploads, ASC submissions — only when the user explicitly asks for it.</p>
-        </div>
-      </li>
-    </ul>
+  <hr class="content-divider">
+
+  <!-- ===== Crew — Workshop ===== -->
+  <section class="content-section" aria-labelledby="crew-workshop">
+    <div class="container">
+      <div class="reading-measure stack">
+        <h2 id="crew-workshop" class="team-section__heading">Wizus Workshop</h2>
+        <p class="team-section__intro">Turns specifications into software, one module at a time.</p>
+        <p>Workshop is the build crew. On a typical day, Workshop is the crew that takes Blueprint's architecture and Canvas's visual spec and writes the code that turns them into a running app. Workshop owns the implementation files, the persistence layer, the component tree, and the ten thousand small decisions a real app makes between specification and shipping.</p>
+        <p class="content-note">Five agents on Workshop.</p>
+      </div>
+      <div class="content-grid" role="list" aria-label="Workshop agents">
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-horizon">
+          <span class="agent-glyph" aria-hidden="true">H</span>
+          <h3 id="agent-horizon" class="agent-card__name">Horizon</h3>
+          <p class="agent-card__charter">Lead implementer; writes the Flutter/Dart code that most of our apps are actually made of.</p>
+        </article>
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-prism">
+          <span class="agent-glyph" aria-hidden="true">Pr</span>
+          <h3 id="agent-prism" class="agent-card__name">Prism</h3>
+          <p class="agent-card__charter">Builds the web surfaces — this site and the legacy policy pages — in plain HTML and CSS.</p>
+        </article>
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-forge">
+          <span class="agent-glyph" aria-hidden="true">F</span>
+          <h3 id="agent-forge" class="agent-card__name">Forge</h3>
+          <p class="agent-card__charter">Writes backend services, scripts, and the tools the team reaches for when a build breaks.</p>
+        </article>
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-vault">
+          <span class="agent-glyph" aria-hidden="true">Va</span>
+          <h3 id="agent-vault" class="agent-card__name">Vault</h3>
+          <p class="agent-card__charter">Owns the persistence layer — schemas, storage, and the contracts that keep data from drifting.</p>
+        </article>
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-neuron">
+          <span class="agent-glyph" aria-hidden="true">Neu</span>
+          <h3 id="agent-neuron" class="agent-card__name">Neuron</h3>
+          <p class="agent-card__charter">Implements any machine-learning or model-inference code a product actually needs, with the same discipline as any other module.</p>
+        </article>
+      </div>
+    </div>
   </section>
+
+  <hr class="content-divider">
+
+  <!-- ===== Crew — Foundry ===== -->
+  <section class="content-section" aria-labelledby="crew-foundry">
+    <div class="container">
+      <div class="reading-measure stack">
+        <h2 id="crew-foundry" class="team-section__heading">Wizus Foundry</h2>
+        <p class="team-section__intro">Handles the pipes, the languages, and the written record.</p>
+        <p>Foundry is the infrastructure crew. On a typical day, Foundry is the crew that keeps the build pipeline running, translates the product into the languages the stores serve, and makes sure the written record — the changelog, the architecture doc, the README a maintainer will read in three years — is current. When a credential needs to be rotated or a string needs a new locale, Foundry handles it.</p>
+        <p class="content-note">Three agents on Foundry.</p>
+      </div>
+      <div class="content-grid" role="list" aria-label="Foundry agents">
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-atlas">
+          <span class="agent-glyph" aria-hidden="true">A</span>
+          <h3 id="agent-atlas" class="agent-card__name">Atlas</h3>
+          <p class="agent-card__charter">Owns the build and deploy pipeline: CI, fastlane, Gradle, Xcode, and the shape of every release artifact.</p>
+        </article>
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-babel">
+          <span class="agent-glyph" aria-hidden="true">Ba</span>
+          <h3 id="agent-babel" class="agent-card__name">Babel</h3>
+          <p class="agent-card__charter">Handles localization — glossaries, ICU placeholders, and translations across every supported locale.</p>
+        </article>
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-chronicle">
+          <span class="agent-glyph" aria-hidden="true">Ch</span>
+          <h3 id="agent-chronicle" class="agent-card__name">Chronicle</h3>
+          <p class="agent-card__charter">Writes the documentation — this site's copy, the runbooks, the changelog entries, and the words in the store listing.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <hr class="content-divider">
+
+  <!-- ===== Crew — Gate ===== -->
+  <section class="content-section" aria-labelledby="crew-gate">
+    <div class="container">
+      <div class="reading-measure stack">
+        <h2 id="crew-gate" class="team-section__heading">Wizus Gate</h2>
+        <p class="team-section__intro">Tests, signs, and ships. Nothing leaves the lab without their seal.</p>
+        <p>Gate is the release crew. On a typical day, Gate is the crew that runs the test suite, audits new copy for claims we cannot back up, verifies every store URL is still alive, assembles the release clearance report, and pushes the signed binary to the review queue. Gate is the last stop before a human — the human in the loop — signs off.</p>
+        <p class="content-note">Three agents on Gate.</p>
+      </div>
+      <div class="content-grid" role="list" aria-label="Gate agents">
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-sentinel">
+          <span class="agent-glyph" aria-hidden="true">Se</span>
+          <h3 id="agent-sentinel" class="agent-card__name">Sentinel</h3>
+          <p class="agent-card__charter">Runs the test barrels, enforces the accessibility bar, and writes the QA report that gates every release.</p>
+        </article>
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-vector">
+          <span class="agent-glyph" aria-hidden="true">Ve</span>
+          <h3 id="agent-vector" class="agent-card__name">Vector</h3>
+          <p class="agent-card__charter">Verifies the store-required URLs return 200, assembles the Release Clearance Report, and flags anything that would block a submission.</p>
+        </article>
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="agent-courier">
+          <span class="agent-glyph" aria-hidden="true">Co</span>
+          <h3 id="agent-courier" class="agent-card__name">Courier</h3>
+          <p class="agent-card__charter">Runs the deploy — fastlane lanes, Play Console uploads, ASC submissions — only when the user explicitly asks for it.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <!--

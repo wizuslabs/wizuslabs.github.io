@@ -14,15 +14,21 @@
   <meta property="og:description" content="A small studio where five crews of AI agents ship consumer software, and one human signs off on every release.">
   <meta property="og:url" content="https://wizuslabs.com/about/">
   <meta property="og:site_name" content="WizusLabs">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://wizuslabs.com/assets/img/pages/about-hero.webp">
+  <meta property="og:image:width" content="1536">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="About — WizusLabs">
   <meta name="twitter:description" content="A small studio where five crews of AI agents ship consumer software, and one human signs off on every release.">
+  <meta name="twitter:image" content="https://wizuslabs.com/assets/img/pages/about-hero.webp">
 
   <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
 
   <link rel="stylesheet" href="/assets/css/style.css">
   <script defer src="/assets/js/app.js"></script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5856240427546455" crossorigin="anonymous"></script>
 </head>
 <body>
 <!--
@@ -105,13 +111,40 @@
 <!-- Screen-reader announcement target for theme toggle -->
 <div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
 
-<main id="main" class="container section">
-  <article class="reading-measure stack-lg">
-    <h1>About</h1>
+<main id="main">
 
-    <h2>The lab, in longer form</h2>
+  <!-- ===== Page hero (interior band) ===== -->
+  <section class="page-hero" aria-labelledby="about-h1">
+    <img
+      class="page-hero__bg"
+      src="/assets/img/pages/about-hero.webp"
+      alt=""
+      width="1536"
+      height="1024"
+      loading="eager"
+      fetchpriority="high"
+      decoding="async">
+    <div class="page-hero__overlay" aria-hidden="true"></div>
+    <div class="container page-hero__inner">
+      <div class="page-hero__content">
+        <p class="page-hero__eyebrow">About the lab</p>
+        <h1 id="about-h1" class="page-hero__headline">About</h1>
+        <p class="page-hero__lead">
+          A small studio where five crews of AI agents ship consumer software,
+          and one human reads the diffs and signs off on every release.
+        </p>
+      </div>
+    </div>
+  </section>
 
-    <p>WizusLabs is a small studio that makes consumer software. The staff is
+  <!-- ===== The lab, in longer form ===== -->
+  <section class="content-section">
+    <div class="container">
+      <article class="editorial">
+
+        <h2>The lab, in longer form</h2>
+
+        <p class="editorial__lead">WizusLabs is a small studio that makes consumer software. The staff is
 mostly not human. Five crews of AI agents write the code, draw the
 interfaces, score the feedback sounds, run the tests, and push the builds
 to the stores. One person — the human in the loop — decides what the crews
@@ -119,9 +152,9 @@ work on, reads the diffs, and signs off on every release. If you have
 downloaded one of our apps, a machine wrote it and a human said yes to
 shipping it.</p>
 
-    <h2>Origin</h2>
+        <h2 class="reveal-on-scroll">Origin</h2>
 
-    <p>The lab began as a personal project: a single developer asking whether a
+        <p class="reveal-on-scroll">The lab began as a personal project: a single developer asking whether a
 coordinated team of specialist AI agents could actually ship a real,
 maintained, store-reviewed consumer app — not a demo, not a thread, not a
 screenshot. The first answer came when NeuralSpark reached a store listing.
@@ -130,33 +163,48 @@ Iron Swarm reached the stores. The lab exists
 because the first experiment worked, and because it was more interesting
 to keep going than to write a blog post about it.</p>
 
-    <h2>The model</h2>
+        <h2 class="reveal-on-scroll">The model</h2>
 
-    <p>Twenty-one specialist agents are grouped into five crews, each with a
+        <p class="reveal-on-scroll">Twenty-one specialist agents are grouped into five crews, each with a
 narrow mandate:</p>
 
-    <ul>
-      <li><strong>Wizus Bridge</strong> reads the world, picks the target, and charts the route.
-  Research, planning, architecture, and economy design live here.</li>
-      <li><strong>Wizus Atelier</strong> decides what the thing should feel like. Creative
-  direction, visual design, game feel, audio, and illustration live here.</li>
-      <li><strong>Wizus Workshop</strong> turns specifications into software. Implementation,
-  persistence, data modelling, and localization live here.</li>
-      <li><strong>Wizus Foundry</strong> handles the pipes, the languages, and the written
-  record. Infrastructure, CI, translation, and documentation live here.</li>
-      <li><strong>Wizus Gate</strong> tests, signs, and ships. Quality assurance, release
-  clearance, and the build pipeline live here. Nothing leaves without a
-  seal from this crew.</li>
-    </ul>
+        <div class="content-grid">
+          <article class="agent-card reveal-on-scroll">
+            <h3 class="agent-card__name">Wizus Bridge</h3>
+            <p class="agent-card__charter">Reads the world, picks the target, and charts the route.
+              Research, planning, architecture, and economy design live here.</p>
+          </article>
+          <article class="agent-card reveal-on-scroll">
+            <h3 class="agent-card__name">Wizus Atelier</h3>
+            <p class="agent-card__charter">Decides what the thing should feel like. Creative
+              direction, visual design, game feel, audio, and illustration live here.</p>
+          </article>
+          <article class="agent-card reveal-on-scroll">
+            <h3 class="agent-card__name">Wizus Workshop</h3>
+            <p class="agent-card__charter">Turns specifications into software. Implementation,
+              persistence, data modelling, and localization live here.</p>
+          </article>
+          <article class="agent-card reveal-on-scroll">
+            <h3 class="agent-card__name">Wizus Foundry</h3>
+            <p class="agent-card__charter">Handles the pipes, the languages, and the written
+              record. Infrastructure, CI, translation, and documentation live here.</p>
+          </article>
+          <article class="agent-card reveal-on-scroll">
+            <h3 class="agent-card__name">Wizus Gate</h3>
+            <p class="agent-card__charter">Tests, signs, and ships. Quality assurance, release
+              clearance, and the build pipeline live here. Nothing leaves without a
+              seal from this crew.</p>
+          </article>
+        </div>
 
-    <p>One human sits above all of them. They set the direction, adjudicate
+        <p class="reveal-on-scroll">One human sits above all of them. They set the direction, adjudicate
 disputes, and carry legal responsibility for what lands in a store. They
 answer support email at a public address. They do not have a photo on this
 site on purpose — the apps and the log are the face of the lab.</p>
 
-    <h2>Why AI</h2>
+        <h2 class="reveal-on-scroll">Why AI</h2>
 
-    <p>The honest answer is: because it is possible now, and because the work is
+        <p class="reveal-on-scroll">The honest answer is: because it is possible now, and because the work is
 more interesting this way. A solo developer coordinating twenty-one agents
 can hold more in their head at once than a solo developer coordinating
 themselves. The agents do the kinds of work that reward consistency and
@@ -165,36 +213,39 @@ keeping a changelog honest. The human does the kinds of work that reward
 judgment — picking what to build, noticing when something feels off,
 deciding when a feature is actually done.</p>
 
-    <p>We do not think this model replaces a conventional team. It is a different
+        <p class="reveal-on-scroll">We do not think this model replaces a conventional team. It is a different
 shape. It produces software that, so far, the stores accept and the
 players keep.</p>
 
-    <h2>What we don't automate</h2>
+        <h2 class="reveal-on-scroll">What we don't automate</h2>
 
-    <p>Some things the human still does by hand. Reading every release note
+        <p class="reveal-on-scroll">Some things the human still does by hand. Reading every release note
 before it ships. Replying to real emails from real users. Deciding when a
 bug is a ship-blocker and when it is a known issue. Writing this page.
 Signing the manifesto.</p>
 
-    <p>There are also things the lab will not do, even though it could. We do
+        <p class="reveal-on-scroll">There are also things the lab will not do, even though it could. We do
 not write fake reviews. We do not buy install traffic. We do not publish
 metrics we cannot source. We do not costume the agents as humans. They
 are agents; we name them; the page you are reading says so.</p>
 
-    <h2>Where we're going</h2>
+        <h2 class="reveal-on-scroll">Where we're going</h2>
 
-    <p>The near term is direct: keep Iron Swarm,
+        <p class="reveal-on-scroll">The near term is direct: keep Iron Swarm,
 NeuralSpark and Sudoku healthy, translate the backlog into more
 languages, improve the log so it generates itself, and keep the site plain
 enough that it will still work in ten years. If a fourth app makes sense,
 we will add it. If it does not, we will not.</p>
 
-    <p>If you want to follow the work, the shipping log is the honest place to
+        <p class="reveal-on-scroll">If you want to follow the work, the shipping log is the honest place to
 look. It updates when something actually ships. That is the whole
 editorial policy.</p>
 
-    <p><a class="link" href="/">← Back to home</a></p>
-  </article>
+        <p><a class="link" href="/">← Back to home</a></p>
+      </article>
+    </div>
+  </section>
+
 </main>
 
 <!--

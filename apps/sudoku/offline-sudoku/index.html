@@ -74,6 +74,8 @@
 
   <link rel="stylesheet" href="/assets/css/style.css">
   <script defer src="/assets/js/app.js"></script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5856240427546455" crossorigin="anonymous"></script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -127,36 +129,46 @@
 
 <div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
 
-<main id="main" class="container page-main">
-  <nav class="u-mono" aria-label="Breadcrumb">
-    <a class="link" href="/apps/">Apps</a> / <a class="link" href="/apps/sudoku/">Sudoku</a>
-  </nav>
+<main id="main">
 
-  <header class="reading-measure stack">
-    <img class="app-icon app-icon--md" src="/assets/img/apps/sudoku-256.png" alt="Sudoku by WizusLabs app icon" width="112" height="112" loading="eager" decoding="async">
-    <h1>Offline sudoku, with classic and killer puzzles.</h1>
-    <p class="hero-manifesto__lead">Sudoku by WizusLabs keeps the grid local: no account, no required connection, and progress saved on device.</p>
-  </header>
+  <!-- ===== Page hero (text-forward interior band) ===== -->
+  <section class="page-hero" aria-labelledby="offline-h1">
+    <div class="page-hero__overlay" aria-hidden="true"></div>
+    <div class="container page-hero__inner">
+      <div class="page-hero__content">
+        <p class="page-hero__eyebrow">Sudoku by WizusLabs &middot; Guide</p>
+        <h1 id="offline-h1" class="page-hero__headline">Offline sudoku, with classic and killer puzzles.</h1>
+        <p class="page-hero__lead">
+          Sudoku by WizusLabs keeps the grid local: no account, no required
+          connection, and progress saved on device.
+        </p>
+      </div>
+    </div>
+  </section>
 
-  <article class="reading-measure stack-lg app-detail-section">
-    <section class="stack" aria-labelledby="offline-why">
-      <h2 id="offline-why">Why offline matters</h2>
-      <p>A sudoku app should work on a train, in a waiting room, or anywhere the signal is weak. Sudoku by WizusLabs generates puzzles on device, saves progress locally, and does not require an account before you can play.</p>
-      <p>The app includes classic nine-by-nine sudoku and killer sudoku variants. The daily challenge is free for everyone.</p>
-    </section>
+  <!-- ===== The guide ===== -->
+  <section class="content-section">
+    <div class="container">
+      <nav class="content-note" aria-label="Breadcrumb">
+        <a class="link" href="/apps/">Apps</a> / <a class="link" href="/apps/sudoku/">Sudoku</a>
+      </nav>
 
-    <section class="stack" aria-labelledby="offline-tools">
-      <h2 id="offline-tools">Controls you can tune</h2>
-      <p>The mistake counter is on by default and can be turned off. Auto-clear of wrong entries is optional. Hints are available, with a monthly token budget for free players and unlimited hints for Pro.</p>
-      <p>Every generated puzzle is designed to have exactly one solution. The interface stays quiet so the focus stays on the puzzle.</p>
-    </section>
+      <article class="editorial">
+        <h2>Why offline matters</h2>
+        <p class="editorial__lead">A sudoku app should work on a train, in a waiting room, or anywhere the signal is weak. Sudoku by WizusLabs generates puzzles on device, saves progress locally, and does not require an account before you can play.</p>
+        <p>The app includes classic nine-by-nine sudoku and killer sudoku variants. The daily challenge is free for everyone.</p>
 
-    <section class="stack" aria-labelledby="offline-claims">
-      <h2 id="offline-claims">No cognitive claims</h2>
-      <p>Sudoku by WizusLabs does not claim to improve your brain, memory, IQ, or focus. It is a sudoku app. Classic puzzles, killer variants, and a quiet interface are enough.</p>
-      <p><a class="link" href="/apps/sudoku/">Open the Sudoku app page</a></p>
-    </section>
-  </article>
+        <h2 class="reveal-on-scroll">Controls you can tune</h2>
+        <p class="reveal-on-scroll">The mistake counter is on by default and can be turned off. Auto-clear of wrong entries is optional. Hints are available, with a monthly token budget for free players and unlimited hints for Pro.</p>
+        <p class="reveal-on-scroll">Every generated puzzle is designed to have exactly one solution. The interface stays quiet so the focus stays on the puzzle.</p>
+
+        <h2 class="reveal-on-scroll">No cognitive claims</h2>
+        <p class="reveal-on-scroll">Sudoku by WizusLabs does not claim to improve your brain, memory, IQ, or focus. It is a sudoku app. Classic puzzles, killer variants, and a quiet interface are enough.</p>
+        <p class="reveal-on-scroll"><a class="link" href="/apps/sudoku/">Open the Sudoku app page</a></p>
+      </article>
+    </div>
+  </section>
+
 </main>
 
 <footer class="footer">

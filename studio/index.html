@@ -152,96 +152,59 @@
 
 <main id="main">
 
-  <!-- Return link back to the apps-led front page -->
-  <p class="container"><a class="link" href="/">← WizusLabs apps home</a></p>
+  <!-- studio-cinematic-redesign HERO-E2 — the brand/manifesto narrative,
+       re-expressed in the site's cinematic editorial vocabulary (page-hero +
+       editorial + content-section/-grid/-note + pull-quote). This is the STUDIO
+       brand story, distinct from the apps-led landing at /. -->
 
-  <!-- ===== Section 1 — Hero / Manifesto Opener ===== -->
-  <section class="section hero-manifesto" aria-labelledby="hero-h1">
-    <div class="container hero-manifesto__grid">
-      <div class="hero-manifesto__content">
-        <h1 id="hero-h1" class="hero-manifesto__headline">
-          Five teams of agents. One human. From spark to mark.
-        </h1>
-        <p class="hero-manifesto__lead">
-          WizusLabs is an AI Software Studio for consumer apps and mobile games.
-          Made by machines. Always for human.
+  <!-- ===== Page hero (interior band) — bespoke studio brand art ===== -->
+  <section class="page-hero" aria-labelledby="hero-h1">
+    <img
+      class="page-hero__bg"
+      src="/assets/img/pages/studio-hero.webp"
+      alt=""
+      width="1536"
+      height="1024"
+      loading="eager"
+      fetchpriority="high"
+      decoding="async">
+    <div class="page-hero__overlay" aria-hidden="true"></div>
+    <div class="container page-hero__inner">
+      <div class="page-hero__content">
+        <p class="page-hero__eyebrow">The Studio</p>
+        <h1 id="hero-h1" class="page-hero__headline">Five teams of agents. One human. From spark to mark.</h1>
+        <p class="page-hero__lead">
+          WizusLabs is an AI Software Studio for consumer apps and mobile
+          games. Made by machines. Always for human.
         </p>
-        <p class="hero-manifesto__meta u-mono">wizuslabs · The Earth · est. 2025</p>
-        <a class="hero-manifesto__cta link" href="#apps">See what we've shipped →</a>
-      </div>
-
-      <div class="hero-gallery" aria-hidden="true">
-        <figure class="hero-gallery__earth">
-          <!-- Photo: Jeremy Thomas / Unsplash (free license) -->
-          <img
-            src="/assets/img/hero/hero-earth.jpg"
-            alt=""
-            width="1400"
-            height="932"
-            loading="eager"
-            decoding="async"
-            fetchpriority="high">
-        </figure>
-
-        <div class="hero-gallery__bottom">
-          <figure class="hero-gallery__quantum">
-            <!-- Photo: IBM Research via Wikimedia Commons (CC BY-SA 2.0) -->
-            <img
-              src="/assets/img/hero/hero-quantum.jpg"
-              alt=""
-              width="400"
-              height="1160"
-              loading="lazy"
-              decoding="async"
-              fetchpriority="low">
-          </figure>
-
-          <figure class="hero-gallery__robot">
-            <!-- Photo: Pavel Danilyuk / Pexels (free license) -->
-            <img
-              src="/assets/img/hero/hero-robot.jpg"
-              alt=""
-              width="900"
-              height="600"
-              loading="lazy"
-              decoding="async"
-              fetchpriority="low">
-          </figure>
-        </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== Section 2 — Pillar Statement ===== -->
-  <section class="pillar-block" aria-labelledby="pillar-h2">
+  <!-- ===== The pillar ===== -->
+  <section class="content-section" aria-labelledby="pillar-h2">
     <div class="container">
-      <h2 id="pillar-h2" class="u-sr-only">The pillar</h2>
-      <p class="pillar-block__text">
-        <strong class="pillar-block__emphasis">Every decision ends at a person.</strong>
-        That is the rule. The agents propose; the human decides; the app you open
-        tomorrow is what came out the other side.
-      </p>
+      <article class="editorial">
+        <h2 id="pillar-h2" class="u-sr-only">The pillar</h2>
+        <p class="editorial__lead reveal-on-scroll">Every decision ends at a person. That is the rule. The agents propose; the human decides; the app you open tomorrow is what came out the other side.</p>
+        <p class="content-note">wizuslabs · The Earth · est. 2025</p>
+      </article>
     </div>
   </section>
 
-  <!-- ===== Section 3 — The Model (5 crews + 1 human) ===== -->
-  <section class="section" id="model" aria-labelledby="model-h2">
-    <div class="container">
-      <h2 id="model-h2">Five crews. One human. Every ship has both.</h2>
-      <p class="team-section__intro">
-        Twenty-one specialist agents, grouped by the work they do. One human signs
-        the release.
-      </p>
+  <hr class="content-divider">
 
+  <!-- ===== The model — five crews + one human ===== -->
+  <section class="content-section" id="model" aria-labelledby="model-h2">
+    <div class="container">
       <div class="reading-measure stack">
-        <p>
-          Bridge reads the world and picks the target. Atelier makes the thing worth
-          returning to. Workshop writes the code. Foundry keeps the pipes running and
-          the record straight. Gate tests, signs, and ships.
+        <h2 id="model-h2" class="team-section__heading">Five crews. One human. Every ship has both.</h2>
+        <p class="team-section__intro">
+          Twenty-one specialist agents, grouped by the work they do. One human
+          signs the release.
         </p>
-        <p>
-          Hover any crew to see the line it ends at. Every line ends at the human.
-        </p>
+        <p>Bridge reads the world and picks the target. Atelier makes the thing worth returning to. Workshop writes the code. Foundry keeps the pipes running and the record straight. Gate tests, signs, and ships.</p>
+        <p>Hover any crew to see the line it ends at. Every line ends at the human.</p>
       </div>
 
       <svg
@@ -319,21 +282,22 @@
         before it ships.
       </p>
 
-      <p><a class="link" href="/agents/">Meet the crews →</a></p>
+      <p class="reading-measure"><a class="link" href="/agents/">Meet the crews →</a></p>
     </div>
   </section>
 
-  <!-- ===== Section 4 — Shipped Apps ===== -->
-  <section class="section" id="apps" aria-labelledby="apps-h2">
-    <div class="container">
-      <h2 id="apps-h2">What we've shipped.</h2>
-      <p class="reading-measure">
-        Three mobile games under the WizusLabs name, each with store links,
-        support pages, privacy policies, and a clear account of what it does.
-      </p>
+  <hr class="content-divider">
 
-      <div class="team-section__grid">
-        <article class="app-card" aria-labelledby="app-neuralspark">
+  <!-- ===== Shipped apps ===== -->
+  <section class="content-section" id="apps" aria-labelledby="apps-h2">
+    <div class="container">
+      <div class="content-section-head">
+        <h2 id="apps-h2">What we've shipped.</h2>
+        <p>Three mobile games under the WizusLabs name, each with store links, support pages, privacy policies, and a clear account of what it does.</p>
+      </div>
+
+      <div class="content-grid" role="list" aria-label="Shipped apps">
+        <article class="app-card reveal-on-scroll" role="listitem" aria-labelledby="app-neuralspark">
           <img
             class="app-icon app-icon--sm"
             src="/assets/img/apps/neuralspark-256.png"
@@ -353,7 +317,7 @@
           </div>
         </article>
 
-        <article class="app-card" aria-labelledby="app-sudoku">
+        <article class="app-card reveal-on-scroll" role="listitem" aria-labelledby="app-sudoku">
           <img
             class="app-icon app-icon--sm"
             src="/assets/img/apps/sudoku-256.png"
@@ -373,7 +337,7 @@
           </div>
         </article>
 
-        <article class="app-card" aria-labelledby="app-iron-swarm">
+        <article class="app-card reveal-on-scroll" role="listitem" aria-labelledby="app-iron-swarm">
           <img
             class="app-icon app-icon--sm"
             src="/assets/img/apps/iron-swarm-256.png"
@@ -394,118 +358,133 @@
         </article>
       </div>
 
-      <p><a class="link" href="/apps/">See the shelf →</a></p>
+      <p class="reading-measure"><a class="link" href="/apps/">See the shelf →</a></p>
     </div>
   </section>
 
-  <!-- ===== Section 5 — Manifesto Pull-Quote ===== -->
-  <section class="section" id="quote" aria-labelledby="quote-h2">
+  <hr class="content-divider">
+
+  <!-- ===== Manifesto pull-quote ===== -->
+  <section class="content-section" id="quote" aria-labelledby="quote-h2">
     <div class="container">
-      <h2 id="quote-h2" class="u-sr-only">Manifesto pull-quote</h2>
-      <blockquote class="manifesto-quote reading-measure">
-        We don't claim the work. We show you the receipts.
-        <cite>Always for Human · 2026</cite>
-      </blockquote>
-      <p class="reading-measure"><a class="link" href="/manifesto/">Read the manifesto →</a></p>
+      <div class="reading-measure stack">
+        <h2 id="quote-h2" class="u-sr-only">Manifesto pull-quote</h2>
+        <blockquote class="pull-quote reveal-on-scroll">
+          We don't claim the work. We show you the receipts.
+          <cite>Always for Human · 2026</cite>
+        </blockquote>
+        <p><a class="link" href="/manifesto/">Read the manifesto →</a></p>
+      </div>
     </div>
   </section>
 
-  <!-- ===== Section 6 — The Agent Teams ===== -->
-  <section class="section" id="teams" aria-labelledby="teams-h2">
-    <div class="container">
-      <h2 id="teams-h2" class="team-section__heading">The crews, at a glance.</h2>
-      <p class="team-section__intro">
-        Each crew has a mandate. Each agent has one sentence. None of them have
-        faces.
-      </p>
+  <hr class="content-divider">
 
-      <div class="team-section__grid" role="list">
-        <article class="agent-card" role="listitem" aria-labelledby="crew-bridge">
+  <!-- ===== The crews, at a glance ===== -->
+  <section class="content-section" id="teams" aria-labelledby="teams-h2">
+    <div class="container">
+      <div class="content-section-head">
+        <h2 id="teams-h2">The crews, at a glance.</h2>
+        <p>Each crew has a mandate. Each agent has one sentence. None of them have faces.</p>
+      </div>
+
+      <div class="content-grid" role="list" aria-label="The five crews">
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="crew-bridge">
+          <span class="agent-glyph" aria-hidden="true">Br</span>
           <h3 id="crew-bridge" class="agent-card__name">Wizus Bridge</h3>
           <p class="agent-card__charter">Reads the world, picks the target, charts the route.</p>
         </article>
 
-        <article class="agent-card" role="listitem" aria-labelledby="crew-atelier">
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="crew-atelier">
+          <span class="agent-glyph" aria-hidden="true">At</span>
           <h3 id="crew-atelier" class="agent-card__name">Wizus Atelier</h3>
           <p class="agent-card__charter">Makes the thing beautiful, legible, and worth returning to.</p>
         </article>
 
-        <article class="agent-card" role="listitem" aria-labelledby="crew-workshop">
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="crew-workshop">
+          <span class="agent-glyph" aria-hidden="true">Wk</span>
           <h3 id="crew-workshop" class="agent-card__name">Wizus Workshop</h3>
           <p class="agent-card__charter">Turns specifications into software, one module at a time.</p>
         </article>
 
-        <article class="agent-card" role="listitem" aria-labelledby="crew-foundry">
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="crew-foundry">
+          <span class="agent-glyph" aria-hidden="true">Fo</span>
           <h3 id="crew-foundry" class="agent-card__name">Wizus Foundry</h3>
           <p class="agent-card__charter">Handles the pipes, the languages, and the written record.</p>
         </article>
 
-        <article class="agent-card" role="listitem" aria-labelledby="crew-gate">
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="crew-gate">
+          <span class="agent-glyph" aria-hidden="true">Ga</span>
           <h3 id="crew-gate" class="agent-card__name">Wizus Gate</h3>
           <p class="agent-card__charter">Tests, signs, and ships. Nothing leaves without their seal.</p>
         </article>
       </div>
 
-      <p><a class="link" href="/agents/">Read the full charters →</a></p>
+      <p class="reading-measure"><a class="link" href="/agents/">Read the full charters →</a></p>
     </div>
   </section>
 
-  <!-- ===== Section 7 — The Human ===== -->
-  <section class="section" id="human" aria-labelledby="human-h2">
-    <div class="container">
-      <h2 id="human-h2">One human. In the loop. On the record.</h2>
+  <hr class="content-divider">
 
-      <div class="human-card">
-        <div class="human-card__glyph" aria-hidden="true"><span>V</span></div>
-        <div>
-          <p class="human-card__name">Victor</p>
-          <p class="human-card__role u-mono">human in the loop · contact: wizuslabs@gmail.com</p>
-          <p class="human-card__line">
-            The lab runs on agents. One person sets the direction, reviews the work,
-            and puts their name on what ships. They answer their own email. They do not
-            have a photo on this site, and that is on purpose.
-          </p>
-          <p><a class="link" href="/human/">The handshake page →</a></p>
-        </div>
+  <!-- ===== The human ===== -->
+  <section class="content-section" id="human" aria-labelledby="human-h2">
+    <div class="container">
+      <div class="reading-measure stack">
+        <h2 id="human-h2">One human. In the loop. On the record.</h2>
+        <p>The lab runs on agents. One person sets the direction, reviews the work, and puts their name on what ships. They answer their own email. They do not have a photo on this site, and that is on purpose.</p>
+        <p class="content-note">Victor · human in the loop · contact: wizuslabs@gmail.com</p>
+        <p><a class="link" href="/human/">The handshake page →</a></p>
       </div>
     </div>
   </section>
 
-  <!-- ===== Section 9 — Principles ===== -->
-  <section class="section" id="principles" aria-labelledby="principles-h2">
-    <div class="container">
-      <h2 id="principles-h2">How we decide.</h2>
+  <hr class="content-divider">
 
-      <div class="team-section__grid">
-        <article>
-          <h3>1 — Accessibility is a floor, not a feature.</h3>
-          <p>Every page passes WCAG 2.2 AA. Every app is built to be used by a tired person on a small phone.</p>
+  <!-- ===== Principles ===== -->
+  <section class="content-section" id="principles" aria-labelledby="principles-h2">
+    <div class="container">
+      <div class="content-section-head">
+        <h2 id="principles-h2">How we decide.</h2>
+      </div>
+
+      <div class="content-grid" role="list" aria-label="Decision principles">
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="principle-1">
+          <span class="agent-glyph" aria-hidden="true">1</span>
+          <h3 id="principle-1" class="agent-card__name">Accessibility is a floor, not a feature.</h3>
+          <p class="agent-card__charter">Every page passes WCAG 2.2 AA. Every app is built to be used by a tired person on a small phone.</p>
         </article>
-        <article>
-          <h3>2 — Longevity over novelty.</h3>
-          <p>We pick tools that will still work in ten years. The site is plain HTML on GitHub Pages for a reason.</p>
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="principle-2">
+          <span class="agent-glyph" aria-hidden="true">2</span>
+          <h3 id="principle-2" class="agent-card__name">Longevity over novelty.</h3>
+          <p class="agent-card__charter">We pick tools that will still work in ten years. The site is plain HTML on GitHub Pages for a reason.</p>
         </article>
-        <article>
-          <h3>3 — Human review, every release.</h3>
-          <p>No commit ships to a store without a human reading the diff and signing off. That is what "in the loop" means.</p>
+        <article class="agent-card reveal-on-scroll" role="listitem" aria-labelledby="principle-3">
+          <span class="agent-glyph" aria-hidden="true">3</span>
+          <h3 id="principle-3" class="agent-card__name">Human review, every release.</h3>
+          <p class="agent-card__charter">No commit ships to a store without a human reading the diff and signing off. That is what "in the loop" means.</p>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- ===== Section 10 — Footer CTA ===== -->
-  <section class="section" id="footer-cta" aria-labelledby="footer-cta-h2">
-    <div class="container reading-measure">
-      <h2 id="footer-cta-h2">Say hello, or read the manifesto.</h2>
-      <p>The email is a real inbox. The manifesto is one page long. Either is fine.</p>
-      <p>
-        <a class="link" href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a>
-        &nbsp;·&nbsp;
-        <a class="link" href="/manifesto/">Read the manifesto →</a>
-      </p>
-      <p class="manifesto-signature manifesto-signature--footer-mark u-mono">
-        Always for Human. · 2026 · wizuslabs.com
-      </p>
+  <hr class="content-divider">
+
+  <!-- ===== Footer CTA ===== -->
+  <section class="content-section" id="footer-cta" aria-labelledby="footer-cta-h2">
+    <div class="container">
+      <div class="reading-measure stack">
+        <h2 id="footer-cta-h2">Say hello, or read the manifesto.</h2>
+        <p>The email is a real inbox. The manifesto is one page long. Either is fine.</p>
+        <p>
+          <a class="link" href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a>
+          &nbsp;·&nbsp;
+          <a class="link" href="/manifesto/">Read the manifesto →</a>
+        </p>
+        <p class="manifesto-signature manifesto-signature--footer-mark u-mono">
+          Always for Human. · 2026 · wizuslabs.com
+        </p>
+        <p><a class="link" href="/">← WizusLabs apps home</a></p>
+      </div>
     </div>
   </section>
 

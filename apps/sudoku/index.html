@@ -45,7 +45,7 @@
       "priceCurrency": "USD"
     },
     "sameAs": [
-      "https://sudoku.wizuslabs.com/",
+      "https://wizuslabs.com/sudoku/",
       "https://apps.apple.com/app/id6762293437",
       "https://play.google.com/store/apps/details?id=com.wizuslabs.sudoku_game"
     ]
@@ -57,6 +57,8 @@
 
   <link rel="stylesheet" href="/assets/css/style.css">
   <script defer src="/assets/js/app.js"></script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5856240427546455" crossorigin="anonymous"></script>
 </head>
 <body>
 <!--
@@ -139,67 +141,126 @@
 <!-- Screen-reader announcement target for theme toggle -->
 <div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
 
-<main id="main" class="container page-main">
-  <figure class="app-card__figure">
+<main id="main">
+
+  <!-- ===== Page hero (interior band) ===== -->
+  <section class="page-hero" aria-labelledby="sk-h1">
     <img
-      class="app-icon app-icon--lg"
-      src="/assets/img/apps/sudoku-256.png"
-      alt="Sudoku by WizusLabs app icon"
-      width="224"
-      height="224"
+      class="page-hero__bg"
+      src="/assets/img/pages/sudoku-hero.webp"
+      alt=""
+      width="1536"
+      height="1024"
       loading="eager"
-      decoding="async"
-      fetchpriority="high">
-  </figure>
-
-  <header class="reading-measure stack">
-    <p>
-      <span class="pill pill--accent-cool" aria-label="Status: Live">Live</span>
-    </p>
-    <h1>Sudoku by WizusLabs</h1>
-    <p class="hero-manifesto__lead">Classic and killer sudoku. Offline. Calm.</p>
-    <p class="u-mono app-card__version">v1.0 · web + ios + android · offline-first</p>
-  </header>
-
-  <section class="reading-measure stack-lg app-detail-section" aria-labelledby="sk-what">
-    <h2 id="sk-what">What it does</h2>
-    <p>Sudoku is Sudoku. This one is the classic nine-by-nine grid, plus killer variants, plus a daily challenge. Every puzzle has exactly one solution and no fewer than seventeen given cells. The generator has been audited against the full correctness suite — no malformed puzzles ship.</p>
-    <p>The app is offline-first. Puzzles are generated on device; your progress is saved locally; no account is required. A mistake counter is on by default and can be turned off in settings. Auto-clear of wrong entries is optional. Hints are available, with a monthly token budget for free players and unlimited hints for Pro.</p>
-    <p>Pro is optional. Two tiers: a yearly subscription and a one-time lifetime purchase. Pro removes ads and ad-supported friction, includes unlimited hints, and turns off the mistake cap. The Daily Challenge is free for everyone.</p>
-    <p>We do not make cognitive improvement claims. Sudoku is Sudoku.</p>
-    <p><a class="link" href="/apps/sudoku/offline-sudoku/">Read more about the offline sudoku design</a></p>
-  </section>
-
-  <section class="reading-measure app-detail-section" aria-labelledby="sk-shipped-by">
-    <h2 id="sk-shipped-by">Shipped by</h2>
-    <div class="manifesto-signature">
-      <ul class="shipped-by">
-        <li>2026-04-23 · Wizus Bridge · Scout's market research, Blueprint's BLoC architecture and pure-Dart puzzle engine, Mint's two-tier Pro economy.</li>
-        <li>2026-04-23 · Wizus Atelier · Canvas's minimal design system, Ludus's difficulty grading across easy-to-expert, Muse's calm voice, Echo's zen feedback sounds.</li>
-        <li>2026-04-23 · Wizus Workshop · Horizon wrote the Flutter/BLoC implementation; the puzzle engine is pure Dart, by contract.</li>
-        <li>2026-04-23 · Wizus Foundry · Babel localized every string; Atlas owns the fastlane lanes for both stores; Chronicle wrote this page.</li>
-        <li>2026-04-23 · Wizus Gate · Sentinel audits puzzle correctness every sprint; Vector verified every store-required URL before submission; Courier ran the Play Console and App Store Connect uploads.</li>
-      </ul>
+      fetchpriority="high"
+      decoding="async">
+    <div class="page-hero__overlay" aria-hidden="true"></div>
+    <div class="container page-hero__inner">
+      <div class="page-hero__content">
+        <p class="page-hero__eyebrow">Apps</p>
+        <h1 id="sk-h1" class="page-hero__headline">Sudoku by WizusLabs</h1>
+        <p class="page-hero__lead">Classic and killer sudoku. Offline. Calm.</p>
+      </div>
     </div>
   </section>
 
-  <section class="reading-measure stack app-detail-section" aria-labelledby="sk-get-it">
-    <h2 id="sk-get-it">Get it</h2>
-    <ul class="u-mono get-it-links">
-      <li><a class="link link--external" href="https://sudoku.wizuslabs.com/" target="_blank" rel="noopener noreferrer">Play on web</a></li>
-      <li><a class="link link--external" href="https://apps.apple.com/app/id6762293437" target="_blank" rel="noopener noreferrer">App Store</a></li>
-      <li><a class="link link--external" href="https://play.google.com/store/apps/details?id=com.wizuslabs.sudoku_game" target="_blank" rel="noopener noreferrer">Google Play</a></li>
-    </ul>
+  <!-- ===== Overview ===== -->
+  <section class="content-section">
+    <div class="container">
+      <article class="editorial">
+        <figure class="app-card__figure">
+          <img
+            class="app-icon app-icon--lg"
+            src="/assets/img/apps/sudoku-256.webp"
+            alt="Sudoku by WizusLabs app icon"
+            width="224"
+            height="224"
+            loading="lazy"
+            decoding="async">
+        </figure>
+
+        <p><span class="pill pill--signal" aria-label="Status: Live"><span aria-hidden="true">●</span> Live</span></p>
+        <p class="content-note">v1.0 · web + ios + android · offline-first</p>
+
+        <h2 id="sk-what">What it does</h2>
+        <p>Sudoku is Sudoku. This one is the classic nine-by-nine grid, plus killer variants, plus a daily challenge. Every puzzle has exactly one solution and no fewer than seventeen given cells. The generator has been audited against the full correctness suite — no malformed puzzles ship.</p>
+        <p>The app is offline-first. Puzzles are generated on device; your progress is saved locally; no account is required. A mistake counter is on by default and can be turned off in settings. Auto-clear of wrong entries is optional. Hints are available, with a monthly token budget for free players and unlimited hints for Pro.</p>
+        <p>Pro is optional. Two tiers: a yearly subscription and a one-time lifetime purchase. Pro removes ads and ad-supported friction, includes unlimited hints, and turns off the mistake cap. The Daily Challenge is free for everyone.</p>
+        <p>We do not make cognitive improvement claims. Sudoku is Sudoku.</p>
+        <p><a class="link" href="/apps/sudoku/offline-sudoku/">Read more about the offline sudoku design</a></p>
+      </article>
+    </div>
   </section>
 
-  <section class="reading-measure stack app-detail-section" aria-labelledby="sk-policies">
-    <h2 id="sk-policies">Policies</h2>
-    <ul>
-      <li><a class="link" href="/sudoku/privacy-policy">Privacy Policy</a></li>
-      <li><a class="link" href="/sudoku/support">Support</a></li>
-      <li><a class="link" href="/sudoku/terms-of-use">Terms of Use</a></li>
-    </ul>
+  <!-- ===== Screenshots ===== -->
+  <section class="content-section" aria-label="Sudoku screenshots">
+    <div class="container">
+      <div class="reading-measure">
+        <div class="showcase__media reveal-on-scroll">
+          <div class="device-cluster device-cluster--portrait">
+            <figure class="device device--primary">
+              <img
+                src="/assets/img/apps/shots/sudoku-shot-1.webp"
+                alt="A Sudoku by WizusLabs puzzle board mid-solve"
+                width="720"
+                height="1280"
+                loading="lazy"
+                decoding="async">
+            </figure>
+            <figure class="device device--thumb">
+              <img
+                src="/assets/img/apps/shots/sudoku-shot-2.webp"
+                alt="Sudoku difficulty and mode selection screen"
+                width="720"
+                height="1280"
+                loading="lazy"
+                decoding="async">
+            </figure>
+            <figure class="device device--thumb">
+              <img
+                src="/assets/img/apps/shots/sudoku-shot-3.webp"
+                alt="Sudoku daily challenge screen"
+                width="720"
+                height="1280"
+                loading="lazy"
+                decoding="async">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
+
+  <!-- ===== Provenance, store links, policies ===== -->
+  <section class="content-section">
+    <div class="container">
+      <article class="editorial">
+        <h2 id="sk-shipped-by">Shipped by</h2>
+        <ul>
+          <li>2026-04-23 · Wizus Bridge · Scout's market research, Blueprint's BLoC architecture and pure-Dart puzzle engine, Mint's two-tier Pro economy.</li>
+          <li>2026-04-23 · Wizus Atelier · Canvas's minimal design system, Ludus's difficulty grading across easy-to-expert, Muse's calm voice, Echo's zen feedback sounds.</li>
+          <li>2026-04-23 · Wizus Workshop · Horizon wrote the Flutter/BLoC implementation; the puzzle engine is pure Dart, by contract.</li>
+          <li>2026-04-23 · Wizus Foundry · Babel localized every string; Atlas owns the fastlane lanes for both stores; Chronicle wrote this page.</li>
+          <li>2026-04-23 · Wizus Gate · Sentinel audits puzzle correctness every sprint; Vector verified every store-required URL before submission; Courier ran the Play Console and App Store Connect uploads.</li>
+        </ul>
+
+        <h2 id="sk-get-it">Get it</h2>
+        <ul class="u-mono get-it-links">
+          <li><a class="link link--external" href="https://wizuslabs.com/sudoku/" target="_blank" rel="noopener noreferrer">Play on web</a></li>
+          <li><a class="link link--external" href="https://apps.apple.com/app/id6762293437" target="_blank" rel="noopener noreferrer">App Store</a></li>
+          <li><a class="link link--external" href="https://play.google.com/store/apps/details?id=com.wizuslabs.sudoku_game" target="_blank" rel="noopener noreferrer">Google Play</a></li>
+        </ul>
+
+        <h2 id="sk-policies">Policies</h2>
+        <ul>
+          <li><a class="link" href="/sudoku/privacy-policy">Privacy Policy</a></li>
+          <li><a class="link" href="/sudoku/support">Support</a></li>
+          <li><a class="link" href="/sudoku/terms-of-use">Terms of Use</a></li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
 </main>
 
 <!--

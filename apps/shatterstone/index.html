@@ -15,9 +15,13 @@
   <meta property="og:url" content="https://wizuslabs.com/apps/shatterstone/">
   <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="WizusLabs">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://wizuslabs.com/assets/img/social/wizuslabs-og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Shatterstone — WizusLabs">
   <meta name="twitter:description" content="An offline-first match-3 puzzle game. No ads, no in-app purchases, no analytics.">
+  <meta name="twitter:image" content="https://wizuslabs.com/assets/img/social/wizuslabs-og.png">
 
   <script type="application/ld+json">
   {
@@ -47,6 +51,8 @@
 
   <link rel="stylesheet" href="/assets/css/style.css">
   <script defer src="/assets/js/app.js"></script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5856240427546455" crossorigin="anonymous"></script>
 </head>
 <body>
 <!--
@@ -129,52 +135,66 @@
 <!-- Screen-reader announcement target for theme toggle -->
 <div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
 
-<main id="main" class="container page-main">
-  <header class="reading-measure stack">
-    <p>
-      <span class="pill pill--warn" aria-label="Status: Coming soon">Coming soon</span>
-    </p>
-    <h1>Shatterstone</h1>
-    <p class="hero-manifesto__lead">An offline-first match-3 puzzle game.</p>
-    <p class="u-mono app-card__version">ios + android · puzzle · offline-first</p>
-  </header>
+<main id="main">
 
-  <section class="reading-measure stack-lg app-detail-section" aria-labelledby="ss-what">
-    <h2 id="ss-what">What it does</h2>
-    <p>Shatterstone is a match-3 puzzle game in the classic candy-style tradition: swap adjacent gems to line up three or more, clear the board, and work through level after level of hand-tuned objectives.</p>
-    <p>It is offline-first. Every level is played entirely on your device, your progress is saved locally, and no account is required. The game is fully playable with no network connection at all.</p>
-    <p>There are no ads and no in-app purchases. There is no subscription and no &ldquo;Pro&rdquo; tier. Coins are an in-game soft currency you earn purely by playing — they cannot be bought with real money and have no monetary value.</p>
-    <p>Shatterstone collects no personal data, runs no analytics or telemetry, and contains no advertising SDKs. Your level progress, scores, coins, boosters, and streaks never leave your device.</p>
+  <!-- ===== Page hero (interior band — text-forward, no hero art yet) ===== -->
+  <section class="page-hero" aria-labelledby="ss-h1">
+    <img
+      class="page-hero__bg"
+      src="/assets/img/pages/shatterstone-hero.webp"
+      alt=""
+      width="1536"
+      height="1024"
+      loading="eager"
+      fetchpriority="high"
+      decoding="async">
+    <div class="page-hero__overlay" aria-hidden="true"></div>
+    <div class="container page-hero__inner">
+      <div class="page-hero__content">
+        <p class="page-hero__eyebrow">Apps</p>
+        <h1 id="ss-h1" class="page-hero__headline">Shatterstone</h1>
+        <p class="page-hero__lead">An offline-first match-3 puzzle game.</p>
+      </div>
+    </div>
   </section>
 
-  <section class="reading-measure stack-lg app-detail-section" aria-labelledby="ss-features">
-    <h2 id="ss-features">In the box</h2>
-    <ul>
-      <li>A chapter-based campaign of hand-tuned match-3 levels.</li>
-      <li>Stars and best scores tracked per level.</li>
-      <li>In-game boosters and a coin balance earned through play.</li>
-      <li>Daily rewards and win-streak tracking.</li>
-      <li>Fully offline — no account, no ads, no in-app purchases.</li>
-    </ul>
+  <!-- ===== Overview ===== -->
+  <section class="content-section">
+    <div class="container">
+      <article class="editorial">
+        <p><span class="pill pill--warn" aria-label="Status: Coming soon">Coming soon</span></p>
+        <p class="content-note">ios + android · puzzle · offline-first</p>
+
+        <h2 id="ss-what">What it does</h2>
+        <p>Shatterstone is a match-3 puzzle game in the classic candy-style tradition: swap adjacent gems to line up three or more, clear the board, and work through level after level of hand-tuned objectives.</p>
+        <p>It is offline-first. Every level is played entirely on your device, your progress is saved locally, and no account is required. The game is fully playable with no network connection at all.</p>
+        <p>There are no ads and no in-app purchases. There is no subscription and no &ldquo;Pro&rdquo; tier. Coins are an in-game soft currency you earn purely by playing — they cannot be bought with real money and have no monetary value.</p>
+        <p>Shatterstone collects no personal data, runs no analytics or telemetry, and contains no advertising SDKs. Your level progress, scores, coins, boosters, and streaks never leave your device.</p>
+
+        <h2 id="ss-features">In the box</h2>
+        <ul>
+          <li>A chapter-based campaign of hand-tuned match-3 levels.</li>
+          <li>Stars and best scores tracked per level.</li>
+          <li>In-game boosters and a coin balance earned through play.</li>
+          <li>Daily rewards and win-streak tracking.</li>
+          <li>Fully offline — no account, no ads, no in-app purchases.</li>
+        </ul>
+
+        <h2 id="ss-get-it">Get it</h2>
+        <p>Shatterstone is coming soon to the App Store and Google Play. Store links will appear here once it is live.</p>
+
+        <h2 id="ss-privacy">Privacy</h2>
+        <p>Shatterstone collects no personal data, shows no ads, has no in-app purchases, and runs no analytics or telemetry. All of your game data lives on your device. The only network activity is a brief, optional check for a newer app version, which sends nothing about you. Full details are in the Privacy Policy below.</p>
+
+        <h2 id="ss-policies">Policies</h2>
+        <ul>
+          <li><a class="link" href="/shatterstone/privacy-policy">Privacy Policy</a></li>
+          <li><a class="link" href="/shatterstone/support">Support</a></li>
+        </ul>
+      </article>
+    </div>
   </section>
 
-  <section class="reading-measure stack app-detail-section" aria-labelledby="ss-get-it">
-    <h2 id="ss-get-it">Get it</h2>
-    <p>Shatterstone is coming soon to the App Store and Google Play. Store links will appear here once it is live.</p>
-  </section>
-
-  <section class="reading-measure stack app-detail-section" aria-labelledby="ss-privacy">
-    <h2 id="ss-privacy">Privacy</h2>
-    <p>Shatterstone collects no personal data, shows no ads, has no in-app purchases, and runs no analytics or telemetry. All of your game data lives on your device. The only network activity is a brief, optional check for a newer app version, which sends nothing about you. Full details are in the Privacy Policy below.</p>
-  </section>
-
-  <section class="reading-measure stack app-detail-section" aria-labelledby="ss-policies">
-    <h2 id="ss-policies">Policies</h2>
-    <ul>
-      <li><a class="link" href="/shatterstone/privacy-policy">Privacy Policy</a></li>
-      <li><a class="link" href="/shatterstone/support">Support</a></li>
-    </ul>
-  </section>
 </main>
 
 <!--
