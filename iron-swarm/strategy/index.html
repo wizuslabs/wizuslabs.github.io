@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Iron Swarm — Strategy Guide</title>
+  <meta name="description" content="Iron Swarm strategy guide: read the four-round boss cycle, ration your missile and drone, fight with cover, beat all four bosses, and tune your plan for each game mode.">
+
+  <!-- AdSense account ownership verification (H5) — covers this page too. -->
+  <meta name="google-adsense-account" content="ca-pub-5856240427546455">
+
+  <meta name="theme-color" content="#1B2415">
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+
+  <!-- Structured data: breadcrumb trail (truthful navigation only). -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Iron Swarm",
+        "item": "https://wizuslabs.com/iron-swarm/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Strategy Guide",
+        "item": "https://wizuslabs.com/iron-swarm/strategy/"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: #1B2415;
+      color: #E4ECD8;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.65;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 28px 20px 40px;
+    }
+    h1 { color: #C5D6A8; font-size: 28px; line-height: 1.25; margin: 0 0 16px; }
+    h2 { color: #C5D6A8; font-size: 21px; line-height: 1.3; margin: 26px 0 12px; }
+    h3 { color: #C5D6A8; font-size: 18px; line-height: 1.35; margin: 20px 0 10px; }
+    p { margin: 0 0 14px; }
+    ul { margin: 0 0 14px; padding-left: 22px; }
+    li { margin: 0 0 8px; }
+    a { color: #9CCC65; }
+    kbd {
+      display: inline-block;
+      padding: 1px 7px;
+      border: 1px solid #4A5A38;
+      border-radius: 4px;
+      background: #243018;
+      color: #E4ECD8;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 14px;
+    }
+    nav.page-nav {
+      margin: 0 0 24px;
+      font-size: 15px;
+    }
+    nav.page-nav a { color: #9CCC65; text-decoration: none; }
+    footer {
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 1px solid #2E3B22;
+      text-align: center;
+      font-size: 15px;
+      color: #A6B591;
+    }
+    footer nav a { color: #9CCC65; text-decoration: none; }
+    footer p { margin: 10px 0 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <nav class="page-nav" aria-label="Breadcrumb">
+      <a href="/iron-swarm/">← Play Iron Swarm</a> · <a href="/iron-swarm/how-to-play/">How to Play</a> · <a href="/iron-swarm/modes/">Game Modes</a> · <a href="/iron-swarm/faq/">FAQ</a> · <a href="/iron-swarm/about/">About</a>
+    </nav>
+
+<h1>Iron Swarm Strategy Guide: Win More Runs</h1>
+
+<p>Iron Swarm rewards players who think a half-second ahead. The maps are small
+and readable, your tank is tough but not invincible (340 HP — about ten clean
+hits), and your barrel always points where you are driving, so good positioning
+is both your offence and your defence. This guide goes past the basics in the
+<a href="/iron-swarm/how-to-play/">How to Play</a> page and into the decisions that actually
+win runs: reading the round and boss cycle, rationing your missile and drone,
+fighting with cover, beating each of the four bosses, and adjusting your plan for
+each <a href="/iron-swarm/modes/">game mode</a>. When you are ready to put it into practice,
+you can <a href="/iron-swarm/">play Iron Swarm free in your browser</a>.</p>
+
+<h2>Read the round and boss cycle</h2>
+<p>Combat runs in a steady four-round rhythm: three combat rounds, then a boss on
+every fourth round. Knowing where you are in that cycle changes how greedy you
+should be. In rounds one through three you are managing waves of enemy tanks; the
+boss round is a single, dangerous, multi-phase fight. Difficulty scales with each
+completed cycle — bosses gain roughly ten percent more health, twelve percent more
+speed, and ten percent faster fire each cycle, and the enemy speed multiplier
+climbs (capped at 1.8×). The practical takeaways:</p>
+<ul>
+  <li><strong>Enter the boss round topped up.</strong> Clear the third combat round
+  cleanly, grab any health pickup, and have your missile magazine full before the
+  boss spawns.</li>
+  <li><strong>Spend resources knowing what is next.</strong> A combat round you can
+  win with the cannon alone is the right time to <em>not</em> burn the missile, so
+  it is ready for the boss.</li>
+  <li><strong>Expect the curve.</strong> A boss that felt manageable two cycles ago
+  is faster now. If you keep dying at the same phase, it is the scaling, not bad
+  luck — change your approach, do not just try harder.</li>
+</ul>
+
+<h2>Ration the missile and drone</h2>
+<p>Your two specials are not spam buttons; they are commitments.</p>
+<p>The <strong>homing missile</strong> (<kbd>R</kbd>) runs on a five-shot magazine
+with a roughly half-second gap between launches. When the magazine empties it does
+not trickle back — it sits empty for a single ten-second recharge and then refills
+all five at once. The magazine also resets to full at the start of every round, so
+there is no reason to hoard missiles into the next round: if you are about to clear
+a round, spend what you have. Each missile hits hard (about 2.4× a cannon shot) and
+locks onto the nearest enemy at launch, so save bursts for boss phases and tight
+clusters of enemies rather than picking off a single weak tank.</p>
+<p>The <strong>drone</strong> (<kbd>E</kbd>) is collect-gated: it is locked at the
+start of every round, and you unlock it for the current round only by driving over
+the round's drone pickup. Once collected it autonomously hunts and one-shots living
+enemy tanks, with only one drone in flight at a time. Two habits matter here. First,
+the walk to the pickup is the cost — decide whether breaking engagement to grab it
+is worth it, or whether you finish the current kill first. Second, because the drone
+clears the whole living roster, it is at its best when several enemies are alive at
+once; popping it when one straggler remains wastes it. Round advance re-locks the
+drone, so use it before the round ends or you lose it.</p>
+
+<h2>Fight with cover and power-ups</h2>
+<p>Cover breaks line of sight. Brick walls take two hits and then crumble, steel
+walls are permanent and eat bullets, and rubble piles are low indestructible cover —
+use all three to round a corner, force an enemy to reposition, and re-engage on your
+terms. Watch your footing too: water and mud halve your speed, ice sheets make you
+slide for half a second after you let off the stick, and land mines (a clearly
+visible disc) hit for about 150 HP. You can bait enemies onto mines as easily as you
+can blunder onto one.</p>
+<p>Power-ups drop during combat and stack over a run. Grab the obvious survival picks
+— a health pack restores 50 HP, the shield bubble blocks all damage briefly — and the
+offensive ones (burst fire, rapid fire, freeze gun) when a wave is about to overwhelm
+you. Pick up speed boosts early in a round so they are working while it matters, not
+wasted in a lull.</p>
+
+<h2>Per-boss tactics</h2>
+
+<h3>Standard boss</h3>
+<p>The all-rounder, and the one that teaches the rhythm. It runs three phases keyed
+to its health: above 70% it fires single straight shots; between 70% and 30% it adds
+a three-bullet spread, a 360° ring burst on a timer, and a charge attack; below 30%
+it widens to a five-bullet burst and a denser, faster ring. The charge — it
+accelerates and rams for collision damage — is the real threat and is unchanged by
+the difficulty passes, so treat it as the thing you must always be ready to dodge.
+Keep moving laterally, strafe the ring bursts (do not stand on the boss), and pour
+damage in the window right after a charge whiffs.</p>
+
+<h3>Glacier Warden</h3>
+<p>Mobile and aggressive early, then it changes character. Its signature is a frost
+cone — a wide 45° fan of bullets telegraphed by a pulsing cyan arc at its barrel tip
+over about a second. When you see that arc fill, get out of the fan; do not try to
+out-trade it. In its final phase the Warden turns stationary and starts dropping
+mines on a timer, each pre-flashed with a red marker. So the late fight flips: now
+that it is rooted you have a clean damage window, but the floor is the danger — keep
+circling, never reverse into a spot you have not checked, and punish hard while it
+cannot reposition.</p>
+
+<h3>Bastion</h3>
+<p>A stationary fortress. It never moves, so the fight is entirely about its volleys
+and the space around it. It fires triple shots in a tight spread that punishes static
+positioning — keep drifting sideways and the three bullets miss. In its final phase
+it adds an overcharge shot: the three barrel tips ramp from green to amber to white
+over about six-tenths of a second, then fire a heavy round. That colour ramp is your
+cue to already be moving. Because the Bastion cannot chase you, the winning pattern is
+patient: strike in the gaps between volleys, clear anything it spawns, and never
+stand directly in front of those barrels when they start to glow.</p>
+
+<h3>Iron Commander</h3>
+<p>The campaign's final boss (Chapter 6, round 24), a drifting heavy with a fixed
+762 HP and a counter-shot mechanic that punishes careless close-range fire. It fires
+a three-round burst cannon throughout. Its phases shift at 60% and 30% health: from
+60% down it begins counter-shooting — when one of your bullets passes close, it
+mirrors that shot's direction back at you after a short delay (and the delay gets
+shorter, the punish faster, in the final phase). Below 30% it glows red-hot, speeds
+up by twenty percent, adds an overcharge spread shot (same green→amber→white barrel
+telegraph), and starts dropping mines. The key insight is the counter-shot: do not
+hose it from point-blank. Fire from a little distance and on the diagonal so the
+mirrored shot returns to where you <em>were</em>, then reposition into the gap. Save a
+full missile magazine for the sub-30% phase, where the extra speed and the spread
+make trading with the cannon dangerous.</p>
+
+<h2>Adjusting for each mode</h2>
+<ul>
+  <li><strong>Endless Survival</strong> — there is no finish line; the run ends only
+  when you die. Play for pace, not aggression. Conserve health, take only the trades
+  you are sure of, and let the drone reset your position when a wave stacks up. Your
+  best wave and best score persist, so a careful run that reaches a new wave beats a
+  flashy one that ends early.</li>
+  <li><strong>Daily Challenge</strong> — five seeded rounds that are identical for
+  every player on a given date, so it rewards a clean, repeatable plan. Because you
+  cannot re-roll the layout, scout the first run, learn where the threats sit, and
+  optimise your route on the replay to push your best-of-day score.</li>
+  <li><strong>Mission mastery</strong> — missions carry extra objectives beyond just
+  surviving (for example, finishing above a health threshold or stopping a specific
+  enemy from escaping). Decide before the run which mastery objective you are going
+  for; some demand a cautious, low-damage clear while others reward total
+  elimination. You will not always get them all in one run, and that is by design.</li>
+  <li><strong>Weekly Mutator</strong> — one rotating rule is forced on the run for the
+  week. Read what the modifier does first, then build your habits around it (a
+  double-damage week wants aggression; a rapid-fire-enemies week wants more cover and
+  more drone use).</li>
+</ul>
+
+<p>That is the whole toolkit. Learn the cycle, ration your specials, respect every
+boss telegraph, and adjust per mode. Now go put it to work:
+<a href="/iron-swarm/">start a battle</a>, review the <a href="/iron-swarm/modes/">game modes</a>, brush up
+on the <a href="/iron-swarm/how-to-play/">controls</a>, or check the <a href="/iron-swarm/faq/">FAQ</a>.</p>
+
+    <footer>
+      <nav aria-label="Site">
+        <a href="/iron-swarm/">Play</a> ·
+        <a href="/iron-swarm/how-to-play/">How to Play</a> ·
+        <a href="/iron-swarm/modes/">Game Modes</a> ·
+        <a href="/iron-swarm/faq/">FAQ</a> ·
+        <a href="/iron-swarm/about/">About</a> ·
+        <a href="/iron-swarm/privacy-policy">Privacy Policy</a> ·
+        <a href="/iron-swarm/support">Support</a> ·
+        <a href="/iron-swarm/terms-of-use">Terms of Use</a>
+      </nav>
+      <p>Contact: <a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a> · © WizusLabs</p>
+    </footer>
+  </main>
+</body>
+</html>

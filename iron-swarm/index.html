@@ -1,248 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>
+    // WEB-P1b-2 (ADR-074 D6) — canonical-host redirect: send the Cloudflare
+    // Pages default domain to the branded canonical host so AdSense domain
+    // review + SEO see a single origin. No-op on any other host.
+    (function () {
+      if (location.hostname === 'iron-swarm.pages.dev') {
+        location.replace('https://wizuslabs.com/iron-swarm' + location.pathname + location.search + location.hash);
+      }
+    })();
+  </script>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/iron-swarm/">
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Iron Swarm — WizusLabs</title>
-  <meta name="description" content="Iron Swarm: a top-down tank arcade. Six historical missions, a daily challenge, and an endless campaign with multi-phase boss fights and boss-chest field modules.">
-  <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#FBF9F4" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0E1013" media="(prefers-color-scheme: dark)">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <!-- Pre-boot viewport for crawlers/static rendering; the Flutter engine
+       installs its own viewport meta at boot (full-page embedding replaces
+       any existing one), so this never conflicts with the running app. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Play Iron Swarm free in your browser — a fast top-down tank arena. Battle through mission chapters, survive the endless swarm, earn stars, and climb the daily challenge. No download, no sign-up.">
 
-  <link rel="canonical" href="https://wizuslabs.com/iron-swarm/">
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <!-- AdSense account ownership verification (H5). The google_adsense Dart
+       package injects the adsbygoogle.js script at runtime; do NOT add a
+       static script tag here (would double-load AdSense). Meta tag only. -->
+  <meta name="google-adsense-account" content="ca-pub-5856240427546455">
 
+  <!-- Open Graph (Facebook / LinkedIn / Discord link cards) -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Iron Swarm — WizusLabs">
-  <meta property="og:description" content="Top-down tank arcade combat. Six historical missions, a daily challenge, and an endless campaign with multi-phase boss fights.">
+  <meta property="og:site_name" content="Iron Swarm">
+  <meta property="og:title" content="Iron Swarm — Top-Down Tank Arena">
+  <meta property="og:description" content="A fast top-down tank arena you can play right in your browser. Clear mission chapters, survive the endless swarm, and chase the daily challenge.">
   <meta property="og:url" content="https://wizuslabs.com/iron-swarm/">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:site_name" content="WizusLabs">
-  <meta property="og:image" content="https://wizuslabs.com/assets/img/social/iron-swarm-og.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Iron Swarm — WizusLabs">
-  <meta name="twitter:description" content="Top-down tank arcade combat. Six historical missions, a daily challenge, and an endless campaign with multi-phase boss fights.">
-  <meta name="twitter:image" content="https://wizuslabs.com/assets/img/social/iron-swarm-og.png">
+  <meta property="og:image" content="https://wizuslabs.com/iron-swarm/icons/Icon-512.png">
 
+  <!-- Twitter / X summary card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Iron Swarm — Top-Down Tank Arena">
+  <meta name="twitter:description" content="A fast top-down tank arena you can play right in your browser. Clear mission chapters, survive the endless swarm, and chase the daily challenge.">
+  <meta name="twitter:image" content="https://wizuslabs.com/iron-swarm/icons/Icon-512.png">
+
+  <!-- Theme color (browser UI tint) -->
+  <meta name="theme-color" content="#1B2415">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Iron Swarm">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Iron Swarm — Top-Down Tank Arena | Play Free Online</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Structured data: VideoGame. Truthful only — no aggregateRating/review
+       (we have no real review data), free-to-play web offer. -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "@id": "https://wizuslabs.com/iron-swarm/#app",
+    "@type": "VideoGame",
     "name": "Iron Swarm",
+    "description": "A fast 2D top-down tank arena you can play free in your browser. Battle through mission chapters, survive the endless swarm, beat multi-phase bosses, and chase the daily challenge.",
     "url": "https://wizuslabs.com/iron-swarm/",
-    "image": "https://wizuslabs.com/assets/img/social/iron-swarm-og.png",
-    "description": "Iron Swarm is a top-down tank arcade game with missions, a daily challenge, an endless campaign, and Commander Pro.",
+    "genre": "Arcade/Action",
+    "gamePlatform": ["Web", "iOS", "Android"],
     "applicationCategory": "GameApplication",
-    "operatingSystem": "iOS, Android",
+    "operatingSystem": "Web browser",
+    "author": {
+      "@type": "Organization",
+      "name": "WizusLabs",
+      "url": "https://wizuslabs.com"
+    },
     "publisher": {
       "@type": "Organization",
       "name": "WizusLabs",
-      "url": "https://wizuslabs.com/"
+      "url": "https://wizuslabs.com"
     },
     "offers": {
       "@type": "Offer",
       "price": "0",
       "priceCurrency": "USD"
-    },
-    "sameAs": [
-      "https://apps.apple.com/app/id6764359993",
-      "https://play.google.com/store/apps/details?id=com.wizuslabs.iron_swarm"
-    ]
+    }
   }
   </script>
 
-  <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
-
-  <link rel="stylesheet" href="/assets/css/style.css">
-  <script defer src="/assets/js/app.js"></script>
+  <!-- Web-only initial loading screen. Inline CSS/JS, no network requests. -->
+  <style>
+    #loading {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #1B2415;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      z-index: 2147483647;
+    }
+    #loading .spinner {
+      width: 44px;
+      height: 44px;
+      border: 4px solid rgba(255, 255, 255, 0.12);
+      border-top-color: #7CB342;
+      border-radius: 50%;
+      animation: loading-spin 0.9s linear infinite;
+    }
+    #loading .label {
+      margin-top: 18px;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #C5D6A8;
+    }
+    @keyframes loading-spin {
+      to { transform: rotate(360deg); }
+    }
+    /* Crawlable SEO content. Sits in normal flow BELOW the fixed loading
+       overlay pre-boot, and is hidden on flutter-first-frame so the running
+       app never shares the page with it. Crawlers fetching raw HTML (no JS)
+       always see it. */
+    #seo-content {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 28px 20px 40px;
+      color: #E4ECD8;
+      background: #1B2415;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.65;
+    }
+    #seo-content h1 { color: #C5D6A8; font-size: 28px; line-height: 1.25; margin: 0 0 16px; }
+    #seo-content h2 { color: #C5D6A8; font-size: 21px; line-height: 1.3; margin: 26px 0 12px; }
+    #seo-content p { margin: 0 0 14px; }
+    #seo-content ul { margin: 0 0 14px; padding-left: 22px; }
+    #seo-content li { margin: 0 0 8px; }
+    #seo-content a { color: #9CCC65; }
+    #seo-content kbd {
+      display: inline-block;
+      padding: 1px 7px;
+      border: 1px solid #4A5A38;
+      border-radius: 4px;
+      background: #243018;
+      color: #E4ECD8;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 14px;
+    }
+    #seo-content footer {
+      margin-top: 28px;
+      text-align: center;
+      font-size: 15px;
+      color: #A6B591;
+    }
+    #seo-content footer nav a { color: #9CCC65; text-decoration: none; }
+    #seo-content footer p { margin: 10px 0 0; }
+  </style>
 </head>
 <body>
-<!--
-  nav.html — SOURCE OF TRUTH for the site nav.
-  No build tool. Copy this block inline into each page's <body>.
-  If nav changes, edit here and re-copy to every page.
-  Spec: docs/design/design-system.md §7.1 + §11 (wordmark) + §7.10 (theme toggle).
--->
-<a class="skip-link" href="#main">Skip to content</a>
+  <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
 
-<header>
-  <nav class="nav" aria-label="Primary">
-    <div class="container nav__inner">
-      <a class="wordmark" href="/" aria-label="WizusLabs home">
-        <span class="wordmark__first">Wizus</span><span class="wordmark__second">Labs</span>
-      </a>
-
-      <ul class="nav__links" id="nav-links">
-        <li><a class="nav__link" href="/manifesto/">Manifesto</a></li>
-        <li><a class="nav__link" href="/agents/">Agents</a></li>
-        <li><a class="nav__link" href="/apps/" aria-current="page">Apps</a></li>
-        <li><a class="nav__link" href="/human/">Human</a></li>
-      </ul>
-
-      <div class="nav__actions">
-        <button
-          type="button"
-          class="nav__hamburger"
-          data-nav-open-btn
-          aria-expanded="false"
-          aria-controls="nav-panel"
-          aria-label="Open navigation">
-          <svg class="nav__hamburger-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
-            <path d="M3 7h18M3 12h18M3 17h18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-          </svg>
-        </button>
-
-        <button
-          type="button"
-          class="theme-toggle"
-          data-theme-toggle
-          data-state="auto"
-          aria-label="Theme: auto"
-          aria-pressed="false">
-          <svg class="theme-toggle__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
-            <path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/>
-          </svg>
-          <span class="theme-toggle__label">Theme: auto</span>
-        </button>
-      </div>
-    </div>
-
-    <div
-      id="nav-panel"
-      class="nav__panel"
-      data-nav-panel
-      role="dialog"
-      aria-modal="true"
-      aria-label="Primary navigation">
-      <button
-        type="button"
-        class="nav__panel-close"
-        data-nav-close-btn
-        aria-label="Close navigation">
-        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
-          <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-        </svg>
-      </button>
-      <ul class="nav__panel-list">
-        <li><a class="nav__panel-link" href="/manifesto/">Manifesto</a></li>
-        <li><a class="nav__panel-link" href="/agents/">Agents</a></li>
-        <li><a class="nav__panel-link" href="/apps/" aria-current="page">Apps</a></li>
-        <li><a class="nav__panel-link" href="/human/">Human</a></li>
-      </ul>
-    </div>
-  </nav>
-</header>
-
-<!-- Screen-reader announcement target for theme toggle -->
-<div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
-
-<main id="main" class="container page-main">
-  <figure class="app-card__figure">
-    <img
-      class="app-icon app-icon--lg"
-      src="/assets/img/apps/iron-swarm-256.png"
-      alt="Iron Swarm app icon"
-      width="224"
-      height="224"
-      loading="eager"
-      decoding="async"
-      fetchpriority="high">
-  </figure>
-
-  <header class="reading-measure stack">
-    <h1>Iron Swarm</h1>
-    <p class="hero-manifesto__lead">Top-down tank arcade combat.</p>
-    <p class="u-mono app-card__version">ios + android · arcade</p>
-  </header>
-
-  <section class="reading-measure stack-lg app-detail-section" aria-labelledby="is-what">
-    <h2 id="is-what">What it does</h2>
-    <p>Iron Swarm is a top-down 2D tank arcade game. Drive your tank through tight, readable battlefields, manage your line of fire, and push through waves of enemy armor.</p>
-    <p>There are six historical missions, a daily challenge, and an endless campaign with multi-phase boss fights. Boss encounters drop boss-chest field modules — pick-ups that change how your tank handles for the run.</p>
-    <p>Commander Pro is an optional upgrade for players who want it. It is offered as a subscription or a one-time lifetime unlock. The core game stands on its own without it.</p>
-    <p><a class="link" href="/iron-swarm/top-down-tank-game/">Read more about the top-down tank game design</a></p>
-  </section>
-
-  <section class="reading-measure stack-lg app-detail-section" aria-labelledby="is-features">
-    <h2 id="is-features">In the box</h2>
-    <ul>
-      <li>Six historical missions.</li>
-      <li>A daily challenge.</li>
-      <li>An endless campaign with multi-phase boss fights.</li>
-      <li>Boss-chest field modules that reshape a run.</li>
-    </ul>
-  </section>
-
-  <section class="reading-measure stack app-detail-section" aria-labelledby="is-get-it">
-    <h2 id="is-get-it">Get it</h2>
-    <ul class="u-mono get-it-links">
-      <li><a class="link link--external" href="https://apps.apple.com/app/id6764359993" target="_blank" rel="noopener noreferrer">App Store</a></li>
-      <li><a class="link link--external" href="https://play.google.com/store/apps/details?id=com.wizuslabs.iron_swarm" target="_blank" rel="noopener noreferrer">Google Play</a></li>
-    </ul>
-  </section>
-
-  <section class="reading-measure stack app-detail-section" aria-labelledby="is-privacy">
-    <h2 id="is-privacy">Privacy</h2>
-    <p>Iron Swarm is supported by ads and uses crash reporting. Third-party SDKs may collect limited device data per their own privacy policies. Full details are in the Privacy Policy below.</p>
-  </section>
-
-  <section class="reading-measure stack app-detail-section" aria-labelledby="is-policies">
-    <h2 id="is-policies">Policies</h2>
-    <ul>
-      <li><a class="link" href="/iron-swarm/privacy-policy">Privacy Policy</a></li>
-      <li><a class="link" href="/iron-swarm/support">Support</a></li>
-      <li><a class="link" href="/iron-swarm/terms-of-use">Terms of Use</a></li>
-    </ul>
-  </section>
-</main>
-
-<!--
-  footer.html — SOURCE OF TRUTH for the site footer.
-  No build tool. Copy this block inline into each page's <body>.
-  If the footer changes, edit here and re-copy to every page.
-  Spec: docs/design/design-system.md §7.2 + §7.20 (footer mark).
-  Every legacy store-submission URL lives here by design.
--->
-<footer class="footer">
-  <div class="footer__cols footer__cols--3col">
-    <section aria-labelledby="footer-lab">
-      <h2 id="footer-lab" class="footer__heading">Lab</h2>
-      <ul class="footer__list">
-        <li><a href="/manifesto/">Manifesto</a></li>
-        <li><a href="/agents/">Agents</a></li>
-        <li><a href="/human/">Human</a></li>
-      </ul>
-    </section>
-
-    <section aria-labelledby="footer-apps">
-      <h2 id="footer-apps" class="footer__heading">Apps</h2>
-      <ul class="footer__list">
-        <li><a href="/apps/neuralspark/">NeuralSpark</a></li>
-        <li><a href="/apps/sudoku/">Sudoku</a></li>
-        <li><a href="/iron-swarm/">Iron Swarm</a></li>
-        <li><a href="/apps/shatterstone/">Shatterstone</a></li>
-        <li><a href="/apps/">All apps</a></li>
-      </ul>
-    </section>
-
-    <section aria-labelledby="footer-contact">
-      <h2 id="footer-contact" class="footer__heading">Contact</h2>
-      <ul class="footer__list">
-        <li><a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></li>
-      </ul>
-    </section>
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+  <!-- Web-only loading screen, removed on Flutter's first frame. -->
+  <div id="loading">
+    <div class="spinner"></div>
+    <div class="label">Iron Swarm</div>
   </div>
+  <!-- Crawlable homepage content (AdSense H5 domain review). Visible to
+       no-JS crawlers in the raw HTML; covered by the fixed #loading overlay
+       pre-boot and hidden on flutter-first-frame so the running app never
+       shares the page with it. -->
+  <div id="seo-content">
+    <h1>Iron Swarm: command your tank, hold the line against the swarm.</h1>
 
-  <div class="footer__bottom">
-    <p>&copy; 2026 WizusLabs</p>
-    <p class="footer__mark">Always for Human.</p>
-    <p><a href="/">wizuslabs.com</a></p>
+    <p>Iron Swarm is a fast 2D top-down tank arena you can play right here in
+    your browser — no download, no sign-up. Built with Flutter and the Flame game
+    engine, it drops you into tight, readable battlefields where smart movement
+    matters more than twitch reflexes. Roll out across handcrafted mission
+    chapters, hold off escalating enemy armor, and fight an escalating boss tank
+    every fourth round. The game is also available on iOS and Android, but the web
+    build is free to play instantly.</p>
+
+    <h2>How to play (web and desktop)</h2>
+    <p>Controls are built for the keyboard and take seconds to learn:</p>
+    <ul>
+      <li><strong>Move</strong> — <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> or the arrow keys. Your barrel aims in the direction you drive, so movement and aim are one motion.</li>
+      <li><strong>Fire</strong> — <kbd>Space</kbd> or <kbd>F</kbd>. Hold it down for continuous auto-fire bursts.</li>
+      <li><strong>Launch missile</strong> — <kbd>R</kbd>. A high-damage shot on a cooldown — save it for bosses and tight spots.</li>
+      <li><strong>Activate drone</strong> — <kbd>E</kbd>. Calls in a support drone to add pressure while you reposition.</li>
+    </ul>
+    <p>On phones and tablets the same actions map to an on-screen joystick plus
+    fire, missile, and drone buttons, so nothing in the moment-to-moment combat
+    changes between platforms.</p>
+
+    <h2>Game modes</h2>
+    <ul>
+      <li><strong>Campaign</strong> — handcrafted missions grouped into chapters, each scored with a star rating so there is always a cleaner run to chase.</li>
+      <li><strong>Survival</strong> — an endless mode where difficulty scales indefinitely and the only goal is to last one more wave.</li>
+      <li><strong>Daily Challenge</strong> — a fresh, daily-rotating objective that gives you a reason to come back every day.</li>
+    </ul>
+
+    <h2>Core tactics</h2>
+    <p>Every run rewards thinking a half-second ahead. Use cover and positioning
+    to break enemy line of sight, line up shots instead of spraying, and grab
+    supply drops and pickups when the lull allows. Boss encounters arrive every
+    fourth round and scale up across the campaign — the Standard boss, the Glacier
+    Warden, the Bastion, and the Iron Commander each run multi-phase attack
+    patterns, so learn to read their telegraphs and dodge before you commit. Manage
+    your missile and drone cooldowns so you have firepower ready when a phase
+    shifts.</p>
+
+    <h2>Fair by design</h2>
+    <p>Iron Swarm has no pay-to-win, no loot boxes, and we collect no personal data ourselves (the website shows ads via Google AdSense, which uses cookies — see our <a href="/iron-swarm/privacy-policy/">Privacy Policy</a>).
+    Any ads are optional and player-initiated: you can choose to watch a rewarded
+    ad to revive and continue or to double a reward — they are never forced and
+    never overlaid on your controls. On mobile, a one-time premium unlock removes
+    ads entirely. New here? Read the <a href="/iron-swarm/how-to-play/">How to Play</a> guide
+    for full controls and tactics, learn more <a href="/iron-swarm/about/">about Iron
+    Swarm</a>, then jump straight into the battle waiting above.</p>
+
+    <footer>
+      <nav aria-label="Site">
+        <a href="/iron-swarm/how-to-play/">How to Play</a> ·
+        <a href="/iron-swarm/strategy/">Strategy Guide</a> ·
+        <a href="/iron-swarm/modes/">Game Modes</a> ·
+        <a href="/iron-swarm/faq/">FAQ</a> ·
+        <a href="/iron-swarm/about/">About</a> ·
+        <a href="/iron-swarm/privacy-policy/">Privacy Policy</a> ·
+        <a href="/iron-swarm/support/">Support</a> ·
+        <a href="/iron-swarm/terms-of-use/">Terms of Use</a>
+      </nav>
+      <p>Contact: <a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a> · © WizusLabs</p>
+    </footer>
   </div>
-</footer>
+  <script>
+    // Register before Flutter boots so the first-frame event is never missed.
+    window.addEventListener('flutter-first-frame', function () {
+      var el = document.getElementById('loading');
+      if (el) el.remove();
+      // Hide the crawler-facing static content once the app owns the page.
+      var seo = document.getElementById('seo-content');
+      if (seo) seo.style.display = 'none';
+    });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
