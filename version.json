@@ -1,6 +1,6 @@
 {
   "manifestVersion": 2,
-  "publishedAt": "2026-06-26T00:00:00Z",
+  "publishedAt": "2026-07-09T00:00:00Z",
   "apps": {
     "neuralspark": {
       "latestVersion": "1.9.7",
@@ -21,13 +21,13 @@
       "publishedAt": "2026-06-26T00:00:00Z"
     },
     "iron-blitz": {
-      "latestVersion": null,
-      "latestBuild": null,
+      "latestVersion": "1.0.1",
+      "latestBuild": 102,
       "minimumSupportedVersion": null,
       "minimumSupportedBuild": null,
       "iosStoreUrl": null,
-      "androidStoreUrl": null,
-      "publishedAt": null
+      "androidStoreUrl": "https://play.google.com/store/apps/details?id=com.wizuslabs.iron_swarm",
+      "publishedAt": "2026-07-09T00:00:00Z"
     },
     "shatterstone": {
       "latestVersion": "0.1.0",
