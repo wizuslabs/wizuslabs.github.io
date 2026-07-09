@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attention games: spot-the-difference, Stroop, Go/No-Go, visual search — NeuralSpark</title>
+  <meta name="description" content="A neutral tour of NeuralSpark's attention-style puzzle games — spot-the-difference, Stroop-type, Go/No-Go-type, and visual search — what each task is and how to play it.">
+  <meta name="color-scheme" content="light dark">
+
+  <link rel="canonical" href="https://wizuslabs.com/guides/neuralspark/attention-games/">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Attention games: spot-the-difference, Stroop, Go/No-Go, visual search — NeuralSpark">
+  <meta property="og:description" content="A neutral tour of NeuralSpark's attention-style puzzle games — what each task is and how to play it.">
+  <meta property="og:url" content="https://wizuslabs.com/guides/neuralspark/attention-games/">
+  <meta property="og:site_name" content="WizusLabs">
+  <meta property="og:image" content="https://wizuslabs.com/assets/img/pages/neuralspark-hero.webp">
+  <meta property="og:image:width" content="1536">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Attention games: spot-the-difference, Stroop, Go/No-Go, visual search — NeuralSpark">
+  <meta name="twitter:description" content="A neutral tour of NeuralSpark's attention-style puzzle games — what each task is and how to play it.">
+  <meta name="twitter:image" content="https://wizuslabs.com/assets/img/pages/neuralspark-hero.webp">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": "https://wizuslabs.com/guides/neuralspark/attention-games/#breadcrumbs",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://wizuslabs.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Guides",
+        "item": "https://wizuslabs.com/guides/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Attention games"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/js/app.js"></script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5856240427546455" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--
+  nav.html — SOURCE OF TRUTH for the site nav.
+  No build tool. Copy this block inline into each page's <body>.
+  If nav changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.1 + §11 (wordmark) + §7.10 (theme toggle).
+-->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <nav class="nav" aria-label="Primary">
+    <div class="container nav__inner">
+      <a class="wordmark" href="/" aria-label="WizusLabs home">
+        <span class="wordmark__first">Wizus</span><span class="wordmark__second">Labs</span>
+      </a>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a class="nav__link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__link" href="/agents/">Agents</a></li>
+        <li><a class="nav__link" href="/apps/">Apps</a></li>
+        <li><a class="nav__link" href="/guides/">Guides</a></li>
+        <li><a class="nav__link" href="/human/">Human</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button
+          type="button"
+          class="nav__hamburger"
+          data-nav-open-btn
+          aria-expanded="false"
+          aria-controls="nav-panel"
+          aria-label="Open navigation">
+          <svg class="nav__hamburger-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M3 7h18M3 12h18M3 17h18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          class="theme-toggle"
+          data-theme-toggle
+          data-state="auto"
+          aria-label="Theme: auto"
+          aria-pressed="false">
+          <svg class="theme-toggle__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/>
+          </svg>
+          <span class="theme-toggle__label">Theme: auto</span>
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="nav-panel"
+      class="nav__panel"
+      data-nav-panel
+      role="dialog"
+      aria-modal="true"
+      aria-label="Primary navigation">
+      <button
+        type="button"
+        class="nav__panel-close"
+        data-nav-close-btn
+        aria-label="Close navigation">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+          <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <ul class="nav__panel-list">
+        <li><a class="nav__panel-link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__panel-link" href="/agents/">Agents</a></li>
+        <li><a class="nav__panel-link" href="/apps/">Apps</a></li>
+        <li><a class="nav__panel-link" href="/guides/">Guides</a></li>
+        <li><a class="nav__panel-link" href="/human/">Human</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Screen-reader announcement target for theme toggle -->
+<div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
+
+<main id="main">
+
+  <!-- ===== Page hero (interior band) ===== -->
+  <section class="page-hero" aria-labelledby="attn-h1">
+    <img
+      class="page-hero__bg"
+      src="/assets/img/pages/neuralspark-hero.webp"
+      alt=""
+      width="1536"
+      height="1024"
+      loading="eager"
+      fetchpriority="high"
+      decoding="async">
+    <div class="page-hero__overlay" aria-hidden="true"></div>
+    <div class="container page-hero__inner">
+      <div class="page-hero__content">
+        <p class="page-hero__eyebrow">NeuralSpark · Guide</p>
+        <h1 id="attn-h1" class="page-hero__headline">Attention games: what they are and how to play</h1>
+        <p class="page-hero__lead">
+          Spot-the-difference, Stroop-type colour rounds, Go/No-Go-type tap
+          games, and visual search — the attention-style puzzles in
+          NeuralSpark, described plainly.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== The guide ===== -->
+  <section class="content-section">
+    <div class="container">
+      <nav class="content-note" aria-label="Breadcrumb">
+        <a class="link" href="/guides/">Guides</a> / NeuralSpark / Attention games
+      </nav>
+
+      <article class="editorial">
+
+        <p class="editorial__lead">NeuralSpark groups a handful of its puzzles under the label "attention."
+        The name is just a way to say what kind of challenge the round is:
+        each of these games gives you something to look for, or a moment to
+        react to, while other things on the screen try to pull your eye
+        elsewhere. This guide walks through the main attention-style formats —
+        what the task is, how to play it, and what makes it fun and
+        challenging. Up front, to be plain about it: these are puzzles for
+        entertainment. NeuralSpark makes no claim that they improve your
+        attention, focus, or anything else about you. The only promise is that
+        many people find them a good way to spend a few minutes.</p>
+
+        <h2>Spot-the-difference</h2>
+
+        <p class="reveal-on-scroll">Spot-the-difference is the one nearly everyone has played somewhere. You
+        are shown two pictures that look identical at a glance, and a small
+        number of details have been changed between them — a colour swapped, an
+        object added, a shape nudged. Your job is to find every difference and
+        tap it before the round ends.</p>
+
+        <p class="reveal-on-scroll">How you play it is simple: scan one image, scan the other, and tap a spot
+        the moment something looks off. A correct tap marks the difference; a
+        wrong tap usually costs you a little time or a point, so wild guessing
+        does not pay. The fun of it is the hunt — that satisfying click when a
+        difference you have been staring past finally jumps out. The challenge
+        scales by hiding differences in busy scenes, making the changes smaller,
+        or putting a clock on the round so you cannot dawdle. NeuralSpark ships
+        more than one difficulty, so you can start with obvious changes and move
+        to the fiddly ones when the easy scenes stop feeling like a puzzle.</p>
+
+        <h2 class="reveal-on-scroll">Stroop-type colour rounds</h2>
+
+        <p class="reveal-on-scroll">A Stroop-type round is built around a tiny bit of friction. You are shown
+        the name of a colour — the word "RED", for instance — but it is printed
+        in a different colour of ink, maybe blue. The task is to answer with the
+        <em>ink colour</em>, not the word you read. So "RED" printed in blue
+        should get the answer "blue."</p>
+
+        <p class="reveal-on-scroll">To play, you tap the button or swatch matching the ink colour as each word
+        flashes up, then the next one appears. What makes it a genuinely tricky
+        little game is that reading is so automatic the written word keeps trying
+        to answer for you, and you have to override that pull. People are usually
+        a beat slower when the word and the ink disagree than when they match,
+        and that hesitation is exactly where the game gets its bite. Rounds
+        speed up or throw in more colours as you go. If you want the fuller
+        history of this format, the
+        <a class="link" href="/guides/neuralspark/brain-training-exercises-explained/">brain-training
+        exercises explained guide</a> covers where the Stroop task came from.</p>
+
+        <h2 class="reveal-on-scroll">Go/No-Go-type tap games</h2>
+
+        <p class="reveal-on-scroll">A Go/No-Go-type game is about acting on some cues and holding back on
+        others. Cues stream past one at a time, and each is either a "go" cue —
+        tap it as fast as you can — or a "no-go" cue, where the correct move is
+        to do nothing at all. A common shape is: pop every target except one
+        designated kind, which you must leave alone.</p>
+
+        <p class="reveal-on-scroll">You play it by settling into a rhythm of quick taps on the go cues, then
+        catching yourself when a no-go cue arrives. That catch is the whole game.
+        Because go cues are far more frequent, your finger gets into a groove,
+        and the fun-slash-frustration is in <em>not</em> tapping the one you were
+        primed to tap. The mistakes that sting are the momentum taps on a no-go
+        cue. Faster streams and rarer no-go cues make later rounds harder. It is
+        a quick, punchy format — a round is over in under a minute — which makes
+        it easy to fit into a spare moment.</p>
+
+        <h2 class="reveal-on-scroll">Visual search</h2>
+
+        <p class="reveal-on-scroll">Visual search is the "find the odd one out" family. The screen fills with
+        many similar items, and one — or a few — are the targets you need to
+        find and tap. Maybe every shape is a blue circle except one blue square,
+        or a grid of arrows all point left except the two that point right. Your
+        job is to pick the targets out of the clutter.</p>
+
+        <p class="reveal-on-scroll">Playing it is a scan-and-tap loop: sweep your eyes across the field, land
+        on anything that breaks the pattern, and tap it. When the target differs
+        on one obvious feature — colour alone, say — it tends to "pop out" and
+        the round feels quick. When the target only differs by a combination of
+        features — the one shape that is both blue <em>and</em> square in a field
+        of blue circles and red squares — you have to check items more
+        deliberately, and that is where a round gets satisfyingly hard. More
+        items, tighter time limits, and trickier targets are the dials
+        NeuralSpark turns to raise the difficulty.</p>
+
+        <h2 class="reveal-on-scroll">A note on what these games are for</h2>
+
+        <p class="reveal-on-scroll">These are puzzles for fun. NeuralSpark makes no claim about improving your
+        memory or attention, and nothing here is offered as a health, medical,
+        or mental benefit — it is entertainment, and we describe it as
+        entertainment. When you play a Stroop-type round you get better at that
+        round; when you spot differences you get quicker at that particular
+        picture. That is practising the game in front of you, which is a normal
+        part of enjoying any puzzle, and it is as far as any honest claim goes.</p>
+
+        <h2 class="reveal-on-scroll">How to start, and what "free" covers</h2>
+
+        <p class="reveal-on-scroll">The quickest way to try the attention games is the web version: open
+        <a class="link" href="/neuralspark/">wizuslabs.com/neuralspark</a>,
+        pick the attention category or tap the daily challenge, and play a
+        round. Each game explains itself in a line or two before it starts, so
+        there is no long tutorial to sit through. Free play includes every game
+        and every difficulty; it is supported by ads, and the optional Pro
+        upgrade removes them — none of the games are locked behind Pro, and we
+        would rather say that plainly than pretend the upgrade does not exist.</p>
+
+        <p class="reveal-on-scroll">If you would like the wider picture first, the
+        <a class="link" href="/guides/neuralspark/free-brain-training-games/">overview
+        of the whole collection</a> explains what else is in NeuralSpark, or you
+        can browse the full <a class="link" href="/guides/">guides index</a>.</p>
+
+        <p><a class="link" href="/guides/">← Back to all guides</a></p>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<!--
+  footer.html — SOURCE OF TRUTH for the site footer.
+  No build tool. Copy this block inline into each page's <body>.
+  If the footer changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.2 + §7.20 (footer mark).
+  Every legacy store-submission URL lives here by design.
+-->
+<footer class="footer">
+  <div class="footer__cols footer__cols--3col">
+    <section aria-labelledby="footer-lab">
+      <h2 id="footer-lab" class="footer__heading">Lab</h2>
+      <ul class="footer__list">
+        <li><a href="/manifesto/">Manifesto</a></li>
+        <li><a href="/agents/">Agents</a></li>
+        <li><a href="/human/">Human</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-apps">
+      <h2 id="footer-apps" class="footer__heading">Apps</h2>
+      <ul class="footer__list">
+        <li><a href="/apps/neuralspark/">NeuralSpark</a></li>
+        <li><a href="/apps/sudoku/">Sudoku</a></li>
+        <li><a href="/iron-swarm/">Iron Swarm</a></li>
+        <li><a href="/apps/shatterstone/">Shatterstone</a></li>
+        <li><a href="/apps/">All apps</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-contact">
+      <h2 id="footer-contact" class="footer__heading">Contact</h2>
+      <ul class="footer__list">
+        <li><a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+        <li><a href="/terms/">Terms</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; 2026 WizusLabs</p>
+    <p class="footer__mark">Always for Human.</p>
+    <p><a href="/">wizuslabs.com</a></p>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessibility at WizusLabs — WizusLabs</title>
+  <meta name="description" content="How WizusLabs thinks about accessibility in casual games: readable text, colour that is not the only signal, untimed modes, offline play, and no forced accounts — described honestly, without over-claiming.">
+  <meta name="color-scheme" content="light dark">
+
+  <link rel="canonical" href="https://wizuslabs.com/guides/accessibility/">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Accessibility at WizusLabs — WizusLabs">
+  <meta property="og:description" content="How a small studio thinks about accessibility in casual games: readable text, colour that is not the only signal, untimed play, offline support, and no forced accounts.">
+  <meta property="og:url" content="https://wizuslabs.com/guides/accessibility/">
+  <meta property="og:site_name" content="WizusLabs">
+  <meta property="og:image" content="https://wizuslabs.com/assets/img/pages/apps-hero.webp">
+  <meta property="og:image:width" content="1536">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Accessibility at WizusLabs — WizusLabs">
+  <meta name="twitter:description" content="How a small studio thinks about accessibility in casual games: readable text, colour that is not the only signal, untimed play, offline support, and no forced accounts.">
+  <meta name="twitter:image" content="https://wizuslabs.com/assets/img/pages/apps-hero.webp">
+
+  <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/js/app.js"></script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5856240427546455" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--
+  nav.html — SOURCE OF TRUTH for the site nav.
+  No build tool. Copy this block inline into each page's <body>.
+  If nav changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.1 + §11 (wordmark) + §7.10 (theme toggle).
+-->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <nav class="nav" aria-label="Primary">
+    <div class="container nav__inner">
+      <a class="wordmark" href="/" aria-label="WizusLabs home">
+        <span class="wordmark__first">Wizus</span><span class="wordmark__second">Labs</span>
+      </a>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a class="nav__link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__link" href="/agents/">Agents</a></li>
+        <li><a class="nav__link" href="/apps/">Apps</a></li>
+        <li><a class="nav__link" href="/guides/">Guides</a></li>
+        <li><a class="nav__link" href="/human/">Human</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button
+          type="button"
+          class="nav__hamburger"
+          data-nav-open-btn
+          aria-expanded="false"
+          aria-controls="nav-panel"
+          aria-label="Open navigation">
+          <svg class="nav__hamburger-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M3 7h18M3 12h18M3 17h18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          class="theme-toggle"
+          data-theme-toggle
+          data-state="auto"
+          aria-label="Theme: auto"
+          aria-pressed="false">
+          <svg class="theme-toggle__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/>
+          </svg>
+          <span class="theme-toggle__label">Theme: auto</span>
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="nav-panel"
+      class="nav__panel"
+      data-nav-panel
+      role="dialog"
+      aria-modal="true"
+      aria-label="Primary navigation">
+      <button
+        type="button"
+        class="nav__panel-close"
+        data-nav-close-btn
+        aria-label="Close navigation">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+          <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <ul class="nav__panel-list">
+        <li><a class="nav__panel-link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__panel-link" href="/agents/">Agents</a></li>
+        <li><a class="nav__panel-link" href="/apps/">Apps</a></li>
+        <li><a class="nav__panel-link" href="/guides/">Guides</a></li>
+        <li><a class="nav__panel-link" href="/human/">Human</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Screen-reader announcement target for theme toggle -->
+<div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
+
+<main id="main">
+
+  <!-- ===== Page hero (text-forward interior band) ===== -->
+  <section class="page-hero" aria-labelledby="a11y-h1">
+    <div class="page-hero__overlay" aria-hidden="true"></div>
+    <div class="container page-hero__inner">
+      <div class="page-hero__content">
+        <p class="page-hero__eyebrow">WizusLabs &middot; Guide</p>
+        <h1 id="a11y-h1" class="page-hero__headline">Accessibility at WizusLabs</h1>
+        <p class="page-hero__lead">
+          What we do to make our games easier to read, easier to play, and easier
+          to walk away from — described plainly, so you can decide for yourself
+          before you install anything.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== The guide ===== -->
+  <section class="content-section">
+    <div class="container">
+      <nav class="content-note" aria-label="Breadcrumb">
+        <a class="link" href="/guides/">Guides</a> / Accessibility
+      </nav>
+
+      <article class="editorial">
+
+        <h2>Why accessibility matters in casual games</h2>
+
+        <p class="editorial__lead">Casual games get played in the least ideal
+        conditions imaginable. On a phone at arm's length, in bright sun, on a
+        bus with one hand, at the end of a long day when your eyes are tired and
+        your attention is thin. A game that only works for a young person with
+        perfect vision, a steady hand, and a quiet room is a game that fails most
+        of the moments it is actually opened. Accessibility is not a special mode
+        bolted on for a small group; it is the difference between a game you can
+        use and one you close after thirty seconds because the numbers are too
+        small or the timer will not stop.</p>
+
+        <p>We are a small studio, so we are going to be honest about the shape of
+        this: we do not claim a perfect record, and we do not claim to have solved
+        accessibility. What we can do is describe the choices that are baked into
+        how our games are built, the ones that help by default, and be candid
+        about where support is partial or still improving. This page is meant to
+        be a trust signal you can check, not a badge we award ourselves.</p>
+
+        <h2 class="reveal-on-scroll">The features that actually help</h2>
+
+        <p class="reveal-on-scroll">Most of the accessibility that matters in a
+        casual game is not exotic. It is a handful of ordinary decisions that, taken
+        together, decide whether a person can comfortably play. Here is what we pay
+        attention to and why.</p>
+
+        <h3 class="reveal-on-scroll">Text you can actually read</h3>
+
+        <p class="reveal-on-scroll">Small, low-contrast text is the most common way
+        a casual game shuts people out. We aim for type that stays legible at a
+        normal viewing distance and for contrast that holds up in daylight, and our
+        games ship with both a light and a dark appearance so the screen is not
+        painfully bright at night or washed out during the day. Where the platform
+        or the game exposes a text-size or display setting, larger text is the
+        friend of everyone, not only people with low vision — it is the setting the
+        person squinting on a train reaches for too. If a specific title does not
+        yet scale a particular screen the way you would like, that is the kind of
+        gap we would rather hear about than paper over.</p>
+
+        <h3 class="reveal-on-scroll">Colour is a hint, not the whole message</h3>
+
+        <p class="reveal-on-scroll">Roughly one in twelve men has some form of
+        colour-vision difference, so a game that says "the red one is wrong" and
+        nothing else is a game that quietly excludes a lot of players. The principle
+        we design toward is that colour should reinforce information, never carry it
+        alone: a state that matters should also be signalled by shape, position,
+        a label, an icon, or a number, so the game reads the same whether or not you
+        can tell two hues apart. In practice that means feedback like a correct or
+        incorrect entry, a selected cell, or a highlighted target should be
+        distinguishable without relying on colour perception. We describe this as a
+        design intention we hold across the studio rather than a certified guarantee
+        on every single screen — palettes and states are something we keep auditing
+        as the games grow.</p>
+
+        <h3 class="reveal-on-scroll">No time pressure when you do not want it</h3>
+
+        <p class="reveal-on-scroll">Timers are a genuine accessibility barrier. If
+        you have a motor difference, a slower reading speed, or you simply want to
+        think, a countdown turns a relaxing game into a stressful one. Our puzzle
+        games are built to be played at your own pace: Sudoku, for example, has
+        untimed play where nothing is racing you, and you can pause, put the phone
+        down, and come back to the same board later because progress is saved on the
+        device. Some game types are inherently about reflexes — Iron Swarm is a
+        top-down action game, and pretending otherwise would be dishonest — but for
+        the puzzle experiences, being able to play without a clock is a deliberate
+        default, not an afterthought.</p>
+
+        <h3 class="reveal-on-scroll">Offline play and no forced accounts</h3>
+
+        <p class="reveal-on-scroll">Accessibility is not only about vision and motor
+        control; it is also about not putting obstacles between a person and the
+        game. Our games run offline, generating or running their content on your
+        device, so you are not locked out by a weak signal, a data cap, or being
+        somewhere without coverage. And none of them make you create an account or
+        sign in before you can play — no email, no password to remember, no profile
+        to set up. For anyone who finds account flows and verification steps a
+        barrier, or who simply does not want to hand over personal details to play a
+        puzzle, "just open it and play" is an accessibility feature in its own
+        right. The trade-off we are upfront about elsewhere applies here too: the
+        free tier is supported by advertising, with an optional paid upgrade that
+        removes it.</p>
+
+        <h3 class="reveal-on-scroll">Sound that is not required to play</h3>
+
+        <p class="reveal-on-scroll">Feedback sounds and music can make a game feel
+        better, but they should never be the only channel for something important. A
+        game should be fully playable with the sound off — because you are in a
+        quiet place, because you are hard of hearing, or because you just prefer
+        silence. Where our games use audio it is there to enhance, and the important
+        state is also shown on screen, so muting the game costs you atmosphere but
+        never information.</p>
+
+        <h2 class="reveal-on-scroll">What we are careful not to claim</h2>
+
+        <p class="reveal-on-scroll">It would be easy to write this page as a list of
+        promises, and easy to overstate. We would rather not. Accessibility is a
+        moving target: platforms change, our games change, and a feature that works
+        well on one screen may not yet be perfect on another. So where we are
+        describing an intention we hold across the studio rather than a guarantee on
+        every screen, we say so, and we would rather phrase something generally and
+        be right than promise something specific and be wrong. If a particular
+        assistive-technology behaviour, a text-scaling case, or a colour-contrast
+        combination matters to you, the honest move is to try the game — it costs
+        nothing to start — and to tell us where it falls short.</p>
+
+        <p class="reveal-on-scroll">One thing we are especially careful about:
+        NeuralSpark is a collection of short brain-teaser and puzzle mini-games, and
+        we describe it exactly that way. We make no claim that it improves memory,
+        IQ, focus, or any other cognitive measure. It is designed to be fun to play
+        and easy to pick up, and its accessibility story is the same as the rest of
+        the studio's — readable text, colour that is not the only signal, and play
+        that does not force a clock or an account on you.</p>
+
+        <h2 class="reveal-on-scroll">Tell us where we fall short</h2>
+
+        <p class="reveal-on-scroll">The most useful accessibility feature a small
+        studio has is a person who reads the email. If something in one of our games
+        is hard to read, hard to press, or hard to play with your setup, that report
+        is worth more to us than any self-assessment, because you can see the gap we
+        cannot. Write to us at
+        <a class="link" href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a>
+        and tell us the device, the game, and what got in your way. We cannot
+        promise to fix everything, but we can promise to read it and to be honest
+        about what we can and cannot do.</p>
+
+        <p class="reveal-on-scroll">If you want to see the games this page is talking
+        about, the calmest place to start is
+        <a class="link" href="/sudoku/">Sudoku by WizusLabs</a>, which is built
+        around untimed, offline play. From there, the
+        <a class="link" href="/guides/free-offline-games/">free offline games guide</a>
+        walks through each of our titles and how they are funded, and the
+        <a class="link" href="/guides/">guides library</a> collects the rest of our
+        longer write-ups.</p>
+
+        <p><a class="link" href="/">← Back to home</a></p>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<!--
+  footer.html — SOURCE OF TRUTH for the site footer.
+  No build tool. Copy this block inline into each page's <body>.
+  If the footer changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.2 + §7.20 (footer mark).
+  Every legacy store-submission URL lives here by design.
+-->
+<footer class="footer">
+  <div class="footer__cols footer__cols--3col">
+    <section aria-labelledby="footer-lab">
+      <h2 id="footer-lab" class="footer__heading">Lab</h2>
+      <ul class="footer__list">
+        <li><a href="/manifesto/">Manifesto</a></li>
+        <li><a href="/agents/">Agents</a></li>
+        <li><a href="/human/">Human</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-apps">
+      <h2 id="footer-apps" class="footer__heading">Apps</h2>
+      <ul class="footer__list">
+        <li><a href="/apps/neuralspark/">NeuralSpark</a></li>
+        <li><a href="/apps/sudoku/">Sudoku</a></li>
+        <li><a href="/iron-swarm/">Iron Swarm</a></li>
+        <li><a href="/apps/shatterstone/">Shatterstone</a></li>
+        <li><a href="/apps/">All apps</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-contact">
+      <h2 id="footer-contact" class="footer__heading">Contact</h2>
+      <ul class="footer__list">
+        <li><a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+        <li><a href="/terms/">Terms</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; 2026 WizusLabs</p>
+    <p class="footer__mark">Always for Human.</p>
+    <p><a href="/">wizuslabs.com</a></p>
+  </div>
+</footer>
+</body>
+</html>

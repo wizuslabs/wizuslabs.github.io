@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iron Swarm boss compendium: the four bosses, their phases and tells — WizusLabs</title>
+  <meta name="description" content="A quick-reference compendium of Iron Swarm's four bosses — health, phase breakpoints, attacks, and telegraph cues for the Standard boss, Glacier Warden, Bastion, and Iron Commander.">
+  <meta name="color-scheme" content="light dark">
+
+  <link rel="canonical" href="https://wizuslabs.com/guides/iron-swarm/boss-compendium/">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Iron Swarm boss compendium: the four bosses, their phases and tells — WizusLabs">
+  <meta property="og:description" content="A quick-reference compendium of Iron Swarm's four bosses — health, phase breakpoints, attacks, and telegraph cues, at a glance.">
+  <meta property="og:url" content="https://wizuslabs.com/guides/iron-swarm/boss-compendium/">
+  <meta property="og:site_name" content="WizusLabs">
+  <meta property="og:image" content="https://wizuslabs.com/assets/img/pages/apps-hero.webp">
+  <meta property="og:image:width" content="1536">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Iron Swarm boss compendium: the four bosses, their phases and tells — WizusLabs">
+  <meta name="twitter:description" content="A quick-reference compendium of Iron Swarm's four bosses — health, phase breakpoints, attacks, and telegraph cues.">
+  <meta name="twitter:image" content="https://wizuslabs.com/assets/img/pages/apps-hero.webp">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": "https://wizuslabs.com/guides/iron-swarm/boss-compendium/#breadcrumbs",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://wizuslabs.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Guides",
+        "item": "https://wizuslabs.com/guides/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Boss compendium"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/js/app.js"></script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5856240427546455" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--
+  nav.html — SOURCE OF TRUTH for the site nav.
+  No build tool. Copy this block inline into each page's <body>.
+  If nav changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.1 + §11 (wordmark) + §7.10 (theme toggle).
+-->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <nav class="nav" aria-label="Primary">
+    <div class="container nav__inner">
+      <a class="wordmark" href="/" aria-label="WizusLabs home">
+        <span class="wordmark__first">Wizus</span><span class="wordmark__second">Labs</span>
+      </a>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a class="nav__link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__link" href="/agents/">Agents</a></li>
+        <li><a class="nav__link" href="/apps/">Apps</a></li>
+        <li><a class="nav__link" href="/guides/">Guides</a></li>
+        <li><a class="nav__link" href="/human/">Human</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button
+          type="button"
+          class="nav__hamburger"
+          data-nav-open-btn
+          aria-expanded="false"
+          aria-controls="nav-panel"
+          aria-label="Open navigation">
+          <svg class="nav__hamburger-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M3 7h18M3 12h18M3 17h18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          class="theme-toggle"
+          data-theme-toggle
+          data-state="auto"
+          aria-label="Theme: auto"
+          aria-pressed="false">
+          <svg class="theme-toggle__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/>
+          </svg>
+          <span class="theme-toggle__label">Theme: auto</span>
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="nav-panel"
+      class="nav__panel"
+      data-nav-panel
+      role="dialog"
+      aria-modal="true"
+      aria-label="Primary navigation">
+      <button
+        type="button"
+        class="nav__panel-close"
+        data-nav-close-btn
+        aria-label="Close navigation">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+          <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <ul class="nav__panel-list">
+        <li><a class="nav__panel-link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__panel-link" href="/agents/">Agents</a></li>
+        <li><a class="nav__panel-link" href="/apps/">Apps</a></li>
+        <li><a class="nav__panel-link" href="/guides/">Guides</a></li>
+        <li><a class="nav__panel-link" href="/human/">Human</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Screen-reader announcement target for theme toggle -->
+<div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
+
+<main id="main">
+
+  <!-- ===== Page hero (text-forward interior band) ===== -->
+  <section class="page-hero" aria-labelledby="isbc-h1">
+    <div class="page-hero__overlay" aria-hidden="true"></div>
+    <div class="container page-hero__inner">
+      <div class="page-hero__content">
+        <p class="page-hero__eyebrow">Iron Swarm &middot; Guide</p>
+        <h1 id="isbc-h1" class="page-hero__headline">Iron Swarm boss compendium</h1>
+        <p class="page-hero__lead">
+          A quick-reference card for all four Iron Swarm bosses — where you meet
+          them, their health, the breakpoints where each fight changes, and the
+          telegraph you watch for. A lookup sheet, not a walkthrough.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== The compendium ===== -->
+  <section class="content-section">
+    <div class="container">
+      <nav class="content-note" aria-label="Breadcrumb">
+        <a class="link" href="/guides/">Guides</a> / Iron Swarm / Boss compendium
+      </nav>
+
+      <article class="editorial">
+
+        <p class="editorial__lead">Iron Swarm has four boss designs, and this page
+        is their reference card. Each entry below is organised the same way — where
+        the boss shows up, how much health it carries, the health breakpoints that
+        flip it into a new phase, the attacks it uses, and the single visual tell
+        that warns you what is coming. The idea is that you can scan straight to the
+        boss in front of you and read its facts at a glance. This is deliberately a
+        <em>reference</em>: it lists what each boss does, not the moment-to-moment
+        tactics for beating it. For the how — where to stand, when to dodge, when to
+        commit damage — the <a class="link" href="/iron-swarm/strategy/">Iron Swarm
+        Strategy Guide</a> has a dedicated per-boss tactics section, and the
+        <a class="link" href="/iron-swarm/modes/">Game Modes</a> page explains which
+        modes put these bosses in front of you. New to the fight? Start with
+        <a class="link" href="/iron-swarm/how-to-play/">How to Play</a>, or
+        <a class="link" href="/iron-swarm/">jump into a battle</a>.</p>
+
+        <h2>How bosses fit into a run</h2>
+
+        <p class="reveal-on-scroll">Bosses arrive on a fixed rhythm: combat runs in
+        four-round cycles, and the fourth round of each cycle is a boss instead of a
+        wave (the Daily Challenge caps its run with a boss on round five). Every boss
+        is multi-phase, and every one of them gets tougher the further you go —
+        across cycles a boss gains roughly ten percent more health, twelve percent
+        more speed, and ten percent faster fire, so the same design that felt
+        comfortable early becomes a genuine test later. The phase breakpoints listed
+        below are the constant; the raw numbers scale underneath them.</p>
+
+        <h2 class="reveal-on-scroll">Standard boss</h2>
+
+        <p class="reveal-on-scroll">The Standard boss is the first multi-phase
+        fight most players meet, and it is the template the others build on — a
+        mobile tank whose attack set widens in two clean steps as its health
+        falls.</p>
+
+        <ul>
+          <li class="reveal-on-scroll"><strong>Role:</strong> the all-rounder that
+          introduces the multi-phase format.</li>
+          <li class="reveal-on-scroll"><strong>Phase breakpoints:</strong> keyed to
+          its health at 70% and 30%.</li>
+          <li class="reveal-on-scroll"><strong>Above 70%:</strong> single straight
+          shots only.</li>
+          <li class="reveal-on-scroll"><strong>70% to 30%:</strong> adds a
+          three-bullet spread, a full 360-degree ring burst on a timer, and a
+          ramming charge.</li>
+          <li class="reveal-on-scroll"><strong>Below 30%:</strong> the spread widens
+          to five bullets and the ring burst becomes denser and faster.</li>
+          <li class="reveal-on-scroll"><strong>Signature tell:</strong> the charge —
+          it accelerates and rams for collision damage, and it does not weaken with
+          the difficulty scaling, so it stays the attack you must always be primed to
+          sidestep.</li>
+        </ul>
+
+        <h2 class="reveal-on-scroll">Glacier Warden</h2>
+
+        <p class="reveal-on-scroll">The Glacier Warden opens fast and mobile, then
+        re-roots itself for a very different closing phase, so in effect it asks
+        you to learn two bosses in one fight.</p>
+
+        <ul>
+          <li class="reveal-on-scroll"><strong>Role:</strong> a mobile, aggressive
+          boss early that changes character late.</li>
+          <li class="reveal-on-scroll"><strong>Signature attack:</strong> a frost
+          cone — a wide 45-degree fan of bullets.</li>
+          <li class="reveal-on-scroll"><strong>Signature tell:</strong> a pulsing
+          cyan arc that fills at its barrel tip over about a second before the cone
+          fires. When the arc completes, the fan is coming.</li>
+          <li class="reveal-on-scroll"><strong>Final phase:</strong> it stops moving
+          and begins laying mines on a timer, each one flagged first with a red
+          marker on the floor.</li>
+          <li class="reveal-on-scroll"><strong>What flips:</strong> the danger moves
+          from the boss to the ground — once it is rooted it stops chasing, but the
+          arena fills with mines you have to keep clear of.</li>
+        </ul>
+
+        <h2 class="reveal-on-scroll">Bastion</h2>
+
+        <p class="reveal-on-scroll">The Bastion is the odd one out: it is bolted to
+        the spot and fights entirely through firepower and the turrets it summons,
+        so the whole duel is about the ground around it rather than chasing it
+        down.</p>
+
+        <ul>
+          <li class="reveal-on-scroll"><strong>Role:</strong> a stationary fortress
+          that never moves; the whole fight is about its volleys and the space around
+          it.</li>
+          <li class="reveal-on-scroll"><strong>Primary attack:</strong> triple shots
+          in a tight spread that punish standing still.</li>
+          <li class="reveal-on-scroll"><strong>Adds:</strong> it spawns turrets, so
+          the arena grows extra threats you have to clear.</li>
+          <li class="reveal-on-scroll"><strong>Final phase:</strong> an overcharge
+          shot — a single heavy round.</li>
+          <li class="reveal-on-scroll"><strong>Signature tell:</strong> before the
+          overcharge, the three barrel tips ramp in colour from green to amber to
+          white over roughly six-tenths of a second. That colour ramp is your warning
+          to already be out of the firing line.</li>
+        </ul>
+
+        <h2 class="reveal-on-scroll">Iron Commander</h2>
+
+        <p class="reveal-on-scroll">The Iron Commander is the Campaign's capstone
+        and the only boss with a hard-set health total, built around a punishing
+        counter-shot that turns your own aggression against you.</p>
+
+        <ul>
+          <li class="reveal-on-scroll"><strong>Role:</strong> the Campaign's final
+          boss, met at Chapter 6, round 24.</li>
+          <li class="reveal-on-scroll"><strong>Health:</strong> a fixed 762 HP (it
+          does not use the standard per-cycle health scaling).</li>
+          <li class="reveal-on-scroll"><strong>Base attack:</strong> a three-round
+          burst cannon throughout the fight.</li>
+          <li class="reveal-on-scroll"><strong>Phase breakpoints:</strong> at 60% and
+          30% health.</li>
+          <li class="reveal-on-scroll"><strong>From 60%:</strong> it begins
+          counter-shooting — when one of your rounds passes close to it, it fires a
+          mirrored shot back along that line after a short delay.</li>
+          <li class="reveal-on-scroll"><strong>Below 30%:</strong> it glows red-hot,
+          gains about twenty percent more speed, adds an overcharge spread shot with
+          the same green-to-amber-to-white barrel tell, starts dropping mines, and its
+          counter-shot delay shortens so the punish lands faster.</li>
+          <li class="reveal-on-scroll"><strong>Signature mechanic:</strong> the
+          counter-shot — the reason careless point-blank fire is dangerous against
+          it.</li>
+        </ul>
+
+        <h2 class="reveal-on-scroll">Cross-boss quick reference</h2>
+
+        <p class="reveal-on-scroll">A few traits repeat across the roster, and
+        spotting the pattern makes an unfamiliar boss quicker to read:</p>
+
+        <ul>
+          <li class="reveal-on-scroll"><strong>The colour-ramp tell (green → amber →
+          white)</strong> means an overcharge shot is charging. It appears on both the
+          Bastion and the Iron Commander — the same visual language, so learning it
+          once covers two bosses.</li>
+          <li class="reveal-on-scroll"><strong>Mine-dropping in the late fight</strong>
+          is shared by the Glacier Warden and the Iron Commander. In both, the closing
+          phase turns the floor into a hazard, so late-fight footwork matters as much
+          as dodging shots.</li>
+          <li class="reveal-on-scroll"><strong>Going stationary late</strong> is the
+          Glacier Warden's and the Bastion's story — a rooted boss gives you a clean
+          damage window but usually pairs it with a new area threat (mines or
+          turrets).</li>
+          <li class="reveal-on-scroll"><strong>Phase intensity climbs as health
+          falls</strong> for every boss: expect more bullets, wider spreads, and faster
+          patterns the lower the health bar goes.</li>
+        </ul>
+
+        <h2 class="reveal-on-scroll">Where to go next</h2>
+
+        <p class="reveal-on-scroll">That is the data. To turn it into wins, the
+        <a class="link" href="/iron-swarm/strategy/">Strategy Guide</a> walks through
+        the actual tactics for each of these bosses — dodging the tells above and
+        picking your damage windows — and the
+        <a class="link" href="/guides/iron-swarm/power-ups-hazards-and-terrain/">power-ups,
+        hazards, and terrain reference</a> covers the mines, cover, and pickups that
+        shape every boss arena. When you are ready to test it,
+        <a class="link" href="/iron-swarm/">play Iron Swarm free in your browser</a>.</p>
+
+        <p><a class="link" href="/guides/">← Back to all guides</a></p>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<!--
+  footer.html — SOURCE OF TRUTH for the site footer.
+  No build tool. Copy this block inline into each page's <body>.
+  If the footer changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.2 + §7.20 (footer mark).
+  Every legacy store-submission URL lives here by design.
+-->
+<footer class="footer">
+  <div class="footer__cols footer__cols--3col">
+    <section aria-labelledby="footer-lab">
+      <h2 id="footer-lab" class="footer__heading">Lab</h2>
+      <ul class="footer__list">
+        <li><a href="/manifesto/">Manifesto</a></li>
+        <li><a href="/agents/">Agents</a></li>
+        <li><a href="/human/">Human</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-apps">
+      <h2 id="footer-apps" class="footer__heading">Apps</h2>
+      <ul class="footer__list">
+        <li><a href="/apps/neuralspark/">NeuralSpark</a></li>
+        <li><a href="/apps/sudoku/">Sudoku</a></li>
+        <li><a href="/iron-swarm/">Iron Swarm</a></li>
+        <li><a href="/apps/shatterstone/">Shatterstone</a></li>
+        <li><a href="/apps/">All apps</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-contact">
+      <h2 id="footer-contact" class="footer__heading">Contact</h2>
+      <ul class="footer__list">
+        <li><a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+        <li><a href="/terms/">Terms</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; 2026 WizusLabs</p>
+    <p class="footer__mark">Always for Human.</p>
+    <p><a href="/">wizuslabs.com</a></p>
+  </div>
+</footer>
+</body>
+</html>

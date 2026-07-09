@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory games: sequence recall, pairs matching, pattern reproduction — NeuralSpark</title>
+  <meta name="description" content="A neutral tour of NeuralSpark's memory-style puzzle games — sequence recall, pairs and matching, and pattern reproduction — what each task is and how to play it.">
+  <meta name="color-scheme" content="light dark">
+
+  <link rel="canonical" href="https://wizuslabs.com/guides/neuralspark/memory-games/">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Memory games: sequence recall, pairs matching, pattern reproduction — NeuralSpark">
+  <meta property="og:description" content="A neutral tour of NeuralSpark's memory-style puzzle games — what each task is and how to play it.">
+  <meta property="og:url" content="https://wizuslabs.com/guides/neuralspark/memory-games/">
+  <meta property="og:site_name" content="WizusLabs">
+  <meta property="og:image" content="https://wizuslabs.com/assets/img/pages/neuralspark-hero.webp">
+  <meta property="og:image:width" content="1536">
+  <meta property="og:image:height" content="1024">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Memory games: sequence recall, pairs matching, pattern reproduction — NeuralSpark">
+  <meta name="twitter:description" content="A neutral tour of NeuralSpark's memory-style puzzle games — what each task is and how to play it.">
+  <meta name="twitter:image" content="https://wizuslabs.com/assets/img/pages/neuralspark-hero.webp">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "@id": "https://wizuslabs.com/guides/neuralspark/memory-games/#breadcrumbs",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://wizuslabs.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Guides",
+        "item": "https://wizuslabs.com/guides/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Memory games"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preload" href="/assets/fonts/source-serif-4.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/jetbrains-mono.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/js/app.js"></script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5856240427546455" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--
+  nav.html — SOURCE OF TRUTH for the site nav.
+  No build tool. Copy this block inline into each page's <body>.
+  If nav changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.1 + §11 (wordmark) + §7.10 (theme toggle).
+-->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header>
+  <nav class="nav" aria-label="Primary">
+    <div class="container nav__inner">
+      <a class="wordmark" href="/" aria-label="WizusLabs home">
+        <span class="wordmark__first">Wizus</span><span class="wordmark__second">Labs</span>
+      </a>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a class="nav__link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__link" href="/agents/">Agents</a></li>
+        <li><a class="nav__link" href="/apps/">Apps</a></li>
+        <li><a class="nav__link" href="/guides/">Guides</a></li>
+        <li><a class="nav__link" href="/human/">Human</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button
+          type="button"
+          class="nav__hamburger"
+          data-nav-open-btn
+          aria-expanded="false"
+          aria-controls="nav-panel"
+          aria-label="Open navigation">
+          <svg class="nav__hamburger-icon" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+            <path d="M3 7h18M3 12h18M3 17h18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <button
+          type="button"
+          class="theme-toggle"
+          data-theme-toggle
+          data-state="auto"
+          aria-label="Theme: auto"
+          aria-pressed="false">
+          <svg class="theme-toggle__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M12 3 A9 9 0 0 1 12 21 Z" fill="currentColor"/>
+          </svg>
+          <span class="theme-toggle__label">Theme: auto</span>
+        </button>
+      </div>
+    </div>
+
+    <div
+      id="nav-panel"
+      class="nav__panel"
+      data-nav-panel
+      role="dialog"
+      aria-modal="true"
+      aria-label="Primary navigation">
+      <button
+        type="button"
+        class="nav__panel-close"
+        data-nav-close-btn
+        aria-label="Close navigation">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+          <path d="M5 5l14 14M19 5L5 19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <ul class="nav__panel-list">
+        <li><a class="nav__panel-link" href="/manifesto/">Manifesto</a></li>
+        <li><a class="nav__panel-link" href="/agents/">Agents</a></li>
+        <li><a class="nav__panel-link" href="/apps/">Apps</a></li>
+        <li><a class="nav__panel-link" href="/guides/">Guides</a></li>
+        <li><a class="nav__panel-link" href="/human/">Human</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Screen-reader announcement target for theme toggle -->
+<div class="sr-live" data-theme-live aria-live="polite" aria-atomic="true"></div>
+
+<main id="main">
+
+  <!-- ===== Page hero (interior band) ===== -->
+  <section class="page-hero" aria-labelledby="mem-h1">
+    <img
+      class="page-hero__bg"
+      src="/assets/img/pages/neuralspark-hero.webp"
+      alt=""
+      width="1536"
+      height="1024"
+      loading="eager"
+      fetchpriority="high"
+      decoding="async">
+    <div class="page-hero__overlay" aria-hidden="true"></div>
+    <div class="container page-hero__inner">
+      <div class="page-hero__content">
+        <p class="page-hero__eyebrow">NeuralSpark · Guide</p>
+        <h1 id="mem-h1" class="page-hero__headline">Memory games: what they are and how to play</h1>
+        <p class="page-hero__lead">
+          Sequence recall, pairs and matching, and pattern reproduction — the
+          memory-style puzzles in NeuralSpark, described plainly.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== The guide ===== -->
+  <section class="content-section">
+    <div class="container">
+      <nav class="content-note" aria-label="Breadcrumb">
+        <a class="link" href="/guides/">Guides</a> / NeuralSpark / Memory games
+      </nav>
+
+      <article class="editorial">
+
+        <p class="editorial__lead">NeuralSpark files a set of its puzzles under the label "memory." The name
+        just tells you what the round asks: you are shown something, it goes
+        away, and then you have to put it back — a sequence, a pair, a pattern.
+        This guide walks through the main memory-style formats, describing what
+        the task is and how you play it. To be plain from the start: these are
+        puzzles for fun. NeuralSpark makes no claim about improving your memory
+        or attention, and nothing here is offered as a health or medical
+        benefit — it is entertainment, and we describe it as entertainment.
+        Playing a memory game means practising that game; that is the honest
+        reason to play, and it is as far as any claim goes.</p>
+
+        <h2>Sequence recall</h2>
+
+        <p class="reveal-on-scroll">Sequence recall is the format where you watch an ordered series and then
+        reproduce it. The classic toy version lights up coloured pads in a
+        growing pattern — one pad, then two, then three — and you tap the pads
+        back in the same order. Each round adds one more step, so the sequence
+        keeps stretching until you finally lose the thread. The Simon electronic
+        game made this exact shape famous.</p>
+
+        <p class="reveal-on-scroll">How you play it: watch and wait while the game plays the sequence out,
+        then repeat it by tapping in order the moment it is your turn. Do not
+        rush the input — a single tap out of order usually ends the round. The
+        fun is the mounting tension as the chain grows and you feel yourself
+        reaching for the end of what you can hold. A close cousin is the
+        <strong>digit span</strong> task: you are shown a string of digits and
+        type them back, either forward in the same order or, in the harder
+        variant, backward. NeuralSpark scales the challenge by lengthening the
+        sequence, speeding up the playback, or shortening how long you get to
+        look. If you want the background on where this format comes from, the
+        <a class="link" href="/guides/neuralspark/brain-training-exercises-explained/">brain-training
+        exercises explained guide</a> covers it.</p>
+
+        <h2 class="reveal-on-scroll">Pairs and matching</h2>
+
+        <p class="reveal-on-scroll">Pairs — the game a lot of people call Concentration or Memory — is played
+        on a grid of face-down cards or tiles. Every tile has a twin somewhere on
+        the board. You flip two at a time: if they match, the pair stays face up;
+        if they do not, they flip back over, and it is your job to remember what
+        was where for next time.</p>
+
+        <p class="reveal-on-scroll">You play it by flipping tiles two at a time and using what earlier flips
+        revealed to make smarter pairings — that green icon you saw three moves
+        ago is now worth returning to. The satisfaction is in stringing together
+        a run of matches once the board has opened up, and clearing the last
+        pairs feels like tidying the final corner of a puzzle. The challenge
+        grows with bigger grids, more lookalike tiles, or a move limit that
+        punishes flipping at random. It is a forgiving format to dip into: a
+        small grid is over in a couple of minutes, and there is no penalty for
+        simply enjoying a slow, careful clear.</p>
+
+        <h2 class="reveal-on-scroll">Pattern reproduction</h2>
+
+        <p class="reveal-on-scroll">Pattern reproduction shows you a static arrangement — a set of squares
+        lit on a grid, a small picture, a shape made of tiles — for a short
+        beat, then hides it and asks you to rebuild it from a blank board. Where
+        sequence recall is about <em>order</em>, this is about the whole picture:
+        which cells were filled, where the shape sat, how the arrangement looked.</p>
+
+        <p class="reveal-on-scroll">Playing it is a two-step rhythm: study the pattern while it is on screen,
+        then tap the cells to recreate it once it disappears. There is no penalty
+        for taking your study time seriously — most of the game is in that first
+        look. It is fun in the way a snapshot is fun: you get one glance and then
+        you find out how much of it stuck. NeuralSpark turns up the difficulty by
+        adding more lit cells, using a larger grid, or flashing the pattern for a
+        shorter moment. Start with a handful of cells on a small board and move
+        up when the small ones stop being a challenge.</p>
+
+        <h2 class="reveal-on-scroll">A note on what these games are for</h2>
+
+        <p class="reveal-on-scroll">It is worth repeating plainly: these are puzzles for fun. NeuralSpark does
+        not claim they improve, boost, or sharpen your memory, and it makes no
+        promise about any outcome for your attention or mental ability. When you
+        replay a pairs board you get more familiar with that board; when you
+        practise a sequence game you get more comfortable with that game. That is
+        practising the puzzle in front of you — a normal, enjoyable part of any
+        game — and it is the only thing on offer here. We would rather describe
+        the games honestly than dress them up as something they are not.</p>
+
+        <h2 class="reveal-on-scroll">How to start, and what "free" covers</h2>
+
+        <p class="reveal-on-scroll">The fastest way to try the memory games is the web version: open
+        <a class="link" href="/neuralspark/">wizuslabs.com/neuralspark</a>,
+        choose the memory category or tap the daily challenge, and play a round.
+        Each game explains itself in a line or two, so there is no long tutorial
+        first. Free play includes every game and every difficulty; it is
+        supported by ads, and the optional Pro upgrade removes them. None of the
+        games are locked behind Pro — if you never pay, you still have the whole
+        set — and we would rather say that plainly than pretend the upgrade is
+        not there.</p>
+
+        <p class="reveal-on-scroll">For the bigger picture, the
+        <a class="link" href="/guides/neuralspark/free-brain-training-games/">overview
+        of the whole collection</a> explains what else NeuralSpark includes, or
+        you can browse the full <a class="link" href="/guides/">guides index</a>.</p>
+
+        <p><a class="link" href="/guides/">← Back to all guides</a></p>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<!--
+  footer.html — SOURCE OF TRUTH for the site footer.
+  No build tool. Copy this block inline into each page's <body>.
+  If the footer changes, edit here and re-copy to every page.
+  Spec: docs/design/design-system.md §7.2 + §7.20 (footer mark).
+  Every legacy store-submission URL lives here by design.
+-->
+<footer class="footer">
+  <div class="footer__cols footer__cols--3col">
+    <section aria-labelledby="footer-lab">
+      <h2 id="footer-lab" class="footer__heading">Lab</h2>
+      <ul class="footer__list">
+        <li><a href="/manifesto/">Manifesto</a></li>
+        <li><a href="/agents/">Agents</a></li>
+        <li><a href="/human/">Human</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-apps">
+      <h2 id="footer-apps" class="footer__heading">Apps</h2>
+      <ul class="footer__list">
+        <li><a href="/apps/neuralspark/">NeuralSpark</a></li>
+        <li><a href="/apps/sudoku/">Sudoku</a></li>
+        <li><a href="/iron-swarm/">Iron Swarm</a></li>
+        <li><a href="/apps/shatterstone/">Shatterstone</a></li>
+        <li><a href="/apps/">All apps</a></li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="footer-contact">
+      <h2 id="footer-contact" class="footer__heading">Contact</h2>
+      <ul class="footer__list">
+        <li><a href="mailto:wizuslabs@gmail.com">wizuslabs@gmail.com</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+        <li><a href="/terms/">Terms</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; 2026 WizusLabs</p>
+    <p class="footer__mark">Always for Human.</p>
+    <p><a href="/">wizuslabs.com</a></p>
+  </div>
+</footer>
+</body>
+</html>
